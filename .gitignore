@@ -1,0 +1,21 @@
+# secrets
+**/.env
+**/.env.local
+!**/.env.example
+!**/.env.local.example
+
+# python
+__pycache__/
+*.pyc
+pipeline/output/*.html
+pipeline/output/*.txt
+
+# node / next / expo
+node_modules/
+web/.next/
+web/out/
+.expo/
+dist/
+
+# os
+.DS_Store

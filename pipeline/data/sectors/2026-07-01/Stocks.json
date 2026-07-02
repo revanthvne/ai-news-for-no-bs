@@ -1,0 +1,166 @@
+{
+  "sector": "Stocks",
+  "as_of": "2026-07-01",
+  "disclaimer": "This is information and journalism, NOT financial advice. Nothing here is a recommendation to buy, sell, or hold any security. Stock prices, percentages, and earnings figures are quoted from the cited reputable sources as of publication and can change; verify current data before making any decision. Do your own research and consult a licensed financial adviser.",
+  "heroes": [
+    {
+      "id": "chip-stocks-best-quarter-ever-q2-2026",
+      "headline": "Chip Stocks Just Booked Their Best Quarter Ever — Micron, Intel and AMD Alone Added ~$2 Trillion",
+      "one_liner": "The PHLX Semiconductor Index rose ~87.8% in Q2 2026 — its biggest quarterly gain since 1994 — on an AI-driven memory and processor boom.",
+      "source_name": "CNBC / Axios / Bloomberg (via Yahoo Finance)",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html",
+        "https://www.axios.com/2026/07/01/semiconductor-ai-stocks-chips",
+        "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-best-quarter-ever-090051148.html"
+      ],
+      "credibility": "High — CNBC and Axios reporting; index-level performance data (PHLX Semiconductor Index, VanEck SMH ETF) traceable to Bloomberg/Nasdaq. Multiple independent outlets agree on the ~87.8% quarterly figure.",
+      "image_url": null,
+      "image_credit": "CNBC",
+      "story": "The Philadelphia Stock Exchange Semiconductor Index (SOX) rose about 87.8% in the three months ended June 30, 2026 — the biggest quarterly gain in records going back to 1994, exceeding even the dot-com era, per CNBC and Axios. The rally added roughly $2 trillion in combined market value to Micron, Intel and AMD in the quarter alone. Micron stock jumped more than 240%, Intel about 216% and AMD roughly 186%, driven by AI demand for memory chips (DRAM, NAND, HBM) that have relatively fixed near-term supply. The VanEck Semiconductor ETF (SMH) rose about 71%, its best quarter since it began trading in 2000. The move came despite a violent early-June selloff, underscoring how volatile the sector has become.",
+      "founding_story": "The SOX index was launched by the Philadelphia Stock Exchange in 1993-94 to track U.S.-listed semiconductor companies; it is now maintained by Nasdaq. It has become the benchmark investors watch to gauge the health of the chip cycle, and Q2 2026 was its strongest quarter in that ~30-year history.",
+      "who_should_use": "Anyone tracking the AI trade, index and ETF investors with tech exposure, and traders watching sector momentum. The SOX and SMH are the go-to gauges for whether the chip cycle is expanding or rolling over.",
+      "who_should_buy": "Investors who believe AI infrastructure spending keeps compounding might consider broad chip exposure (an ETF like SMH or SOXX) rather than single names. The obvious risk: after an ~88% quarter, a lot of optimism is already priced in, valuations are stretched, and the sector has shown it can drop 10% in a day. This is a momentum-heavy, high-volatility area — not a recommendation to buy.",
+      "free_alternatives": "Track the index for free via Nasdaq's SOX overview page and Yahoo Finance/Google Finance sector pages. Free ETF research (holdings, expense ratios) is available on the VanEck (SMH) and iShares (SOXX) fund pages and on Morningstar's free tier.",
+      "verdict": "WATCH — the AI chip boom is real and the earnings back it up, but an ~88% quarter is priced for perfection; the hype is running well ahead of any single day's fundamentals."
+    },
+    {
+      "id": "june-2026-semiconductor-selloff-broadcom",
+      "headline": "The June 2026 Chip Scare: Broadcom's AI Guidance Miss Sparked a Trillion-Dollar Sector Selloff",
+      "one_liner": "Broadcom fell ~12.6% after refusing to raise its 2026 AI-chip forecast; the chip index cratered ~10% on June 5 — its worst day since March 2020.",
+      "source_name": "CNBC / Bloomberg / The Motley Fool",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html",
+        "https://www.bloomberg.com/news/articles/2026-06-03/broadcom-outlook-disappoints-investors-seeking-ai-fueled-blowout",
+        "https://www.fool.com/investing/2026/06/04/the-broadcom-sell-off-why-this-is-a-huge-warning-f/"
+      ],
+      "credibility": "High — Broadcom's fiscal-Q2 results and guidance are from its official report (June 3, 2026) covered by CNBC and Bloomberg; the sector index moves are widely reported. Note: sector-wide '$1.3T wiped' and 'PHLX -10%' figures circulate across financial blogs and should be read as approximate.",
+      "image_url": null,
+      "image_credit": "CNBC",
+      "story": "Broadcom reported fiscal Q2 2026 revenue of $22.19 billion (just under the ~$22.27B consensus) with adjusted EPS of $2.44, beating estimates, and said AI revenue more than doubled year over year to $10.8 billion, per CNBC. But the stock fell about 12.6% (closing near $418.91) — its worst session in over a year — because CEO Hock Tan declined to raise the full-year 2026 AI semiconductor forecast and guided current-quarter AI revenue to about $16 billion, below some hopes. In a market conditioned to expect ever-rising guidance, holding the line was read as a warning that AI-chip growth could be plateauing. The disappointment rippled across the sector, dragging Nvidia, AMD and Intel lower and helping trigger a broad chip selloff in early-to-mid June that reportedly erased on the order of $1 trillion-plus in sector value at its worst. It proved short-lived — the sector went on to its best quarter ever.",
+      "founding_story": "Broadcom traces its roots to AT&T/Bell Labs' semiconductor unit, later HP and Agilent's chip business (Avago Technologies), which acquired the original Broadcom Corp. in 2016 and took its name. Under CEO Hock Tan it became a custom-silicon powerhouse; Tan disclosed six core custom-chip customers including Google, Meta, OpenAI and Anthropic.",
+      "who_should_use": "AI-trade investors, anyone holding chip or Big Tech ETFs, and traders who need to understand how a single guidance print can move the whole sector. It is a case study in expectations vs. reality.",
+      "who_should_buy": "Bargain-hunters who think the AI capex cycle is intact might view AVGO dips as entries, given its custom-chip customer roster. But the episode is a real risk flag: when a leader stops raising guidance, it can signal the cycle is maturing, and Broadcom trades at a rich multiple. Balance the growth story against concentration in a handful of hyperscaler customers. Not advice.",
+      "free_alternatives": "Read Broadcom's official earnings release and 8-K on its investor site for free rather than relying on secondary summaries. Free price/quote data via Yahoo Finance and Google Finance; free sector context via Nasdaq's SOX page.",
+      "verdict": "WATCH — the fundamentals (AI revenue +143%) were strong; the selloff was a hype-reset over guidance, not a broken business. A reminder that sentiment, not just numbers, drives these stocks."
+    },
+    {
+      "id": "nvidia-q1-fy27-record-earnings",
+      "headline": "Nvidia Posts Record $81.6B Quarter — Data Center Nearly Doubles — Yet the Stock Slipped",
+      "one_liner": "Nvidia's Q1 FY2027 revenue hit $81.6B (+85% YoY) with data center at $75.2B (+92%), and it hiked its dividend — but shares fell on the print.",
+      "source_name": "CNBC / NVIDIA Investor Relations",
+      "source_links": [
+        "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+        "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-56086a88bbb4.html"
+      ],
+      "credibility": "High — figures are from NVIDIA's official results and CNBC's earnings coverage. Prior-year context ($215.9B FY2026 revenue, +65%) is from NVIDIA's Feb 25, 2026 release.",
+      "image_url": null,
+      "image_credit": "NVIDIA",
+      "story": "For fiscal 2026 (ended January 2026), NVIDIA reported record revenue of $215.9 billion, up 65% year over year, per its official release. In Q1 fiscal 2027 (reported May 20, 2026), revenue reached a record $81.6 billion, up 85% year over year, with Data Center revenue of $75.2 billion up 92%, and GAAP net income of $58.3 billion, per CNBC and NVIDIA. On May 18, 2026 the board raised the quarterly dividend from $0.01 to $0.25 per share and added $80 billion to buybacks. Notably, NVIDIA booked no Data Center Hopper shipments to China in the quarter (versus $4.6 billion a year earlier) due to export restrictions, and guided Q2 revenue to about $91.0 billion with no assumed China data-center compute. Despite the blowout, the stock slid after the report as expectations were sky-high.",
+      "founding_story": "NVIDIA was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem — reportedly sketched out at a Denny's in San Jose. It pioneered the GPU in 1999, pivoted those chips into AI/accelerated computing, and by 2026 sits at the center of the AI infrastructure build-out, at times carrying a market value above $4-5 trillion.",
+      "who_should_use": "Every AI investor and index holder — NVIDIA is the single largest S&P 500 component (~7.9% weight in mid-2026), so its results move the whole market. Anyone with an S&P 500 fund already owns a big slice of it.",
+      "who_should_buy": "Believers in sustained AI infrastructure demand might consider NVDA, which trades at a lower forward P/E (~20x) than the chip sector average (~26.8x) despite faster growth. Risks are real: customer concentration among a few hyperscalers building their own chips (Google, Microsoft, Meta, Amazon), China export limits, and 'peak AI' fears. This is context, not a buy call.",
+      "free_alternatives": "Read NVIDIA's quarterly results and CFO commentary free on investor.nvidia.com. For diversified exposure without a single-stock bet, research low-cost S&P 500 or Nasdaq-100 index funds (which hold NVDA) on the fund providers' free pages.",
+      "verdict": "USE — the AI demand is unambiguously real and the numbers are extraordinary; the 'sell the news' drops show how much perfection is already baked in. Substance over hype here."
+    },
+    {
+      "id": "nvidia-underperforms-chip-sector-2026",
+      "headline": "The AI King Is Lagging Its Own Kingdom: Nvidia Badly Trailed the Chip Sector in 2026",
+      "one_liner": "Nvidia rose ~11% in 2026 while the PHLX Semiconductor Index surged ~79-88% — an unusual gap as money rotated into memory and foundry names.",
+      "source_name": "The Motley Fool / CNBC",
+      "source_links": [
+        "https://www.fool.com/investing/2026/06/29/nvidia-stock-has-underperformed-the-semiconductor/",
+        "https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html",
+        "https://www.fool.com/investing/2026/02/16/why-is-nvidia-stock-underperforming-in-2026/"
+      ],
+      "credibility": "High — The Motley Fool and CNBC analysis. Exact year-to-date percentages vary by publication date (the SOX kept climbing through the quarter), so figures are cited as ranges.",
+      "image_url": null,
+      "image_credit": "The Motley Fool",
+      "story": "In a year when the PHLX Semiconductor Index rallied roughly 79-88%, Nvidia stock advanced only about 11%, a striking divergence for the company that defined the AI trade, per The Motley Fool and CNBC. The gap reflects a rotation: investors piled into memory makers (Micron up 240%+ in Q2), foundry turnaround bets (Intel up 216%) and AMD (up 186%), while worrying that Nvidia's biggest customers — Microsoft and Meta among them — are building in-house chips to cut dependence. Nvidia's forward P/E fell to about 20x, below the sector's ~26.8x average, which bulls read as cheap and bears read as skepticism about durability. The debate heading into the second half: does Nvidia catch up, or has leadership permanently broadened across the sector?",
+      "founding_story": "Nvidia's dominance was built on CUDA, the software layer it launched in 2006 that locked developers into its GPUs — the moat now under question as rivals and customers design custom AI silicon. The 2026 underperformance is the first sustained test of whether that moat still commands a premium.",
+      "who_should_use": "Anyone who assumes 'AI trade' equals 'buy Nvidia' — 2026 shows the sector can boom while the leader lags. Useful for investors thinking about concentration risk and rotation within a theme.",
+      "who_should_buy": "Contrarians may see a relatively cheap megacap growing 85%+ with a discounted multiple. Others may prefer the diversified sector (via an ETF) that has been outrunning it. The core risk is structural: custom silicon from hyperscalers and 'peak AI capex' fears could keep a lid on the multiple. Presented as analysis, not advice.",
+      "free_alternatives": "Compare NVDA vs. the SOX/SMH for free on Yahoo Finance or Google Finance charts. Free analyst summaries and valuation snapshots are on Motley Fool's free articles and Morningstar's free tier.",
+      "verdict": "WATCH — a rare and instructive divergence; the hype ('just buy Nvidia') collided with a reality where memory and foundry names led. The setup for H2 is genuinely uncertain."
+    },
+    {
+      "id": "agility-robotics-spac-2.5b-humanoid",
+      "headline": "Humanoids Hit Wall Street: Agility Robotics to Go Public in a $2.5B SPAC Deal",
+      "one_liner": "Agility Robotics (maker of Digit) plans a Nasdaq listing via Churchill Capital XI at ~$2.5B — the first pure-play U.S.-listed humanoid robot company.",
+      "source_name": "TechCrunch / PitchBook / The Robot Report",
+      "source_links": [
+        "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "https://pitchbook.com/news/articles/agility-robotics-spac-gives-humanoids-their-first-public-market-test",
+        "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"
+      ],
+      "credibility": "High — deal terms reported by TechCrunch, PitchBook and The Robot Report (June 24, 2026). SPAC mergers are subject to shareholder approval and closing conditions, so terms and the proposed AGLT ticker could change before completion.",
+      "image_url": null,
+      "image_credit": "Agility Robotics",
+      "story": "Agility Robotics, the Oregon company behind the two-legged Digit robot, announced on June 24, 2026 that it will go public by merging with Churchill Capital Corp XI at an implied valuation of about $2.5 billion, per TechCrunch and PitchBook. The deal is expected to bring in more than $600 million in gross proceeds — roughly $420 million from Churchill XI's trust plus over $200 million from a PIPE led by existing backer Foxconn. Upon closing, the combined company is expected to trade on Nasdaq under the ticker AGLT, becoming the first pure-play humanoid-robot maker listed in the U.S. Unlike most humanoid startups, Agility says Digit is already working across nine customer facilities with more than 65,000 hours of operation and over $300 million in multi-year Digit v5 orders (subject to milestones) from a pipeline of 30-plus customers.",
+      "founding_story": "Agility Robotics was spun out of Oregon State University in 2015 by robotics researchers Damion Shelton, Jonathan Hurst and Mikhail Jones, building on years of bipedal-locomotion research (the 'Cassie' and later 'Digit' robots). It opened 'RoboFab,' billed as a factory for mass-producing humanoids, ahead of this public-market debut.",
+      "who_should_use": "Investors watching the humanoid-robotics and automation theme, warehouse/logistics operators evaluating labor automation, and anyone tracking how speculative AI-adjacent hardware reaches public markets.",
+      "who_should_buy": "Risk-tolerant investors who want early exposure to commercial humanoids might watch AGLT once it lists — Agility's real deployments and Foxconn backing set it apart. But SPAC de-listings are historically high-risk: valuations often outrun revenue, orders here are milestone-dependent, humanoid economics are unproven at scale, and competition (Tesla Optimus, Figure) is fierce. Treat as speculative; this is not a recommendation.",
+      "free_alternatives": "You cannot buy shares until the merger closes; until then, read the deal materials free via TechCrunch and The Robot Report. For diversified robotics/automation exposure, research robotics-and-AI ETFs (e.g., BOTZ, ROBO) on the fund providers' free pages instead of a single pre-revenue-scale name.",
+      "verdict": "WATCH — genuinely notable as the first U.S. humanoid pure-play with real deployments, but a SPAC at $2.5B is a hype-forward vehicle; let the fundamentals prove out post-listing."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Micron Reports Its Biggest Quarter Ever on AI Memory Demand",
+      "one_liner": "Micron posted record fiscal-Q3 2026 revenue of ~$41.5B (up ~346% YoY) with an ~84.6% gross margin and guided Q4 to about $50B, driven by HBM.",
+      "source_name": "Micron Investor Relations / Money Morning",
+      "source_links": [
+        "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter",
+        "https://moneymorning.com/2026/06/24/micron-technology-mu-earnings-q3-2026-hbm-ai-memory"
+      ],
+      "credibility": "High — figures from Micron's official June 24, 2026 results release, corroborated by financial media."
+    },
+    {
+      "headline": "Intel Stock Surges on Reported ~3 Million-Unit Google TPU Foundry Order",
+      "one_liner": "Intel jumped ~10-13% on June 8 after reports Google will have Intel manufacture 3M+ TPUs (delivery ~2028); note: no company filing yet confirmed it.",
+      "source_name": "The Motley Fool / Yahoo Finance",
+      "source_links": [
+        "https://www.fool.com/coverage/stock-market-today/2026/06/08/stock-market-today-june-8-intel-surges-on-reported-google-ai-chip-foundry-order/",
+        "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-june-8-212345430.html"
+      ],
+      "credibility": "Medium-High — widely reported by reputable outlets, but based on unnamed sources; neither Intel nor Google filed disclosures confirming the contract, so treat as unconfirmed."
+    },
+    {
+      "headline": "Qualcomm Sharpens Data-Center Push at June 24 Investor Day",
+      "one_liner": "Qualcomm targets $15B+ in data-center revenue by FY2029 and raised its FY2029 non-handset target to $40B; shares had round-tripped to ~$226 in June.",
+      "source_name": "Futurum Group / Qualcomm IR",
+      "source_links": [
+        "https://futurumgroup.com/insights/qualcomms-investor-day-2026-agentic-and-ai-inference-to-drive-2x-revenue-growth-by-2030/",
+        "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q2/FY2026-2nd-Quarter-Earnings-Presentation_4-29-26_Final.pdf"
+      ],
+      "credibility": "High — targets stated at Qualcomm's official Investor Day and in its earnings materials; stock levels via financial media."
+    },
+    {
+      "headline": "Broadcom's AI Revenue Soared 143% — and the Stock Still Fell",
+      "one_liner": "The paradox behind the June scare: Broadcom's AI chip revenue jumped ~143% YoY, but investors punished it for not raising full-year AI guidance.",
+      "source_name": "The Motley Fool",
+      "source_links": [
+        "https://www.fool.com/investing/2026/06/03/broadcom-s-ai-revenue-just-soared-143-so-why-is-the-stock-falling/"
+      ],
+      "credibility": "High — analysis based on Broadcom's official fiscal-Q2 2026 results."
+    },
+    {
+      "headline": "AI Chip Rally Added Roughly $2 Trillion to Micron, Intel and AMD in Q2",
+      "one_liner": "CNBC tallied the record quarter: the combined market value of Micron, Intel and AMD rose about $2 trillion in the three months ended June 30, 2026.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html"
+      ],
+      "credibility": "High — CNBC reporting using market-cap and index data."
+    },
+    {
+      "headline": "Semiconductors Post Best Quarter Since 1994, Rivaling Dot-Com Mania",
+      "one_liner": "Axios: the PHLX Semiconductor Index rose ~87.8% in Q2 2026, the biggest quarterly gain in records back to 1994, powered almost entirely by the AI memory squeeze.",
+      "source_name": "Axios",
+      "source_links": [
+        "https://www.axios.com/2026/07/01/semiconductor-ai-stocks-chips"
+      ],
+      "credibility": "High — Axios reporting, with index performance sourced to Bloomberg/Nasdaq data."
+    }
+  ]
+}

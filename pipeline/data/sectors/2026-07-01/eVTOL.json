@@ -1,0 +1,168 @@
+{
+  "sector": "eVTOL",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "joby-toyota-manufacturing-jv",
+      "headline": "Joby and Toyota launch a joint venture to mass-produce electric air taxis",
+      "one_liner": "Toyota takes a 51% stake in a new JV holding exclusive rights to build Joby's S4 air taxi, deepening a near-decade, ~$894M partnership.",
+      "source_name": "Joby Aviation / Toyota Newsroom / The Motley Fool",
+      "source_links": [
+        "https://www.jobyaviation.com/news/joby-aviation-and-toyota-motor-corporation-launch-initial-phase-of-a-strategic-manufacturing-alliance-to-realize-air-mobility-for-all",
+        "https://pressroom.toyota.com/joby-aviation-and-toyota-motor-corporation-launch-initial-phase-of-a-strategic-manufacturing-alliance-to-realize-air-mobility-for-all/",
+        "https://www.fool.com/investing/2026/07/01/joby-aviations-stock-is-rising-after-teaming-up-with-toyota-for-a-new-manufacturing-venture/"
+      ],
+      "credibility": "Very high. Confirmed by joint official press releases from both Joby (NYSE: JOBY) and Toyota on June 30, 2026, plus coverage from The Motley Fool and Reuters/Yahoo Finance syndication.",
+      "image_url": "https://cdn.sanity.io/images/h5mp19kq/production/f6f56b30e34087cec9a6da96df82f4fdc7c97874-6000x4000.jpg?rect=0%2C425%2C6000%2C3150&w=1200&h=630&fit=crop",
+      "image_credit": "Joby Aviation (via jobyaviation.com press release)",
+      "story": "On June 30, 2026, Joby Aviation and Toyota Motor Corporation announced the initial phase of a strategic manufacturing alliance, establishing a joint venture in which Toyota holds a 51% majority stake and Joby the remainder. The venture is designed to build up commercial production capability, improve productivity, quality and cost, and hold the exclusive right to manufacture Joby's S4 eVTOL. Toyota has supported Joby for nearly a decade and has committed roughly $894 million across several investments, with Toyota engineers already embedded in Joby's production operations. The deal formalizes Toyota's role as Joby scales toward certified commercial production, and JOBY shares rose on the news.",
+      "founding_story": "Joby Aviation was founded in 2009 by JoeBen Bevirt, an American serial entrepreneur, in the mountains above Santa Cruz, California. Bevirt (who earlier founded companies including Velocity11 and Joby Inc., maker of the GorillaPod) spent years quietly developing all-electric vertical-takeoff aircraft before Joby went public via SPAC in 2021. He remains founder and CEO, and became the eVTOL sector's first billionaire on paper as Joby's valuation climbed.",
+      "who_should_use": "Aviation-industry watchers, manufacturing and supply-chain professionals, and eVTOL investors who want to understand how a Silicon Valley aircraft startup plans to actually build planes at automotive scale.",
+      "who_should_buy": "You cannot buy the aircraft or a ticket yet. The honest angle: JOBY is a publicly traded, pre-revenue stock (~$8-9 range in late June 2026) and this JV materially de-risks Joby's biggest open question, production. Speculative growth investors who believe in eVTOL and can stomach volatility may see it as a positive catalyst; conservative investors should treat it as high-risk until certification and real deliveries land.",
+      "free_alternatives": "For the actual trips Joby targets (airport-to-downtown hops), the cheap substitutes today are airport rail links, shared shuttles, ride-hail pooling, or existing helicopter charters (e.g., Blade, which Joby partners with) if you must fly. None are free, but public transit is the closest to it.",
+      "verdict": "WATCH - The most important eVTOL story of the month: it fixes Joby's manufacturing risk, but there's still no certified aircraft or paying passenger, so it's a strong watch, not a buy."
+    },
+    {
+      "id": "joby-stage-5-certification-dubai-2026",
+      "headline": "Joby's first FAA-conforming air taxi enters final certification as Dubai launch nears",
+      "one_liner": "Aircraft N547JX is flying Stage 5 (the last FAA phase) while Joby targets its first commercial passenger service in Dubai in 2026.",
+      "source_name": "AeroTime / Gulf News / IEEE Spectrum",
+      "source_links": [
+        "https://www.aerotime.aero/articles/joby-kicks-off-last-phase-of-certification-process-with-faa-conforming-aircraft",
+        "https://gulfnews.com/business/aviation/flying-taxis-are-almost-here-last-hurdles-for-joby-archer-amid-evtol-certification-drive-1.500472861",
+        "https://spectrum.ieee.org/joby-air-taxi",
+        "https://www.jobyaviation.com/news/joby-to-launch-air-taxi-service-in-uae"
+      ],
+      "credibility": "High. Certification progress reported by AeroTime and confirmed in Joby's own SEC filings and investor updates; Dubai launch plans confirmed by Joby, Gulf News, and IEEE Spectrum.",
+      "image_url": null,
+      "image_credit": "Joby Aviation",
+      "story": "Joby began flight testing its first production-conforming aircraft, registered N547JX, on March 11, 2026, at its Marina, California facility, marking the start of Stage 5, the final aircraft-level phase of the FAA type-certification process. The aircraft is built to FAA-approved designs and dedicated to Type Inspection Authorization (TIA) testing, with parts in production for eight more aircraft and FAA pilots expected to conduct their own 'for credit' evaluations later in 2026. In parallel, Joby aims to launch the world's first integrated air-taxi network in Dubai in 2026, with routes tied to Dubai International Airport, Palm Jumeirah, Dubai Marina and Downtown Dubai. Joby has said it targets a ramp toward roughly four aircraft per month by 2027 as production scales in California and Ohio.",
+      "founding_story": "Same origin as above: Joby was founded in 2009 by JoeBen Bevirt in Santa Cruz, California. The company spent roughly a decade in relative secrecy perfecting its six-tilt-rotor, piloted four-passenger design before emerging publicly and listing on the NYSE in 2021 through a merger with Reinvent Technology Partners.",
+      "who_should_use": "Frequent flyers into Dubai and DXB, UAE residents, and travel/aviation enthusiasts who want a realistic read on when they might actually board an electric air taxi.",
+      "who_should_buy": "Riders still can't buy a ticket, but Dubai is the likeliest place to take one of the first commercial rides, so UAE-based readers should watch for launch bookings. For investors, Stage 5 is the make-or-break stretch; a clean, on-schedule finish would be the single biggest de-risking event for JOBY, while any slip is the main downside risk.",
+      "free_alternatives": "In Dubai the same trips are already served cheaply by the Dubai Metro Red Line to DXB, RTA taxis, and hotel shuttles; a Palm Jumeirah monorail exists for that leg. Air taxi will be a premium time-saver, not a cost-saver.",
+      "verdict": "WATCH - Genuinely close to the finish line and Dubai is the most credible near-term launch, but 'flying Stage 5' is not 'certified,' so watch for the FAA sign-off before believing the timeline."
+    },
+    {
+      "id": "archer-midnight-uae-us-certification-push-2026",
+      "headline": "Archer's Midnight pushes toward first passengers in Abu Dhabi and US pilot cities",
+      "one_liner": "First eVTOL to clear 100% of FAA 'Means of Compliance,' Archer is testing Midnight in the UAE and lining up US operations under the federal eIPP.",
+      "source_name": "Archer Aviation / Gulf News / 24/7 Wall St",
+      "source_links": [
+        "https://investors.archer.com/news/news-details/2026/Archer-Announces-First-Quarter-2026-Results-Highlighting-Record-FAA-Certification-Progress-With-Initial-US-Operations-Expected-In-2026/default.aspx",
+        "https://gulfnews.com/business/aviation/flying-taxis-are-almost-here-last-hurdles-for-joby-archer-amid-evtol-certification-drive-1.500472861",
+        "https://247wallst.com/investing/2026/06/16/archer-aviation-could-double-as-faa-certification-nears/",
+        "https://www.militaryaerospace.com/commercial-aerospace/article/55301297/archer-completes-first-evtol-flight-of-its-midnight-aircraft-in-abu-dhabi"
+      ],
+      "credibility": "High. FAA Means of Compliance milestone and US/UAE launch plans confirmed in Archer's official investor releases and SEC filings; corroborated by Gulf News and financial-press analysis (24/7 Wall St, June 16, 2026).",
+      "image_url": "https://img.militaryaerospace.com/files/base/ebm/mae/image/2025/07/6866c299959d2cf75d6037ee-m0_uae_004.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630",
+      "image_credit": "Archer Aviation (via Military & Aerospace Electronics)",
+      "story": "Archer's Midnight, a piloted four-passenger eVTOL with 12 rotors, an ~100-mile max range and 150 mph cruise, is Archer's candidate to beat rival Joby to paying passengers. In Q4 2025 the FAA accepted 100% of the 797 'Means of Compliance' for Midnight, a first for any eVTOL, which Archer announced in March 2026 as it entered its final certification stretch. Archer is running an in-country flight-test 'Launch Edition' campaign in the UAE with Abu Dhabi Aviation, evaluating hot-and-dusty performance ahead of first passenger flights, and expects initial US operations in 2026 under the White House's eVTOL Integration Pilot Program (eIPP), where it was named in three winning applications spanning states including Florida, Texas and New York. As of mid-2026 the company has not yet completed a public piloted transition-to-cruise flight, which analysts flag as a key remaining watch item.",
+      "founding_story": "Archer Aviation was founded in 2018 by Brett Adcock and Adam Goldstein, who had previously co-founded the hiring marketplace Vettery (sold to Adecco). As a late entrant to eVTOL, Archer moved aggressively, went public via SPAC in 2021, and locked in high-profile backing and orders including from United Airlines and Stellantis (its manufacturing partner). Adam Goldstein is now sole CEO; Adcock departed to found the robotics company Figure.",
+      "who_should_use": "UAE travelers, LA-area commuters eyeing the 2028 Olympics angle, and anyone tracking which company reaches commercial eVTOL service first.",
+      "who_should_buy": "No consumer purchase yet. Abu Dhabi (and later US eIPP cities) are the most likely places to catch an early ride, so watch Archer's UAE launch and US pilot announcements. For investors, ACHR is a volatile pre-revenue stock; the completed Means of Compliance is a real edge, but the missing public transition flight and no certified aircraft keep it firmly speculative.",
+      "free_alternatives": "In Abu Dhabi, taxis, the airport bus and hotel transfers cover the same short hops cheaply; in Los Angeles, Metro rail, FlyAway buses and ride-hail pooling are the low-cost substitutes for the airport and venue trips Archer targets.",
+      "verdict": "WATCH - Archer is arguably tied with Joby on paper and leads on Means of Compliance, but until it shows a public piloted transition flight and a real passenger, treat the hype with caution."
+    },
+    {
+      "id": "vertical-aerospace-final-vx4-piloted-flight-2026",
+      "headline": "UK's Vertical Aerospace flies its final VX4 prototype ahead of Farnborough",
+      "one_liner": "Vertical's third and last full-scale prototype made its maiden piloted flight on June 5, 2026, doubling flight-test capacity before Critical Design Review.",
+      "source_name": "Business Wire (Vertical Aerospace) / FlightGlobal / Aviation Week",
+      "source_links": [
+        "https://www.businesswire.com/news/home/20260609702899/en/Vertical-Aerospaces-Final-Full-Scale-Prototype-Completes-First-Piloted-Flight",
+        "https://www.flightglobal.com/archive/2026/06/vertical-flies-final-vx4-before-pivot-to-valo/",
+        "https://aviationweek.com/aerospace/advanced-air-mobility/vertical-rolls-out-final-vx4-evtol-prototype"
+      ],
+      "credibility": "High. Confirmed by Vertical Aerospace's official Business Wire press release and independent coverage from FlightGlobal and Aviation Week.",
+      "image_url": "https://mms.businesswire.com/media/20260609702899/en/2827260/22/IMG_2561_EDIT_V2.jpg",
+      "image_credit": "Vertical Aerospace (via Business Wire)",
+      "story": "Vertical Aerospace (NYSE: EVTL) flew the third and final full-scale prototype of its aircraft on its maiden piloted flight at 08:49 BST on June 5, 2026, at its UK Flight Test Centre, with test pilot Paul Stone at the controls following a fresh Permit to Fly from the UK CAA. The new prototype doubles Vertical's flight-test capacity and is the last aircraft to join the fleet before Critical Design Review (CDR), the milestone that locks in the certifiable design of its production aircraft, now branded Valo. Vertical's existing prototype has already completed multiple piloted transition flights, and the company plans public demonstrations in 2026 including an appearance at the Farnborough International Airshow in July. Vertical says it holds roughly 1,500 pre-orders from customers including American Airlines, Avolon, Bristow, GOL and Japan Airlines.",
+      "founding_story": "Vertical Aerospace was founded in 2016 in Bristol, UK, by British entrepreneur Stephen Fitzpatrick, who also founded energy supplier OVO Energy and previously ran a Formula 1 outfit. Vertical listed on the NYSE via SPAC in 2021. Fitzpatrick has since remained the company's largest shareholder and key backer, and the firm is now led by CEO Stuart Simpson as it drives its piloted four-passenger eVTOL, Valo, toward certification.",
+      "who_should_use": "European and UK aviation followers, airline-partnership watchers, and anyone tracking whether a non-US, non-Chinese eVTOL can reach certification after the collapse of German rivals Lilium and Volocopter.",
+      "who_should_buy": "No tickets or aircraft for sale to individuals. Vertical is the last major UK-listed pure-play eVTOL (EVTL), a small, cash-hungry stock that has repeatedly had to raise capital; only high-risk-tolerant investors should consider it, and even then as a long-shot bet on certification. Everyone else should simply watch Farnborough and CDR.",
+      "free_alternatives": "For the regional and airport trips Vertical targets in Europe, existing trains (including the Elizabeth line and national rail to UK airports), coaches and shared transfers are far cheaper ways to make the same journey today.",
+      "verdict": "WATCH - Real, verifiable flight-test progress and a survivor in a brutal European market, but thin finances and a still-distant CDR make it a watch, and only a speculative one for investors."
+    },
+    {
+      "id": "beta-technologies-hawaii-electric-aircraft-trial-2026",
+      "headline": "Beta, Surf Air and Hawaiian Airlines start flying electric aircraft across Hawaii",
+      "one_liner": "A 6-to-8-week trial of Beta's Alia CX300 electric plane began June 25, 2026, testing interisland electric flight in Hawaii.",
+      "source_name": "FLYING Magazine / Beta Technologies",
+      "source_links": [
+        "https://www.flyingmag.com/electric-aircraft-demonstrations-hawaii/",
+        "https://www.flyingmag.com/sean-duffy-beta-alia-electric-aircraft/",
+        "https://investors.beta.team/news-events/press-releases/detail/101/beta-technologies-announces-aircraft-purchase-agreement-and-launch-passenger-operations-partnership-with-surf-air-mobility"
+      ],
+      "credibility": "High. Trial reported by FLYING Magazine (a leading aviation outlet); Beta's Surf Air partnership and orders confirmed in Beta's official investor releases; the Duffy flight was confirmed by the US Department of Transportation.",
+      "image_url": "https://www.flyingmag.com/wp-content/uploads/2026/06/BETA_Hawaii_JHook_0006.jpg",
+      "image_credit": "Beta Technologies (via FLYING Magazine)",
+      "story": "On June 25, 2026, Beta Technologies (NYSE: BETA), Surf Air Mobility and Hawaiian Airlines began a six-to-eight-week trial of Beta's all-electric Alia CX300 fixed-wing aircraft in Hawaii to gather operational, economic and infrastructure data for future interisland cargo and passenger service. Surf Air is the launch customer for the CX300 and has signed a firm order for 25 electric ALIA CTOL aircraft with options for up to 75 more. The trial follows a landmark moment on May 29, 2026, when US Transportation Secretary Sean Duffy became the first sitting transportation secretary to fly in an eVTOL, riding Beta's Alia in Vermont; the DOT and FAA also unveiled the eVTOL Integration Pilot Program (eIPP) spanning 26 states, in which Beta was selected for seven of the eight projects. Beta, which raised nearly $1 billion in its 2026 IPO, targets FAA certification of its conventional-takeoff CX300 by late 2026 or early 2027, with the vertical-takeoff variant about a year later.",
+      "founding_story": "Beta Technologies was founded in 2017 in Burlington, Vermont, by Kyle Clark, a former professional hockey player and engineer who flies the company's aircraft himself as a test pilot. Beta grew quietly with early backing tied to organ-transport logistics and later drew major investors including GE Aerospace and Fidelity, and unlike many rivals it prioritized a simpler electric fixed-wing aircraft (CX300) and a nationwide charging network before its full vertical-takeoff model.",
+      "who_should_use": "Hawaii residents and visitors, regional-airline and cargo-logistics professionals, and readers who want to see electric aviation actually carrying real payloads today rather than in slideshows.",
+      "who_should_buy": "You can't buy a seat on these specific trial flights, but Surf Air/Hawaiian commercial electric service is a realistic near-term way Hawaii travelers could fly electric first. Beta (BETA) is newly public and better-capitalized than most peers with a fixed-wing product closer to certification; it's still a high-risk aviation startup stock, appropriate only for risk-tolerant investors.",
+      "free_alternatives": "For interisland travel, conventional Hawaiian and Southwest jet flights already cover the routes and are often cheap; the ferry and, on individual islands, TheBus and shared shuttles are the lowest-cost ground options.",
+      "verdict": "USE - This is the rare eVTOL-adjacent story where real electric aircraft are flying real missions now; if you're in Hawaii, watch for the resulting commercial service, and investors get a comparatively de-risked name to track."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "US Transportation Secretary becomes first to fly in an eVTOL",
+      "one_liner": "Sean Duffy flew Beta's Alia in Vermont on May 29, 2026, as DOT and the FAA unveiled a 26-state eVTOL Integration Pilot Program (eIPP).",
+      "source_name": "US Department of Transportation / FLYING Magazine",
+      "source_links": [
+        "https://www.transportation.gov/briefing-room/driving-news-trumps-transportation-secretary-sean-p-duffy-becomes-first",
+        "https://www.flyingmag.com/sean-duffy-beta-alia-electric-aircraft/"
+      ],
+      "credibility": "Very high. Official DOT briefing plus FLYING Magazine reporting."
+    },
+    {
+      "headline": "FAA to build an air-taxi research and test range in Oklahoma City",
+      "one_liner": "The agency's Vertical Takeoff and Landing Procedures and Analysis Range (V-PAR) could come online as soon as next summer.",
+      "source_name": "FLYING Magazine",
+      "source_links": [
+        "https://www.flyingmag.com/faa-air-taxi-research-hub-oklahoma-city/"
+      ],
+      "credibility": "High. Reported by FLYING Magazine (June 26, 2026) based on FAA plans."
+    },
+    {
+      "headline": "Joby ramps up Dayton, Ohio production as it nears FAA approval",
+      "one_liner": "Joby is expanding manufacturing at its Dayton site, positioning it as a core hub for eVTOL fleet production ahead of certification.",
+      "source_name": "Yahoo Finance / Simply Wall St",
+      "source_links": [
+        "https://finance.yahoo.com/markets/stocks/articles/joby-aviation-joby-nears-approval-100700926.html",
+        "https://simplywall.st/stocks/us/transportation/nyse-joby/joby-aviation/news/the-bull-case-for-joby-aviation-joby-could-change-following"
+      ],
+      "credibility": "Medium-high. Corroborated by financial-press coverage and Joby's own disclosures; specific ramp figures are company guidance."
+    },
+    {
+      "headline": "Vertical Aerospace lines up more Valo suppliers (Astronics, Hyundai WIA)",
+      "one_liner": "Vertical named Astronics for low-voltage power distribution and Hyundai WIA for landing gear, filling out its production supply chain.",
+      "source_name": "Business Wire (Vertical Aerospace)",
+      "source_links": [
+        "https://www.businesswire.com/news/home/20260629529571/en/Vertical-Aerospace-Selects-Astronics-as-Low-Voltage-Power-Distribution-Supplier-for-Valo",
+        "https://www.businesswire.com/news/home/20260521122057/en/Vertical-Aerospace-Selects-Hyundai-WIA-as-Landing-Gear-Partner-for-Valo"
+      ],
+      "credibility": "High. Official Vertical Aerospace press releases (June 29 and May 21, 2026)."
+    },
+    {
+      "headline": "Analysts split on air-taxi stocks as certification nears",
+      "one_liner": "With Joby and Archer approaching FAA sign-off, commentators debate whether the shares are overhyped or still deeply undervalued.",
+      "source_name": "24/7 Wall St / The Motley Fool",
+      "source_links": [
+        "https://247wallst.com/investing/2026/06/16/archer-aviation-could-double-as-faa-certification-nears/",
+        "https://www.fool.com/investing/2026/06/24/the-crowd-is-dumping-joby-heres-why-id-be-buying/"
+      ],
+      "credibility": "Medium. Legitimate financial-opinion pieces; these are analyst views, not facts, and should be read as commentary."
+    },
+    {
+      "headline": "eVTOL lawsuits and infighting cloud the US launch push",
+      "one_liner": "CNBC reports court battles and disputes could complicate the industry's long-hyped US commercial breakthrough even as testing accelerates.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/05/29/evtol-air-taxi-lawsuits-us-launch-trump.html"
+      ],
+      "credibility": "High. CNBC reporting (May 29, 2026); a useful reality-check counterweight to the sector's optimism."
+    }
+  ]
+}

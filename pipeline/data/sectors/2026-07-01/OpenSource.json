@@ -1,0 +1,186 @@
+{
+  "sector": "Open Source",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "openclaw-personal-ai-assistant",
+      "headline": "OpenClaw becomes the most-starred repo in GitHub history and lands native iOS and Android apps",
+      "one_liner": "The free, self-hosted personal AI agent 'Molty' crossed ~381k stars and just shipped mobile apps that pair your phone to your own assistant.",
+      "source_name": "GitHub / Reuters / TechCrunch",
+      "source_links": [
+        "https://github.com/openclaw/openclaw",
+        "https://www.reuters.com/business/openclaw-founder-steinberger-joins-openai-open-source-bot-becomes-foundation-2026-02-15/",
+        "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+        "https://en.wikipedia.org/wiki/Peter_Steinberger_(programmer)"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/89d1d576131560f551b90ebff027a28eda9c0ffaf955a1195d2e529a253ce4da/openclaw/openclaw",
+      "image_credit": "OpenClaw / GitHub",
+      "story": "OpenClaw is a free, open-source, self-hostable personal AI assistant you run on your own devices; it plugs into messaging channels you already use (WhatsApp, Telegram, Discord, iMessage, Slack, Signal and more) and executes tasks through a modular 'Skills' system for browser automation, API calls and file operations. As of July 1, 2026 the GitHub repo showed roughly 381,000 stars, making it by multiple accounts the most-starred software repository in GitHub history and one of the fastest-growing ever. On June 30, 2026, TechCrunch reported OpenClaw finally launched native iOS and Android apps that pair a phone to the user's 'OpenClaw Gateway,' granting the agent access to camera, screen, location, photos, contacts and calendar. A credibility asterisk: TechCrunch and others reported that the earlier viral 'MoltBook' agent-society moment was partly humans impersonating AI agents, so some of the hype was theater rather than autonomous behavior.",
+      "founding_story": "OpenClaw was created by Austrian developer Peter Steinberger, founder and former CEO of PSPDFKit, who released the project in November 2025 after a hiatus and a move into AI 'vibe coding.' It was renamed twice (Clawdbot, then Moltbot, then OpenClaw) partly after a trademark complaint. In February 2026, Reuters and Forbes reported Steinberger joined OpenAI (turning down a Meta offer) and that the open-source project was moved into an independent OpenClaw Foundation that OpenAI supports.",
+      "who_should_use": "Tinkerers and privacy-minded power users who want a personal AI agent that runs on their own hardware and acts through the chat apps they already use.",
+      "who_should_buy": "It's free and open source (MIT-licensed per coverage) - there's nothing to buy. Your only real costs are optional: a machine or small server to self-host it and pay-as-you-go API fees for whatever LLM you point it at.",
+      "free_alternatives": "OpenClaw itself is the free/open alternative to paid personal-assistant and 'agentic' products; closest comparisons are commercial assistants and agent platforms you'd otherwise pay for, plus self-hosted rivals like the open-source Pi coding-agent SDK it builds on.",
+      "verdict": "WATCH - Genuinely the biggest open-source story of 2026 and free to run, but granting a self-hosted agent your camera, contacts and screen is a real security bet; pilot it in a sandbox before you trust it with your life.",
+      "github_stars": 381313
+    },
+    {
+      "id": "opencode-open-source-coding-agent",
+      "headline": "OpenCode races past 180k stars as the leading open-source, model-agnostic terminal coding agent",
+      "one_liner": "A free CLI coding agent that works with 75+ model providers (Claude, GPT, Gemini, Ollama) hit ~181k stars and shipped v1.17.13 on July 1.",
+      "source_name": "GitHub / opencode.ai",
+      "source_links": [
+        "https://github.com/anomalyco/opencode",
+        "https://opencode.ai/docs",
+        "https://github.com/anomalyco/opencode/releases"
+      ],
+      "credibility": "high",
+      "image_url": "https://repository-images.githubusercontent.com/975734319/2c2c3389-c647-405c-a499-f80e4d521277",
+      "image_credit": "OpenCode / GitHub",
+      "story": "OpenCode is a free, open-source (MIT), terminal-native AI coding agent that is deliberately model-agnostic: it works with 75+ providers including Anthropic Claude, OpenAI GPT, Google Gemini and locally-run Ollama models, so you're not locked to one vendor. As of July 1, 2026 the GitHub repo showed roughly 181,000 stars and 22.4k forks, with a very fast release cadence (830 releases; v1.17.13 shipped July 1, 2026) and a growing desktop app in beta. It ships two built-in agents you can switch between - a full-access 'build' agent and a read-only 'plan' agent - plus a 'general' subagent for multi-step searches. The repo now lives under the 'anomalyco' organization (the original 'sst/opencode' URL redirects there), reflecting a move to a dedicated company behind the project. Coverage through 2026 has repeatedly ranked it the top open-source CLI coding agent, with reports that its growth is outpacing closed rivals like Cursor.",
+      "founding_story": "OpenCode grew out of the SST (Serverless Stack) developer-tools ecosystem and was built as an open, editor-agnostic alternative to closed AI coding tools, letting developers bring their own model API keys instead of paying a single vendor. The project has since been consolidated under the 'anomalyco' GitHub organization as its backing company, while keeping the code MIT-licensed and community-driven.",
+      "who_should_use": "Developers who want an AI pair-programmer in the terminal but insist on choosing their own model - or running local models - rather than being tied to one proprietary IDE.",
+      "who_should_buy": "The tool is free and open source; you only pay for the model tokens you consume (e.g. Claude or GPT API usage), or nothing at all if you point it at a local model via Ollama.",
+      "free_alternatives": "OpenCode is the free/open alternative to paid coding assistants like Cursor and GitHub Copilot; other free options include Aider, Cline and the Pi coding agent.",
+      "verdict": "USE - If you want a serious AI coding agent that respects model choice and your budget, it's free, actively maintained, and a legitimate rival to paid IDEs - just supply your own API key or a local model.",
+      "github_stars": 181000
+    },
+    {
+      "id": "ollama-run-models-locally",
+      "headline": "Ollama tops 175k stars and rolls out a native desktop app for running LLMs locally",
+      "one_liner": "The simplest way to run models like DeepSeek, Qwen, Gemma and gpt-oss on your own machine added a Mac and Windows app and faster Apple Silicon inference.",
+      "source_name": "GitHub / Ollama",
+      "source_links": [
+        "https://github.com/ollama/ollama",
+        "https://ollama.com/blog/new-app",
+        "https://github.com/ollama/ollama/releases"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/a7f22797589e390beae0e9286e6bfe30f1aae5076959313ba76b58175d8b98f8/ollama/ollama",
+      "image_credit": "Ollama / GitHub",
+      "story": "Ollama is a free, open-source tool that lets you download and run large language models locally on macOS, Windows and Linux, packaging each model behind a simple command and a local API so no data leaves your machine. As of July 1, 2026 the GitHub repo showed roughly 175,000 stars, and the project's tagline advertises out-of-the-box support for current open models including DeepSeek, Qwen, Gemma and OpenAI's gpt-oss. In 2026 Ollama shipped a native desktop app for macOS and Windows (a friendlier front end than the CLI) and pushed frequent June releases that upgraded its Apple Silicon MLX engine, broadened GGUF hardware support and refreshed its llama.cpp backend. Note some specifics reported by third-party release trackers - exact version numbers and 'new models added this month' - are lower-confidence than the core facts.",
+      "founding_story": "Ollama is built by Ollama Inc., a Palo Alto startup founded in 2023 by Jeffrey Morgan (ex-Docker) and Michael Chiang and backed via Y Combinator. Their goal was to make running local LLMs as easy as installing a single binary, abstracting away model weights, quantization and GPU setup so anyone could run open models offline.",
+      "who_should_use": "Developers, privacy-conscious users and anyone who wants to run open-weight models offline or wire a local model into other tools without cloud costs.",
+      "who_should_buy": "It's free and open source - nothing to buy. The only cost is your own hardware; bigger models want a capable GPU or Apple Silicon with enough RAM.",
+      "free_alternatives": "Ollama is itself the free alternative to paid cloud LLM APIs; comparable free/open runners include llama.cpp (its underlying engine), LM Studio (free desktop app) and Jan.",
+      "verdict": "USE - The default, no-cost way to run capable AI models on your own machine; pair it with Open WebUI or OpenCode and you have a private stack that replaces paid subscriptions for many tasks.",
+      "github_stars": 175244
+    },
+    {
+      "id": "pi-minimal-coding-agent",
+      "headline": "Pi, a radically minimal coding agent, explodes from ~14k to ~58k stars and moves to Armin Ronacher's Earendil",
+      "one_liner": "A tiny, hackable terminal coding agent with just four tools and a sub-1,000-token prompt became 2026's fastest-rising net-new dev tool.",
+      "source_name": "GitHub / Armin Ronacher (lucumr)",
+      "source_links": [
+        "https://github.com/earendil-works/pi",
+        "https://lucumr.pocoo.org/2026/5/24/pi-oss/",
+        "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/1/earendil-works/pi",
+      "image_credit": "Pi / earendil-works / GitHub",
+      "story": "Pi is a free, open-source (MIT) AI agent toolkit whose headline piece is a radically minimal terminal coding agent: it exposes only four tools (read, write, edit, bash) and a system prompt under roughly 1,000 tokens, and is explicitly 'built to be forked and rewired' rather than to dictate a workflow. It went viral in 2026 as the fastest-rising net-new coding agent, growing from about 14k stars in February to roughly 58k when it moved to the Earendil organization in May, and around 61k reported in June. Beyond the CLI it ships a unified LLM API and agent-loop SDK, and its author notes they 'use Pi to build Pi.' The repository moved from 'badlogic/pi-mono' to 'earendil-works/pi,' so confirm the current URL; some star figures come from blog write-ups rather than a live GitHub read.",
+      "founding_story": "Pi was created by Mario Zechner (known as 'badlogic,' creator of the libGDX game framework), who built it as a deliberately tiny, transparent alternative to heavyweight AI coding tools. In April 2026 Zechner joined Earendil - a venture-backed public-benefit corporation co-founded by Armin Ronacher (creator of Flask and Jinja2) - and brought Pi with him; the repo moved to earendil-works/pi while staying MIT-licensed, and OpenClaw uses Pi's SDK under the hood.",
+      "who_should_use": "Developers and tinkerers who want a coding agent small enough to actually read, understand and modify - a base to build their own agent on rather than a black box.",
+      "who_should_buy": "Free and open source; you only pay for whatever model API you plug into it (or nothing with a local model).",
+      "free_alternatives": "Pi is the minimalist free alternative to paid coding assistants like Cursor and Copilot; other free/open peers include OpenCode, Aider and Cline.",
+      "verdict": "USE - If you like understanding your tools, Pi is a delight: free, hackable and legitimately influential (it underpins OpenClaw). Casual users wanting turnkey polish may prefer OpenCode.",
+      "github_stars": 58000
+    },
+    {
+      "id": "comfyui-node-based-generative-ai",
+      "headline": "ComfyUI hits a $500M valuation as the open-source hub for controllable AI image and video",
+      "one_liner": "The free node-based tool for Stable Diffusion, Flux and open video models raised $30M and keeps adding WAN and HunyuanVideo workflows.",
+      "source_name": "GitHub / TechCrunch / Comfy Org",
+      "source_links": [
+        "https://github.com/comfyanonymous/ComfyUI",
+        "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+        "https://blog.comfy.org/p/comfyui-raises-30m-to-scale-open",
+        "https://en.wikipedia.org/wiki/ComfyUI"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/1/comfyanonymous/ComfyUI",
+      "image_credit": "ComfyUI / Comfy Org / GitHub",
+      "story": "ComfyUI is a free, open-source, node/graph-based interface and backend for building modular generative-AI workflows - chaining models, prompts and steps visually instead of writing code - and it has become the power-user hub for open image and video generation (Stable Diffusion, Flux, Hunyuan and more). Star counts put it well into the 110k-119k range by mid-2026 (Wikipedia recorded 89.2k in September 2025). In April 2026, TechCrunch reported ComfyUI's company, Comfy Org, raised $30M at a roughly $500M valuation led by Craft Ventures, as creators sought more control over AI-generated media. The project actively ships a desktop app and has added support for newer open video models such as WAN 2.1 and HunyuanVideo (including image-to-video), extending it from images into video pipelines.",
+      "founding_story": "ComfyUI was created by the pseudonymous developer 'comfyanonymous,' with its first release in January 2023, aiming to improve on existing Stable Diffusion UIs with a flexible node-based design. comfyanonymous worked at Stability AI until mid-2024; after leaving, the core developers formed the Comfy Org organization (June 2024) to steward the project and build a company around it, later raising venture funding.",
+      "who_should_use": "Artists, technical creators and researchers who want fine-grained, reproducible control over AI image and video generation and are willing to learn a node-based workflow.",
+      "who_should_buy": "The software is free and open source; costs are optional - your own GPU (or a rented cloud GPU) to run heavier image and video models locally.",
+      "free_alternatives": "ComfyUI is the free/open alternative to paid generative tools like Midjourney, DALL-E and Runway; other free options include Automatic1111 and Fooocus for simpler image generation.",
+      "verdict": "USE - If you want maximum control over open image and video models without subscription fees, ComfyUI is the standard - just budget a capable GPU and a learning curve; casual users may prefer simpler paid apps.",
+      "github_stars": 119000
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Andrej Karpathy's nanochat crosses 55k stars as the 'ChatGPT you can train for ~$100'",
+      "one_liner": "The minimal full-stack LLM training/inference codebase stayed active into 2026, with speedrun entries training a GPT-2-grade model in under two hours.",
+      "source_name": "GitHub",
+      "source_links": [
+        "https://github.com/karpathy/nanochat",
+        "https://github.com/karpathy/nanochat/discussions/1"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Ollama's llama.cpp engine keeps climbing toward ~118k stars",
+      "one_liner": "llama.cpp, the C/C++ project that powers much of local LLM inference (now under the ggml-org org), remains the reference engine for running models on modest hardware.",
+      "source_name": "GitHub",
+      "source_links": [
+        "https://github.com/ggml-org/llama.cpp"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Dify passes ~142k stars as an open-source platform for building LLM and agent apps",
+      "one_liner": "The visual LLM-app builder from LangGenius crossed 100k stars in 2026, though its license is Apache 2.0 with extra conditions rather than pure OSI open source.",
+      "source_name": "GitHub / Dify",
+      "source_links": [
+        "https://github.com/langgenius/dify",
+        "https://dify.ai/blog/100k-stars-on-github-thank-you-to-our-amazing-open-source-community"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Langflow ships v1.10.0 under IBM ownership, sitting at ~150k stars",
+      "one_liner": "The low-code visual builder for AI agents and RAG (MIT-licensed) released v1.10.0 on June 9, now owned by IBM via its DataStax acquisition.",
+      "source_name": "GitHub / DataStax / IBM",
+      "source_links": [
+        "https://github.com/langflow-ai/langflow",
+        "https://www.datastax.com/blog/datastax-acquires-langflow-to-accelerate-generative-ai-app-development",
+        "https://newsroom.ibm.com/2025-02-25-ibm-to-acquire-datastax"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "n8n reportedly valued at ~$5.2B with an SAP stake as AI-agent workflows surge",
+      "one_liner": "The popular 'fair-code' automation tool (source-available, not OSI open source) is now used mostly for AI agents; secondary reports cite a $5.2B valuation and SAP investment.",
+      "source_name": "GitHub / n8n blog",
+      "source_links": [
+        "https://github.com/n8n-io/n8n",
+        "https://blog.n8n.io/series-c/",
+        "https://docs.n8n.io/sustainable-use-license/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "RAGFlow adds a browser agent and WhatsApp/DingTalk/WeCom channels",
+      "one_liner": "The open-source RAG engine built on deep document understanding (~80k stars) shipped v0.25.4 and late-June integrations that let it navigate the web and chat apps.",
+      "source_name": "GitHub / InfiniFlow",
+      "source_links": [
+        "https://github.com/infiniflow/ragflow",
+        "https://github.com/infiniflow/ragflow/blob/main/docs/release_notes.md"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "vLLM releases v0.22.1 as a PyTorch Foundation-hosted inference engine",
+      "one_liner": "The high-throughput LLM serving engine born at UC Berkeley (PagedAttention, ~83k stars) shipped v0.22.1 on June 5 with broad multi-vendor hardware support.",
+      "source_name": "GitHub / PyTorch",
+      "source_links": [
+        "https://github.com/vllm-project/vllm",
+        "https://pytorch.org/blog/vllm-joins-pytorch/"
+      ],
+      "credibility": "high"
+    }
+  ]
+}

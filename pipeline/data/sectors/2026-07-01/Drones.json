@@ -1,0 +1,171 @@
+{
+  "sector": "Drones",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "anduril-general-atomics-cca-drone-wingman-production",
+      "headline": "Anduril and General Atomics Win Air Force Contracts to Build America's First AI Fighter-Drone Wingmen",
+      "one_liner": "The Air Force greenlit production of the FQ-44 (Anduril) and FQ-42 (General Atomics) — the first mass-produced autonomous AI jet wingmen.",
+      "source_name": "Breaking Defense / Defense One / Bloomberg",
+      "source_links": [
+        "https://breakingdefense.com/2026/06/air-force-cca-drone-wingman-anduril-general-atomics-selection/",
+        "https://www.defenseone.com/defense-systems/2026/06/anduril-general-atomics-get-air-force-contracts-build-first-drone-wingmen/414266/",
+        "https://www.bloomberg.com/news/videos/2026-06-18/anduril-secures-landmark-air-force-drone-contract",
+        "https://money.usnews.com/investing/news/articles/2026-06-17/us-air-force-awards-production-contracts-to-general-atomics-anduril-for-drone-wingmen"
+      ],
+      "credibility": "Very high — reported June 17-18, 2026 by Breaking Defense, Defense One, Bloomberg, and US News/Reuters, all citing the US Air Force's own program announcement.",
+      "image_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/cca-together-e1781731143274.jpg",
+      "image_credit": "Breaking Defense (Anduril / General Atomics imagery)",
+      "story": "On June 17-18, 2026, the US Air Force awarded production contracts to Anduril Industries and General Atomics to build its first fleet of semi-autonomous Collaborative Combat Aircraft (CCA), moving the program from prototype to full-scale manufacturing. General Atomics builds the FQ-42 and Anduril the FQ-44 — uncrewed jets designed to fly alongside crewed fighters as AI 'loyal wingmen' carrying weapons, sensors, and jammers. Anduril says the roughly two-year path from its April 2024 prototype award to a production contract is the fastest for any US fighter aircraft in more than 50 years, and makes it the first new entrant to win a US fighter program since the 1970s. The contract sets up the Air Force to buy additional production lots of FQ-44 aircraft over the coming years.",
+      "founding_story": "Anduril Industries was founded in 2017 (incorporated April 20, 2017) by Palmer Luckey — the Oculus VR founder who sold that company to Facebook for about $2 billion in 2014 — together with Trae Stephens, Matt Grimm, Joe Chen, and Brian Schimpf, and seeded by Founders Fund. Luckey and Stephens had bonded at a 2014 Founders Fund retreat over the idea of building defense products with a Silicon Valley startup model. The company is now privately valued at roughly $61 billion. Co-awardee General Atomics is a decades-old San Diego defense contractor best known for the Predator and Reaper drones.",
+      "who_should_use": "The US Air Force and allied militaries; defense-industry analysts, investors, and policy watchers tracking autonomous air combat and the shift toward attritable, AI-piloted aircraft.",
+      "who_should_buy": "Not a consumer product — you cannot buy a CCA. For investors: Anduril is still private (no public shares), so the only direct public-market exposure here is General Atomics' suppliers and defense primes; treat any 'Anduril stock' pitch as a scam. This is a WATCH-the-sector story, not a purchase.",
+      "free_alternatives": "None — this is a classified-adjacent military program with no civilian equivalent. Hobbyists interested in autonomous flight can experiment with open-source autopilots like ArduPilot or PX4 on legal sub-250g drones.",
+      "verdict": "WATCH — a genuine landmark in autonomous air combat, but there is nothing to buy; ignore anyone selling you 'Anduril shares.'"
+    },
+    {
+      "id": "dji-o4-ground-station-launch",
+      "headline": "DJI Launches O4 Ground Station to Push Enterprise Drones Up to 40 km Past Dead Zones",
+      "one_liner": "A rugged 12-antenna relay that extends DJI Dock 3 and Matrice 400 transmission to 30-40 km for 24/7 autonomous inspection and search-and-rescue.",
+      "source_name": "DroneDJ / DJI Newsroom",
+      "source_links": [
+        "https://dronedj.com/2026/06/16/dji-drone-o4-ground-station/",
+        "https://www.dji.com/media-center/announcements/dji-release-o4-ground-station",
+        "https://dronexl.co/2026/06/16/dji-o4-ground-station-dock-3/",
+        "https://enterprise.dji.com/o4-ground-station/specs"
+      ],
+      "credibility": "Very high — announced June 16, 2026 on DJI's official enterprise newsroom and covered same-day by DroneDJ and DroneXL.",
+      "image_url": "https://www-cdn.djiits.com/dps/de46652dd99c67d4f8d17607e3bf0dce.jpg",
+      "image_credit": "DJI (official newsroom image)",
+      "story": "On June 16, 2026, DJI released the O4 Ground Station, a wide-area transmission system for its enterprise drones built around a 12-antenna array with automatic band selection. It runs in two modes: Gateway Mode connects directly to FlightHub 2 and can extend DJI Dock 3 coverage up to 30 km, while Relay Mode paired with the DJI Matrice 400 supports transmission ranges up to 40 km, including offline reach into network dead zones. The unit carries an IP67 rating and operates from -40 C to 55 C, targeting 24/7 unattended inspection, surveying, and search-and-rescue in remote areas. Separately, DJI also rolled out the O4 Wide Air Unit, an O4 Air Unit Lite variant with a built-in wide-angle lens weighing 13.3g.",
+      "founding_story": "DJI (Da-Jiang Innovations) was founded on November 6, 2006 by Frank Wang (Wang Tao), then a student at the Hong Kong University of Science and Technology, along with a few classmates. Wang built early flight-controller prototypes in his HKUST dorm using scholarship money, encouraged by professor Li Zexiang, then moved the venture to Shenzhen. DJI first sold ~$6,000 flight-control components before its Phantom line made it the world's dominant consumer and commercial drone maker.",
+      "who_should_use": "Public-safety agencies, utility and infrastructure inspectors, surveyors, and any operator running DJI Dock 3 or Matrice 400 fleets that need range beyond a single radio link.",
+      "who_should_buy": "Enterprise and government fleet operators already invested in the DJI Dock 3 / Matrice 400 ecosystem — this is a genuine capability upgrade for them. Note the US caveat: DJI is on the FCC Covered List, so newly-introduced hardware faces import/authorization hurdles in the US even though existing DJI gear keeps working. Non-US buyers face no such barrier. Consumers and hobbyists do not need this.",
+      "free_alternatives": "Cheaper long-range relay options exist from the open-source/DIY world (ELRS-based ground stations, Doodle Labs mesh radios) and from rivals like Skydio (US-made docks) — though none plug natively into DJI's FlightHub 2. There is no 'free' equivalent; competing enterprise relays cost thousands.",
+      "verdict": "USE / BUY (for existing DJI fleets) — a real, well-specced range upgrade; US buyers should confirm import status first."
+    },
+    {
+      "id": "antigravity-a1-8k-360-drone-launch",
+      "headline": "Antigravity A1, the World's First 8K 360 Drone, Goes on Sale Worldwide",
+      "one_liner": "Insta360's new drone brand ships a sub-250g flyer with a built-in 8K 360 camera, FPV goggles, and 'look anywhere while flying anywhere' FreeMotion controls.",
+      "source_name": "Insta360 / Antigravity / TechRadar",
+      "source_links": [
+        "https://www.insta360.com/blog/news/antigravity-launches-a1-8k-360-drone.html",
+        "https://www.antigravity.tech/us/drone/antigravity-a1-global",
+        "https://www.techradar.com/cameras/drones/i-test-drones-for-a-living-heres-why-insta360s-antigravity-debut-is-the-most-exciting-one-for-years",
+        "https://www.thedronegirl.com/2026/01/07/antigravity-a1-chip-ambarella/amp/"
+      ],
+      "credibility": "High — the product is real, a CES 2026 Innovation Award honoree, covered by TechRadar and The Drone Girl, and sold directly via antigravity.tech and Insta360.",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/F4Nxj7ZvXtrs2DsKJWARaG-2560-80.jpg",
+      "image_credit": "TechRadar / Future (Antigravity A1)",
+      "story": "The Antigravity A1 is the first drone with built-in 8K 360-degree capture, launched by Antigravity, a new drone brand majority-owned and incubated by 360-camera leader Insta360. It is a 249g aircraft — under the sub-250g line that avoids FAA recreational registration in the US and similar rules elsewhere — using a dual-lens setup to film everything around it, processed in real time by Ambarella's CV5 AI chip. Paired with Vision FPV goggles and a Grip controller, its FreeMotion technology lets pilots fly in one direction while looking in another. DJI's chief rival in action cameras is now openly challenging DJI in drones; the two are also locked in patent litigation. The A1 opened for global orders around late 2025 into 2026.",
+      "founding_story": "Insta360 (Arashi Vision) was founded in 2015 by Liu Jingkang, known as JK Liu, and is headquartered in Shenzhen; it became the world leader in consumer 360-degree cameras. Rather than launch drones under its own name, Insta360 spun up Antigravity as a separate company in which it holds a majority stake, installing a US-based CEO in Los Angeles to pursue the American market. The A1 is Antigravity's debut product and its opening move against DJI's drone dominance.",
+      "who_should_use": "Immersive-video creators, FPV and VR enthusiasts, travel and action filmmakers who want reframe-in-post 360 footage without strapping a separate camera to a drone.",
+      "who_should_buy": "This one you can actually buy. Buy it if you specifically want immersive 8K 360 / VR-style aerial footage and the novel goggle-plus-grip flying experience — it is unique in the market. If you mainly want sharp, stable standard aerial photos/video, a conventional camera drone will still out-resolve a 360 sensor's flat-frame crop, so weigh that. Order via antigravity.tech or Insta360.",
+      "free_alternatives": "Cheaper conventional camera drones cover most needs: DJI's sub-250g Mini series (Mini 4K, Mini 3) and the DJI Neo, or Autel's Nano line, all cost less and give higher effective resolution for normal (non-360) shots. For 360 without a drone, mount an existing Insta360 X-series camera on a cheap sub-250g drone.",
+      "verdict": "BUY (for 360 creators) — genuinely first-of-its-kind and purchasable; overkill if you just want a normal camera drone."
+    },
+    {
+      "id": "ukraine-global-mark-sea-trident-st-1000-xluuv",
+      "headline": "Ukraine Unveils 'Sea Trident ST-1000,' a 10-Ton Underwater Attack Drone, at Eurosatory 2026",
+      "one_liner": "Global Mark's first extra-large underwater drone carries a 1,000 kg payload up to ~3,200 km and fits inside a standard shipping container.",
+      "source_name": "Naval News / Kyiv Post",
+      "source_links": [
+        "https://www.navalnews.com/naval-news/2026/06/video-ukraines-massive-new-underwater-drone-sea-trident-st-1000/",
+        "https://www.kyivpost.com/post/78230",
+        "https://militarnyi.com/en/news/ukraine-sea-trident-drone-strategic-targets/",
+        "https://united24media.com/war-in-ukraine/ukraine-unveils-sea-trident-heavy-underwater-drone-at-eurosatory-2026-19830"
+      ],
+      "credibility": "High — unveiled at Eurosatory 2026 (Paris) and reported late June 2026 by Naval News, Kyiv Post, Militarnyi, and UNITED24 Media, with specs shown at the exhibition.",
+      "image_url": "https://www.navalnews.com/wp-content/uploads/2026/06/Sea-Trident-ST-1000-scaled.png",
+      "image_credit": "Naval News (Sea Trident ST-1000, Eurosatory 2026)",
+      "story": "At Eurosatory 2026 in Paris, Ukraine's Global Mark unveiled the Sea Trident ST-1000, its first extra-large uncrewed underwater vehicle (XLUUV). Per specs shown at the show, it weighs about 10,000 kg, measures 10 m long, carries payloads up to 1,000 kg, and has a maximum range of roughly 3,218 km (2,000 miles) with a 60 m diving depth and cruising speed around 6 knots. The steel-hulled, oval craft is designed for strike missions against strategic targets, logistics and cargo delivery, and intercepting enemy underwater drones. Crucially, it is sized to fit inside a standard ISO shipping container for rapid road transport and covert deployment.",
+      "founding_story": "Global Mark is a Ukrainian military-technology company that develops, produces, and supplies unmanned systems for the Armed Forces of Ukraine and international partners. It made its name in aerial and fiber-optic FPV drones (the 'Photon' and 'Vortex' lines) and electronic-warfare systems such as the modular 'Nebokray' counter-UAS jammer, and is also an official DJI/Autel supplier in Ukraine. The Sea Trident (and a companion 'Triton' surface vessel shown at the same event) marks the company's expansion from the air into the maritime domain. Public sources do not list a precise founding year.",
+      "who_should_use": "Naval and defense planners, maritime-security analysts, and militaries studying low-cost XLUUVs and container-launched undersea strike concepts emerging from the war in Ukraine.",
+      "who_should_buy": "Not a consumer or commercial product — it is a military weapon system marketed to armed forces and government buyers, not for public sale. There is no retail purchase and no investment vehicle. Pure situational-awareness item.",
+      "free_alternatives": "None applicable — there is no civilian equivalent of a 10-ton attack submarine drone. Hobbyist/research underwater drones (e.g., BlueROV2, QYSEA FIFISH) exist for inspection and filming but are unrelated in purpose and scale.",
+      "verdict": "WATCH — a striking signal of where undersea warfare is heading, but nothing to buy or invest in."
+    },
+    {
+      "id": "visionwave-talon-dfly-eurosatory-2026",
+      "headline": "VisionWave Debuts Combat-Ready TALON and D-FLY Autonomous Drones at Eurosatory 2026",
+      "one_liner": "Nasdaq-listed VisionWave unveiled a jamming-resistant ISR drone (TALON) and an autonomous counter-drone interceptor (D-FLY) under its STRATUM autonomy stack.",
+      "source_name": "GlobeNewswire / Unmanned Airspace",
+      "source_links": [
+        "https://www.globenewswire.com/news-release/2026/06/23/3315904/0/en/visionwave-unveils-combat-ready-talon-and-d-fly-autonomous-drone-platforms-at-eurosatory-2026-expanding-stratum-battlefield-autonomy-ecosystem.html",
+        "https://www.unmannedairspace.info/counter-uas-systems-and-policies/visionwave-launched-d-fly-autonomous-intercept-drone-at-eurosatory-2026/",
+        "https://www.nasdaq.com/press-release/visionwave-rolls-out-combat-ready-drones-worlds-biggest-defense-show-and-counter",
+        "https://www.stocktitan.net/news/VWAV/vision-wave-unveils-combat-ready-talontm-and-d-flytm-autonomous-ld950qkt6q9g.html"
+      ],
+      "credibility": "Medium-high — a June 23, 2026 company press release (via GlobeNewswire/Nasdaq) plus independent trade coverage by Unmanned Airspace. Product claims are the company's own and shown at Eurosatory; treat performance specs as vendor-stated.",
+      "image_url": "https://ml.globenewswire.com/Resource/Download/21f2b020-891c-40e0-9881-82d4aef5e82e",
+      "image_credit": "VisionWave Holdings (via GlobeNewswire)",
+      "story": "On June 23, 2026, VisionWave Holdings (Nasdaq: VWAV) unveiled two combat-ready drones at Eurosatory 2026, expanding its STRATUM battlefield-autonomy ecosystem. TALON is a tactical autonomous aerial system for ISR, communications relay, distributed sensing, payload delivery, and persistent overwatch, built to keep operating in contested, GNSS-degraded (jamming-heavy) environments with a low-signature thermal profile and mesh networking. D-FLY is a rapid-response autonomous aerial interceptor aimed at detecting, tracking, and neutralizing hostile drones and low-altitude UAS as part of distributed counter-UAS operations. Both are developed through VisionWave UK Ltd. and manufactured in England with aerospace and defense partners.",
+      "founding_story": "VisionWave Holdings became a public company on July 15, 2025, when VisionWave Technologies merged with the SPAC Bannix Acquisition Corp. and began trading on the Nasdaq Global Market under 'VWAV.' VisionWave Technologies is a defense developer focused on AI, autonomy, RF-based sensing, radar, and vision systems across air, ground, and sea, headquartered in the US with partners in Canada and the UAE. TALON and D-FLY are its latest additions to the STRATUM autonomous-operations architecture.",
+      "who_should_use": "Militaries and homeland-security forces seeking counter-drone interceptors and jam-resistant ISR; defense-tech analysts and investors tracking small-cap autonomy plays.",
+      "who_should_buy": "Not a consumer product. Unlike the other defense stories, VisionWave is publicly traded (Nasdaq: VWAV), so there IS a stock — but it is a small, speculative defense-tech name whose product claims are company-stated and largely pre-revenue at this scale; do your own due diligence and treat it as high-risk. Nothing to buy for civilians or hobbyists.",
+      "free_alternatives": "None for the weapons themselves. Investors wanting drone/counter-UAS exposure can look at larger, established names (e.g., defense primes and Anduril's public peers) instead of a single micro-cap.",
+      "verdict": "WATCH — legitimately unveiled and interesting, but a speculative small-cap with vendor-stated specs; not a buy for consumers."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Ondas Launches LADOS Counter-Drone Command-and-Control Layer at Eurosatory 2026",
+      "one_liner": "Ondas (Nasdaq: ONDS) unveiled LADOS, a hardware-agnostic C2 'system of systems' linking any sensor, drone, and effector; first European deliveries hinted for Q3 2026.",
+      "source_name": "Ondas IR / UASweekly",
+      "source_links": [
+        "https://ir.ondas.com/press-releases/detail/311/ondas-launches-new-autonomous-defense-systems-of-systems-at",
+        "https://uasweekly.com/2026/06/22/ondas-unveils-lados-autonomous-command-and-control-platform-for-layered-drone-defense-operations/"
+      ],
+      "credibility": "High — company press release plus independent UASweekly coverage, June 22, 2026."
+    },
+    {
+      "headline": "Skydio CEO Adam Bry Argues Against 'Red Lines' on Drone Autonomy",
+      "one_liner": "On the June 15, 2026 Decoder podcast, Bry said Silicon Valley shouldn't restrict autonomous-drone development and that wider use will make communities safer.",
+      "source_name": "The Verge (Decoder)",
+      "source_links": [
+        "https://letsdatascience.com/news/skydio-ceo-argues-against-red-lines-for-drones-a41eeee3",
+        "https://www.skydio.com/"
+      ],
+      "credibility": "Medium-high — based on a dated, on-the-record Verge Decoder interview; secondary write-up cited pending direct Verge link."
+    },
+    {
+      "headline": "Skydio X10 Drone-First-Responder Program Used to Arrest Fleeing Suspect in Colorado",
+      "one_liner": "Arvada, CO police used a Skydio X10 DFR deployment on June 17, 2026 to track and arrest a shoplifting suspect who fled a Target on foot.",
+      "source_name": "DroneDJ / DroneXL",
+      "source_links": [
+        "https://dronexl.co/drone-companies/skydio/",
+        "https://dronedj.com/"
+      ],
+      "credibility": "Medium — real-world deployment reported via drone trade press; a good example of US-made DFR drones in daily policing."
+    },
+    {
+      "headline": "DJI Stays on FCC Covered List; Firmware/Security Updates Extended to 2029",
+      "one_liner": "New DJI models still can't get US import authorization, but the FCC extended security-update support to Jan 1, 2029 (DA-26-454) — existing drones keep flying.",
+      "source_name": "The New Camera / MFE-IS",
+      "source_links": [
+        "https://thenewcamera.com/dji-drone-ban-update-2026-latest-fcc-exemptions-what-it-means-for-dji-users/",
+        "https://mfe-is.com/dji-ban/"
+      ],
+      "credibility": "Medium — 2026 status roundups summarizing FCC actions; the underlying Covered List placement and NDAA deadline are well documented."
+    },
+    {
+      "headline": "Marine Corps to Award Sole-Source Counter-Drone Contract to Anduril",
+      "one_liner": "The USMC plans a sole-source deal for Anduril's Pulsar-Lite C-sUAS electronic-warfare packages to protect Amphibious Combat Vehicles.",
+      "source_name": "Inside Defense",
+      "source_links": [
+        "https://insidedefense.com/insider/marine-corps-award-sole-source-contract-andurils-counter-drone-tech"
+      ],
+      "credibility": "High — reported by Inside Defense (early June 2026) citing a government contracting announcement."
+    },
+    {
+      "headline": "DEA Eyes Skydio and Parrot Drones for Its Growing Arsenal",
+      "one_liner": "The Drug Enforcement Administration is looking to add Skydio R10 hardware/software bundles and Parrot drones, favoring US and allied (non-DJI) makers.",
+      "source_name": "FedScoop",
+      "source_links": [
+        "https://fedscoop.com/dea-looks-to-add-skydio-parrot-drones-to-its-arsenal/"
+      ],
+      "credibility": "High — FedScoop reporting based on federal procurement documents; reflects the broader US pivot away from Chinese drones."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "sector": "Semiconductors",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "south-korea-518b-chip-megaproject",
+      "headline": "South Korea bets $518B on chips — Samsung and SK Hynix to build four new fabs",
+      "one_liner": "President Lee unveiled an ~800 trillion won ($518B) national semiconductor project; Samsung and SK Hynix will each build two new fabs.",
+      "source_name": "CNBC / Reuters / Tom's Hardware",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/29/samsung-sk-hynix-reported-1point3-reported-trillion-spending-plans.html",
+        "https://www.pbs.org/newshour/world/south-korean-tech-giants-will-invest-518-billion-in-chip-plants-to-serve-soaring-ai-demand",
+        "https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "image_credit": "Photo: Office of the President of the Republic of Korea (via CNBC/Reuters coverage)",
+      "story": "On June 29, 2026, South Korean President Lee Jae Myung unveiled sweeping AI and semiconductor mega-projects, pledging investment worth more than an 800 trillion won (~$518 billion) national semiconductor ecosystem plan to cement the country's memory-chip leadership. Standing alongside Samsung chairman Lee Jae-yong and SK Hynix leadership, he said Korea must move faster than rivals to secure the technologies underpinning the AI era. Samsung and SK Hynix — which together make roughly two-thirds of the world's memory — will each build two new fabrication plants in the country's southwest, including proposed sites near Gwangju, plus dedicated HBM lines. Investors reacted with caution: Samsung shares fell about 4.8% and SK Hynix slipped on the day, on worries about the sheer scale of capex. The plan underscores how central HBM and memory have become to the global AI build-out.",
+      "founding_story": "Samsung Electronics was founded in 1969 in Suwon, South Korea, as an offshoot of the Samsung group started by Lee Byung-chul in 1938 (originally a trading company dealing in dried fish and groceries); it entered semiconductors in 1974 by acquiring a struggling chip firm and grew into the world's largest memory maker. SK Hynix traces to Hyundai Electronics, founded in 1983, which merged with LG Semicon in 1999 to form Hynix; it was acquired by SK Group in 2012. Both are now the twin pillars of Korea's chip industry and the primary suppliers of HBM for AI accelerators.",
+      "who_should_use": "Governments and industry analysts tracking global fab capacity; memory buyers (AI server OEMs, hyperscalers) planning multi-year HBM supply; equipment and materials vendors positioning for new fab tool orders.",
+      "who_should_buy": "This is national industrial policy, not a product — nobody 'buys' it. For investors, it's a long-horizon bullish signal for Korea's memory duopoly (Samsung, SK Hynix) and their equipment suppliers, but the near-term stock reaction was negative on capex-scale fears — so treat it as a multi-year thesis, not a quick trade. Enterprises should read it as reassurance that HBM/DRAM supply is being expanded aggressively.",
+      "free_alternatives": "Not applicable — it's a government-backed investment program. The closest 'free' takeaway for buyers is that expanded memory capacity should, over time, ease HBM scarcity and pricing pressure that today forces cloud GPU rental over on-prem builds.",
+      "verdict": "WATCH — a genuinely historic state-scale chip commitment, but for viewers it's a macro/investing story (memory duopoly + AI supply chain), not a purchase decision."
+    },
+    {
+      "id": "samsung-hbm4-1-billion-milestone",
+      "headline": "Samsung's HBM4 tops $1 billion in sales just four months after launch",
+      "one_liner": "Samsung's sixth-gen HBM4 — the first mass-produced in the world — crossed $1B in cumulative revenue ~130 days after its February debut.",
+      "source_name": "The Korea Herald / DigiTimes / TrendForce",
+      "source_links": [
+        "https://www.koreaherald.com/article/10784628",
+        "https://www.digitimes.com/news/a20260624VL220/samsung-hbm-chairman-revenue-hbm4.html",
+        "https://en.sedaily.com/finance/2026/06/23/samsung-hbm4-sales-top-1-billion-within-four-months-of"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "image_credit": "Image: Samsung Semiconductor (HBM4 product imagery via Korea Herald coverage)",
+      "story": "By late June 2026, Samsung Electronics said cumulative sales of its sixth-generation HBM4 memory had surpassed $1 billion (about 1.5 trillion won) — the first in the industry to hit that mark, reached roughly 130 days after Samsung became the world's first company to begin HBM4 mass production and shipments on February 12, 2026. Reports peg cumulative sales heading past $1.2 billion by end-June, with full-year HBM4 revenue potentially approaching $10 billion. Chairman Lee Jae-yong toured HBM production lines to review supply as the company races to lock in AI-memory leadership. Samsung's HBM4 clocked in around 11.7 Gbps versus the ~8 Gbps JEDEC baseline — a notable speed lead at launch. It's a striking comeback narrative for a company that had lagged SK Hynix in the prior HBM3E generation.",
+      "founding_story": "Samsung's semiconductor arm dates to 1974, when founder Lee Byung-chul's group bought a 50% stake in Korea Semiconductor against internal skepticism; Samsung shipped its first 64K DRAM in 1983 and overtook Japanese rivals to become the world's top memory maker by the early 1990s. High-bandwidth memory itself was co-developed by SK Hynix and AMD (standardized ~2013), but Samsung poured in to become a leading HBM supplier — and with HBM4 it reclaimed a first-to-market crown that matters enormously in the AI accelerator supply chain.",
+      "who_should_use": "AI accelerator makers (NVIDIA, AMD) and their board partners integrating HBM4 into Rubin/MI-class GPUs; hyperscalers forecasting memory availability; memory-market analysts.",
+      "who_should_buy": "HBM4 is not sold to consumers — it ships to a handful of GPU and ASIC makers. For enterprises, the signal is that a second qualified HBM4 source (alongside SK Hynix and Micron) reduces single-supplier risk for AI hardware. For investors, it's a concrete revenue data point validating Samsung's memory turnaround — bullish, but memory is famously cyclical, so size positions accordingly.",
+      "free_alternatives": "None — HBM4 is a leading-edge component, not a retail product. If you just need AI compute, renting HBM-equipped GPUs in the cloud (AWS, Azure, GCP, CoreWeave, Lambda) is the practical 'don't buy the hardware' path.",
+      "verdict": "USE/WATCH — a real, verifiable milestone and a strong comeback story; relevant to viewers mainly as proof the AI-memory boom (and Samsung's stock case) has hard revenue behind it."
+    },
+    {
+      "id": "tsmc-amkor-arizona-packaging",
+      "headline": "TSMC and Amkor sign a 10-year deal to finish the US chip supply chain in Arizona",
+      "one_liner": "TSMC will buy advanced packaging and test from Amkor in Arizona under a 10-year pact — closing the last gap so chips never leave the US.",
+      "source_name": "Amkor / TSMC newsroom / TrendForce",
+      "source_links": [
+        "https://ir.amkor.com/news-releases/news-release-details/tsmc-and-amkor-technology-announce-long-term-partnership",
+        "https://www.trendforce.com/news/2026/06/17/news-tsmc-amkor-forge-10-year-arizona-advanced-packaging-partnership-to-complete-the-u-s-chip-supply-chain/",
+        "https://finance.yahoo.com/technology/articles/tsmc-amkor-sign-10-advanced-192051574.html"
+      ],
+      "credibility": "high",
+      "image_url": "https://img.trendforce.com/blog/wp-content/uploads/2025/12/31135548/TSMC-20251231-624x416.jpg",
+      "image_credit": "Photo: TSMC (via TrendForce)",
+      "story": "On June 17, 2026, TSMC and Amkor Technology announced a 10-year agreement to expand advanced semiconductor packaging in Arizona, establishing a framework for TSMC to procure advanced packaging and testing services from Amkor. The deal targets the last missing piece of a domestic US supply chain: TSMC has built leading-edge fabs in Arizona, but many wafers still had to ship back to Asia for advanced packaging (CoWoS, 3D-IC). Amkor is building a large packaging campus in Peoria, Arizona — and has secured an additional 67 acres next to a 104-acre site — with production slated to begin around 2028; TSMC separately plans its own Arizona advanced-packaging facility by 2029. Together they let customers go from wafer to fully tested, packaged device without leaving the US — a supply-chain advantage that matters for defense, government and regulated AI buyers. Amkor CEO Kevin Engel framed it as delivering a fully US-based supply chain from wafer through test.",
+      "founding_story": "Amkor Technology was founded in 1968 by Korean-American entrepreneur James Kim (as Amkor Electronics), pioneering the outsourced semiconductor assembly and test (OSAT) model by bridging US chip designers with Korean assembly labor; it's now one of the world's largest OSAT providers, headquartered in Tempe, Arizona. TSMC was founded in 1987 in Hsinchu, Taiwan, by Morris Chang, who invented the 'pure-play foundry' model — building chips designed by others — and turned TSMC into the linchpin of the entire modern semiconductor industry.",
+      "who_should_use": "Fabless chip designers and AI-hardware firms wanting US-domestic manufacturing and packaging; defense, government and regulated buyers with supply-chain sovereignty requirements; supply-chain and policy analysts.",
+      "who_should_buy": "Not a consumer product. For enterprises and government programs that need 'made and packaged in the USA' silicon, this is a meaningful capability unlock (though capacity arrives 2028–2029). For investors, it's a modestly positive, low-drama structural story for Amkor (US packaging demand) and TSMC's Arizona ecosystem — a long-term thesis, not a catalyst trade.",
+      "free_alternatives": "N/A — this is industrial capacity, not a purchasable good. Buyers who don't need domestic packaging can continue using TSMC/Amkor's existing (cheaper, higher-volume) Asian packaging today.",
+      "verdict": "WATCH — a strategically important 'reshoring the last mile' deal; for viewers it's an industry/policy story, not something to buy."
+    },
+    {
+      "id": "nvidia-vera-rubin-full-production",
+      "headline": "NVIDIA's Vera Rubin ramps to full production — a TOP500 supercomputer in one rack",
+      "one_liner": "NVIDIA's Rubin platform (TSMC 3nm, CoWoS-L, first 8-layer HBM4) plus the new Vera CPU is in full production, with science supercomputers landing on it.",
+      "source_name": "NVIDIA Newsroom",
+      "source_links": [
+        "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-delivers-world-class-supercomputers-for-science",
+        "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+        "https://www.energy.gov/articles/doe-announces-new-supercomputer-powered-dell-and-nvidia-speed-scientific-discovery"
+      ],
+      "credibility": "high",
+      "image_url": "https://iprsoftwaremedia.com/219/files/202605/5997ef43d2b38e2687c10b6f62ed633a/6a1c7fc23d6332ecbb1d64a7_nvidia-vera-rubin-platform/nvidia-vera-rubin-platform_mid.jpg",
+      "image_credit": "Image: NVIDIA",
+      "story": "NVIDIA's Vera Rubin — the successor to Blackwell — is ramping into full production, with Taiwan's top server makers and 150+ supply-chain partners building Vera Rubin systems at scale; production shipments begin in fall 2026. The Rubin GPU is built on TSMC's N3 (3nm) process with CoWoS-L advanced packaging and pairs two reticle-sized dies (about 336 billion transistors) with 288GB of next-generation HBM4 memory; the platform is anchored by NVIDIA's first in-house Arm-based 'Vera' CPU and its Spectrum-X co-packaged-optics photonics for million-GPU AI factories. On June 22, 2026 at ISC High Performance in Hamburg, NVIDIA said Vera Rubin packs 'TOP500 supercomputing in a single rack' — 7 exaflops of AI plus 5 petaflops of native FP64 — and named flagship science deployments including the US Department of Energy's Doudna system (a Dell/NVIDIA machine at Lawrence Berkeley) and Germany's Blue Lion (2027). It's the defining piece of silicon for the 2026-2027 AI build-out.",
+      "founding_story": "NVIDIA was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem — famously sketched out over coffee at a Denny's in San Jose — to build graphics chips for PC gaming. Its 1999 GeForce 256 popularized the term 'GPU,' and the 2006 launch of CUDA (letting GPUs do general-purpose parallel computing) quietly transformed a game-graphics company into the backbone of modern AI. Huang has led it for its entire ~33-year history, one of the longest founder-CEO tenures in tech; the Rubin platform is named for astronomer Vera Rubin, who found evidence for dark matter.",
+      "who_should_use": "AI labs, hyperscalers, sovereign-AI and national-lab HPC buyers provisioning large training and inference clusters; enterprises building private 'AI factory' infrastructure.",
+      "who_should_buy": "This is data-center capital equipment sold by the rack (Vera Rubin NVL72), not a consumer GPU — realistically only hyperscalers, clouds, governments and well-funded AI companies buy it. For everyone else, the honest answer is: don't buy, rent. For investors, Rubin cements NVIDIA's AI-infrastructure dominance, but the stock is priced for near-perfection — a June sector selloff was a reminder that expectations are sky-high.",
+      "free_alternatives": "You don't buy Rubin — you rent it. Cloud GPU access (AWS, Microsoft Azure, Google Cloud, Oracle Cloud, plus CoreWeave and Lambda, all named Rubin adopters) lets you use the newest silicon by the hour with zero capex. For smaller workloads, prior-gen Blackwell/Hopper instances are far cheaper and widely available.",
+      "verdict": "USE (rent, don't buy) — genuinely the most important chip of the cycle, but for 99% of viewers it's a cloud-rental decision, not a purchase; investors should mind the lofty valuation."
+    },
+    {
+      "id": "amd-venice-2nm-production-ramp",
+      "headline": "AMD's 'Venice' EPYC is the industry's first HPC chip in production on TSMC 2nm",
+      "one_liner": "AMD's 6th-Gen EPYC 'Venice' (up to 256 cores) is ramping on TSMC's 2nm node — the first high-performance CPU in volume production at 2nm.",
+      "source_name": "AMD Newsroom",
+      "source_links": [
+        "https://www.amd.com/en/newsroom/press-releases/2026-5-20-amd-announces-production-ramp-of-next-generation-a.html",
+        "https://www.techspot.com/news/112492-amd-256-core-epyc-venice-enters-production-tsmc.html",
+        "https://www.storagereview.com/news/amd-epyc-venice-enters-2nm-production-at-tsmc-extends-cpu-roadmap-for-ai-infrastructure"
+      ],
+      "credibility": "high",
+      "image_url": "https://www.amd.com/content/dam/amd/en/images/pr/corporate-3.jpg",
+      "image_credit": "Image: AMD",
+      "story": "AMD confirmed its next-generation EPYC server processor, codenamed 'Venice,' is ramping production on TSMC's advanced 2nm process technology — the first high-performance computing (HPC) product in the industry to enter volume production on 2nm. Initial production is in Taiwan, with plans to also ramp at TSMC's Arizona fab, and CEO Lisa Su framed it as a key step for scaling next-generation AI infrastructure. Venice reportedly reaches up to 256 cores, delivers roughly a 70% performance uplift, and more than doubles per-socket memory bandwidth to ~1.6 TB/s, with 2x CPU-to-GPU bandwidth. It's the CPU half of AMD's 'Helios' rack-scale platform, which pairs Venice with the Instinct MI450X GPUs and is targeted at multi-gigawatt deployments starting in the second half of 2026. AMD says it will extend 2nm across its roadmap with a follow-on, 'Verano.' The announcement (May 20/21) continued to reverberate through June as the flagship non-NVIDIA AI-infrastructure story.",
+      "founding_story": "AMD (Advanced Micro Devices) was founded in 1969 in Sunnyvale, California, by Jerry Sanders and seven colleagues who left Fairchild Semiconductor; it began as a second-source maker of logic chips and Intel-compatible processors before becoming a design powerhouse. Nearly bankrupt in the mid-2010s, AMD was turned around by Dr. Lisa Su (CEO since 2014) with the 'Zen' CPU architecture and a chiplet strategy manufactured by TSMC — a bet that vaulted EPYC to the front of the data-center CPU market and made AMD a credible AI-infrastructure challenger to NVIDIA and Intel.",
+      "who_should_use": "Cloud providers, enterprise data centers and HPC operators refreshing server fleets; AI infrastructure teams pairing high-core-count CPUs with GPU accelerators; system builders (Dell, HPE, Lenovo, Supermicro).",
+      "who_should_buy": "Venice is a data-center CPU, not a desktop part — it's for hyperscalers, enterprises and HPC buyers purchasing servers, typically 6-18 months out as systems reach market. For investors, being first to 2nm HPC is a real competitive milestone for AMD versus Intel and a differentiator in the AI CPU market — bullish, though execution and yield at 2nm bear watching. Consumers wanting AMD should look at Ryzen desktop/laptop parts instead.",
+      "free_alternatives": "You don't buy server CPUs directly — you rent the capacity. EPYC-powered instances are available across AWS, Azure, Google Cloud and Oracle Cloud by the hour, so you can use current and next-gen EPYC without owning hardware. Existing 4th/5th-Gen EPYC (Genoa/Turin) instances remain far cheaper for most workloads.",
+      "verdict": "WATCH (rent, don't buy) — a genuine engineering milestone (first 2nm HPC chip) and the strongest NVIDIA alternative story; for viewers it's a cloud-rental / AMD-investing angle, not a consumer buy."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "NVIDIA and TSMC bring AI into the fab to speed up chip design and manufacturing",
+      "one_liner": "At GTC Taipei (June 1), NVIDIA said TSMC is using its CUDA-X, cuML and Omniverse tools for defect inspection, process control and a virtual 'FabTwin.'",
+      "source_name": "NVIDIA Newsroom / GlobeNewswire",
+      "source_links": [
+        "https://www.globenewswire.com/news-release/2026/06/01/3304000/0/en/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing.html",
+        "https://www.stocktitan.net/news/NVDA/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-5p78jpz7vqyh.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Intel's performance-enhanced 18A-P process enters risk production, on schedule",
+      "one_liner": "At the VLSI Symposium (June 16), Intel said 18A-P — a drop-in 18A upgrade promising ~9% more performance at iso-power — hit risk production.",
+      "source_name": "Intel Newsroom / Tom's Hardware",
+      "source_links": [
+        "https://newsroom.intel.com/intel-foundry/intel-foundry-details-process-milestones-future-innovation-at-vlsi-symposium",
+        "https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "SK Hynix and Micron cement memory as the runaway stars of the AI trade",
+      "one_liner": "Bloomberg (June 25): back-to-back updates and a planned SK Hynix US listing highlight how HBM demand is outpacing the rest of the chip sector.",
+      "source_name": "Bloomberg",
+      "source_links": [
+        "https://www.bloomberg.com/news/articles/2026-06-25/sk-hynix-micron-solidify-memory-chips-as-runaway-stars-of-ai"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "TSMC's CoWoS crunch eases: supply-demand gap seen narrowing from 20% to 10% by end-2026",
+      "one_liner": "TrendForce (June 15): as TSMC scales advanced-packaging capacity toward ~130k wafers/month, the AI packaging bottleneck is finally loosening.",
+      "source_name": "TrendForce",
+      "source_links": [
+        "https://www.trendforce.com/news/2026/06/15/news-tsmc-cowos-supply-demand-gap-reportedly-seen-narrowing-from-20-to-10-by-end-2026-as-capacity-expands/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "NVIDIA CEO Jensen Huang meets Samsung leadership in Seoul on HBM4/HBM5 cooperation",
+      "one_liner": "Around June 8, Huang met Samsung's chairman to discuss long-term supply of HBM4, HBM4E, HBM5 and low-power SOCAMM modules for NVIDIA's roadmap.",
+      "source_name": "DigiTimes / TrendForce",
+      "source_links": [
+        "https://www.digitimes.com/news/a20251127PD231/samsung-hbm4-nvidia-2026-shipments.html",
+        "https://www.trendforce.com/news/2026/01/26/news-samsung-reportedly-set-to-begin-official-hbm4-shipments-to-nvidia-and-amd-in-february/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Amkor expands US advanced-packaging footprint, buys more Arizona land to work with AMD",
+      "one_liner": "Reuters (May 21, ongoing in June): Amkor secured an extra 67 acres in Peoria, AZ, and is collaborating with AMD on advanced packaging.",
+      "source_name": "Reuters / Amkor",
+      "source_links": [
+        "https://www.reuters.com/world/asia-pacific/amkor-working-with-amd-advanced-packaging-after-acquiring-more-land-arizona-2026-05-21/",
+        "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-expands-us-advanced-packaging-footprint"
+      ],
+      "credibility": "high"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "sector": "Hardware",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "meta-glasses-299-in-house-ai-smart-glasses",
+      "headline": "Meta drops the Ray-Ban logo: new in-house 'Meta Glasses' start at $299 and ship now",
+      "one_liner": "Meta's first self-designed AI smart glasses undercut Ray-Ban Meta at $299, run the new Muse Spark model, and are on sale today.",
+      "source_name": "CNBC / Meta / Tom's Guide / Engadget",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html",
+        "https://www.meta.com/blog/introducing-meta-glasses-a-range-of-new-styles-from-meta-and-essilorluxottica-starting-at-299/",
+        "https://www.tomsguide.com/computing/smart-glasses/i-went-hands-on-with-all-of-metas-new-usd299-smart-glasses-to-see-if-theyre-actually-better-without-the-logos",
+        "https://www.engadget.com/2199519/meta-ai-glasses-hands-on-kylie-jenner-edition/"
+      ],
+      "credibility": "High - launch reported by CNBC and confirmed on Meta's own newsroom, with hands-on coverage from Tom's Guide and Engadget.",
+      "image_url": null,
+      "image_credit": "Meta",
+      "story": "On June 23, 2026, Meta unveiled 'Meta Glasses,' its first line of AI smart glasses designed in-house with EssilorLuxottica, dropping the Ray-Ban co-branding used on prior models. The lineup includes the Adventurer and Fury frames at $299, plus a $399 'Starfire' collaboration with Kylie Jenner that can use an AI voice meant to sound like her. They keep the same core hardware as second-gen Ray-Ban Meta glasses - a 12MP camera with 3K video, roughly 8 hours of battery, and about 40 hours total with the folding charging case - but add Meta's new Muse Spark model for faster on-device photo understanding. There is no in-lens display; these are camera-plus-audio-plus-assistant glasses, and they are available now at meta.com, Best Buy, Amazon, LensCrafters and Sunglass Hut.",
+      "founding_story": "Meta (originally Facebook) was founded by Mark Zuckerberg with co-founders in 2004; it renamed to Meta in 2021 to signal a hardware and metaverse pivot. Its smart-glasses effort began with the 2021 Ray-Ban Stories built with eyewear giant EssilorLuxottica, evolving into the popular Ray-Ban Meta line before this 2026 shift to Meta's own branding.",
+      "who_should_use": "People who want hands-free photos/video, music, calls, live translation and a voice assistant in a normal-looking pair of glasses, without staring at a phone.",
+      "who_should_buy": "Buy the $299 Adventurer or Fury if you already wanted Ray-Ban Meta glasses - you get essentially the same capabilities for about $80 less. Skip the $399 Kylie edition unless the styling or celebrity voice is the whole point; you are paying extra for branding, not better hardware.",
+      "free_alternatives": "Your existing phone camera plus a Bluetooth headset covers most of the same audio, calls and translation for free. Cheaper camera-free options like basic audio smart glasses (e.g. Amazon Echo Frames-style) cost less if you do not need the camera.",
+      "verdict": "BUY - the best-value entry into Meta's mature smart-glasses ecosystem, as long as you do not need an in-lens display."
+    },
+    {
+      "id": "valve-steam-machine-1049-preorders-ships-june-30",
+      "headline": "Valve's new Steam Machine is real: $1,049, ships June 30 - but pre-orders were a lottery that closed June 25",
+      "one_liner": "Valve's redesigned SteamOS living-room PC starts at $1,049 and began shipping June 30, sold via a randomized reservation queue.",
+      "source_name": "GameSpot / Steam / The Gadgeteer",
+      "source_links": [
+        "https://www.gamespot.com/articles/steam-machine-price-and-release-date-officially-confirmed-by-valve/",
+        "https://steamcommunity.com/groups/steam_hardware/announcements/detail/685257114654870246",
+        "https://the-gadgeteer.com/2026/06/27/steam-machine-2026-price-specs/"
+      ],
+      "credibility": "High - price and date confirmed by Valve's own Steam Hardware announcement and covered by GameSpot and other outlets.",
+      "image_url": null,
+      "image_credit": "Valve",
+      "story": "Valve confirmed pricing for its long-teased redesigned Steam Machine, a compact SteamOS gaming PC for the living room, with the 512GB model starting at $1,049 and units first shipping June 30, 2026. Four configurations run $1,049 / $1,128 / $1,349 / $1,428 depending on storage (512GB or 2TB) and whether a Steam Controller is bundled. Rather than first-come-first-served, Valve ran a randomized reservation lottery with registration closing June 25 and invitations to buy going out starting around June 29. Valve reportedly targeted a launch price near $750, but a sharp rise in RAM and storage costs between the November 2025 reveal and launch pushed the final price higher. Valve says it aims to clear the reservation queue by the end of 2026, so late entrants could wait into 2027.",
+      "founding_story": "Valve Corporation was founded in 1996 in Kirkland, Washington by former Microsoft employees Gabe Newell and Mike Harrington. It broke out with Half-Life (1998), launched the Steam store in 2003, and moved into hardware with the original Steam Machines (2015), the Valve Index (2019) and the hit Steam Deck (2022) - the platform this new Steam Machine builds on.",
+      "who_should_use": "PC gamers who want a plug-and-play Steam box under the TV without building or maintaining a full Windows gaming rig.",
+      "who_should_buy": "Buy at $1,049 only if you specifically want a couch-first SteamOS machine and got a reservation invite. If you missed the June 25 lottery you literally cannot buy one yet, and for the same money a self-built or prebuilt Windows PC often delivers more raw performance - so most people should WATCH the queue and reviews first.",
+      "free_alternatives": "A gaming PC you already own can stream to the TV via Steam Link or a cheap streaming stick for free; a Steam Deck you already have docks to a TV for far less than $1,049.",
+      "verdict": "WATCH - a genuinely appealing SteamOS console, but the lottery-only sales and RAM-driven $1,049 price mean you should wait for reviews and open stock before committing."
+    },
+    {
+      "id": "samsung-galaxy-xr-uk-launch-preorders-1699",
+      "headline": "Samsung's Galaxy XR headset lands in the UK: pre-orders open at GBP 1,699, ships July 8",
+      "one_liner": "Samsung's Android XR headset (US$1,799) opens UK pre-orders at GBP 1,699 on June 17, shipping July 8 - a cheaper Vision Pro rival.",
+      "source_name": "TechRadar / Samsung / Tom's Guide",
+      "source_links": [
+        "https://www.techradar.com/computing/virtual-reality-augmented-reality/the-wait-is-over-samsungs-galaxy-xr-headset-has-finally-landed-in-the-uk-and-i-couldnt-be-more-excited",
+        "https://www.samsung.com/us/xr/galaxy-xr/galaxy-xr/",
+        "https://www.tomsguide.com/computing/vr-ar/samsung-galaxy-xr-launches-for-usd1-700-less-than-apple-vision-pro-release-date-price-specs-and-more"
+      ],
+      "credibility": "High - UK pricing and ship date reported by TechRadar and other outlets; product and US pricing confirmed on Samsung's own site.",
+      "image_url": null,
+      "image_credit": "Samsung",
+      "story": "Samsung's Galaxy XR - its first mixed-reality headset, co-developed with Google and Qualcomm on the Android XR platform - opened UK pre-orders at GBP 1,699 on June 17, 2026, with shipments starting July 8. The headset launched in the US back in October 2025 at $1,799, roughly $1,700 less than Apple's Vision Pro, and pairs micro-OLED displays with hand and eye tracking and a Gemini-powered assistant. Reviews have praised its sharp displays and comfortable design while noting Android XR's app library is still growing. The UK release extends availability of what remains the most affordable premium spatial-computing headset from a major brand.",
+      "founding_story": "Samsung Electronics was founded in 1969 in Suwon, South Korea, growing from the broader Samsung group started by Lee Byung-chul in 1938. It has a long VR history via the phone-powered Gear VR (2015, built with Oculus); Galaxy XR is its first standalone headset and its flagship entry into Google's Android XR ecosystem.",
+      "who_should_use": "Early adopters and developers who want a high-end mixed-reality headset for immersive video, productivity and spatial apps tied into Google/Gemini services.",
+      "who_should_buy": "Buy the ~$1,799 / GBP 1,699 Galaxy XR if you want Vision-Pro-class displays at roughly half the price and you are invested in Android/Google services. For everyone else it is still a pricey, early-ecosystem device - most people should WATCH until the Android XR app catalog fills out.",
+      "free_alternatives": "A Meta Quest 3 or 3S delivers most mainstream VR/MR at a fraction of the price; existing phones in a cheap VR shell cover casual 360 video.",
+      "verdict": "WATCH - impressive hardware and far cheaper than Vision Pro, but a young app ecosystem means only committed early adopters should buy now."
+    },
+    {
+      "id": "nvidia-rtx-spark-windows-ai-pcs",
+      "headline": "Nvidia RTX Spark: a wave of AI-first Windows laptops and mini PCs is locked in for fall 2026",
+      "one_liner": "Nvidia's RTX Spark superchip (Arm CPU + Blackwell GPU, up to 128GB) will power Windows 'agentic AI' PCs from Dell, HP, Lenovo, ASUS and Surface this fall.",
+      "source_name": "Nvidia Newsroom / Tom's Hardware / PCWorld",
+      "source_links": [
+        "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+        "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+        "https://www.pcworld.com/article/3154922/rtx-spark-all-the-laptops-and-mini-pcs-announced-so-far.html"
+      ],
+      "credibility": "High - announced jointly by Nvidia and Microsoft on Nvidia's newsroom, with detailed coverage from Tom's Hardware and PCWorld.",
+      "image_url": null,
+      "image_credit": "Nvidia",
+      "story": "At GTC Taipei / Computex 2026, Nvidia and Microsoft detailed RTX Spark, a superchip built to make Windows PCs run local AI agents, and through June 2026 the roster of shipping devices firmed up. The flagship configuration offers up to 20 Arm CPU cores, a Blackwell GPU with 6,144 CUDA cores, up to 128GB of unified LPDDR5X memory and around 1 petaflop of AI performance, enough to run 120B-parameter models locally. Nvidia says RTX Spark laptops and compact desktops will arrive this fall from ASUS, Dell, HP, Lenovo, Microsoft Surface and MSI, with Acer and Gigabyte to follow. Microsoft has separately teased a Surface Laptop Ultra using related silicon. Nothing is on shelves yet - these are fall 2026 products - so the June news is about which machines are coming, not something you can buy today.",
+      "founding_story": "Nvidia was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem, and effectively created the consumer GPU category with the GeForce line in 1999. It pivoted its GPU architecture toward AI acceleration over the 2010s, and RTX Spark extends that push directly into the personal-computer CPU/GPU platform in partnership with Microsoft.",
+      "who_should_use": "Creators, developers and power users who want to run large AI models, edit high-res video, or use on-device AI agents locally on a Windows laptop or mini PC.",
+      "who_should_buy": "Do not buy anything yet - no RTX Spark PC is for sale, and pricing is unconfirmed. If you are eyeing a high-end AI laptop this year, WATCH for the fall launches and independent battery/performance reviews before deciding; if you need a machine now, a current RTX or Copilot+ laptop already does plenty.",
+      "free_alternatives": "Cloud AI services (ChatGPT, Gemini, Claude) run large models with no new hardware; a current mid-range laptop plus a free local runner like Ollama handles smaller on-device models today.",
+      "verdict": "WATCH - a promising leap for on-device AI PCs, but with fall availability and no confirmed prices, there is nothing to buy in July 2026."
+    },
+    {
+      "id": "samsung-galaxy-unpacked-july-22-fold-8-flip-8",
+      "headline": "Samsung sets Galaxy Unpacked for July 22: Z Fold 8, Z Fold 8 Ultra, Z Flip 8 and Galaxy Glasses incoming",
+      "one_liner": "Samsung's next Unpacked is heavily signaled for July 22 in London, with pre-orders expected to open the same day for its 2026 foldables.",
+      "source_name": "Tom's Guide / PhoneArena / SamMobile",
+      "source_links": [
+        "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-unpacked-2026-preview-galaxy-z-fold-8-z-flip-8-intelligent-eyewear-and-more",
+        "https://www.phonearena.com/news/samsung-all-but-confirmed-the-next-galaxy-unpacked-event-date_id181551",
+        "https://www.sammobile.com/news/galaxy-z-flip-8-fold-8-launch-date-accidentally-revealed/"
+      ],
+      "credibility": "Medium-High - date all-but-confirmed via Samsung's own promotional systems and multiple outlets, but as of July 1 Samsung has not issued a formal invite, and specs/prices remain leaks.",
+      "image_url": null,
+      "image_credit": "Samsung",
+      "story": "As of July 1, 2026, Samsung's next Galaxy Unpacked is strongly signaled for July 22 in London, surfaced through Samsung Members promo vouchers and multiple independent reports rather than a formal invitation. The event is expected to introduce a restructured foldable lineup - a wider standard Galaxy Z Fold 8, a Galaxy Z Fold 8 Ultra, and the Galaxy Z Flip 8 - plus a Galaxy Watch and the commercial debut of Samsung's Galaxy Glasses. Leaked pricing (not official) suggests the Fold 8 Ultra could start around $1,999 and the Flip 8 around $1,099. Promotional timing hints pre-orders will open July 22 with in-store sales around August 11. Everything about specs and price should be treated as rumor until Samsung's keynote.",
+      "founding_story": "Samsung Electronics was founded in 1969 in South Korea (part of the Samsung group founded by Lee Byung-chul in 1938). It pioneered modern foldable phones with the original Galaxy Fold in 2019, and the Z Fold/Z Flip series has since become the best-selling book-style and clamshell foldable line, which this 2026 event aims to expand.",
+      "who_should_use": "Anyone shopping for a premium foldable phone in 2026, or Samsung fans deciding whether to buy now or wait for the newest models.",
+      "who_should_buy": "Do not buy a 2025 Samsung foldable at full price right now - with Unpacked days away on July 22, wait. If you want the newest Fold/Flip, hold for the keynote and launch-day pre-order deals; bargain hunters should watch for discounts on the outgoing Z Fold 7 / Z Flip 7 right after the event.",
+      "free_alternatives": "Keeping your current phone until the July 22 reveal costs nothing; a standard slab flagship (Galaxy S-series or similar) covers the same needs for far less than a foldable.",
+      "verdict": "WATCH - the launch is essentially here, so hold off on any Samsung foldable purchase until the July 22 Unpacked pricing is official."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "OnePlus 15R ships globally at $699 - first phone with Snapdragon 8 Gen 5, but the camera got cut back",
+      "one_liner": "OnePlus's mid-range 15R (7,400 mAh battery, 165Hz gaming display) beat its own flagship to Snapdragon 8 Gen 5, though reviewers flag the dropped telephoto and price hike.",
+      "source_name": "Android Police / Android Central",
+      "source_links": [
+        "https://www.androidpolice.com/oneplus-15r-hands-on/",
+        "https://www.androidcentral.com/phones/oneplus/oneplus-15r-review"
+      ],
+      "credibility": "High - hands-on and full review from Android Police and Android Central."
+    },
+    {
+      "headline": "DJI Osmo Pocket 4 Pro rolls out internationally (June 29) with a 1-inch sensor and 3x zoom - but not officially in the US",
+      "one_liner": "DJI's first 'Pro' pocket vlogging camera adds a 1-inch sensor, telephoto zoom and D-Log2, landing in Asia/Europe around $650-$730 with no US FCC certification.",
+      "source_name": "Notebookcheck / RedShark News",
+      "source_links": [
+        "https://www.notebookcheck.net/A-Vast-World-Overflowing-Stories-DJI-confirms-Osmo-Pocket-4-Pro-international-release-date.1327321.0.html",
+        "https://www.redsharknews.com/dji-osmo-pocket-4p-specs-price-pre-order"
+      ],
+      "credibility": "Medium-High - reported by Notebookcheck and RedShark; exact global pricing varies by region and remains partly estimated."
+    },
+    {
+      "headline": "Nothing confirms Ear (3a) budget earbuds for July 7, alongside the Phone (4b)",
+      "one_liner": "Nothing officially set a July 7 launch for its ~$99 Ear (3a) earbuds and Phone (4b), with pre-registration open now.",
+      "source_name": "T3 / AndroidGuys",
+      "source_links": [
+        "https://www.t3.com/tech/earbuds/nothing-ear-3a-official-will-launch-on-tuesday-7-july-and-you-can-pre-register-for-the-budget-friendly-earbuds-now",
+        "https://androidguys.com/news/nothing-officially-confirms-ear-3a-will-launch-july-7/"
+      ],
+      "credibility": "High - launch date officially confirmed by Nothing and reported by T3 and AndroidGuys."
+    },
+    {
+      "headline": "Meta also teases its own $299-and-up own-brand styles beyond Ray-Ban, as smart-glasses shipments jump 167%",
+      "one_liner": "IDC-style figures cited at launch show smart-glasses shipments up 167% year over year in Q1 2026, with Meta holding roughly 69% of the market.",
+      "source_name": "CNN Business / TechTimes",
+      "source_links": [
+        "https://www.cnn.com/2026/06/23/tech/meta-glasses-price",
+        "https://www.techtimes.com/articles/318942/20260623/meta-ai-smart-glasses-299-debut-today-ray-ban-premium-gone-same-core-hardware.htm"
+      ],
+      "credibility": "Medium-High - market-share and growth stats reported by CNN Business and TechTimes around Meta's June 23 launch."
+    },
+    {
+      "headline": "Microsoft teases Surface Laptop Ultra - its 'most powerful Surface ever' - with Nvidia RTX Spark silicon",
+      "one_liner": "Microsoft's upcoming Surface Laptop Ultra pairs a 15-inch mini-LED display and up to 128GB RAM with Nvidia's RTX Spark chip, due this fall at a premium price.",
+      "source_name": "Gizmodo / Windows Experience Blog",
+      "source_links": [
+        "https://gizmodo.com/best-gadgets-june-2026-2000778942",
+        "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/"
+      ],
+      "credibility": "Medium-High - RTX Spark partnership confirmed on Microsoft's Windows blog; final Surface Laptop Ultra specs and price not yet official."
+    },
+    {
+      "headline": "Garmin's screen-free CIRQA smart band emerges as a subscription-free Whoop rival for 2026",
+      "one_liner": "Garmin's rumored CIRQA 24/7 band (ECG, HRV, ~10-14 day battery) targets Whoop without a monthly fee, expected around mid-2026.",
+      "source_name": "Tom's Guide / Notebookcheck",
+      "source_links": [
+        "https://www.tomsguide.com/wellness/fitness-trackers/garmins-rumored-screen-less-wearable-just-might-be-the-subscription-free-whoop-rival-ive-been-waiting-for",
+        "https://www.notebookcheck.net/Three-new-Garmin-wearables-could-launch-in-2026.1272460.0.html"
+      ],
+      "credibility": "Medium - based on consistent leaks and reporting from Tom's Guide and Notebookcheck; not yet officially announced by Garmin."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "NO BS — Should You Buy This?",
+    "slug": "no-bs-daily",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0d11",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0d11"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nobs.daily"
+    },
+    "android": {
+      "package": "com.nobs.daily",
+      "adaptiveIcon": { "backgroundColor": "#0a0d11" }
+    },
+    "plugins": ["expo-notifications"],
+    "extra": {
+      "apiBase": "https://YOUR-WEB-APP.vercel.app"
+    }
+  }
+}

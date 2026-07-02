@@ -1,0 +1,164 @@
+{
+  "sector": "AI",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "openai-gpt-5-6-sol-terra-luna",
+      "headline": "OpenAI previews GPT-5.6 Sol, Terra and Luna, but limits access to 'trusted partners' at US government's request",
+      "one_liner": "OpenAI's strongest model family yet launches as a locked-down preview to ~20 orgs after Washington asked it to hold back over cyber risk.",
+      "source_name": "OpenAI / CNBC / VentureBeat",
+      "source_links": [
+        "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html",
+        "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov"
+      ],
+      "credibility": "high",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI",
+      "story": "On June 26, 2026, OpenAI began a limited preview of GPT-5.6, a three-tier family: Sol (flagship), Terra (balanced, priced 2x cheaper than GPT-5.5) and Luna (fast and low-cost). OpenAI says Sol sets a new state of the art on coding (Terminal-Bench 2.1) and shows big gains in biology and cybersecurity, paired with its most robust safety stack to date and new 'max' reasoning and 'ultra' sub-agent modes. At the US government's request, the models launched only to a small group of trusted partners via the API and Codex, following a June 2, 2026 executive order on benchmarking AI capabilities. OpenAI said it disagrees with government access processes becoming a long-term default and plans broader availability 'in the coming weeks.' Preview pricing (per 1M tokens): Sol $5 in / $30 out, Terra $2.50 / $15, Luna $1 / $6.",
+      "founding_story": "OpenAI was founded in December 2015 as a nonprofit AI research lab by Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman and others, with roughly $1B in pledged funding and a stated mission to ensure artificial general intelligence benefits humanity. Musk left the board in 2018; the company created a capped-profit arm in 2019 and took major investment from Microsoft. It reached mass adoption with the launch of ChatGPT in November 2022.",
+      "who_should_use": "Frontier developers, cyber-defenders and enterprise AI teams who need the strongest coding and long-horizon reasoning, and can get into the partner preview or wait for general availability.",
+      "who_should_buy": "Businesses already standardized on OpenAI's API/Codex who want the cheaper Terra and Luna tiers for everyday and high-volume workloads once broadly available.",
+      "free_alternatives": "Google Gemini 3.5 Flash (free in the Gemini app and Search AI Mode), Anthropic Claude free tier, Meta's open-weight Muse/Llama-family models, and DeepSeek's free models.",
+      "verdict": "WATCH - The specs look best-in-class, but it's a gated preview you probably can't buy yet; wait for the promised general release and real-world benchmarks before switching."
+    },
+    {
+      "id": "anthropic-fable-5-export-controls-lifted",
+      "headline": "US lifts export controls on Anthropic's Claude Fable 5 and Mythos 5; Fable 5 returns globally July 1",
+      "one_liner": "After a June jailbreak scare froze access for everyone, Washington cleared Anthropic's top models and Fable 5 comes back worldwide.",
+      "source_name": "Euronews / CoinDesk / CIO",
+      "source_links": [
+        "https://www.euronews.com/2026/07/01/us-lifts-export-controls-on-powerful-ai-models-anthropic-says",
+        "https://www.coindesk.com/tech/2026/07/01/anthropic-restores-ai-models-fable-mythos-after-the-u-s-lifts-export-controls",
+        "https://www.cio.com/article/4191550/us-reverses-export-restrictions-on-anthropics-fable-5-mythos-5-ai-models/"
+      ],
+      "credibility": "high",
+      "image_url": "https://cdn.sanity.io/images/s3y3vcno/production/d131b13d968da3a728396e698cdb5ddc75273bdf-3999x2666.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+      "image_credit": "Markus Winkler / Unsplash via CoinDesk",
+      "story": "The US government removed export controls on Anthropic's two most advanced models, Claude Fable 5 and Claude Mythos 5, on June 30, 2026, and Anthropic said Fable 5 would return globally on July 1 across the Claude Platform, Claude.ai, Claude Code and Claude Cowork. The restrictions dated to June 12, when the government applied export controls after Amazon researchers reported a jailbreak that got Fable 5 to identify software vulnerabilities and, in one case, produce exploit code; because it couldn't verify users' nationality in real time, Anthropic had suspended access for everyone. Before restoring access, Anthropic trained a new safety classifier it says blocks the reported bypass in more than 99% of cases. Mythos 5, a less-restricted variant, is being restored only to approved US organizations. Pro, Max, Team and select Enterprise users get Fable 5 at 50% of usual limits until July 7, after which it moves to usage-based credits.",
+      "founding_story": "Anthropic was founded in 2021 by siblings Dario and Daniela Amodei along with several former OpenAI researchers, who left over differences on AI safety direction. Structured as a public-benefit corporation focused on 'safe and steerable' AI, it launched the Claude family of models and has raised tens of billions from backers including Google and Amazon, becoming OpenAI's closest frontier-model rival.",
+      "who_should_use": "Developers and enterprises that want frontier reasoning, long-context work and agentic coding via Claude Code and Cowork, especially those outside the US who just regained access.",
+      "who_should_buy": "Pro, Max, Team and Enterprise customers who rely on Claude for coding and knowledge work, though note pricing shifts to usage-based credits after July 7.",
+      "free_alternatives": "Google Gemini 3.5 Flash (free), OpenAI's free ChatGPT tier, Meta's open-weight models, and DeepSeek, all of which offer no-cost access to capable general models.",
+      "verdict": "USE - If you were locked out, Fable 5 is worth returning to for coding and long-context tasks, but watch the July 7 shift to usage-based credits before committing heavy spend."
+    },
+    {
+      "id": "google-search-agents-gemini-spark-mac",
+      "headline": "Google puts agents in Search and brings Gemini Spark to Mac, with agentic booking and 24/7 information agents",
+      "one_liner": "Gemini 3.5 Flash becomes Search's default, agentic booking expands, and Google's Spark assistant lands on macOS on July 1.",
+      "source_name": "Google Blog / TechCrunch",
+      "source_links": [
+        "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+        "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
+      ],
+      "credibility": "high",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-01-at-10.00.27-AM.jpg?resize=1200,611",
+      "image_credit": "Google via TechCrunch",
+      "story": "Google is pushing agents into its core products. In Search, Gemini 3.5 Flash became the default model in AI Mode globally, and Google expanded agentic booking to more tasks such as local experiences and services, including asking Google to call businesses for categories like home repair, beauty and pet care, rolling out to everyone in the US over the summer. Google also introduced 'information agents' in Search that run 24/7 in the background. On July 1, 2026, TechCrunch reported that Gemini Spark, Google's 24/7 agentic assistant, arrived on Mac (beta, Google AI Ultra subscribers in the US), adding real-time topic tracking, custom MCP support, and integrations with apps like Google Tasks, Keep, Canva, Dropbox, Instacart, OpenTable and Zillow Rentals so it can reserve tables, order groceries and book tours. Gemini 3.5 Flash itself debuted at Google I/O on May 19, with 3.5 Pro rolling out afterward.",
+      "founding_story": "Google was founded in 1998 by Larry Page and Sergey Brin out of a Stanford research project on web search. Its AI work is led by Google DeepMind, formed in 2023 by merging DeepMind (founded 2010, acquired by Google in 2014) with Google Brain; the Gemini model family is the successor to Google's earlier Bard and PaLM efforts and now underpins Search, the Gemini app and Workspace.",
+      "who_should_use": "Everyday users who want an assistant that can research and book things for them, and Mac users looking for a desktop agent to organize files and automate tasks.",
+      "who_should_buy": "Google AI Ultra subscribers (needed for Spark on Mac) and businesses that want to reach customers through Search's new agentic booking flows.",
+      "free_alternatives": "Gemini 3.5 Flash in Search and the Gemini app is free; competitors include the free ChatGPT tier, Perplexity's free plan, and Microsoft Copilot's free consumer tier for search-and-act workflows.",
+      "verdict": "USE - The free Search agents and Gemini app are worth trying today; only pay for AI Ultra/Spark on Mac if a desktop agent that touches your files is genuinely useful to you."
+    },
+    {
+      "id": "microsoft-agent-mode-default-m365-copilot",
+      "headline": "Microsoft makes Agent Mode the default in Microsoft 365 Copilot at Build 2026",
+      "one_liner": "Nadella declares 'the era of AI that does things,' as Copilot shifts from suggesting to autonomously acting inside Word, Excel and PowerPoint.",
+      "source_name": "Microsoft / Neowin",
+      "source_links": [
+        "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+        "https://www.neowin.net/news/here-are-all-the-new-features-added-to-microsoft-365-copilot-in-june-2026/",
+        "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "image_credit": "Microsoft",
+      "story": "At Build 2026, which opened June 2 in San Francisco, Microsoft said Agent Mode is now the default experience in Microsoft 365 Copilot across Word, Excel and PowerPoint, with CEO Satya Nadella declaring, 'The era of AI that suggests things is over. We are in the era of AI that does things.' In Agent Mode, Copilot takes multi-step actions inside a document, spreadsheet or presentation once given a goal, rather than waiting for line-by-line prompts. The multi-agent architecture was scheduled to roll out to Microsoft 365 Copilot subscribers in late June. Microsoft also unveiled Scout, its first 'Autopilot' agent, brought Copilot Cowork to general availability, and added the option to pick Anthropic's Claude as a model inside Copilot Chat. In early June, KPMG and Microsoft said they were scaling enterprise agents globally via Agent 365 and Copilot.",
+      "founding_story": "Microsoft was founded in 1975 by Bill Gates and Paul Allen to sell a BASIC interpreter for early personal computers, growing into the dominant Windows and Office software company. Its modern AI push began with a multibillion-dollar partnership with and investment in OpenAI starting in 2019, which it productized as Copilot across Windows, Microsoft 365 and Azure.",
+      "who_should_use": "Knowledge workers and teams already living in Word, Excel and PowerPoint who want Copilot to draft, build and edit documents autonomously rather than just suggest.",
+      "who_should_buy": "Enterprises with Microsoft 365 Copilot licenses (note Agent 365 now requires Microsoft 365 E5 for new purchases from June 1) that want centrally governed AI agents.",
+      "free_alternatives": "Google Workspace with free Gemini features, the free Copilot consumer tier, and free/open tools like LibreOffice paired with free chatbots for lighter document automation.",
+      "verdict": "WATCH - Promising for Microsoft 365 shops, but Agent Mode is new, staged, and licensing-gated; pilot it on non-critical work and confirm the autonomous edits before trusting it broadly."
+    },
+    {
+      "id": "snowflake-cowork-agentic-enterprise",
+      "headline": "Snowflake bets on the 'agentic enterprise' with CoWork, its personal AI work agent",
+      "one_liner": "Snowflake turns its data cloud into a system of action, giving employees a governed personal agent that connects to Salesforce, Slack and Drive.",
+      "source_name": "Snowflake / SiliconANGLE",
+      "source_links": [
+        "https://www.snowflake.com/en/news/press-releases/snowflake-cowork-powers-the-agentic-enterprise-as-the-personal-agent-for-knowledge-workers-to-work-smarter/",
+        "https://siliconangle.com/2026/06/03/snowflake-cowork-powers-real-world-agentic-ai-snowflakesummit/",
+        "https://www.snowflake.com/en/ai-pulse/june-2026/"
+      ],
+      "credibility": "high",
+      "image_url": "https://www.snowflake.com/content/dam/snowflake-site/en/newsroom/press/2026/summit26-pr-product-snowflake-cowork-1000x428%20(1).png",
+      "image_credit": "Snowflake",
+      "story": "At Snowflake Summit 26 (announced June 2, 2026) and reinforced in its June 16 AI Pulse briefing, Snowflake positioned CoWork, formerly Snowflake Intelligence, as a personal AI agent for knowledge workers that turns its data cloud into a 'system of action.' New capabilities include Artifacts (publishable, governed dashboards), Cortex Sense (a shared context layer for agents), Deep Research over structured and unstructured company data, User Skills and Memory, plus MCP connectors to tools like Google Drive, Salesforce and Slack, and a CoWork iOS app. Snowflake also launched Cortex Training for customizing open-weight models on governed data, and said customers including Synopsys, WHOOP and Under Armour are already using CoWork. The company says it now serves over 13,900 customers and offers models from Anthropic, OpenAI, Google, Meta, Mistral, DeepSeek and, newly, SpaceX AI.",
+      "founding_story": "Snowflake was founded in July 2012 in San Mateo, California, by Benoit Dageville, Thierry Cruanes and Marcin Zukowski. Dageville and Cruanes were data architects at Oracle, while Zukowski co-founded Vectorwise; their idea was a cloud-native data warehouse that separates storage from compute. Snowflake went public in 2020 in what was then the largest software IPO ever and trades on the NYSE as SNOW.",
+      "who_should_use": "Data, analytics and business teams at companies already on Snowflake who want a governed agent to query data, build dashboards and take action across connected apps.",
+      "who_should_buy": "Existing Snowflake enterprise customers looking to consolidate agentic AI and model training inside their governed data environment rather than moving data out.",
+      "free_alternatives": "For lighter needs, free/cheaper options include Microsoft Copilot and Google Gemini for Workspace tiers, open-source BI like Metabase, and building on open-weight models directly.",
+      "verdict": "WATCH - Compelling if your data already lives in Snowflake, but it's a platform-locked enterprise play; several headline features are still 'GA soon,' so scope a pilot before buying in."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "SpaceX to acquire AI coding startup Cursor (Anysphere) for $60B in stock",
+      "one_liner": "Days after its record IPO, SpaceX exercised an option to buy Cursor-maker Anysphere in an all-stock deal described as the largest venture-backed startup acquisition ever.",
+      "source_name": "CNBC / TechCrunch / Forbes",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+        "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+        "https://www.forbes.com/sites/sandycarter/2026/06/16/spacex-buys-cursor-in-largest-startup-acquisition-ever-at-60-billion/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Google rolls out computer use in Gemini 3.5 Flash",
+      "one_liner": "Google added a computer-use capability to Gemini 3.5 Flash, letting the model operate interfaces to complete tasks, part of its broader agentic push.",
+      "source_name": "Google Blog",
+      "source_links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "OpenAI adds new usage analytics and spend controls for ChatGPT Enterprise",
+      "one_liner": "OpenAI shipped updated enterprise spend controls and usage analytics on June 18, aimed at giving companies tighter cost visibility over Copilot-style deployments.",
+      "source_name": "OpenAI",
+      "source_links": [
+        "https://openai.com/index/chatgpt-enterprise-spend-controls/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Asian AI startups launch Mythos-like models as Anthropic's export ban dragged on",
+      "one_liner": "With Anthropic's most powerful models frozen through late June, several Asian AI startups rushed out competing high-end models to fill the gap.",
+      "source_name": "TechCrunch",
+      "source_links": [
+        "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Ford rehires veteran engineers after AI fell short",
+      "one_liner": "Ford brought back experienced 'gray beard' engineers after AI tools underdelivered, a notable real-world check on AI-replaces-experts hype.",
+      "source_name": "TechCrunch",
+      "source_links": [
+        "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Companies spending the most on AI are growing jobs, Ramp study finds",
+      "one_liner": "A Ramp study reported that firms with the highest AI spending are also adding headcount, complicating the narrative that AI adoption cuts jobs.",
+      "source_name": "CoinDesk / Ramp",
+      "source_links": [
+        "https://www.coindesk.com/business/2026/06/30/companies-spending-the-most-on-ai-are-growing-jobs-ramp-study-finds"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

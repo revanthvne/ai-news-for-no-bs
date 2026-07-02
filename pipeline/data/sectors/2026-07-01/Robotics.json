@@ -1,0 +1,165 @@
+{
+  "sector": "Robotics",
+  "as_of": "2026-07-01",
+  "heroes": [
+    {
+      "id": "ubtech-uworld-u1-emotion-humanoid",
+      "headline": "UBTech launches UWORLD U1, world's first mass-produced 'ultra-bionic' emotion-aware humanoid",
+      "one_liner": "China's UBTech unveils a full-size companion humanoid with 88 DOF, biomimetic skin and an emotion-aware LLM; 13,000+ pre-orders. Priced from ~$17,600.",
+      "source_name": "PR Newswire / TechNode / Interesting Engineering",
+      "source_links": [
+        "https://www.prnewswire.com/news-releases/ubtech-launches-uworld-u1-the-worlds-first-full-size-mass-produced-ultra-bionic-humanoid-robot-302815272.html",
+        "https://technode.com/2026/07/01/ubtech-unveils-consumer-humanoid-robot-u1-says-orders-secure-11000-ahead-of-first-deliveries/",
+        "https://interestingengineering.com/ai-robotics/china-ubtech-humanoid-robot-companionship"
+      ],
+      "credibility": "High - official company newsroom (PR Newswire) corroborated by TechNode and Interesting Engineering, both reputable tech outlets, all dated June 30 - July 1, 2026.",
+      "image_url": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/Untitled-design.jpg",
+      "image_credit": "UBTech Robotics via Interesting Engineering",
+      "story": "On June 30, 2026, at its Global Launch Event in Shenzhen, UBTech unveiled the UWORLD U1 Series, which it bills as the world's first full-size, mass-produced 'ultra-bionic' humanoid robot line. The U1 features 88 degrees of freedom, a proprietary dual-pivot biomimetic cervical spine that reproduces up to 90% of fundamental human movements, and what UBTech calls the first emotion-aware LLM for long-term companionship, identifying 20+ emotional states with over 90% accuracy. Three variants were announced (U1 Lite, U1 Pro, U1 Ultra), priced from 119,800 RMB (about $17,600) up to roughly 990,000 RMB ($145,700), with cumulative orders surpassing 13,000 units by launch day. UBTech is targeting companionship, elder care, reception and education, and announced a program to donate 100 customized units in 2026 for emotional support of vulnerable groups.",
+      "founding_story": "UBTech Robotics was founded in 2012 in Shenzhen by Zhou Jian, who reportedly spent years and much of his personal fortune developing low-cost servo actuators, the core of humanoid movement. The company first became known for consumer robots like the Alpha series and Jimu building kits, later Stormtrooper toys with Disney, before pivoting to full-size humanoids (Walker series). It listed on the Hong Kong Stock Exchange in December 2023, becoming one of the first pure-play humanoid robot companies to go public.",
+      "who_should_use": "Elder-care facilities, hospitality and reception operators, museums, and research institutions in China exploring emotionally interactive service robots.",
+      "who_should_buy": "Almost nobody outside China yet. This is an early-adopter and enterprise/institutional product; despite consumer-style marketing, the price, China-first availability and unproven real-world reliability make it a WATCH, not a purchase, for Western consumers.",
+      "free_alternatives": "For companionship/assistant needs without a $17K+ robot: voice assistants (Alexa, Google Assistant), chatbot apps, or tablet-based check-in tools for elder care. No free humanoid equivalent exists.",
+      "verdict": "WATCH - a genuine mass-production and emotion-AI milestone, but China-only, expensive, and unproven in daily use; watch reliability and real deliveries before believing the companion hype."
+    },
+    {
+      "id": "agility-robotics-spac-digit-v5",
+      "headline": "Agility Robotics to go public in $2.5B SPAC as it launches 'cooperatively safe' Digit v5",
+      "one_liner": "Agility merges with Churchill Capital Corp XI (~$2.5B) to trade as AGLT, unveils safety-focused Digit v5, and touts $300M+ in multi-year orders.",
+      "source_name": "TechCrunch / Forbes / BusinessWire",
+      "source_links": [
+        "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "https://www.forbes.com/sites/johnkoetsier/2026/06/24/first-humanoid-robot-maker-goes-public-in-us-25-billion-deal-new-robot-300-million-in-pre-orders/",
+        "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI"
+      ],
+      "credibility": "High - official BusinessWire release plus TechCrunch and Forbes coverage, all dated June 24, 2026. Financial specifics corroborated across GeekWire and Reuters-tier outlets.",
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/6a3c24f920c925c4148335fd/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "image_credit": "Agility Robotics via Forbes",
+      "story": "On June 24, 2026, Agility Robotics announced it will go public through a merger with Churchill Capital Corp XI, a SPAC, in a deal valuing the company at approximately $2.5 billion and expected to generate more than $620 million in proceeds (about $200 million from new institutional investors). Once closed, expected before year-end 2026, Agility will trade on Nasdaq under the ticker AGLT, positioning it as the only publicly listed pure-play humanoid company with robots already in active commercial deployments. Alongside the deal it introduced Digit v5, pitched as the world's first 'cooperatively safe' AI-enabled humanoid built for scaled deployment in warehouses and factories. Agility says it has secured more than $300 million in multi-year orders and has 30+ potential customers evaluating large-scale deployments, with customers including Amazon, GXO, Schaeffler and Toyota Motor Manufacturing Canada.",
+      "founding_story": "Agility Robotics was founded in 2015 as a spinout of Oregon State University, based on Professor Jonathan Hurst's research into legged locomotion. Co-founders Hurst (Chief Robot Officer) and Damion Shelton (who met as robotics PhD students at Carnegie Mellon) were joined by Mikhail Jones. Its ostrich-inspired bipedal robot Cassie (2017) evolved into the humanoid Digit (2019), and in 2024 former Magic Leap and Microsoft executive Peggy Johnson became CEO to lead commercialization.",
+      "who_should_use": "Large warehouse, logistics and automotive-manufacturing operators needing bipedal robots for tote handling, palletizing, loading and material movement in human-shared spaces.",
+      "who_should_buy": "Enterprise buyers and logistics integrators, not consumers. For investors, AGLT will be a high-risk, high-volatility pure-play humanoid bet - interesting to WATCH but speculative until real revenue scales.",
+      "free_alternatives": "None for the robot itself. Warehouses can compare against fixed automation (conveyors, AMRs from Locus/6 River) which are cheaper and more mature for many tasks than a general-purpose humanoid.",
+      "verdict": "WATCH - a landmark (first U.S. pure-play humanoid to go public) with real deployments and orders, but it's a SPAC not an IPO, and the humanoid business is still pre-profit; watch the financials, don't buy the hype."
+    },
+    {
+      "id": "hyundai-full-control-boston-dynamics",
+      "headline": "Hyundai to take 100% of Boston Dynamics as SoftBank exits for $325M",
+      "one_liner": "Hyundai buys SoftBank's remaining ~9.65% stake for ~$325M, making Boston Dynamics wholly owned as electric Atlas heads to Hyundai factories and Google DeepMind.",
+      "source_name": "KED Global / Yahoo Finance (Reuters) / The Korea Herald",
+      "source_links": [
+        "https://www.kedglobal.com/robotics/newsView/ked202606210001",
+        "https://finance.yahoo.com/markets/stocks/articles/hyundai-buy-softbanks-remaining-stake-015022894.html",
+        "https://www.koreaherald.com/article/10741955"
+      ],
+      "credibility": "High - reported by KED Global, The Korea Herald and Reuters (via Yahoo Finance) around June 19-22, 2026; deal follows a disclosed put option from Hyundai's original 2020 acquisition.",
+      "image_url": null,
+      "image_credit": "Boston Dynamics",
+      "story": "Around June 19-22, 2026, reports emerged that Hyundai Motor Group would acquire SoftBank's remaining 9.65% stake in Boston Dynamics for approximately $325 million, making the robotics maker a wholly owned Hyundai subsidiary. The move follows a put option baked into Hyundai's original 2020 deal, in which it took an 80% controlling stake at a $1.1 billion valuation; SoftBank exercised its right to sell the rest back. The timing matters: Boston Dynamics unveiled a production version of its fully electric Atlas humanoid at CES 2026, and all 2026 Atlas output is already committed, with initial fleets shipping to Hyundai's Robotics Metaplant Application Center and to Google DeepMind, whose Gemini Robotics foundation models will power the machines. Full ownership tightens Hyundai's grip on a humanoid supply chain it is backing with a broader multibillion-dollar U.S. robotics investment.",
+      "founding_story": "Boston Dynamics was founded in 1992 by Marc Raibert, spun out of his MIT Leg Laboratory work on dynamic legged locomotion. Famous for DARPA-funded machines like BigDog and the hydraulic Atlas, it was owned successively by Google (2013) and SoftBank (2017) before Hyundai acquired control in 2020-2021. The all-electric Atlas, revealed in 2024 to replace the hydraulic version, marked its pivot toward commercial humanoids.",
+      "who_should_use": "Automotive and heavy-manufacturing plants (starting with Hyundai) piloting humanoids for parts sequencing and repetitive industrial tasks.",
+      "who_should_buy": "Not a consumer product and not for sale to the public. This is a corporate ownership and strategy story; relevance is to enterprise partners and Hyundai/investors, not buyers.",
+      "free_alternatives": "N/A - Atlas is not sold to consumers. Manufacturers weighing automation can evaluate traditional industrial robot arms (Fanuc, ABB, KUKA) which are proven and far cheaper for fixed tasks.",
+      "verdict": "WATCH - consolidating ownership plus the DeepMind/Gemini brain make Atlas one of the most credible industrial humanoids, but deployments are still early pilots; watch factory results, nothing to buy."
+    },
+    {
+      "id": "rivian-ceo-mind-robotics-humanoids",
+      "headline": "Rivian CEO details Mind Robotics, a ~$2B humanoid spin-off taking a different path than Musk",
+      "one_liner": "RJ Scaringe gives first detailed look at Mind Robotics, kept separate from Rivian, backed by $1B+ raised and Rivian as launch customer for factory humanoids.",
+      "source_name": "CNBC / TechCrunch / Forbes",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/13/rivian-humanoid-robots.html",
+        "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+        "https://www.forbes.com/sites/edgarsten/2026/05/19/rivian-founders-new-company-aims-to-evolve-humanoid-robots/"
+      ],
+      "credibility": "High - CNBC interview (June 13, 2026) plus TechCrunch's funding report and Forbes profile. Company existence and raises are on the record across multiple outlets.",
+      "image_url": null,
+      "image_credit": "Mind Robotics / Rivian",
+      "story": "In a CNBC interview published June 13, 2026, Rivian CEO RJ Scaringe gave the first detailed public look at Mind Robotics, his humanoid-robotics venture, emphasizing a deliberately different approach from Elon Musk: rather than building robots inside the automaker, Mind Robotics is a separate company with Rivian as a large minority shareholder and launch customer. Founded in late 2025 and formally announced that November, the startup has raised more than $1 billion, including a $500 million Series A co-led by Accel and Andreessen Horowitz that valued it near $2 billion, following a $115 million seed round led by Eclipse. Mind Robotics plans to reveal its first product in under a year and will use Rivian's Normal, Illinois assembly plant as a live deployment environment for AI-powered industrial humanoids. The play underscores how EV makers increasingly see manufacturing humanoids as an adjacent frontier.",
+      "founding_story": "Mind Robotics was founded in late 2025 by RJ Scaringe, who also founded Rivian in 2009 (originally 'Mainstream Motors') after earning a PhD from MIT. Structured as a Rivian spin-off rather than an internal division, it raised a $115M seed (led by Eclipse) in late 2025 and a $500M Series A (Accel, a16z) in early 2026, positioning Rivian's factories as its first proving ground.",
+      "who_should_use": "For now, only Rivian's own manufacturing operations; broadly, EV and industrial manufacturers watching the automaker-plus-humanoid model.",
+      "who_should_buy": "No product exists to buy yet - first reveal is still months away. Relevant to industry watchers and venture/robotics investors, not consumers or enterprise buyers today.",
+      "free_alternatives": "N/A - no product. Manufacturers exploring automation now can pilot existing industrial arms or AMRs rather than wait for an unproven humanoid.",
+      "verdict": "WATCH - a credible, well-funded entrant with a smart 'separate company' structure and a real launch customer, but it's pre-product; watch for the first hardware reveal before drawing conclusions."
+    },
+    {
+      "id": "figure-botq-one-robot-per-hour",
+      "headline": "Figure AI's BotQ hits one humanoid robot per hour, a 24x scale-up",
+      "one_liner": "Figure says its BotQ factory now builds one Figure 03 per hour (up from one per day), with 350+ robots produced and Figure 02 units live at BMW and Amazon.",
+      "source_name": "Figure AI newsroom / Interesting Engineering / Robotics & Automation News",
+      "source_links": [
+        "https://www.figure.ai/news/ramping-figure-03-production",
+        "https://interestingengineering.com/ai-robotics/figure-humanoid-robot-production-scale-up",
+        "https://roboticsandautomationnews.com/2026/05/27/figure-ramps-humanoid-robot-manufacturing-at-unprecedented-speed/101954/"
+      ],
+      "credibility": "Medium-High - originates from Figure's own newsroom (company claims, self-reported yields), corroborated by Interesting Engineering and trade press. Production figures are unaudited vendor claims.",
+      "image_url": null,
+      "image_credit": "Figure AI",
+      "story": "Figure AI announced (late April 2026, with continued coverage into June) that its BotQ manufacturing facility reached a production rate of one Figure 03 humanoid per hour, up from roughly one per day in January - a claimed 24x throughput increase in under 120 days. The scale-up runs on custom manufacturing-execution software across 150+ networked workstations with 50+ in-process inspection points; Figure reports end-of-line first-pass yield above 80% and battery yield of 99.3%, with 500+ units shipped and 9,000+ actuators produced, and more than 350 robots built through BotQ. Figure 02 robots are already operating in real production settings including BMW's Spartanburg plant and Amazon-linked logistics tests. These are company-reported numbers, not independently audited, so they should be read as a manufacturing-ambition milestone rather than a verified performance benchmark.",
+      "founding_story": "Figure AI was founded in 2022 by Brett Adcock, the entrepreneur behind aviation startup Archer and jobs marketplace Vettery. Figure moved unusually fast, unveiling its Figure 01 humanoid in 2023, partnering with BMW and (briefly) OpenAI, and raising large rounds that pushed its valuation into the tens of billions. It has since built its own Helix AI models and the BotQ factory to pursue high-volume humanoid production.",
+      "who_should_use": "Automotive and logistics enterprises running structured, repetitive material-handling tasks who are piloting general-purpose humanoids at scale.",
+      "who_should_buy": "Enterprise pilot partners only. Not sold to consumers; the numbers are self-reported, so buyers and investors should treat throughput claims cautiously and demand independent, in-facility results.",
+      "free_alternatives": "None for the robot. Firms can benchmark against mature AMRs and robotic arms, which are proven and cheaper for many of the same warehouse tasks.",
+      "verdict": "WATCH - if the one-per-hour rate is real and yields hold, it's a genuine manufacturing edge, but these are unaudited company claims; watch for third-party verification and real deployment reliability."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Unitree clears Shanghai STAR Market listing review, targeting ~$610M IPO",
+      "one_liner": "Chinese humanoid leader Unitree passed the Shanghai exchange's listing-committee review on June 1, becoming the first 'embodied AI' firm approved for China's A-share market at a ~$6.2B valuation.",
+      "source_name": "Rest of World",
+      "source_links": [
+        "https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/"
+      ],
+      "credibility": "High - Rest of World is a reputable global-tech outlet; IPO progress corroborated by prospectus disclosures and other coverage."
+    },
+    {
+      "headline": "China orders 10,000 humanoid robots into real jobs by year-end",
+      "one_liner": "Beijing set a directive in June 2026 that 10,000 humanoid robots must be working in factories, warehouses, hospitals and disaster response by Dec 31, with local deployment plans due end of June.",
+      "source_name": "Interesting Engineering / TechTimes",
+      "source_links": [
+        "https://www.techtimes.com/articles/318641/20260618/humanoid-robots-china-ships-90-global-units-now-leads-ai-benchmarks.htm"
+      ],
+      "credibility": "Medium - reported by tech trade press citing Chinese government directives; exact policy text not independently released in English, so treat specifics as reported rather than confirmed."
+    },
+    {
+      "headline": "NVIDIA's Jetson Thor robot 'brain' hits general availability",
+      "one_liner": "NVIDIA's Blackwell-powered Jetson AGX Thor is now generally available with 7.5x the AI compute of Orin; early adopters include Agility, Amazon Robotics, Boston Dynamics and Figure.",
+      "source_name": "NVIDIA Newsroom / The Robot Report",
+      "source_links": [
+        "https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics",
+        "https://www.therobotreport.com/advantech-shows-robotics-medical-ai-industrial-edge-using-nvidia-jetson-thor/"
+      ],
+      "credibility": "High - official NVIDIA newsroom corroborated by The Robot Report, a leading robotics trade publication."
+    },
+    {
+      "headline": "China's humanoid rental market exposes the robots' real-world limits",
+      "one_liner": "A CNN report (June 30) on China's booming humanoid rental scene found the machines still stumble on everyday tasks, a reality check on viral demo videos.",
+      "source_name": "CNN",
+      "source_links": [
+        "https://www.cnn.com/2026/06/30/tech/china-humanoid-robot-ai-rental-intl-hnk-dst"
+      ],
+      "credibility": "High - CNN original reporting, dated June 30, 2026."
+    },
+    {
+      "headline": "Hyundai plans a factory to build up to 30,000 Atlas robots a year",
+      "one_liner": "As part of a ~$26B U.S. investment, Hyundai is building robotics manufacturing capacity for tens of thousands of Atlas humanoids annually, per CES 2026 and follow-up reporting.",
+      "source_name": "Forbes / The Korea Herald",
+      "source_links": [
+        "https://www.forbes.com/sites/johnkoetsier/2026/01/06/atlas-humanoid-robots-production-fully-committed-for-2026-factory-will-build-30000-per-year/",
+        "https://www.koreaherald.com/article/10741955"
+      ],
+      "credibility": "High - Forbes and The Korea Herald; capacity figure is a stated Hyundai plan (forward-looking), not yet realized output."
+    },
+    {
+      "headline": "Apptronik's humanoid war chest tops $935M at a ~$5.5B valuation",
+      "one_liner": "Austin's Apptronik, maker of the Apollo humanoid, has raised more than $935M after a $520M Series A extension, underscoring 2026's record humanoid funding wave.",
+      "source_name": "TechCrunch / Crunchbase News",
+      "source_links": [
+        "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/",
+        "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
+      ],
+      "credibility": "High - TechCrunch and Crunchbase News; funding total is on the record (round closed February 2026, context for the June funding-surge narrative)."
+    }
+  ]
+}
