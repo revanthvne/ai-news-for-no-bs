@@ -34,7 +34,11 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 EMAIL_PROVIDER = os.getenv("EMAIL_PROVIDER", "none").lower()
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 EMAIL_FROM = os.getenv("EMAIL_FROM", "NO BS Daily <daily@example.com>")
-APPROVER_EMAIL = os.getenv("APPROVER_EMAIL", "k.revanth123@gmail.com")
+APPROVER_EMAIL = os.getenv("APPROVER_EMAIL", "")  # set in .env — no address hardcoded
+# "compact" keeps the daily email small (scannable cards + links) so Gmail
+# (which clips messages over ~102 KB) shows it in full. "full" inlines every
+# deep-dive (large — good for Apple Mail, will be clipped in Gmail).
+EMAIL_MODE = os.getenv("EMAIL_MODE", "compact")  # compact | full
 SMTP_HOST = os.getenv("SMTP_HOST", "")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 SMTP_USER = os.getenv("SMTP_USER", "")

@@ -1,0 +1,2551 @@
+{
+  "edition_date": "2026-07-02",
+  "channel": "NO BS — Should You Buy This?",
+  "generated_by": "live",
+  "sectors": [
+    {
+      "sector": "AI",
+      "slug": "ai",
+      "heroes": [
+        {
+          "title": "PeerTube is a free, decentralized and federated video platform",
+          "url": "https://github.com/Chocobozzz/PeerTube",
+          "source": "Hacker News",
+          "category": "AI",
+          "published": "2026-07-02T11:17:45Z",
+          "score": 44.3,
+          "summary": "",
+          "rank_score": 8.004,
+          "sector": "AI",
+          "headline": "PeerTube is a free, decentralized and federated video platform",
+          "source_links": [
+            "https://github.com/Chocobozzz/PeerTube"
+          ],
+          "one_liner": "A notable new AI development worth a look.",
+          "story": "PeerTube is a free, decentralized and federated video platform. Flagged by Hacker News as a significant AI development. Full deep-dive pending — see the source link for primary details.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating ai tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "github.com",
+          "credibility": "high",
+          "image_url": "https://opengraph.githubassets.com/e7c90834645da7bc0dbee5b66d15fb4c88aaa58e29b6588e85014bdb5455af99/Chocobozzz/PeerTube"
+        },
+        {
+          "title": "Google loses fight over record $4.7B EU antitrust fine",
+          "url": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
+          "source": "Hacker News",
+          "category": "AI",
+          "published": "2026-07-02T08:34:13Z",
+          "score": 28.0,
+          "summary": "",
+          "rank_score": 8.004,
+          "sector": "AI",
+          "headline": "Google loses fight over record $4.7B EU antitrust fine",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html"
+          ],
+          "one_liner": "A notable new AI development worth a look.",
+          "story": "Google loses fight over record $4.7B EU antitrust fine. Flagged by Hacker News as a significant AI development. Full deep-dive pending — see the source link for primary details.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating ai tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "cnbc.com",
+          "credibility": "high",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108329754-1782978643176-gettyimages-458933277-000019668000_XXXLarge.jpeg?v=1782978650&amp;w=1920&amp;h=1080"
+        },
+        {
+          "title": "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass",
+          "url": "https://docs.google.com/document/d/1SH9QRTAlL02THgAN2AGmWe9El0_2ZJF6hhgDBx8k97c/edit?tab=t.0",
+          "source": "Hacker News",
+          "category": "AI",
+          "published": "2026-07-02T10:00:27Z",
+          "score": 32.3,
+          "summary": "",
+          "rank_score": 7.728,
+          "sector": "AI",
+          "headline": "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass",
+          "source_links": [
+            "https://docs.google.com/document/d/1SH9QRTAlL02THgAN2AGmWe9El0_2ZJF6hhgDBx8k97c/edit?tab=t.0"
+          ],
+          "one_liner": "A notable new AI development worth a look.",
+          "story": "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass. Flagged by Hacker News as a significant AI development. Full deep-dive pending — see the source link for primary details.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating ai tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "docs.google.com",
+          "credibility": "high",
+          "image_url": "https://lh7-us.googleusercontent.com/docs/AHkbwyLDFDjH1oOIrLs8FGhwA5MgiYRChi4RGDOW07-LkQWdKupDRuT5q4_uSjpbc_C_YYoIJcegOZvH_hoDKk9PQS53OhkclLOksNur_nhjH7CcSsqqFgQF=w1200-h630-p"
+        },
+        {
+          "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+          "source": "Hacker News",
+          "category": "AI",
+          "published": "2026-07-01T22:27:47Z",
+          "score": 22.1,
+          "summary": "",
+          "rank_score": 7.728,
+          "sector": "AI",
+          "headline": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+          "source_links": [
+            "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/"
+          ],
+          "one_liner": "A notable new AI development worth a look.",
+          "story": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance. Flagged by Hacker News as a significant AI development. Full deep-dive pending — see the source link for primary details.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating ai tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "blog.google",
+          "credibility": "high",
+          "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2025-07-03_12.59.53_PM.width-1300.png"
+        },
+        {
+          "title": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children",
+          "url": "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30/",
+          "source": "Hacker News",
+          "category": "AI",
+          "published": "2026-07-01T15:40:56Z",
+          "score": 17.0,
+          "summary": "",
+          "rank_score": 6.969,
+          "sector": "AI",
+          "headline": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children",
+          "source_links": [
+            "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30/"
+          ],
+          "one_liner": "A notable new AI development worth a look.",
+          "story": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children. Flagged by Hacker News as a significant AI development. Full deep-dive pending — see the source link for primary details.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating ai tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "reuters.com",
+          "credibility": "high",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyMwMGUwYjgnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyMwODkxYjInLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPlJFVVRFUlMuQ09NPC90ZXh0Pjwvc3ZnPg=="
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+          "one_liner": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Meta quietly launches vibe-coded gaming app Pocket",
+          "one_liner": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+          "one_liner": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
+          "one_liner": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Anthropic is discussing a new custom chip with Samsung",
+          "one_liner": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+          "one_liner": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting th",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Yep, we’re using OpenClaw to date now",
+          "one_liner": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagr",
+          "source_name": "techcrunch.com",
+          "source_links": [
+            "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/"
+          ],
+          "credibility": "high"
+        }
+      ]
+    },
+    {
+      "sector": "Semiconductors",
+      "slug": "semiconductors",
+      "heroes": [
+        {
+          "title": "SK hynix to invest $712.5 billion in South Korean operations — Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed",
+          "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed",
+          "source": "Latest from Tom's Hardware",
+          "category": "Semiconductors",
+          "published": "2026-07-02T21:28:35+00:00",
+          "score": 0.0,
+          "summary": "SK hynix announces major plan to spend $712.5 billion in its operations in South Korea, but the only detailed investments are spendings on a new NAND fab and a packaging facility.",
+          "rank_score": 3.3,
+          "sector": "Semiconductors",
+          "headline": "SK hynix to invest $712.5 billion in South Korean operations — Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed",
+          "source_links": [
+            "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed"
+          ],
+          "one_liner": "SK hynix announces major plan to spend $712.5 billion in its operations in South Korea, but the only detailed investments are spendings on a new NAND fab and a packaging facility.",
+          "story": "SK hynix announces major plan to spend $712.5 billion in its operations in South Korea, but the only detailed investments are spendings on a new NAND fab and a packaging facility.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating semiconductors tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "tomshardware.com",
+          "credibility": "high",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/uUzPrBirMJr9HAP6GkJQ7o-1600-80.jpg"
+        },
+        {
+          "title": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle — trades tokens for revenue cut",
+          "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
+          "source": "Latest from Tom's Hardware",
+          "category": "Semiconductors",
+          "published": "2026-07-02T20:46:31+00:00",
+          "score": 0.0,
+          "summary": "Nvidia has announced a new business model under which it’ll be able to double-dip for revenue on the same silicon.",
+          "rank_score": 3.036,
+          "sector": "Semiconductors",
+          "headline": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle — trades tokens for revenue cut",
+          "source_links": [
+            "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales"
+          ],
+          "one_liner": "Nvidia has announced a new business model under which it’ll be able to double-dip for revenue on the same silicon.",
+          "story": "Nvidia has announced a new business model under which it’ll be able to double-dip for revenue on the same silicon.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating semiconductors tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "tomshardware.com",
+          "credibility": "high",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/vmfpT5LqUXTgKosXsbK9nj-2000-80.jpg"
+        },
+        {
+          "title": "U.S PC shipments drop 7%, market isn't expected to bounce back until 2029 — price hikes and component shortages take hold as PC market declines, Omdia report suggests",
+          "url": "https://www.tomshardware.com/tech-industry/u-s-pc-shipments-drop-7-percent-market-isnt-expected-to-bounce-back-until-2029-price-hikes-and-component-shortages-take-hold-as-pc-market-declines-omdia-report-suggests",
+          "source": "Latest from Tom's Hardware",
+          "category": "Semiconductors",
+          "published": "2026-07-02T20:35:37+00:00",
+          "score": 0.0,
+          "summary": "New data suggests PC shipments are already down in 2026 and are likely to get worse in the latter half of the year, but that could be setting the stage for a resurgence in the years to come.",
+          "rank_score": 3.036,
+          "sector": "Semiconductors",
+          "headline": "U.S PC shipments drop 7%, market isn't expected to bounce back until 2029 — price hikes and component shortages take hold as PC market declines, Omdia report suggests",
+          "source_links": [
+            "https://www.tomshardware.com/tech-industry/u-s-pc-shipments-drop-7-percent-market-isnt-expected-to-bounce-back-until-2029-price-hikes-and-component-shortages-take-hold-as-pc-market-declines-omdia-report-suggests"
+          ],
+          "one_liner": "New data suggests PC shipments are already down in 2026 and are likely to get worse in the latter half of the year, but that could be setting the stage for a resurgence in the years to come.",
+          "story": "New data suggests PC shipments are already down in 2026 and are likely to get worse in the latter half of the year, but that could be setting the stage for a resurgence in the years to come.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating semiconductors tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "tomshardware.com",
+          "credibility": "high",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/cBoKaBkKGmrFdkMNVJa6Gc-1920-80.jpg"
+        },
+        {
+          "title": "Save up to 39% on a new 3D printer this weekend, thanks to these July 4th deals — discounted printers, filament, and resin from Bambu Lab, Creality, Elegoo, and more for 3DP beginners and experienced pros alike",
+          "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-39-percent-on-a-new-3d-printer-this-weekend-thanks-to-these-july-4th-deals-discounted-printers-filament-and-resin-from-bambu-lab-creality-elegoo-and-more-for-3dp-beginners-and-experienced-pros-alike",
+          "source": "Latest from Tom's Hardware",
+          "category": "Semiconductors",
+          "published": "2026-07-02T20:18:04+00:00",
+          "score": 0.0,
+          "summary": "These are some of the top 3D printer deals available right now during this Independence Day weekend.",
+          "rank_score": 3.036,
+          "sector": "Semiconductors",
+          "headline": "Save up to 39% on a new 3D printer this weekend, thanks to these July 4th deals — discounted printers, filament, and resin from Bambu Lab, Creality, Elegoo, and more for 3DP beginners and experienced pros alike",
+          "source_links": [
+            "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-39-percent-on-a-new-3d-printer-this-weekend-thanks-to-these-july-4th-deals-discounted-printers-filament-and-resin-from-bambu-lab-creality-elegoo-and-more-for-3dp-beginners-and-experienced-pros-alike"
+          ],
+          "one_liner": "These are some of the top 3D printer deals available right now during this Independence Day weekend.",
+          "story": "These are some of the top 3D printer deals available right now during this Independence Day weekend.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating semiconductors tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "tomshardware.com",
+          "credibility": "high",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/gxuZD548rcdgqCfbxzo643-1920-80.png"
+        },
+        {
+          "title": "Montech NX600 Review: A budget dual tower with jet-engine fans",
+          "url": "https://www.tomshardware.com/pc-components/air-cooling/montech-nx600-review",
+          "source": "Latest from Tom's Hardware",
+          "category": "Semiconductors",
+          "published": "2026-07-02T18:30:00+00:00",
+          "score": 0.0,
+          "summary": "Montech’s NX600 is a new dual-tower air cooler powered by six heatpipes and two 28mm thick high-performance 120mm fans. We’ve tested it with AMD’s Ryzen 9 9950X3D to benchmark its thermal efficiency.",
+          "rank_score": 3.036,
+          "sector": "Semiconductors",
+          "headline": "Montech NX600 Review: A budget dual tower with jet-engine fans",
+          "source_links": [
+            "https://www.tomshardware.com/pc-components/air-cooling/montech-nx600-review"
+          ],
+          "one_liner": "Montech’s NX600 is a new dual-tower air cooler powered by six heatpipes and two 28mm thick high-performance 120mm fans. We’ve tested it with AMD’s Ryzen 9 9950X3D to benchmark its thermal efficiency.",
+          "story": "Montech’s NX600 is a new dual-tower air cooler powered by six heatpipes and two 28mm thick high-performance 120mm fans. We’ve tested it with AMD’s Ryzen 9 9950X3D to benchmark its thermal efficiency.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating semiconductors tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "tomshardware.com",
+          "credibility": "high",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/vdcrGXGHEFxM8poNQdqGJb-2560-80.jpg"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "Palantir CEO Alex Karp claims AI companies are stealing customers' data while charging them for unproductive tokens — says 'livid' businesses 'are paying for tokens that create no value'",
+          "one_liner": "Palantir CEO Alex Karp boldly states in an interview that claims AI companies are stealing customer's data while charging them for unproductive servic",
+          "source_name": "tomshardware.com",
+          "source_links": [
+            "https://www.tomshardware.com/tech-industry/artificial-intelligence/palantir-ceo-alex-karp-claims-ai-companies-are-stealing-customers-data-while-charging-them-for-unproductive-tokens-says-livid-businesses-are-paying-for-tokens-that-create-no-value"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Supermicro denies that its offices were raided by Taiwanese authorities in Nvidia GPU smuggling case — company says that it coordinated with the police and provided access to investigated employees’ workstations and gadgets",
+          "one_liner": "The company insists that it's cooperating with Taiwanese authorities and has voluntarily provided access to its premises. It also confirmed with the p",
+          "source_name": "tomshardware.com",
+          "source_links": [
+            "https://www.tomshardware.com/desktops/servers/supermicro-denies-that-its-offices-were-raided-by-taiwanese-authorities-in-nvidia-gpu-smuggling-case-company-says-that-it-coordinated-with-the-police-and-provided-access-to-investigated-employees-workstations-and-gadgets"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Digital archivists rush to save PS3 game data before Sony shuts down the store forever in 2027 — RPCS3 emulator urges users to preserve all content",
+          "one_liner": "Sony is shutting down PSN for PS3 consoles next year, so preservationists are being asked to wake up from their slumber to archive everything before i",
+          "source_name": "tomshardware.com",
+          "source_links": [
+            "https://www.tomshardware.com/video-games/playstation/digital-archivists-rush-to-save-ps3-game-data-before-sony-shuts-down-the-store-forever-in-2027-rpcs3-emulator-urges-users-to-preserve-all-content"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "AI Data Centers And Auto Industry Converge On Same Issues",
+          "one_liner": "<p>The EV revolution relies on battery innovation, while AI data centers need a range of new energy solutions to play nice with the grid. Both sectors",
+          "source_name": "semiengineering.com",
+          "source_links": [
+            "https://semiengineering.com/ai-data-centers-and-auto-industry-converge-on-same-issues/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Defending Against AI-Enabled Data Fusion",
+          "one_liner": "<p>As multimodal AI fuses data from billions of devices, attackers can weaponize detailed digital twins of people or systems.  </p>\n<p>The post <a hre",
+          "source_name": "semiengineering.com",
+          "source_links": [
+            "https://semiengineering.com/defending-against-ai-enabled-data-fusion/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Accelerating Computational Lithography With GPU Rasterization",
+          "one_liner": "<p>Addressing a bottleneck in nanometer-scale semiconductor manufacturing.</p>\n<p>The post <a href=\"https://semiengineering.com/accelerating-computati",
+          "source_name": "semiengineering.com",
+          "source_links": [
+            "https://semiengineering.com/accelerating-computational-lithography-with-gpu-rasterization/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Securing The Software-Defined Vehicle Starts With Re-Architecting Trust",
+          "one_liner": "<p>Centralized compute platforms and OTA updates change a vehicle's risk profile in fundamental ways. </p>\n<p>The post <a href=\"https://semiengineerin",
+          "source_name": "semiengineering.com",
+          "source_links": [
+            "https://semiengineering.com/securing-the-software-defined-vehicle-starts-with-re-architecting-trust/"
+          ],
+          "credibility": "medium"
+        }
+      ]
+    },
+    {
+      "sector": "Robotics",
+      "slug": "robotics",
+      "heroes": [
+        {
+          "title": "Automate 2026 show recap",
+          "url": "https://www.therobotreport.com/automate-2026-show-recap/",
+          "source": "The Robot Report",
+          "category": "Robotics",
+          "published": "2026-07-02T21:35:58+00:00",
+          "score": 0.0,
+          "summary": "<p>Editors Steve Crowe, Mike Oitzman, and Sarah Wynn review Automate 2026, analyzing key trends in physical AI, humanoids, and software orchestration.</p>\n<p>The post <a href=\"https://www.therobotreport.com/automate-2026-show-recap/\">Automate 2026 show recap</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "rank_score": 3.174,
+          "sector": "Robotics",
+          "headline": "Automate 2026 show recap",
+          "source_links": [
+            "https://www.therobotreport.com/automate-2026-show-recap/"
+          ],
+          "one_liner": "<p>Editors Steve Crowe, Mike Oitzman, and Sarah Wynn review Automate 2026, analyzing key trends in physical AI, humanoids, and software orchestration.</p>\n<p>The post <a href=\"https://www.therobotreport.com/automate-2026-show-recap/\">Automate 2026 show recap</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "story": "<p>Editors Steve Crowe, Mike Oitzman, and Sarah Wynn review Automate 2026, analyzing key trends in physical AI, humanoids, and software orchestration.</p>\n<p>The post <a href=\"https://www.therobotreport.com/automate-2026-show-recap/\">Automate 2026 show recap</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating robotics tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "therobotreport.com",
+          "credibility": "medium",
+          "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/07/episode-251-featured.jpg"
+        },
+        {
+          "title": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
+          "url": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
+          "source": "The Robot Report",
+          "category": "Robotics",
+          "published": "2026-07-02T17:36:09+00:00",
+          "score": 0.0,
+          "summary": "<p>Experts are recognizing the importance of mechanical positioning and its impact on the machine’s mobility, range and speed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/\">Why you should combine robot dexterity with mechanical positioning for complex assembly operations</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "rank_score": 2.898,
+          "sector": "Robotics",
+          "headline": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
+          "source_links": [
+            "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/"
+          ],
+          "one_liner": "<p>Experts are recognizing the importance of mechanical positioning and its impact on the machine’s mobility, range and speed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/\">Why you should combine robot dexterity with mechanical positioning for complex assembly operations</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "story": "<p>Experts are recognizing the importance of mechanical positioning and its impact on the machine’s mobility, range and speed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/\">Why you should combine robot dexterity with mechanical positioning for complex assembly operations</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating robotics tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "therobotreport.com",
+          "credibility": "medium",
+          "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/07/Untitled-design-1.jpg"
+        },
+        {
+          "title": "Luxonis closes Series A round to scale physical AI perception layer",
+          "url": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
+          "source": "The Robot Report",
+          "category": "Robotics",
+          "published": "2026-07-02T17:00:32+00:00",
+          "score": 0.0,
+          "summary": "<p>Luxonis said it plans to scale production of its OAK camera and refine its platform to support robotics and industrial automation. </p>\n<p>The post <a href=\"https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/\">Luxonis closes Series A round to scale physical AI perception layer</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "rank_score": 2.898,
+          "sector": "Robotics",
+          "headline": "Luxonis closes Series A round to scale physical AI perception layer",
+          "source_links": [
+            "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/"
+          ],
+          "one_liner": "<p>Luxonis said it plans to scale production of its OAK camera and refine its platform to support robotics and industrial automation. </p>\n<p>The post <a href=\"https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/\">Luxonis closes Series A round to scale physical AI perception layer</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "story": "<p>Luxonis said it plans to scale production of its OAK camera and refine its platform to support robotics and industrial automation. </p>\n<p>The post <a href=\"https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/\">Luxonis closes Series A round to scale physical AI perception layer</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating robotics tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "therobotreport.com",
+          "credibility": "medium",
+          "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/07/Luxonis-Series-A-cover.jpg"
+        },
+        {
+          "title": "In Robotics, Ruggedization Is No Longer Optional",
+          "url": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
+          "source": "The Robot Report",
+          "category": "Robotics",
+          "published": "2026-07-01T23:44:05+00:00",
+          "score": 0.0,
+          "summary": "<p>As autonomy moves beyond controlled environments, ruggedized design is becoming a prerequisite for reliable robotic operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/\">In Robotics, Ruggedization Is No Longer Optional</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "rank_score": 2.898,
+          "sector": "Robotics",
+          "headline": "In Robotics, Ruggedization Is No Longer Optional",
+          "source_links": [
+            "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/"
+          ],
+          "one_liner": "<p>As autonomy moves beyond controlled environments, ruggedized design is becoming a prerequisite for reliable robotic operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/\">In Robotics, Ruggedization Is No Longer Optional</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "story": "<p>As autonomy moves beyond controlled environments, ruggedized design is becoming a prerequisite for reliable robotic operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/\">In Robotics, Ruggedization Is No Longer Optional</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating robotics tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "therobotreport.com",
+          "credibility": "medium",
+          "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/06/wibotic-sponsored-featured-image-july2026-v2.jpg"
+        },
+        {
+          "title": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/",
+          "source": "The Robot Report",
+          "category": "Robotics",
+          "published": "2026-07-01T17:30:31+00:00",
+          "score": 0.0,
+          "summary": "<p>Built as a data collection and training platform, Apollo 2 enables continuous learning through deployment, Apptronik said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/\">Apptronik unveils Apollo 2 and a flagship data collection and training facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "rank_score": 2.415,
+          "sector": "Robotics",
+          "headline": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
+          "source_links": [
+            "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/"
+          ],
+          "one_liner": "<p>Built as a data collection and training platform, Apollo 2 enables continuous learning through deployment, Apptronik said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/\">Apptronik unveils Apollo 2 and a flagship data collection and training facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "story": "<p>Built as a data collection and training platform, Apollo 2 enables continuous learning through deployment, Apptronik said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/\">Apptronik unveils Apollo 2 and a flagship data collection and training facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating robotics tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "therobotreport.com",
+          "credibility": "medium",
+          "image_url": "https://www.therobotreport.com/wp-content/uploads/2026/06/apollo2-featured.jpg"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "X Square Robot brings its valuation to $2.8B with four consecutive funding rounds",
+          "one_liner": "<p>X Square Robots' system combines foundation models, robotics hardware, a data pipeline system, and real-world deployments.</p>\n<p>The post <a href=",
+          "source_name": "therobotreport.com",
+          "source_links": [
+            "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Top 10 robotics developments of June 2026",
+          "one_liner": "<p>Humanoid robots made many headlines in June 2026, whether it be for companies going public, new deployments, or hitting production milestones.</p>\n",
+          "source_name": "therobotreport.com",
+          "source_links": [
+            "https://www.therobotreport.com/top-10-robotic-stories-june-2026/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Queue raises funding to build fully autonomous pharmacy",
+          "one_liner": "<p>Queue is developing automated pharmacies to expand access to prescriptions in hospitals, retail sites, and underserved communities.</p>\n<p>The post",
+          "source_name": "therobotreport.com",
+          "source_links": [
+            "https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Video Friday: Give Robots a Hand",
+          "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/three-fingered-robotic-gripper-arm-crawls-upright-on-a-white-table.gif?id=67036633&amp;width=1245&am",
+          "source_name": "spectrum.ieee.org",
+          "source_links": [
+            "https://spectrum.ieee.org/video-friday-robot-grippers"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Video Friday: Do Robots Even Need Legs?",
+          "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/white-service-robot-on-a-square-mobile-base-working-at-a-countertop-in-a-modern-wooden-kitchen.png?i",
+          "source_name": "spectrum.ieee.org",
+          "source_links": [
+            "https://spectrum.ieee.org/video-friday-agentic-ai-robot"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+          "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/cute-wheeled-home-robot-with-a-tablet-face-set-against-a-blue-heart-patterned-background.jpg?id=6690",
+          "source_name": "spectrum.ieee.org",
+          "source_links": [
+            "https://spectrum.ieee.org/amazon-astro-robot-sound"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "The Secret to Marathon-Winning Humanoid Robots",
+          "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/a-red-and-black-humanoid-runs-alone-through-a-marathon-course.jpg?id=66940897&amp;width=1245&amp;hei",
+          "source_name": "spectrum.ieee.org",
+          "source_links": [
+            "https://spectrum.ieee.org/china-humanoid-robot-marathon"
+          ],
+          "credibility": "high"
+        }
+      ]
+    },
+    {
+      "sector": "eVTOL",
+      "slug": "evtol",
+      "heroes": [
+        {
+          "title": "FAA Says Happy Fourth of July With $1.776B in Airport Grants",
+          "url": "https://www.flyingmag.com/faa-4th-july-america-250-airport-grants/",
+          "source": "FLYING Magazine",
+          "category": "eVTOL",
+          "published": "2026-07-02T22:00:00+00:00",
+          "score": 0.0,
+          "summary": "Fresh funding will support a range of projects, from runway rehabilitations to safety upgrades.",
+          "rank_score": 2.898,
+          "sector": "eVTOL",
+          "headline": "FAA Says Happy Fourth of July With $1.776B in Airport Grants",
+          "source_links": [
+            "https://www.flyingmag.com/faa-4th-july-america-250-airport-grants/"
+          ],
+          "one_liner": "Fresh funding will support a range of projects, from runway rehabilitations to safety upgrades.",
+          "story": "Fresh funding will support a range of projects, from runway rehabilitations to safety upgrades.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating evtol tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "flyingmag.com",
+          "credibility": "medium",
+          "image_url": "https://www.flyingmag.com/wp-content/uploads/2026/07/shutterstock_1857602539-1536x1024-1.jpg"
+        },
+        {
+          "title": "When GPS Fails: Lessons from a Fatal Air Ambulance Crash",
+          "url": "https://www.flyingmag.com/when-gps-fails-lessons-from-a-fatal-air-ambulance-crash/",
+          "source": "FLYING Magazine",
+          "category": "eVTOL",
+          "published": "2026-07-02T23:00:00+00:00",
+          "score": 0.0,
+          "summary": "Preliminary NTSB report explores role of military signal jamming in recent accident and need for pilots to maintain robust situational awareness.",
+          "rank_score": 2.646,
+          "sector": "eVTOL",
+          "headline": "When GPS Fails: Lessons from a Fatal Air Ambulance Crash",
+          "source_links": [
+            "https://www.flyingmag.com/when-gps-fails-lessons-from-a-fatal-air-ambulance-crash/"
+          ],
+          "one_liner": "Preliminary NTSB report explores role of military signal jamming in recent accident and need for pilots to maintain robust situational awareness.",
+          "story": "Preliminary NTSB report explores role of military signal jamming in recent accident and need for pilots to maintain robust situational awareness.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating evtol tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "flyingmag.com",
+          "credibility": "medium",
+          "image_url": "https://www.flyingmag.com/wp-content/uploads/2024/11/shutterstock_2149019381-scaled-e16745860981701-1.jpg"
+        },
+        {
+          "title": "Navy Searches For Missing MH-60S Crewmember",
+          "url": "https://www.flyingmag.com/navy-searches-missing-helicopter-crewmember/",
+          "source": "FLYING Magazine",
+          "category": "eVTOL",
+          "published": "2026-07-02T21:00:00+00:00",
+          "score": 0.0,
+          "summary": "Maritime helicopter made an emergency water landing on Wednesday.",
+          "rank_score": 2.646,
+          "sector": "eVTOL",
+          "headline": "Navy Searches For Missing MH-60S Crewmember",
+          "source_links": [
+            "https://www.flyingmag.com/navy-searches-missing-helicopter-crewmember/"
+          ],
+          "one_liner": "Maritime helicopter made an emergency water landing on Wednesday.",
+          "story": "Maritime helicopter made an emergency water landing on Wednesday.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating evtol tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "flyingmag.com",
+          "credibility": "medium",
+          "image_url": "https://www.flyingmag.com/wp-content/uploads/2026/07/201105-N-BR419-1085.jpg"
+        },
+        {
+          "title": "Repairs Scheduled for Tillamook Air Museum’s Iconic Hangar B",
+          "url": "https://www.flyingmag.com/repairs-scheduled-for-tillamook-air-museums-iconic-hangar-b/",
+          "source": "FLYING Magazine",
+          "category": "eVTOL",
+          "published": "2026-07-02T20:01:46+00:00",
+          "score": 0.0,
+          "summary": "Storm damage mitigation to begin in August.",
+          "rank_score": 2.646,
+          "sector": "eVTOL",
+          "headline": "Repairs Scheduled for Tillamook Air Museum’s Iconic Hangar B",
+          "source_links": [
+            "https://www.flyingmag.com/repairs-scheduled-for-tillamook-air-museums-iconic-hangar-b/"
+          ],
+          "one_liner": "Storm damage mitigation to begin in August.",
+          "story": "Storm damage mitigation to begin in August.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating evtol tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "flyingmag.com",
+          "credibility": "medium",
+          "image_url": "https://www.flyingmag.com/wp-content/uploads/2025/12/2048px-Tillamook_Air_Museum_from_air.jpg"
+        },
+        {
+          "title": "How to Become an Airport Firefighter",
+          "url": "https://www.flyingmag.com/how-to-become-an-airport-firefighter/",
+          "source": "FLYING Magazine",
+          "category": "eVTOL",
+          "published": "2026-07-02T20:00:00+00:00",
+          "score": 0.0,
+          "summary": "First responders serve a vital role in facility and tenant safety.",
+          "rank_score": 2.646,
+          "sector": "eVTOL",
+          "headline": "How to Become an Airport Firefighter",
+          "source_links": [
+            "https://www.flyingmag.com/how-to-become-an-airport-firefighter/"
+          ],
+          "one_liner": "First responders serve a vital role in facility and tenant safety.",
+          "story": "First responders serve a vital role in facility and tenant safety.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating evtol tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "flyingmag.com",
+          "credibility": "medium",
+          "image_url": "https://www.flyingmag.com/wp-content/uploads/2024/09/fire-fighters-515818_1280.jpg"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "By 2027, Delivery Drones Could Be Everywhere In Texas",
+          "one_liner": "Zipline and food technology platform Wonder aim to offer service out of most of the latter’s locations.",
+          "source_name": "flyingmag.com",
+          "source_links": [
+            "https://www.flyingmag.com/2027-delivery-drones-texas-zipline-wonder/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "This 2025 Cessna 700 Citation Longitude Is an Extremely Low-Time ‘AircraftForSale’ Top Pick",
+          "one_liner": "Twin Honeywell turbofan muscle and comprehensive program coverage anchor this modern super-midsize business jet.",
+          "source_name": "flyingmag.com",
+          "source_links": [
+            "https://www.flyingmag.com/this-2025-cessna-700-citation-longitude-is-an-extremely-low-time-aircraftforsale-top-pick/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "The Tragic Cost of Flying for the Camera",
+          "one_liner": "Death of Jenny Blalock provides safety lessons hidden in a preventable accident.",
+          "source_name": "flyingmag.com",
+          "source_links": [
+            "https://www.flyingmag.com/the-tragic-cost-of-flying-for-the-camera/"
+          ],
+          "credibility": "medium"
+        }
+      ]
+    },
+    {
+      "sector": "Drones",
+      "slug": "drones",
+      "heroes": [
+        {
+          "title": "DJI Mini 4K Protection Bundle Falls To $251.99 For July 4th Weekend, The Beginner Kit With Crash Protection Built In",
+          "url": "https://dronexl.co/2026/07/02/dji-mini-4k-protection-bundle-251-july-4-deal/",
+          "source": "DroneXL.co",
+          "category": "Drones",
+          "published": "2026-07-02T19:43:45+00:00",
+          "score": 0.0,
+          "summary": "The DJI Mini 4K Protection Bundle dropped to $251.99 on Amazon, 26% off its $341.99 list price and, per Amazon&#8217;s badge, the lowest price in 30 days. The deal landed right before the July 4th weekend, is Prime-eligible with free delivery by Sunday, July 5, and was in stock when I pulled up the listing [&#8230;]",
+          "rank_score": 3.402,
+          "sector": "Drones",
+          "headline": "DJI Mini 4K Protection Bundle Falls To $251.99 For July 4th Weekend, The Beginner Kit With Crash Protection Built In",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/dji-mini-4k-protection-bundle-251-july-4-deal/"
+          ],
+          "one_liner": "The DJI Mini 4K Protection Bundle dropped to $251.99 on Amazon, 26% off its $341.99 list price and, per Amazon&#8217;s badge, the lowest price in 30 days. The deal landed right before the July 4th weekend, is Prime-eligible with free delivery by Sunday, July 5, and was in stock when I pulled up the listing [&#8230;]",
+          "story": "The DJI Mini 4K Protection Bundle dropped to $251.99 on Amazon, 26% off its $341.99 list price and, per Amazon&#8217;s badge, the lowest price in 30 days. The deal landed right before the July 4th weekend, is Prime-eligible with free delivery by Sunday, July 5, and was in stock when I pulled up the listing [&#8230;]",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating drones tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "dronexl.co",
+          "credibility": "medium",
+          "image_url": "https://dronexl.co/wp-content/uploads/2024/04/dji-mini-4k-best-budget-drone.jpg"
+        },
+        {
+          "title": "Elroy Air eyes Nasdaq debut with $1 billion valuation",
+          "url": "https://dronedj.com/2026/07/02/elroy-air-nasdaq-drone-company/",
+          "source": "DroneDJ",
+          "category": "Drones",
+          "published": "2026-07-02T13:06:35+00:00",
+          "score": 0.0,
+          "summary": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/elroy-air-cargo-drone-nasdaq.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">Autonomous cargo drone maker Elroy Air is preparing for its next big chapter. The California-based company has announced plans to go public through a merger with a special purpose acquisition company (SPAC), giving it the funding needed to ramp up production of its heavy-lift Chaparral drone for both military and commercial customers.</p>",
+          "rank_score": 3.15,
+          "sector": "Drones",
+          "headline": "Elroy Air eyes Nasdaq debut with $1 billion valuation",
+          "source_links": [
+            "https://dronedj.com/2026/07/02/elroy-air-nasdaq-drone-company/"
+          ],
+          "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/elroy-air-cargo-drone-nasdaq.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">Autonomous cargo drone maker Elroy Air is preparing for its next big chapter. The California-based company has announced plans to go public through a merger with a special purpose acquisition company (SPAC), giving it the funding needed to ramp up production of its heavy-lift Chaparral drone for both military and commercial customers.</p>",
+          "story": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/elroy-air-cargo-drone-nasdaq.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">Autonomous cargo drone maker Elroy Air is preparing for its next big chapter. The California-based company has announced plans to go public through a merger with a special purpose acquisition company (SPAC), giving it the funding needed to ramp up production of its heavy-lift Chaparral drone for both military and commercial customers.</p>",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating drones tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "dronedj.com",
+          "credibility": "medium",
+          "image_url": "https://i0.wp.com/dronedj.com/wp-content/uploads/sites/2/2026/07/elroy-air-cargo-drone-nasdaq.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+        },
+        {
+          "title": "DJI Mimo gets major upgrade for new Osmo Pocket cameras",
+          "url": "https://dronedj.com/2026/07/01/dji-mimo-app-update-pocket/",
+          "source": "DroneDJ",
+          "category": "Drones",
+          "published": "2026-07-01T22:26:00+00:00",
+          "score": 0.0,
+          "summary": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/dji-Osmo-Pocket-4P-camera-mimo-app-update.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">DJI is keeping the momentum going for its newest pocket-sized cameras. Just days after introducing the Osmo Pocket 4P in China and rolling it out to additional Asian markets including Japan, Indonesia, and Vietnam, the company has released a fresh update for the DJI Mimo app — the companion app that’s essential for activating, managing, and editing footage from the Pocket camera lineup",
+          "rank_score": 3.15,
+          "sector": "Drones",
+          "headline": "DJI Mimo gets major upgrade for new Osmo Pocket cameras",
+          "source_links": [
+            "https://dronedj.com/2026/07/01/dji-mimo-app-update-pocket/"
+          ],
+          "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/dji-Osmo-Pocket-4P-camera-mimo-app-update.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">DJI is keeping the momentum going for its newest pocket-sized cameras. Just days after introducing the Osmo Pocket 4P in China and rolling it out to additional Asian markets including Japan, Indonesia, and Vietnam, the company has released a fresh update for the DJI Mimo app — the companion app that’s essential for activating, managing, and editing footage from the Pocket camera lineup",
+          "story": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/dji-Osmo-Pocket-4P-camera-mimo-app-update.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">DJI is keeping the momentum going for its newest pocket-sized cameras. Just days after introducing the Osmo Pocket 4P in China and rolling it out to additional Asian markets including Japan, Indonesia, and Vietnam, the company has released a fresh update for the DJI Mimo app — the companion app that’s essential for activating, managing, and editing footage from the Pocket camera lineup",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating drones tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "dronedj.com",
+          "credibility": "medium",
+          "image_url": "https://i0.wp.com/dronedj.com/wp-content/uploads/sites/2/2026/07/dji-Osmo-Pocket-4P-camera-mimo-app-update.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+        },
+        {
+          "title": "Police Drones Spread in California as Residents Push Back",
+          "url": "https://dronexl.co/2026/07/02/police-drones-california-residents-back/",
+          "source": "DroneXL.co",
+          "category": "Drones",
+          "published": "2026-07-03T03:00:55+00:00",
+          "score": 0.0,
+          "summary": "Two California cities moved to put police drones in the air the same week, and both ran straight into residents who don&#8217;t want them there. West Hollywood launches a sheriff-run drone program by the end of July. Berkeley opens bidding on a public safety package that bundles drones with license plate readers and cameras. DroneXL [&#8230;]",
+          "rank_score": 3.15,
+          "sector": "Drones",
+          "headline": "Police Drones Spread in California as Residents Push Back",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/police-drones-california-residents-back/"
+          ],
+          "one_liner": "Two California cities moved to put police drones in the air the same week, and both ran straight into residents who don&#8217;t want them there. West Hollywood launches a sheriff-run drone program by the end of July. Berkeley opens bidding on a public safety package that bundles drones with license plate readers and cameras. DroneXL [&#8230;]",
+          "story": "Two California cities moved to put police drones in the air the same week, and both ran straight into residents who don&#8217;t want them there. West Hollywood launches a sheriff-run drone program by the end of July. Berkeley opens bidding on a public safety package that bundles drones with license plate readers and cameras. DroneXL [&#8230;]",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating drones tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "dronexl.co",
+          "credibility": "medium",
+          "image_url": "https://dronexl.co/wp-content/uploads/2026/07/DSC03941.jpg"
+        },
+        {
+          "title": "Boom CEO Puts Up $100K Prize For First Amateur RC Airplane To Break Mach 1, Hours After Dorm-Built Jet Goes Viral",
+          "url": "https://dronexl.co/2026/07/02/boom-ceo-100k-prize-mach-1-amateur-rc-airplane/",
+          "source": "DroneXL.co",
+          "category": "Drones",
+          "published": "2026-07-02T22:27:44+00:00",
+          "score": 0.0,
+          "summary": "Boom Supersonic founder and CEO Blake Scholl announced a $100,000 prize, $50,000 in cash and $50,000 in Boom stock, for the first amateur-built RC airplane to exceed Mach 1. Scholl posted the challenge on X this morning, July 2, quote-tweeting the dorm-built jet drone that DroneXL covered just hours earlier. &#8220;Boom will be offering a [&#8230;]",
+          "rank_score": 3.15,
+          "sector": "Drones",
+          "headline": "Boom CEO Puts Up $100K Prize For First Amateur RC Airplane To Break Mach 1, Hours After Dorm-Built Jet Goes Viral",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/boom-ceo-100k-prize-mach-1-amateur-rc-airplane/"
+          ],
+          "one_liner": "Boom Supersonic founder and CEO Blake Scholl announced a $100,000 prize, $50,000 in cash and $50,000 in Boom stock, for the first amateur-built RC airplane to exceed Mach 1. Scholl posted the challenge on X this morning, July 2, quote-tweeting the dorm-built jet drone that DroneXL covered just hours earlier. &#8220;Boom will be offering a [&#8230;]",
+          "story": "Boom Supersonic founder and CEO Blake Scholl announced a $100,000 prize, $50,000 in cash and $50,000 in Boom stock, for the first amateur-built RC airplane to exceed Mach 1. Scholl posted the challenge on X this morning, July 2, quote-tweeting the dorm-built jet drone that DroneXL covered just hours earlier. &#8220;Boom will be offering a [&#8230;]",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating drones tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "dronexl.co",
+          "credibility": "medium",
+          "image_url": "https://dronexl.co/wp-content/uploads/2026/07/img_2796.jpg"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "DJI Teases New Enterprise Drone “For The Priceless Below,” And Everything Points At A Matrice 30 Successor",
+          "one_liner": "DJI will announce a new enterprise drone on July 8, 2026, at 8 AM EDT. The teaser, published by DJI Enterprise on July 2 under the tagline &#8220;For ",
+          "source_name": "dronexl.co",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/dji-enterprise-teaser-priceless-below-matrice-30-successor/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "UDD Picks Ohio For First U.S. FPV Drone Factory, Turning A Pentagon Contract Into 300 American Jobs",
+          "one_liner": "Ukrainian Defense Drones (UDD), the U.S. company representing Ukraine&#8217;s F-Drones, has chosen the Village of Holland in Northwest Ohio for its fi",
+          "source_name": "dronexl.co",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/udd-ohio-us-fpv-drone-factory-pentagon/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "DJI expands Pocket 4P rollout to three new countries",
+          "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/dji-osmo-pocket-4P-camera-release-price.jpg?quality=82&#038;s",
+          "source_name": "dronedj.com",
+          "source_links": [
+            "https://dronedj.com/2026/07/01/dji-pocket-4p-camera-release/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "DJI introduces next-generation Agras agricultural drones globally",
+          "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/new-dji-agricultural-drones-Agras-T55-T100.jpg?quality=82&#03",
+          "source_name": "dronedj.com",
+          "source_links": [
+            "https://dronedj.com/2026/07/02/new-dji-agricultural-drones-agras/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Luke Maximo Bell Beats SiFly’s Guinness Drone Endurance Record By An Hour",
+          "one_liner": "Luke Maximo Bell flew a rebuilt quadcopter for 4 hours, 21 minutes and 39 seconds on a single battery charge, breaking the Guinness World Record for l",
+          "source_name": "dronexl.co",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/luke-maximo-bell-guinness-drone-endurance-record/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "El Paso County Sheriff’s Drone First Responder Program Catches Woman Hiding With Two Active Warrants",
+          "one_liner": "An El Paso County Sheriff&#8217;s Office drone spotted people fleeing a Colorado Springs-area home and hiding in the backyard before deputies ever arr",
+          "source_name": "dronexl.co",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/el-paso-county-sheriffs-drone-first-responder-program/"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "College Student Claims 500 MPH Jet Drone Built In His Dorm Room, And The FAA Rulebook Says It Never Should Have Flown",
+          "one_liner": "A college student says he built the world's fastest RC airplane in his dorm: a 5 kg carbon-fiber jet he claims hits 500 mph. The engineering is real. ",
+          "source_name": "dronexl.co",
+          "source_links": [
+            "https://dronexl.co/2026/07/02/college-student-500-mph-jet-drone-dorm-room/"
+          ],
+          "credibility": "medium"
+        }
+      ]
+    },
+    {
+      "sector": "Hardware",
+      "slug": "hardware",
+      "heroes": [
+        {
+          "title": "There's a simple way to watch Spain vs Austria for *FREE*",
+          "url": "https://www.tomsguide.com/entertainment/streaming/theres-a-simple-way-to-watch-spain-vs-austria-for-free",
+          "source": "Latest from Tom's Guide",
+          "category": "Hardware",
+          "published": "2026-07-02T23:30:00+00:00",
+          "score": 0.0,
+          "summary": "Here's how to watch Spain vs Austria as wonderkid Lamine Yamal looks to inspire La Roja to a last-32 win.",
+          "rank_score": 3.15,
+          "sector": "Hardware",
+          "headline": "There's a simple way to watch Spain vs Austria for *FREE*",
+          "source_links": [
+            "https://www.tomsguide.com/entertainment/streaming/theres-a-simple-way-to-watch-spain-vs-austria-for-free"
+          ],
+          "one_liner": "Here's how to watch Spain vs Austria as wonderkid Lamine Yamal looks to inspire La Roja to a last-32 win.",
+          "story": "Here's how to watch Spain vs Austria as wonderkid Lamine Yamal looks to inspire La Roja to a last-32 win.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating hardware tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "tomsguide.com",
+          "credibility": "medium",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/jmzK6jCdVtbWcEvsuvipvQ-1920-80.jpg"
+        },
+        {
+          "title": "Onimusha: Way of the Sword's release date has been pushed up to avoid the pre-GTA 6 scramble",
+          "url": "https://www.engadget.com/2206772/onimusha-way-of-the-sword-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/",
+          "source": "Engadget - Technology News & Expert Reviews",
+          "category": "Hardware",
+          "published": "2026-07-02T19:53:03+00:00",
+          "score": 0.0,
+          "summary": "Capcom is trying to get Onimusha: Way of the Sword out the door before the fall release calendar gets really crowded.",
+          "rank_score": 2.898,
+          "sector": "Hardware",
+          "headline": "Onimusha: Way of the Sword's release date has been pushed up to avoid the pre-GTA 6 scramble",
+          "source_links": [
+            "https://www.engadget.com/2206772/onimusha-way-of-the-sword-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/"
+          ],
+          "one_liner": "Capcom is trying to get Onimusha: Way of the Sword out the door before the fall release calendar gets really crowded.",
+          "story": "Capcom is trying to get Onimusha: Way of the Sword out the door before the fall release calendar gets really crowded.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating hardware tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "engadget.com",
+          "credibility": "high",
+          "image_url": "https://www.engadget.com/img/gallery/onimusha-way-of-the-swords-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/l-intro-1783003856.jpg"
+        },
+        {
+          "title": "HDMI 2.1 vs USB-C vs DisplayPort: Which connection is better for your monitor?",
+          "url": "https://www.engadget.com/2205560/hdmi-2-1-vs-usb-c-displayport-monitor/",
+          "source": "Engadget - Technology News & Expert Reviews",
+          "category": "Hardware",
+          "published": "2026-07-02T18:30:00+00:00",
+          "score": 0.0,
+          "summary": "HDMI excels for media consumption, while PC gamers prefer DisplayPort.",
+          "rank_score": 2.898,
+          "sector": "Hardware",
+          "headline": "HDMI 2.1 vs USB-C vs DisplayPort: Which connection is better for your monitor?",
+          "source_links": [
+            "https://www.engadget.com/2205560/hdmi-2-1-vs-usb-c-displayport-monitor/"
+          ],
+          "one_liner": "HDMI excels for media consumption, while PC gamers prefer DisplayPort.",
+          "story": "HDMI excels for media consumption, while PC gamers prefer DisplayPort.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating hardware tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "engadget.com",
+          "credibility": "high",
+          "image_url": "https://www.engadget.com/img/gallery/hdmi-2-1-vs-usb-c-vs-displayport-which-connection-is-better-for-your-monitor/l-intro-1782861816.jpg"
+        },
+        {
+          "title": "Donald Trump bought a bunch of tech stock the same day he announced his AI Action Plan",
+          "url": "https://www.engadget.com/2206671/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/",
+          "source": "Engadget - Technology News & Expert Reviews",
+          "category": "Hardware",
+          "published": "2026-07-02T18:27:42+00:00",
+          "score": 0.0,
+          "summary": "Financial disclosures show how much Trump loves tech stocks.",
+          "rank_score": 2.898,
+          "sector": "Hardware",
+          "headline": "Donald Trump bought a bunch of tech stock the same day he announced his AI Action Plan",
+          "source_links": [
+            "https://www.engadget.com/2206671/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/"
+          ],
+          "one_liner": "Financial disclosures show how much Trump loves tech stocks.",
+          "story": "Financial disclosures show how much Trump loves tech stocks.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating hardware tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "engadget.com",
+          "credibility": "high",
+          "image_url": "https://www.engadget.com/img/gallery/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/l-intro-1782998790.jpg"
+        },
+        {
+          "title": "Amazon is ready to deploy the Leo satellite broadband service",
+          "url": "https://www.engadget.com/2206582/amazon-leo-is-ready-to-go/",
+          "source": "Engadget - Technology News & Expert Reviews",
+          "category": "Hardware",
+          "published": "2026-07-02T16:18:30+00:00",
+          "score": 0.0,
+          "summary": "There are now enough Amazon Leo satellites to launch the service, but its constellation is still tiny compared to Starlink's.",
+          "rank_score": 2.898,
+          "sector": "Hardware",
+          "headline": "Amazon is ready to deploy the Leo satellite broadband service",
+          "source_links": [
+            "https://www.engadget.com/2206582/amazon-leo-is-ready-to-go/"
+          ],
+          "one_liner": "There are now enough Amazon Leo satellites to launch the service, but its constellation is still tiny compared to Starlink's.",
+          "story": "There are now enough Amazon Leo satellites to launch the service, but its constellation is still tiny compared to Starlink's.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating hardware tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "engadget.com",
+          "credibility": "high",
+          "image_url": "https://www.engadget.com/img/gallery/amazon-is-ready-to-deploy-the-leo-satellite-broadband-service/l-intro-1782990997.jpg"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "Beat the heatwave with my favorite personal cooling fans and pads from $9",
+          "one_liner": "Whether your trekking to the beach or lining up for a fireworks show, these portable fans and pads will keep you cool when the temperatures spike.",
+          "source_name": "tomsguide.com",
+          "source_links": [
+            "https://www.tomsguide.com/home/beat-the-heatwave-with-my-favorite-personal-cooling-fans-and-pads-from-usd9"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "How to watch the World Cup in Portugal (for free)",
+          "one_liner": "It's the last chance saloon for Cristiano Ronaldo — here's how to watch every game of the 2026 FIFA World Cup for free in Portugal and overseas.",
+          "source_name": "tomsguide.com",
+          "source_links": [
+            "https://www.tomsguide.com/entertainment/streaming/how-to-watch-the-world-cup-in-portugal-for-free"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "How to watch the World Cup in Spain (for free)",
+          "one_liner": "La Roja are among the favorites to win their second title — here's how to watch every game of the 2026 FIFA World Cup for free in Spain and abroad.",
+          "source_name": "tomsguide.com",
+          "source_links": [
+            "https://www.tomsguide.com/entertainment/sports/how-to-watch-the-world-cup-in-spain-for-free"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Amazon could follow in Apple's footsteps by building its own processors — here's what that means for future Kindles and Fire TVs",
+          "one_liner": "A supply analyst is claiming that Amazon is looking to bring processor design in-house to save money.",
+          "source_name": "tomsguide.com",
+          "source_links": [
+            "https://www.tomsguide.com/computing/amazon-could-follow-in-apples-footsteps-by-building-its-own-processors-heres-what-that-means-for-future-kindles-and-fire-tvs"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "12 luxury mattresses worth every cent in the 4th of July sales — save up to $1,200 with these expert-vetted deals",
+          "one_liner": "Luxury beds that are worth the splurge from Saatva, Purple, Bear and more, tested and vetted by our expert team.",
+          "source_name": "tomsguide.com",
+          "source_links": [
+            "https://www.tomsguide.com/mattresses/best-luxury-4th-of-july-mattress-deals"
+          ],
+          "credibility": "medium"
+        },
+        {
+          "headline": "Cloudflare will filter out web crawlers that serve AI companies",
+          "one_liner": "The hosting platform wants sites to have more control over how AI companies use their content.",
+          "source_name": "engadget.com",
+          "source_links": [
+            "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Why bulky laptop chargers are a relic of the past",
+          "one_liner": "Laptop chargers are much easier to travel with these days, and there's one specific technology that is largely to thank.",
+          "source_name": "engadget.com",
+          "source_links": [
+            "https://www.engadget.com/2204249/why-bulky-laptop-chargers-are-outdated/"
+          ],
+          "credibility": "high"
+        }
+      ]
+    },
+    {
+      "sector": "Stocks",
+      "slug": "stocks",
+      "heroes": [
+        {
+          "title": "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+          "url": "https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html",
+          "source": "US Top News and Analysis",
+          "category": "Stocks",
+          "published": "2026-07-02T18:00:02+00:00",
+          "score": 0.0,
+          "summary": "Microsoft is the latest tech company to form a business focused on helping customers understand and implement artificial intelligence.",
+          "rank_score": 2.76,
+          "sector": "Stocks",
+          "headline": "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html"
+          ],
+          "one_liner": "Microsoft is the latest tech company to form a business focused on helping customers understand and implement artificial intelligence.",
+          "story": "Microsoft is the latest tech company to form a business focused on helping customers understand and implement artificial intelligence.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating stocks tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "cnbc.com",
+          "credibility": "high",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108260991-1770153509459-gettyimages-633008456-MICROSOFT_ALTHOFF.jpeg?v=1775174929&amp;w=1920&amp;h=1080"
+        },
+        {
+          "title": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
+          "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+          "source": "US Top News and Analysis",
+          "category": "Stocks",
+          "published": "2026-07-02T23:09:31+00:00",
+          "score": 0.0,
+          "summary": "A drop in the unemployment rate helped provide some upside to what was an otherwise downbeat jobs report — but it was for all the wrong reasons.",
+          "rank_score": 2.52,
+          "sector": "Stocks",
+          "headline": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+          ],
+          "one_liner": "A drop in the unemployment rate helped provide some upside to what was an otherwise downbeat jobs report — but it was for all the wrong reasons.",
+          "story": "A drop in the unemployment rate helped provide some upside to what was an otherwise downbeat jobs report — but it was for all the wrong reasons.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating stocks tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "cnbc.com",
+          "credibility": "high",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108300154-1777568965605-gettyimages-2273897299-jr_17222_lrhcapzi.jpeg?v=1783012330&amp;w=1920&amp;h=1080"
+        },
+        {
+          "title": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+          "url": "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html",
+          "source": "US Top News and Analysis",
+          "category": "Stocks",
+          "published": "2026-07-03T02:03:39+00:00",
+          "score": 0.0,
+          "summary": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
+          "rank_score": 2.52,
+          "sector": "Stocks",
+          "headline": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html"
+          ],
+          "one_liner": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
+          "story": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating stocks tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "cnbc.com",
+          "credibility": "high",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108111300-1741188979273-gettyimages-2203436327-markets595994_vdmnc6c8.jpeg?v=1741283609&amp;w=1920&amp;h=1080"
+        },
+        {
+          "title": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+          "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
+          "source": "US Top News and Analysis",
+          "category": "Stocks",
+          "published": "2026-07-02T21:50:27+00:00",
+          "score": 0.0,
+          "summary": "Nonfarm payrolls were expected to rise by 115,000 in June and the unemployment rate to hold steady at 4.3%.",
+          "rank_score": 2.52,
+          "sector": "Stocks",
+          "headline": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+          ],
+          "one_liner": "Nonfarm payrolls were expected to rise by 115,000 in June and the unemployment rate to hold steady at 4.3%.",
+          "story": "Nonfarm payrolls were expected to rise by 115,000 in June and the unemployment rate to hold steady at 4.3%.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating stocks tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "cnbc.com",
+          "credibility": "high",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108303914-1783007688061-108303914-1778178939793-gettyimages-2275025925-jr_19173_tzqifexs.jpg?v=1783007698&amp;w=1920&amp;h=1080"
+        },
+        {
+          "title": "Saudi Arabia has ramped up oil shipments through the Strait of Hormuz since U.S.-Iran deal",
+          "url": "https://www.cnbc.com/2026/07/02/saudi-arabia-iran-strait-hormuz-persian-gulf-oil.html",
+          "source": "US Top News and Analysis",
+          "category": "Stocks",
+          "published": "2026-07-03T01:47:06+00:00",
+          "score": 0.0,
+          "summary": "Saudi Arabia is restarting its export logistics in the Persian Gulf after a three-month pause, according to Kpler.",
+          "rank_score": 2.52,
+          "sector": "Stocks",
+          "headline": "Saudi Arabia has ramped up oil shipments through the Strait of Hormuz since U.S.-Iran deal",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/saudi-arabia-iran-strait-hormuz-persian-gulf-oil.html"
+          ],
+          "one_liner": "Saudi Arabia is restarting its export logistics in the Persian Gulf after a three-month pause, according to Kpler.",
+          "story": "Saudi Arabia is restarting its export logistics in the Persian Gulf after a three-month pause, according to Kpler.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating stocks tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. ",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "cnbc.com",
+          "credibility": "high",
+          "image_url": "https://image.cnbcfm.com/api/v1/image/108326763-1782392209142-gettyimages-2282654401-06212026qabooswaters-10_iwaqipn9.jpeg?v=1782392429&amp;w=1920&amp;h=1080"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "Tesla stock sinks 7% despite strong deliveries report, posting worst day in nearly a year",
+          "one_liner": "Tesla is trying to recover from consecutive annual declines in vehicle sales that were partly caused by a consumer backlash against CEO Elon Musk.",
+          "source_name": "cnbc.com",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Led by Buc-ee’s and new rival Dolly Parton, America’s gas station chains are in a mega-sizing era",
+          "one_liner": "Gas station chains led by Buc-ee's are coming closer to rivaling America's big box stores in size, and Dolly Parton is getting in on the retail trend.",
+          "source_name": "cnbc.com",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/led-by-buc-ees-dolly-parton-americas-gas-stations-go-mega-size-.html"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "High-end camping and a capital raise: AutoCamp is banking on summer travel to fuel growth",
+          "one_liner": "AutoCamp offers Airstream suites, polished cabins, fire pits, design-forward amenities and access to iconic outdoor destinations.",
+          "source_name": "cnbc.com",
+          "source_links": [
+            "https://www.cnbc.com/2026/07/02/autocamp-high-end-camping-summer-travel-capital-raise.html"
+          ],
+          "credibility": "high"
+        }
+      ]
+    },
+    {
+      "sector": "Open Source",
+      "slug": "open-source",
+      "heroes": [
+        {
+          "title": "mekos2772/ios-location-spoofer — Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+          "url": "https://github.com/mekos2772/ios-location-spoofer",
+          "source": "GitHub",
+          "category": "Open Source",
+          "published": "2026-06-30T11:20:30Z",
+          "score": 10.77,
+          "summary": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+          "extra": {
+            "stars": 1077,
+            "language": "JavaScript"
+          },
+          "rank_score": 6.666,
+          "sector": "Open Source",
+          "headline": "mekos2772/ios-location-spoofer — Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+          "source_links": [
+            "https://github.com/mekos2772/ios-location-spoofer"
+          ],
+          "one_liner": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+          "story": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating open source tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. This itself is open source (1,077★).",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "github.com",
+          "credibility": "high",
+          "image_url": "https://opengraph.githubassets.com/b50b073d50a4229fc97781aa194488691ec6ffb2184b3679286534b79612ac28/mekos2772/ios-location-spoofer"
+        },
+        {
+          "title": "TianhangZhuzth/Fundamental-Ava — Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+          "source": "GitHub",
+          "category": "Open Source",
+          "published": "2026-06-30T01:04:13Z",
+          "score": 7.5,
+          "summary": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "extra": {
+            "stars": 750,
+            "language": "Python"
+          },
+          "rank_score": 6.666,
+          "sector": "Open Source",
+          "headline": "TianhangZhuzth/Fundamental-Ava — Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "source_links": [
+            "https://github.com/TianhangZhuzth/Fundamental-Ava"
+          ],
+          "one_liner": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "story": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating open source tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. This itself is open source (750★).",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "github.com",
+          "credibility": "high",
+          "image_url": "https://opengraph.githubassets.com/b40ff39c95c4937b1a936a1d7034ece3777f021296c480f610623805bf7c310d/TianhangZhuzth/Fundamental-Ava"
+        },
+        {
+          "title": "yynxxxxx/Codex-5.5-codex-instruct-5.5 — new open-source release",
+          "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
+          "source": "GitHub",
+          "category": "Open Source",
+          "published": "2026-06-28T10:24:42Z",
+          "score": 11.03,
+          "summary": "",
+          "extra": {
+            "stars": 1103,
+            "language": "Python"
+          },
+          "rank_score": 6.468,
+          "sector": "Open Source",
+          "headline": "yynxxxxx/Codex-5.5-codex-instruct-5.5 — new open-source release",
+          "source_links": [
+            "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
+          ],
+          "one_liner": "A notable new Open Source development worth a look.",
+          "story": "yynxxxxx/Codex-5.5-codex-instruct-5.5 — new open-source release. Flagged by GitHub as a significant Open Source development. Full deep-dive pending — see the source link for primary details.",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating open source tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. This itself is open source (1,103★).",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "github.com",
+          "credibility": "high",
+          "image_url": "https://opengraph.githubassets.com/5092efea33cef9faf2a512ccbed943dd6f7f5b580e1140aa2bb720a54c69852e/yynxxxxx/Codex-5.5-codex-instruct-5.5"
+        },
+        {
+          "title": "tryOpenRAM/OpenRAM — Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+          "url": "https://github.com/tryOpenRAM/OpenRAM",
+          "source": "GitHub",
+          "category": "Open Source",
+          "published": "2026-06-26T22:59:46Z",
+          "score": 5.64,
+          "summary": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+          "extra": {
+            "stars": 564,
+            "language": "Vue"
+          },
+          "rank_score": 6.204,
+          "sector": "Open Source",
+          "headline": "tryOpenRAM/OpenRAM — Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+          "source_links": [
+            "https://github.com/tryOpenRAM/OpenRAM"
+          ],
+          "one_liner": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+          "story": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating open source tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. This itself is open source (564★).",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "github.com",
+          "credibility": "high",
+          "image_url": "https://opengraph.githubassets.com/c31ae607581f8128e5e3564274750e30dbbd0df7500c9eeca7b016c1991b3b34/tryOpenRAM/OpenRAM"
+        },
+        {
+          "title": "deepseek-ai/DeepSpec — DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+          "url": "https://github.com/deepseek-ai/DeepSpec",
+          "source": "GitHub",
+          "category": "Open Source",
+          "published": "2026-06-26T12:36:05Z",
+          "score": 58.7,
+          "summary": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+          "extra": {
+            "stars": 5870,
+            "language": "Python"
+          },
+          "rank_score": 5.94,
+          "sector": "Open Source",
+          "headline": "deepseek-ai/DeepSpec — DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+          "source_links": [
+            "https://github.com/deepseek-ai/DeepSpec"
+          ],
+          "one_liner": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+          "story": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+          "founding_story": "Company/project background to be verified against primary sources before publishing. (Auto-mode fills this from the source; enable an LLM key or add a seed entry for a full origin story.)",
+          "who_should_use": "People actively working in or evaluating open source tools and products.",
+          "who_should_buy": "Buy only if it solves a problem you have today; otherwise wait for reviews and price drops. NO BS default: don't buy v1 on hype.",
+          "free_alternatives": "Check for open-source or free-tier equivalents before paying — there is usually one. This itself is open source (5,870★).",
+          "verdict": "WATCH — verify details before making a purchase call.",
+          "source_name": "github.com",
+          "credibility": "high",
+          "image_url": "https://opengraph.githubassets.com/bebb2c2461f9ad974da140f1fcccbddfd15a55bb3956a15df1fe89a2a6bdf1ca/deepseek-ai/DeepSpec"
+        }
+      ],
+      "other_news": [
+        {
+          "headline": "Krishnagangwal/CS-Fundamentals — Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
+          "one_liner": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/Krishnagangwal/CS-Fundamentals"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Kulaxyz/self-learning-skills — A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+          "one_liner": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reus",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/Kulaxyz/self-learning-skills"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "aquace/CVE-2026-41940-PoC — CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+          "one_liner": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/aquace/CVE-2026-41940-PoC"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "bikini/exploitarium — A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+          "one_liner": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report th",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/bikini/exploitarium"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "winsznx/bull-rush — 🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrush.xyz",
+          "one_liner": "🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrus",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/winsznx/bull-rush"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "Yu9191/wloc — 修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
+          "one_liner": "修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/Yu9191/wloc"
+          ],
+          "credibility": "high"
+        },
+        {
+          "headline": "bozhouDev/codex-orange-book — Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
+          "one_liner": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
+          "source_name": "github.com",
+          "source_links": [
+            "https://github.com/bozhouDev/codex-orange-book"
+          ],
+          "credibility": "high"
+        }
+      ]
+    }
+  ],
+  "all_news": [
+    {
+      "sector": "AI",
+      "kind": "hero",
+      "headline": "PeerTube is a free, decentralized and federated video platform",
+      "one_liner": "A notable new AI development worth a look.",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/Chocobozzz/PeerTube"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "AI",
+      "kind": "hero",
+      "headline": "Google loses fight over record $4.7B EU antitrust fine",
+      "one_liner": "A notable new AI development worth a look.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "AI",
+      "kind": "hero",
+      "headline": "Why I'm Forced to Say Farewell: Google Management Has Lost Its Moral Compass",
+      "one_liner": "A notable new AI development worth a look.",
+      "source_name": "docs.google.com",
+      "source_links": [
+        "https://docs.google.com/document/d/1SH9QRTAlL02THgAN2AGmWe9El0_2ZJF6hhgDBx8k97c/edit?tab=t.0"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "AI",
+      "kind": "hero",
+      "headline": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+      "one_liner": "A notable new AI development worth a look.",
+      "source_name": "blog.google",
+      "source_links": [
+        "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "AI",
+      "kind": "hero",
+      "headline": "Meta loses bid to dismiss US states' claims that FB, Instagram addict children",
+      "one_liner": "A notable new AI development worth a look.",
+      "source_name": "reuters.com",
+      "source_links": [
+        "https://www.reuters.com/legal/government/meta-loses-bid-dismiss-us-states-claims-that-facebook-instagram-addict-children-2026-06-30/"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "one_liner": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "Meta quietly launches vibe-coded gaming app Pocket",
+      "one_liner": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+      "one_liner": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
+      "one_liner": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "Anthropic is discussing a new custom chip with Samsung",
+      "one_liner": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "one_liner": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting th",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "AI",
+      "kind": "other",
+      "headline": "Yep, we’re using OpenClaw to date now",
+      "one_liner": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagr",
+      "source_name": "techcrunch.com",
+      "source_links": [
+        "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "hero",
+      "headline": "SK hynix to invest $712.5 billion in South Korean operations — Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed",
+      "one_liner": "SK hynix announces major plan to spend $712.5 billion in its operations in South Korea, but the only detailed investments are spendings on a new NAND fab and a packaging facility.",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "hero",
+      "headline": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle — trades tokens for revenue cut",
+      "one_liner": "Nvidia has announced a new business model under which it’ll be able to double-dip for revenue on the same silicon.",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "hero",
+      "headline": "U.S PC shipments drop 7%, market isn't expected to bounce back until 2029 — price hikes and component shortages take hold as PC market declines, Omdia report suggests",
+      "one_liner": "New data suggests PC shipments are already down in 2026 and are likely to get worse in the latter half of the year, but that could be setting the stage for a resurgence in the years to come.",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/tech-industry/u-s-pc-shipments-drop-7-percent-market-isnt-expected-to-bounce-back-until-2029-price-hikes-and-component-shortages-take-hold-as-pc-market-declines-omdia-report-suggests"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "hero",
+      "headline": "Save up to 39% on a new 3D printer this weekend, thanks to these July 4th deals — discounted printers, filament, and resin from Bambu Lab, Creality, Elegoo, and more for 3DP beginners and experienced pros alike",
+      "one_liner": "These are some of the top 3D printer deals available right now during this Independence Day weekend.",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/gift-guides-seasonal-sales/save-up-to-39-percent-on-a-new-3d-printer-this-weekend-thanks-to-these-july-4th-deals-discounted-printers-filament-and-resin-from-bambu-lab-creality-elegoo-and-more-for-3dp-beginners-and-experienced-pros-alike"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "hero",
+      "headline": "Montech NX600 Review: A budget dual tower with jet-engine fans",
+      "one_liner": "Montech’s NX600 is a new dual-tower air cooler powered by six heatpipes and two 28mm thick high-performance 120mm fans. We’ve tested it with AMD’s Ryzen 9 9950X3D to benchmark its thermal efficiency.",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/pc-components/air-cooling/montech-nx600-review"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "Palantir CEO Alex Karp claims AI companies are stealing customers' data while charging them for unproductive tokens — says 'livid' businesses 'are paying for tokens that create no value'",
+      "one_liner": "Palantir CEO Alex Karp boldly states in an interview that claims AI companies are stealing customer's data while charging them for unproductive servic",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/palantir-ceo-alex-karp-claims-ai-companies-are-stealing-customers-data-while-charging-them-for-unproductive-tokens-says-livid-businesses-are-paying-for-tokens-that-create-no-value"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "Supermicro denies that its offices were raided by Taiwanese authorities in Nvidia GPU smuggling case — company says that it coordinated with the police and provided access to investigated employees’ workstations and gadgets",
+      "one_liner": "The company insists that it's cooperating with Taiwanese authorities and has voluntarily provided access to its premises. It also confirmed with the p",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/desktops/servers/supermicro-denies-that-its-offices-were-raided-by-taiwanese-authorities-in-nvidia-gpu-smuggling-case-company-says-that-it-coordinated-with-the-police-and-provided-access-to-investigated-employees-workstations-and-gadgets"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "Digital archivists rush to save PS3 game data before Sony shuts down the store forever in 2027 — RPCS3 emulator urges users to preserve all content",
+      "one_liner": "Sony is shutting down PSN for PS3 consoles next year, so preservationists are being asked to wake up from their slumber to archive everything before i",
+      "source_name": "tomshardware.com",
+      "source_links": [
+        "https://www.tomshardware.com/video-games/playstation/digital-archivists-rush-to-save-ps3-game-data-before-sony-shuts-down-the-store-forever-in-2027-rpcs3-emulator-urges-users-to-preserve-all-content"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "AI Data Centers And Auto Industry Converge On Same Issues",
+      "one_liner": "<p>The EV revolution relies on battery innovation, while AI data centers need a range of new energy solutions to play nice with the grid. Both sectors",
+      "source_name": "semiengineering.com",
+      "source_links": [
+        "https://semiengineering.com/ai-data-centers-and-auto-industry-converge-on-same-issues/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "Defending Against AI-Enabled Data Fusion",
+      "one_liner": "<p>As multimodal AI fuses data from billions of devices, attackers can weaponize detailed digital twins of people or systems.  </p>\n<p>The post <a hre",
+      "source_name": "semiengineering.com",
+      "source_links": [
+        "https://semiengineering.com/defending-against-ai-enabled-data-fusion/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "Accelerating Computational Lithography With GPU Rasterization",
+      "one_liner": "<p>Addressing a bottleneck in nanometer-scale semiconductor manufacturing.</p>\n<p>The post <a href=\"https://semiengineering.com/accelerating-computati",
+      "source_name": "semiengineering.com",
+      "source_links": [
+        "https://semiengineering.com/accelerating-computational-lithography-with-gpu-rasterization/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Semiconductors",
+      "kind": "other",
+      "headline": "Securing The Software-Defined Vehicle Starts With Re-Architecting Trust",
+      "one_liner": "<p>Centralized compute platforms and OTA updates change a vehicle's risk profile in fundamental ways. </p>\n<p>The post <a href=\"https://semiengineerin",
+      "source_name": "semiengineering.com",
+      "source_links": [
+        "https://semiengineering.com/securing-the-software-defined-vehicle-starts-with-re-architecting-trust/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "hero",
+      "headline": "Automate 2026 show recap",
+      "one_liner": "<p>Editors Steve Crowe, Mike Oitzman, and Sarah Wynn review Automate 2026, analyzing key trends in physical AI, humanoids, and software orchestration.</p>\n<p>The post <a href=\"https://www.therobotreport.com/automate-2026-show-recap/\">Automate 2026 show recap</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/automate-2026-show-recap/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Robotics",
+      "kind": "hero",
+      "headline": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
+      "one_liner": "<p>Experts are recognizing the importance of mechanical positioning and its impact on the machine’s mobility, range and speed.</p>\n<p>The post <a href=\"https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/\">Why you should combine robot dexterity with mechanical positioning for complex assembly operations</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Robotics",
+      "kind": "hero",
+      "headline": "Luxonis closes Series A round to scale physical AI perception layer",
+      "one_liner": "<p>Luxonis said it plans to scale production of its OAK camera and refine its platform to support robotics and industrial automation. </p>\n<p>The post <a href=\"https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/\">Luxonis closes Series A round to scale physical AI perception layer</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Robotics",
+      "kind": "hero",
+      "headline": "In Robotics, Ruggedization Is No Longer Optional",
+      "one_liner": "<p>As autonomy moves beyond controlled environments, ruggedized design is becoming a prerequisite for reliable robotic operations.</p>\n<p>The post <a href=\"https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/\">In Robotics, Ruggedization Is No Longer Optional</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Robotics",
+      "kind": "hero",
+      "headline": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
+      "one_liner": "<p>Built as a data collection and training platform, Apollo 2 enables continuous learning through deployment, Apptronik said.</p>\n<p>The post <a href=\"https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/\">Apptronik unveils Apollo 2 and a flagship data collection and training facility</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "X Square Robot brings its valuation to $2.8B with four consecutive funding rounds",
+      "one_liner": "<p>X Square Robots' system combines foundation models, robotics hardware, a data pipeline system, and real-world deployments.</p>\n<p>The post <a href=",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "Top 10 robotics developments of June 2026",
+      "one_liner": "<p>Humanoid robots made many headlines in June 2026, whether it be for companies going public, new deployments, or hitting production milestones.</p>\n",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/top-10-robotic-stories-june-2026/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "Queue raises funding to build fully autonomous pharmacy",
+      "one_liner": "<p>Queue is developing automated pharmacies to expand access to prescriptions in hospitals, retail sites, and underserved communities.</p>\n<p>The post",
+      "source_name": "therobotreport.com",
+      "source_links": [
+        "https://www.therobotreport.com/queue-raises-funding-fully-autonomous-pharmacy/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "Video Friday: Give Robots a Hand",
+      "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/three-fingered-robotic-gripper-arm-crawls-upright-on-a-white-table.gif?id=67036633&amp;width=1245&am",
+      "source_name": "spectrum.ieee.org",
+      "source_links": [
+        "https://spectrum.ieee.org/video-friday-robot-grippers"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "Video Friday: Do Robots Even Need Legs?",
+      "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/white-service-robot-on-a-square-mobile-base-working-at-a-countertop-in-a-modern-wooden-kitchen.png?i",
+      "source_name": "spectrum.ieee.org",
+      "source_links": [
+        "https://spectrum.ieee.org/video-friday-agentic-ai-robot"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+      "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/cute-wheeled-home-robot-with-a-tablet-face-set-against-a-blue-heart-patterned-background.jpg?id=6690",
+      "source_name": "spectrum.ieee.org",
+      "source_links": [
+        "https://spectrum.ieee.org/amazon-astro-robot-sound"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Robotics",
+      "kind": "other",
+      "headline": "The Secret to Marathon-Winning Humanoid Robots",
+      "one_liner": "<img src=\"https://spectrum.ieee.org/media-library/a-red-and-black-humanoid-runs-alone-through-a-marathon-course.jpg?id=66940897&amp;width=1245&amp;hei",
+      "source_name": "spectrum.ieee.org",
+      "source_links": [
+        "https://spectrum.ieee.org/china-humanoid-robot-marathon"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "hero",
+      "headline": "FAA Says Happy Fourth of July With $1.776B in Airport Grants",
+      "one_liner": "Fresh funding will support a range of projects, from runway rehabilitations to safety upgrades.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/faa-4th-july-america-250-airport-grants/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "hero",
+      "headline": "When GPS Fails: Lessons from a Fatal Air Ambulance Crash",
+      "one_liner": "Preliminary NTSB report explores role of military signal jamming in recent accident and need for pilots to maintain robust situational awareness.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/when-gps-fails-lessons-from-a-fatal-air-ambulance-crash/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "hero",
+      "headline": "Navy Searches For Missing MH-60S Crewmember",
+      "one_liner": "Maritime helicopter made an emergency water landing on Wednesday.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/navy-searches-missing-helicopter-crewmember/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "hero",
+      "headline": "Repairs Scheduled for Tillamook Air Museum’s Iconic Hangar B",
+      "one_liner": "Storm damage mitigation to begin in August.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/repairs-scheduled-for-tillamook-air-museums-iconic-hangar-b/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "hero",
+      "headline": "How to Become an Airport Firefighter",
+      "one_liner": "First responders serve a vital role in facility and tenant safety.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/how-to-become-an-airport-firefighter/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "other",
+      "headline": "By 2027, Delivery Drones Could Be Everywhere In Texas",
+      "one_liner": "Zipline and food technology platform Wonder aim to offer service out of most of the latter’s locations.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/2027-delivery-drones-texas-zipline-wonder/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "other",
+      "headline": "This 2025 Cessna 700 Citation Longitude Is an Extremely Low-Time ‘AircraftForSale’ Top Pick",
+      "one_liner": "Twin Honeywell turbofan muscle and comprehensive program coverage anchor this modern super-midsize business jet.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/this-2025-cessna-700-citation-longitude-is-an-extremely-low-time-aircraftforsale-top-pick/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "eVTOL",
+      "kind": "other",
+      "headline": "The Tragic Cost of Flying for the Camera",
+      "one_liner": "Death of Jenny Blalock provides safety lessons hidden in a preventable accident.",
+      "source_name": "flyingmag.com",
+      "source_links": [
+        "https://www.flyingmag.com/the-tragic-cost-of-flying-for-the-camera/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "hero",
+      "headline": "DJI Mini 4K Protection Bundle Falls To $251.99 For July 4th Weekend, The Beginner Kit With Crash Protection Built In",
+      "one_liner": "The DJI Mini 4K Protection Bundle dropped to $251.99 on Amazon, 26% off its $341.99 list price and, per Amazon&#8217;s badge, the lowest price in 30 days. The deal landed right before the July 4th weekend, is Prime-eligible with free delivery by Sunday, July 5, and was in stock when I pulled up the listing [&#8230;]",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/dji-mini-4k-protection-bundle-251-july-4-deal/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Drones",
+      "kind": "hero",
+      "headline": "Elroy Air eyes Nasdaq debut with $1 billion valuation",
+      "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/elroy-air-cargo-drone-nasdaq.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">Autonomous cargo drone maker Elroy Air is preparing for its next big chapter. The California-based company has announced plans to go public through a merger with a special purpose acquisition company (SPAC), giving it the funding needed to ramp up production of its heavy-lift Chaparral drone for both military and commercial customers.</p>",
+      "source_name": "dronedj.com",
+      "source_links": [
+        "https://dronedj.com/2026/07/02/elroy-air-nasdaq-drone-company/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Drones",
+      "kind": "hero",
+      "headline": "DJI Mimo gets major upgrade for new Osmo Pocket cameras",
+      "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/dji-Osmo-Pocket-4P-camera-mimo-app-update.jpg?quality=82&#038;strip=all&#038;w=1200\" /></div><p class=\"wp-block-paragraph\">DJI is keeping the momentum going for its newest pocket-sized cameras. Just days after introducing the Osmo Pocket 4P in China and rolling it out to additional Asian markets including Japan, Indonesia, and Vietnam, the company has released a fresh update for the DJI Mimo app — the companion app that’s essential for activating, managing, and editing footage from the Pocket camera lineup",
+      "source_name": "dronedj.com",
+      "source_links": [
+        "https://dronedj.com/2026/07/01/dji-mimo-app-update-pocket/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Drones",
+      "kind": "hero",
+      "headline": "Police Drones Spread in California as Residents Push Back",
+      "one_liner": "Two California cities moved to put police drones in the air the same week, and both ran straight into residents who don&#8217;t want them there. West Hollywood launches a sheriff-run drone program by the end of July. Berkeley opens bidding on a public safety package that bundles drones with license plate readers and cameras. DroneXL [&#8230;]",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/police-drones-california-residents-back/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Drones",
+      "kind": "hero",
+      "headline": "Boom CEO Puts Up $100K Prize For First Amateur RC Airplane To Break Mach 1, Hours After Dorm-Built Jet Goes Viral",
+      "one_liner": "Boom Supersonic founder and CEO Blake Scholl announced a $100,000 prize, $50,000 in cash and $50,000 in Boom stock, for the first amateur-built RC airplane to exceed Mach 1. Scholl posted the challenge on X this morning, July 2, quote-tweeting the dorm-built jet drone that DroneXL covered just hours earlier. &#8220;Boom will be offering a [&#8230;]",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/boom-ceo-100k-prize-mach-1-amateur-rc-airplane/"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "DJI Teases New Enterprise Drone “For The Priceless Below,” And Everything Points At A Matrice 30 Successor",
+      "one_liner": "DJI will announce a new enterprise drone on July 8, 2026, at 8 AM EDT. The teaser, published by DJI Enterprise on July 2 under the tagline &#8220;For ",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/dji-enterprise-teaser-priceless-below-matrice-30-successor/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "UDD Picks Ohio For First U.S. FPV Drone Factory, Turning A Pentagon Contract Into 300 American Jobs",
+      "one_liner": "Ukrainian Defense Drones (UDD), the U.S. company representing Ukraine&#8217;s F-Drones, has chosen the Village of Holland in Northwest Ohio for its fi",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/udd-ohio-us-fpv-drone-factory-pentagon/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "DJI expands Pocket 4P rollout to three new countries",
+      "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/dji-osmo-pocket-4P-camera-release-price.jpg?quality=82&#038;s",
+      "source_name": "dronedj.com",
+      "source_links": [
+        "https://dronedj.com/2026/07/01/dji-pocket-4p-camera-release/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "DJI introduces next-generation Agras agricultural drones globally",
+      "one_liner": "<div class=\"feat-image\"><img src=\"https://dronedj.com/wp-content/uploads/sites/2/2026/07/new-dji-agricultural-drones-Agras-T55-T100.jpg?quality=82&#03",
+      "source_name": "dronedj.com",
+      "source_links": [
+        "https://dronedj.com/2026/07/02/new-dji-agricultural-drones-agras/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "Luke Maximo Bell Beats SiFly’s Guinness Drone Endurance Record By An Hour",
+      "one_liner": "Luke Maximo Bell flew a rebuilt quadcopter for 4 hours, 21 minutes and 39 seconds on a single battery charge, breaking the Guinness World Record for l",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/luke-maximo-bell-guinness-drone-endurance-record/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "El Paso County Sheriff’s Drone First Responder Program Catches Woman Hiding With Two Active Warrants",
+      "one_liner": "An El Paso County Sheriff&#8217;s Office drone spotted people fleeing a Colorado Springs-area home and hiding in the backyard before deputies ever arr",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/el-paso-county-sheriffs-drone-first-responder-program/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Drones",
+      "kind": "other",
+      "headline": "College Student Claims 500 MPH Jet Drone Built In His Dorm Room, And The FAA Rulebook Says It Never Should Have Flown",
+      "one_liner": "A college student says he built the world's fastest RC airplane in his dorm: a 5 kg carbon-fiber jet he claims hits 500 mph. The engineering is real. ",
+      "source_name": "dronexl.co",
+      "source_links": [
+        "https://dronexl.co/2026/07/02/college-student-500-mph-jet-drone-dorm-room/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "hero",
+      "headline": "There's a simple way to watch Spain vs Austria for *FREE*",
+      "one_liner": "Here's how to watch Spain vs Austria as wonderkid Lamine Yamal looks to inspire La Roja to a last-32 win.",
+      "source_name": "tomsguide.com",
+      "source_links": [
+        "https://www.tomsguide.com/entertainment/streaming/theres-a-simple-way-to-watch-spain-vs-austria-for-free"
+      ],
+      "credibility": "medium",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Hardware",
+      "kind": "hero",
+      "headline": "Onimusha: Way of the Sword's release date has been pushed up to avoid the pre-GTA 6 scramble",
+      "one_liner": "Capcom is trying to get Onimusha: Way of the Sword out the door before the fall release calendar gets really crowded.",
+      "source_name": "engadget.com",
+      "source_links": [
+        "https://www.engadget.com/2206772/onimusha-way-of-the-sword-release-date-has-been-pushed-up-to-avoid-pre-gta-6-scramble/"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Hardware",
+      "kind": "hero",
+      "headline": "HDMI 2.1 vs USB-C vs DisplayPort: Which connection is better for your monitor?",
+      "one_liner": "HDMI excels for media consumption, while PC gamers prefer DisplayPort.",
+      "source_name": "engadget.com",
+      "source_links": [
+        "https://www.engadget.com/2205560/hdmi-2-1-vs-usb-c-displayport-monitor/"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Hardware",
+      "kind": "hero",
+      "headline": "Donald Trump bought a bunch of tech stock the same day he announced his AI Action Plan",
+      "one_liner": "Financial disclosures show how much Trump loves tech stocks.",
+      "source_name": "engadget.com",
+      "source_links": [
+        "https://www.engadget.com/2206671/donald-trump-bought-a-bunch-of-tech-stock-the-same-day-he-announced-his-ai-action-plan/"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Hardware",
+      "kind": "hero",
+      "headline": "Amazon is ready to deploy the Leo satellite broadband service",
+      "one_liner": "There are now enough Amazon Leo satellites to launch the service, but its constellation is still tiny compared to Starlink's.",
+      "source_name": "engadget.com",
+      "source_links": [
+        "https://www.engadget.com/2206582/amazon-leo-is-ready-to-go/"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "Beat the heatwave with my favorite personal cooling fans and pads from $9",
+      "one_liner": "Whether your trekking to the beach or lining up for a fireworks show, these portable fans and pads will keep you cool when the temperatures spike.",
+      "source_name": "tomsguide.com",
+      "source_links": [
+        "https://www.tomsguide.com/home/beat-the-heatwave-with-my-favorite-personal-cooling-fans-and-pads-from-usd9"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "How to watch the World Cup in Portugal (for free)",
+      "one_liner": "It's the last chance saloon for Cristiano Ronaldo — here's how to watch every game of the 2026 FIFA World Cup for free in Portugal and overseas.",
+      "source_name": "tomsguide.com",
+      "source_links": [
+        "https://www.tomsguide.com/entertainment/streaming/how-to-watch-the-world-cup-in-portugal-for-free"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "How to watch the World Cup in Spain (for free)",
+      "one_liner": "La Roja are among the favorites to win their second title — here's how to watch every game of the 2026 FIFA World Cup for free in Spain and abroad.",
+      "source_name": "tomsguide.com",
+      "source_links": [
+        "https://www.tomsguide.com/entertainment/sports/how-to-watch-the-world-cup-in-spain-for-free"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "Amazon could follow in Apple's footsteps by building its own processors — here's what that means for future Kindles and Fire TVs",
+      "one_liner": "A supply analyst is claiming that Amazon is looking to bring processor design in-house to save money.",
+      "source_name": "tomsguide.com",
+      "source_links": [
+        "https://www.tomsguide.com/computing/amazon-could-follow-in-apples-footsteps-by-building-its-own-processors-heres-what-that-means-for-future-kindles-and-fire-tvs"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "12 luxury mattresses worth every cent in the 4th of July sales — save up to $1,200 with these expert-vetted deals",
+      "one_liner": "Luxury beds that are worth the splurge from Saatva, Purple, Bear and more, tested and vetted by our expert team.",
+      "source_name": "tomsguide.com",
+      "source_links": [
+        "https://www.tomsguide.com/mattresses/best-luxury-4th-of-july-mattress-deals"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "Cloudflare will filter out web crawlers that serve AI companies",
+      "one_liner": "The hosting platform wants sites to have more control over how AI companies use their content.",
+      "source_name": "engadget.com",
+      "source_links": [
+        "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Hardware",
+      "kind": "other",
+      "headline": "Why bulky laptop chargers are a relic of the past",
+      "one_liner": "Laptop chargers are much easier to travel with these days, and there's one specific technology that is largely to thank.",
+      "source_name": "engadget.com",
+      "source_links": [
+        "https://www.engadget.com/2204249/why-bulky-laptop-chargers-are-outdated/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Stocks",
+      "kind": "hero",
+      "headline": "Microsoft commits $2.5 billion and 6,000 employees to new AI implementation unit",
+      "one_liner": "Microsoft is the latest tech company to form a business focused on helping customers understand and implement artificial intelligence.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Stocks",
+      "kind": "hero",
+      "headline": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
+      "one_liner": "A drop in the unemployment rate helped provide some upside to what was an otherwise downbeat jobs report — but it was for all the wrong reasons.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Stocks",
+      "kind": "hero",
+      "headline": "Trump bought Apple, Nvidia and other tech giants before tariff reversal fueled rebound",
+      "one_liner": "The day before President Donald Trump walked back his tariff policy turned out to be one of his busiest days of 2025 for stock buying.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/trump-aapl-nvda-tariffs-disclosures.html"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Stocks",
+      "kind": "hero",
+      "headline": "U.S. job creation cools in June with payrolls growth of just 57,000; unemployment rate at 4.2%",
+      "one_liner": "Nonfarm payrolls were expected to rise by 115,000 in June and the unemployment rate to hold steady at 4.3%.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Stocks",
+      "kind": "hero",
+      "headline": "Saudi Arabia has ramped up oil shipments through the Strait of Hormuz since U.S.-Iran deal",
+      "one_liner": "Saudi Arabia is restarting its export logistics in the Persian Gulf after a three-month pause, according to Kpler.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/saudi-arabia-iran-strait-hormuz-persian-gulf-oil.html"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Stocks",
+      "kind": "other",
+      "headline": "Tesla stock sinks 7% despite strong deliveries report, posting worst day in nearly a year",
+      "one_liner": "Tesla is trying to recover from consecutive annual declines in vehicle sales that were partly caused by a consumer backlash against CEO Elon Musk.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Stocks",
+      "kind": "other",
+      "headline": "Led by Buc-ee’s and new rival Dolly Parton, America’s gas station chains are in a mega-sizing era",
+      "one_liner": "Gas station chains led by Buc-ee's are coming closer to rivaling America's big box stores in size, and Dolly Parton is getting in on the retail trend.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/led-by-buc-ees-dolly-parton-americas-gas-stations-go-mega-size-.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Stocks",
+      "kind": "other",
+      "headline": "High-end camping and a capital raise: AutoCamp is banking on summer travel to fuel growth",
+      "one_liner": "AutoCamp offers Airstream suites, polished cabins, fire pits, design-forward amenities and access to iconic outdoor destinations.",
+      "source_name": "cnbc.com",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/02/autocamp-high-end-camping-summer-travel-capital-raise.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "hero",
+      "headline": "mekos2772/ios-location-spoofer — Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+      "one_liner": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/mekos2772/ios-location-spoofer"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Open Source",
+      "kind": "hero",
+      "headline": "TianhangZhuzth/Fundamental-Ava — Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+      "one_liner": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/TianhangZhuzth/Fundamental-Ava"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Open Source",
+      "kind": "hero",
+      "headline": "yynxxxxx/Codex-5.5-codex-instruct-5.5 — new open-source release",
+      "one_liner": "A notable new Open Source development worth a look.",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Open Source",
+      "kind": "hero",
+      "headline": "tryOpenRAM/OpenRAM — Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+      "one_liner": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/tryOpenRAM/OpenRAM"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Open Source",
+      "kind": "hero",
+      "headline": "deepseek-ai/DeepSpec — DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+      "one_liner": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/deepseek-ai/DeepSpec"
+      ],
+      "credibility": "high",
+      "verdict": "WATCH — verify details before making a purchase call."
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "Krishnagangwal/CS-Fundamentals — Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
+      "one_liner": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/Krishnagangwal/CS-Fundamentals"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "Kulaxyz/self-learning-skills — A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+      "one_liner": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reus",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/Kulaxyz/self-learning-skills"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "aquace/CVE-2026-41940-PoC — CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+      "one_liner": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/aquace/CVE-2026-41940-PoC"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "bikini/exploitarium — A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "one_liner": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report th",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/bikini/exploitarium"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "winsznx/bull-rush — 🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrush.xyz",
+      "one_liner": "🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrus",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/winsznx/bull-rush"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "Yu9191/wloc — 修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
+      "one_liner": "修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/Yu9191/wloc"
+      ],
+      "credibility": "high"
+    },
+    {
+      "sector": "Open Source",
+      "kind": "other",
+      "headline": "bozhouDev/codex-orange-book — Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
+      "one_liner": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
+      "source_name": "github.com",
+      "source_links": [
+        "https://github.com/bozhouDev/codex-orange-book"
+      ],
+      "credibility": "high"
+    }
+  ],
+  "lead": {
+    "headline": "PeerTube is a free, decentralized and federated video platform",
+    "sector": "AI"
+  },
+  "counts": {
+    "sectors": 8,
+    "heroes": 40,
+    "other_news": 48,
+    "all_news": 88
+  },
+  "credibility_audit": {
+    "high": 24,
+    "medium": 16,
+    "low": 0
+  },
+  "edition_id": "2026-07-02",
+  "subject": "APPROVAL REQUIRED: Daily AI Short - PeerTube is a free, decentralized and federated video platform",
+  "status": "pending_approval"
+}

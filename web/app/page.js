@@ -2,7 +2,9 @@ import { getLatestEdition, listEditions } from "../lib/data";
 import { SectorFeed } from "./components";
 import Subscribe from "./subscribe";
 
-export const revalidate = 3600;
+// Refresh the homepage cache every 30 min so a fresh 6-hourly edition shows up
+// quickly (a redeploy on each commit also regenerates it).
+export const revalidate = 1800;
 
 export default async function Home() {
   const edition = await getLatestEdition();

@@ -11,6 +11,8 @@ import config
 
 def send(subject: str, html_body: str, text_body: str, to: str | None = None) -> dict:
     to = to or config.APPROVER_EMAIL
+    if not to:
+        return {"ok": False, "skipped": True, "reason": "no recipient (set APPROVER_EMAIL)"}
     if config.EMAIL_PROVIDER == "resend" and config.RESEND_API_KEY:
         return _resend(subject, html_body, text_body, to)
     if config.EMAIL_PROVIDER == "smtp" and config.SMTP_HOST:

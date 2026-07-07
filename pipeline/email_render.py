@@ -92,8 +92,26 @@ def _cred_tag(s: Dict) -> str:
             f'background:{color}22;color:{color};font:700 11px Arial;">{check}{name} · {c}</span>')
 
 
+VALID_VERDICTS = {"BUY", "USE", "WATCH", "SKIP"}
+
+
+def normalize_verdict(v: str) -> str:
+    """Coerce a verdict to start with exactly one valid keyword.
+    Fixes things like 'USE/WATCH — reason' → 'USE — reason' (from LLM/agent output)."""
+    v = (v or "").strip()
+    if not v:
+        return "WATCH — review before deciding."
+    head, sep, reason = v.partition("—")
+    tokens = head.upper().replace("/", " ").replace(",", " ").split()
+    kw = next((w for w in tokens if w in VALID_VERDICTS), None) \
+        or next((k for k in VALID_VERDICTS if k in v.upper()), "WATCH")
+    reason = reason.strip() if sep else head.strip()
+    return f"{kw} — {reason}" if reason else kw
+
+
 def _verdict_pill(v: str) -> str:
-    key = (v or "").split(" ")[0].split("—")[0].upper()
+    v = normalize_verdict(v)
+    key = v.split(" ")[0].upper()
     color = {"BUY": "#22c55e", "USE": "#3b82f6", "WATCH": "#f59e0b", "SKIP": "#ef4444"}.get(key, "#00e0b8")
     return (f'<span style="display:inline-block;padding:3px 11px;border-radius:999px;'
             f'background:{color}22;color:{color};font:700 12px Arial;">{_esc(v)}</span>')
@@ -112,16 +130,29 @@ def _links(links: List[str]) -> str:
                        for l in links if l) or "—"
 
 
-def _hero_card(s: Dict, i: int) -> str:
+def _hero_card(s: Dict, i: int, compact: bool = False, edition_link: str = "") -> str:
     img = _esc(s.get("image_url", ""))
-    deep = "".join([
-        _section("Source links", _links(s.get("source_links", []))),
-        _section("The story", s.get("story", "")),
-        _section("Their founding story", s.get("founding_story", "")),
-        _section("Who should USE this", s.get("who_should_use", "")),
-        _section("Who should PURCHASE this", s.get("who_should_buy", "")),
-        _section("Free / better alternatives", s.get("free_alternatives", "")),
-    ])
+    if compact:
+        # Small, Gmail-safe card: link out to the full deep dive on the web.
+        deep_block = (
+            f'<div style="margin-top:10px;">'
+            f'{_section("Source links", _links(s.get("source_links", [])[:2]))}'
+            f'<a href="{_esc(edition_link)}" style="display:inline-block;margin-top:10px;color:#00e0b8;'
+            f'font:700 13px Arial;text-decoration:none;">🔎 Read the full deep dive →</a></div>')
+    else:
+        deep = "".join([
+            _section("Source links", _links(s.get("source_links", []))),
+            _section("The story", s.get("story", "")),
+            _section("Their founding story", s.get("founding_story", "")),
+            _section("Who should USE this", s.get("who_should_use", "")),
+            _section("Who should PURCHASE this", s.get("who_should_buy", "")),
+            _section("Free / better alternatives", s.get("free_alternatives", "")),
+        ])
+        deep_block = (
+            f'<details style="margin-top:10px;">'
+            f'<summary style="cursor:pointer;color:#00e0b8;font:700 13px Arial;list-style:none;">'
+            f'🔎 Deep Dive — full breakdown</summary>'
+            f'<div style="margin-top:6px;">{deep}</div></details>')
     return f"""
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
        style="background:#12161c;border:1px solid #232a33;border-radius:14px;margin:0 0 14px;overflow:hidden;">
@@ -134,16 +165,29 @@ def _hero_card(s: Dict, i: int) -> str:
         <h3 style="margin:3px 0 6px;font:800 18px/1.3 Arial;color:#fff;">{_esc(s.get('headline',''))}</h3>
         <div style="font:800 11px Arial;letter-spacing:.06em;text-transform:uppercase;color:#00e0b8;">🎬 The News</div>
         <div style="font:400 14px/1.5 Arial;color:#cdd6df;margin-top:2px;">{_esc(s.get('one_liner',''))}</div>
-        <details style="margin-top:10px;">
-          <summary style="cursor:pointer;color:#00e0b8;font:700 13px Arial;list-style:none;">🔎 Deep Dive — full breakdown</summary>
-          <div style="margin-top:6px;">{deep}</div>
-        </details>
+        {deep_block}
       </td></tr>
     </table>"""
 
 
-def _sector_block(sec: Dict) -> str:
-    heroes = "".join(_hero_card(s, i) for i, s in enumerate(sec["heroes"], 1))
+def _hero_row(s: Dict, edition_link: str = "") -> str:
+    """A single compact line for heroes 2..5 in compact mode (keeps email small)."""
+    return (
+        f'<div style="padding:11px 4px;border-bottom:1px solid #1c232b;">'
+        f'{_verdict_pill(s.get("verdict",""))} '
+        f'<a href="{_esc(edition_link)}" style="color:#e8eef2;text-decoration:none;font-weight:700;font-size:15px;">'
+        f'{_esc(s.get("headline",""))}</a> &nbsp;{_cred_tag(s)}'
+        f'<div style="color:#8a97a6;font:400 13px/1.5 Arial;margin-top:3px;">🎬 {_esc(s.get("one_liner",""))}</div></div>')
+
+
+def _sector_block(sec: Dict, compact: bool = False, edition_link: str = "") -> str:
+    if compact:
+        hs = sec["heroes"]
+        parts = [_hero_card(hs[0], 1, compact=True, edition_link=edition_link)] if hs else []
+        parts += [_hero_row(s, edition_link) for s in hs[1:]]
+        heroes = "".join(parts)
+    else:
+        heroes = "".join(_hero_card(s, i, False, edition_link) for i, s in enumerate(sec["heroes"], 1))
     emoji = SECTOR_EMOJI.get(sec["sector"], "•")
     more = ""
     if sec.get("other_news"):
@@ -165,14 +209,16 @@ def _sector_block(sec: Dict) -> str:
     </td></tr>"""
 
 
-def render_html(edition: Dict, all_news_link: str | None = None) -> str:
+def render_html(edition: Dict, all_news_link: str | None = None, mode: str | None = None) -> str:
     date = _esc(edition["edition_date"])
     eid = _esc(str(edition.get("edition_id", edition["edition_date"])))
+    compact = (mode or config.EMAIL_MODE) == "compact"
+    edition_link = f"{config.APPROVE_BASE_URL}/edition/{edition['edition_date']}"
     approve = f"{config.APPROVE_BASE_URL}/approve?edition={eid}&action=approve"
     reject = f"{config.APPROVE_BASE_URL}/approve?edition={eid}&action=reject"
     allnews = _esc(all_news_link or all_news_href(edition))
     c = edition["counts"]
-    sectors_html = "".join(_sector_block(s) for s in edition["sectors"])
+    sectors_html = "".join(_sector_block(s, compact, edition_link) for s in edition["sectors"])
 
     return f"""<!doctype html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"></head>

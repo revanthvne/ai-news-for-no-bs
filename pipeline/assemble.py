@@ -16,6 +16,7 @@ from pathlib import Path
 import config
 import credibility
 import images
+import email_render
 
 # The order sectors appear in the edition (matches the channel's beats).
 SECTOR_ORDER = [
@@ -35,6 +36,7 @@ def slugify(x: str) -> str:
 
 def _finish_story(s: dict, sector: str, enrich: bool, budget: list) -> dict:
     s.setdefault("id", slugify(s.get("headline", "story"))[:60])
+    s["verdict"] = email_render.normalize_verdict(s.get("verdict", ""))
     if not s.get("source_name") and s.get("source_links"):
         s["source_name"] = credibility.source_label(s["source_links"][0])
     # Recompute credibility from the actual domains; keep the safer of the two.
@@ -105,8 +107,9 @@ def assemble(date: str, enrich: bool = False, enrich_budget: int = 10) -> dict:
 
 
 def main():
+    import datetime as dt
     ap = argparse.ArgumentParser()
-    ap.add_argument("--date", default="2026-07-01")
+    ap.add_argument("--date", default=dt.date.today().isoformat())
     ap.add_argument("--enrich", action="store_true", help="fetch og:images for stories missing one")
     ap.add_argument("--enrich-budget", type=int, default=10)
     args = ap.parse_args()

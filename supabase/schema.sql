@@ -54,6 +54,7 @@ create table if not exists roundup_items (
 create table if not exists approvals (
   id           uuid primary key default gen_random_uuid(),
   edition_id   uuid references editions(id) on delete cascade,
+  edition_date date,                       -- the /approve route logs by date
   action       text not null check (action in ('approve','reject')),
   actor        text,
   note         text,
@@ -72,7 +73,7 @@ create table if not exists subscribers (
 create table if not exists push_tokens (
   id          uuid primary key default gen_random_uuid(),
   token       text not null unique,
-  platform    text check (platform in ('ios','android','web')),
+  platform    text check (platform in ('ios','android','web','unknown')),
   created_at  timestamptz not null default now()
 );
 
@@ -120,6 +121,11 @@ create policy "public reads approved roundup" on roundup_items
 create policy "anyone can subscribe" on subscribers
   for insert with check (true);
 create policy "anyone can register push token" on push_tokens
+  for insert with check (true);
+
+-- Allow the approve route to log approvals (service role bypasses RLS anyway,
+-- but this keeps it working if a non-service key is ever used).
+create policy "anyone can log approval" on approvals
   for insert with check (true);
 
 -- NOTE: the service_role key bypasses RLS, so the pipeline and the

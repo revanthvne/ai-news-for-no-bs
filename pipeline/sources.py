@@ -42,9 +42,15 @@ RSS_FEEDS = {
     ],
     "eVTOL": [
         "https://evtol.com/feed/",
+        "https://www.flyingmag.com/feed/",
     ],
     "Drones": [
         "https://dronedj.com/feed/",
+        "https://dronexl.co/feed/",
+    ],
+    "Hardware": [
+        "https://www.engadget.com/rss.xml",
+        "https://www.tomsguide.com/feeds/all",
     ],
     "Stocks": [
         "https://www.cnbc.com/id/100003114/device/rss/rss.html",  # Technology
@@ -142,11 +148,13 @@ def fetch_github_releases(days: int = 10) -> List[Dict]:
 
 
 _CATEGORY_HINTS = {
-    "Semiconductors": ["chip", "semiconductor", "nvidia", "tsmc", "amd", "wafer", "hbm", "nm ", "gpu"],
-    "Robotics": ["robot", "humanoid", "atlas", "figure", "cobot"],
-    "eVTOL": ["evtol", "air taxi", "joby", "archer", "vertiport"],
-    "Drones": ["drone", "uav", "quadcopter", "dji"],
-    "Stocks": ["stock", "shares", "earnings", "ipo", "market cap", "selloff"],
+    "Semiconductors": ["chip", "semiconductor", "nvidia", "tsmc", "amd", "wafer", "hbm", "nm ", "gpu", "foundry"],
+    "Robotics": ["robot", "humanoid", "atlas", "figure", "cobot", "boston dynamics"],
+    "eVTOL": ["evtol", "air taxi", "joby", "archer", "vertiport", "electric aircraft", "urban air"],
+    "Drones": ["drone", "uav", "quadcopter", "dji", "skydio", "uas"],
+    "Hardware": ["laptop", "phone", "smartphone", "headset", "wearable", "gadget", "smart glasses",
+                  "vr headset", "ar glasses", "macbook", "iphone", "pixel", "galaxy", "steam machine", "handheld"],
+    "Stocks": ["stock", "shares", "earnings", "ipo", "market cap", "selloff", "nasdaq", "rally"],
     "AI": ["ai", "model", "llm", "gpt", "gemini", "agent", "openai", "anthropic"],
 }
 

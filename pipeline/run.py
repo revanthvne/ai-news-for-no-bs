@@ -68,6 +68,7 @@ def _build_live(date: str) -> dict:
         heroes = []
         for c in group[:5]:
             s = synthesize.synthesize(dict(c))
+            s["verdict"] = email_render.normalize_verdict(s.get("verdict", ""))
             s["source_name"] = credibility.source_label(c["url"])
             s["credibility"] = credibility.rate_story([c["url"]])
             s["image_url"] = images.resolve_image(s, name, enrich=True)
@@ -129,26 +130,34 @@ def main():
     date = args.seed or args.date
     mode = "seed" if args.seed else ("live" if args.live else "auto")
     print(f"\n=== NO BS · Daily AI Short — {date} ({mode} mode) ===")
+    import doctor
+    doctor.print_report()
     edition = build_edition(date, mode)
 
-    html_body = email_render.render_html(edition)
+    html_body = email_render.render_html(edition)                 # config EMAIL_MODE (compact default)
+    full_html = email_render.render_html(edition, mode="full")     # full-depth reference copy
     text_body = email_render.render_text(edition)
     all_news_html = email_render.render_all_news_html(edition)
     subject = edition["subject"]
     print(f"• Subject: {subject[:80]}")
+    print(f"• Email mode: {config.EMAIL_MODE} · size {len(html_body)//1024} KB "
+          f"(Gmail clips >~102 KB) · full copy {len(full_html)//1024} KB")
     print(f"• {edition['counts']['heroes']} heroes · {edition['counts']['all_news']} all-news · "
           f"credibility {edition['credibility_audit']}")
 
     # Save structured + rendered outputs
     store.save_local(edition)
     (config.OUTPUT_DIR / f"email-{date}.html").write_text(html_body)
+    (config.OUTPUT_DIR / f"email-{date}-full.html").write_text(full_html)
     (config.OUTPUT_DIR / f"email-{date}.txt").write_text(text_body)
     (config.OUTPUT_DIR / f"all-news-{date}.html").write_text(all_news_html)
 
     samples = config.BASE_DIR.parent / "samples"; samples.mkdir(exist_ok=True)
-    # Offline-clickable sample: All-News button points at the sibling file.
+    # Offline-clickable samples: All-News button points at the sibling file.
     sample_email = email_render.render_html(edition, all_news_link=f"all-news-{date}.html")
     (samples / f"daily-ai-short-{date}.html").write_text(sample_email)
+    (samples / f"daily-ai-short-{date}-full.html").write_text(
+        email_render.render_html(edition, all_news_link=f"all-news-{date}.html", mode="full"))
     (samples / f"all-news-{date}.html").write_text(
         email_render.render_all_news_html(edition, back_link=f"daily-ai-short-{date}.html"))
     # web app static copy of the all-news page

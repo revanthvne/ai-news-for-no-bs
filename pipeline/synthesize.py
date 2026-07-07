@@ -27,19 +27,40 @@ SYSTEM_PROMPT = (
 )
 
 
+_DEFAULT_MODELS = {
+    "groq": "llama-3.3-70b-versatile",
+    "openai": "gpt-4o-mini",
+    "anthropic": "claude-3-5-haiku-20241022",
+}
+
+
+def _model_for(provider: str) -> str:
+    """Use the configured model, but auto-correct an obvious provider mismatch
+    (e.g. provider=anthropic but LLM_MODEL still the Groq default)."""
+    m = config.LLM_MODEL or ""
+    if provider == "anthropic" and not m.startswith("claude"):
+        return _DEFAULT_MODELS["anthropic"]
+    if provider == "openai" and ("llama" in m or "claude" in m or not m):
+        return _DEFAULT_MODELS["openai"]
+    if provider == "groq" and ("gpt" in m or "claude" in m or not m):
+        return _DEFAULT_MODELS["groq"]
+    return m
+
+
 def _llm_call(prompt: str) -> str | None:
     provider = config.LLM_PROVIDER
+    model = _model_for(provider)
     try:
         if provider == "groq":
             return _openai_compatible(
                 "https://api.groq.com/openai/v1/chat/completions",
-                config.GROQ_API_KEY, config.LLM_MODEL, prompt)
+                config.GROQ_API_KEY, model, prompt)
         if provider == "openai":
             return _openai_compatible(
                 "https://api.openai.com/v1/chat/completions",
-                config.OPENAI_API_KEY, config.LLM_MODEL, prompt)
+                config.OPENAI_API_KEY, model, prompt)
         if provider == "anthropic":
-            return _anthropic(config.ANTHROPIC_API_KEY, config.LLM_MODEL, prompt)
+            return _anthropic(config.ANTHROPIC_API_KEY, model, prompt)
     except Exception as e:
         print(f"  ! LLM call failed ({e}); falling back to template.")
     return None

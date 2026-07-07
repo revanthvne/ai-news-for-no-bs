@@ -25,7 +25,7 @@
           "who_should_use": "Frontier developers, cyber-defenders and enterprise AI teams who need the strongest coding and long-horizon reasoning, and can get into the partner preview or wait for general availability.",
           "who_should_buy": "Businesses already standardized on OpenAI's API/Codex who want the cheaper Terra and Luna tiers for everyday and high-volume workloads once broadly available.",
           "free_alternatives": "Google Gemini 3.5 Flash (free in the Gemini app and Search AI Mode), Anthropic Claude free tier, Meta's open-weight Muse/Llama-family models, and DeepSeek's free models.",
-          "verdict": "WATCH - The specs look best-in-class, but it's a gated preview you probably can't buy yet; wait for the promised general release and real-world benchmarks before switching.",
+          "verdict": "WATCH — WATCH - The specs look best-in-class, but it's a gated preview you probably can't buy yet; wait for the promised general release and real-world benchmarks before switching.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -47,7 +47,7 @@
           "who_should_use": "Developers and enterprises that want frontier reasoning, long-context work and agentic coding via Claude Code and Cowork, especially those outside the US who just regained access.",
           "who_should_buy": "Pro, Max, Team and Enterprise customers who rely on Claude for coding and knowledge work, though note pricing shifts to usage-based credits after July 7.",
           "free_alternatives": "Google Gemini 3.5 Flash (free), OpenAI's free ChatGPT tier, Meta's open-weight models, and DeepSeek, all of which offer no-cost access to capable general models.",
-          "verdict": "USE - If you were locked out, Fable 5 is worth returning to for coding and long-context tasks, but watch the July 7 shift to usage-based credits before committing heavy spend.",
+          "verdict": "USE — USE - If you were locked out, Fable 5 is worth returning to for coding and long-context tasks, but watch the July 7 shift to usage-based credits before committing heavy spend.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -69,7 +69,7 @@
           "who_should_use": "Everyday users who want an assistant that can research and book things for them, and Mac users looking for a desktop agent to organize files and automate tasks.",
           "who_should_buy": "Google AI Ultra subscribers (needed for Spark on Mac) and businesses that want to reach customers through Search's new agentic booking flows.",
           "free_alternatives": "Gemini 3.5 Flash in Search and the Gemini app is free; competitors include the free ChatGPT tier, Perplexity's free plan, and Microsoft Copilot's free consumer tier for search-and-act workflows.",
-          "verdict": "USE - The free Search agents and Gemini app are worth trying today; only pay for AI Ultra/Spark on Mac if a desktop agent that touches your files is genuinely useful to you.",
+          "verdict": "USE — USE - The free Search agents and Gemini app are worth trying today; only pay for AI Ultra/Spark on Mac if a desktop agent that touches your files is genuinely useful to you.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -84,16 +84,16 @@
             "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/"
           ],
           "credibility": "high",
-          "image_url": "https://blogs.microsoft.com/wp-content/uploads/2026/06/OMB-Build-Live-2026-Featured-1024x576.jpg",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyMwMGUwYjgnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyMwODkxYjInLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPk1JQ1JPU09GVCAvIE5FT1dJTjwvdGV4dD48L3N2Zz4=",
           "image_credit": "Microsoft",
           "story": "At Build 2026, which opened June 2 in San Francisco, Microsoft said Agent Mode is now the default experience in Microsoft 365 Copilot across Word, Excel and PowerPoint, with CEO Satya Nadella declaring, 'The era of AI that suggests things is over. We are in the era of AI that does things.' In Agent Mode, Copilot takes multi-step actions inside a document, spreadsheet or presentation once given a goal, rather than waiting for line-by-line prompts. The multi-agent architecture was scheduled to roll out to Microsoft 365 Copilot subscribers in late June. Microsoft also unveiled Scout, its first 'Autopilot' agent, brought Copilot Cowork to general availability, and added the option to pick Anthropic's Claude as a model inside Copilot Chat. In early June, KPMG and Microsoft said they were scaling enterprise agents globally via Agent 365 and Copilot.",
           "founding_story": "Microsoft was founded in 1975 by Bill Gates and Paul Allen to sell a BASIC interpreter for early personal computers, growing into the dominant Windows and Office software company. Its modern AI push began with a multibillion-dollar partnership with and investment in OpenAI starting in 2019, which it productized as Copilot across Windows, Microsoft 365 and Azure.",
           "who_should_use": "Knowledge workers and teams already living in Word, Excel and PowerPoint who want Copilot to draft, build and edit documents autonomously rather than just suggest.",
           "who_should_buy": "Enterprises with Microsoft 365 Copilot licenses (note Agent 365 now requires Microsoft 365 E5 for new purchases from June 1) that want centrally governed AI agents.",
           "free_alternatives": "Google Workspace with free Gemini features, the free Copilot consumer tier, and free/open tools like LibreOffice paired with free chatbots for lighter document automation.",
-          "verdict": "WATCH - Promising for Microsoft 365 shops, but Agent Mode is new, staged, and licensing-gated; pilot it on non-critical work and confirm the autonomous edits before trusting it broadly.",
+          "verdict": "WATCH — WATCH - Promising for Microsoft 365 shops, but Agent Mode is new, staged, and licensing-gated; pilot it on non-critical work and confirm the autonomous edits before trusting it broadly.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "snowflake-cowork-agentic-enterprise",
@@ -113,7 +113,7 @@
           "who_should_use": "Data, analytics and business teams at companies already on Snowflake who want a governed agent to query data, build dashboards and take action across connected apps.",
           "who_should_buy": "Existing Snowflake enterprise customers looking to consolidate agentic AI and model training inside their governed data environment rather than moving data out.",
           "free_alternatives": "For lighter needs, free/cheaper options include Microsoft Copilot and Google Gemini for Workspace tiers, open-source BI like Metabase, and building on open-weight models directly.",
-          "verdict": "WATCH - Compelling if your data already lives in Snowflake, but it's a platform-locked enterprise play; several headline features are still 'GA soon,' so scope a pilot before buying in.",
+          "verdict": "WATCH — WATCH - Compelling if your data already lives in Snowflake, but it's a platform-locked enterprise play; several headline features are still 'GA soon,' so scope a pilot before buying in.",
           "credible": true,
           "image_is_placeholder": false
         }
@@ -192,7 +192,7 @@
             "https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support"
           ],
           "credibility": "high",
-          "image_url": "https://image.cnbcfm.com/api/v1/image/108299680-1777518266117-gettyimages-1178845030-250305final.jpeg?v=1777518327&amp;w=1920&amp;h=1080",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNmNTllMGInLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyNiNDUzMDknLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPkNOQkMgLyBSRVVURVJTIC8gVE9NJ1M8L3RleHQ+PC9zdmc+",
           "image_credit": "Photo: Office of the President of the Republic of Korea (via CNBC/Reuters coverage)",
           "story": "On June 29, 2026, South Korean President Lee Jae Myung unveiled sweeping AI and semiconductor mega-projects, pledging investment worth more than an 800 trillion won (~$518 billion) national semiconductor ecosystem plan to cement the country's memory-chip leadership. Standing alongside Samsung chairman Lee Jae-yong and SK Hynix leadership, he said Korea must move faster than rivals to secure the technologies underpinning the AI era. Samsung and SK Hynix — which together make roughly two-thirds of the world's memory — will each build two new fabrication plants in the country's southwest, including proposed sites near Gwangju, plus dedicated HBM lines. Investors reacted with caution: Samsung shares fell about 4.8% and SK Hynix slipped on the day, on worries about the sheer scale of capex. The plan underscores how central HBM and memory have become to the global AI build-out.",
           "founding_story": "Samsung Electronics was founded in 1969 in Suwon, South Korea, as an offshoot of the Samsung group started by Lee Byung-chul in 1938 (originally a trading company dealing in dried fish and groceries); it entered semiconductors in 1974 by acquiring a struggling chip firm and grew into the world's largest memory maker. SK Hynix traces to Hyundai Electronics, founded in 1983, which merged with LG Semicon in 1999 to form Hynix; it was acquired by SK Group in 2012. Both are now the twin pillars of Korea's chip industry and the primary suppliers of HBM for AI accelerators.",
@@ -201,7 +201,7 @@
           "free_alternatives": "Not applicable — it's a government-backed investment program. The closest 'free' takeaway for buyers is that expanded memory capacity should, over time, ease HBM scarcity and pricing pressure that today forces cloud GPU rental over on-prem builds.",
           "verdict": "WATCH — a genuinely historic state-scale chip commitment, but for viewers it's a macro/investing story (memory duopoly + AI supply chain), not a purchase decision.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "samsung-hbm4-1-billion-milestone",
@@ -214,16 +214,16 @@
             "https://en.sedaily.com/finance/2026/06/23/samsung-hbm4-sales-top-1-billion-within-four-months-of"
           ],
           "credibility": "high",
-          "image_url": "https://wimg.heraldcorp.com/news/cms/2026/06/23/rcv.YNA.20260610.PRU20260610176101009_T1.jpg",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNmNTllMGInLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyNiNDUzMDknLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPlRIRSBLT1JFQSBIRVJBTEQgLyBESUc8L3RleHQ+PC9zdmc+",
           "image_credit": "Image: Samsung Semiconductor (HBM4 product imagery via Korea Herald coverage)",
           "story": "By late June 2026, Samsung Electronics said cumulative sales of its sixth-generation HBM4 memory had surpassed $1 billion (about 1.5 trillion won) — the first in the industry to hit that mark, reached roughly 130 days after Samsung became the world's first company to begin HBM4 mass production and shipments on February 12, 2026. Reports peg cumulative sales heading past $1.2 billion by end-June, with full-year HBM4 revenue potentially approaching $10 billion. Chairman Lee Jae-yong toured HBM production lines to review supply as the company races to lock in AI-memory leadership. Samsung's HBM4 clocked in around 11.7 Gbps versus the ~8 Gbps JEDEC baseline — a notable speed lead at launch. It's a striking comeback narrative for a company that had lagged SK Hynix in the prior HBM3E generation.",
           "founding_story": "Samsung's semiconductor arm dates to 1974, when founder Lee Byung-chul's group bought a 50% stake in Korea Semiconductor against internal skepticism; Samsung shipped its first 64K DRAM in 1983 and overtook Japanese rivals to become the world's top memory maker by the early 1990s. High-bandwidth memory itself was co-developed by SK Hynix and AMD (standardized ~2013), but Samsung poured in to become a leading HBM supplier — and with HBM4 it reclaimed a first-to-market crown that matters enormously in the AI accelerator supply chain.",
           "who_should_use": "AI accelerator makers (NVIDIA, AMD) and their board partners integrating HBM4 into Rubin/MI-class GPUs; hyperscalers forecasting memory availability; memory-market analysts.",
           "who_should_buy": "HBM4 is not sold to consumers — it ships to a handful of GPU and ASIC makers. For enterprises, the signal is that a second qualified HBM4 source (alongside SK Hynix and Micron) reduces single-supplier risk for AI hardware. For investors, it's a concrete revenue data point validating Samsung's memory turnaround — bullish, but memory is famously cyclical, so size positions accordingly.",
           "free_alternatives": "None — HBM4 is a leading-edge component, not a retail product. If you just need AI compute, renting HBM-equipped GPUs in the cloud (AWS, Azure, GCP, CoreWeave, Lambda) is the practical 'don't buy the hardware' path.",
-          "verdict": "USE/WATCH — a real, verifiable milestone and a strong comeback story; relevant to viewers mainly as proof the AI-memory boom (and Samsung's stock case) has hard revenue behind it.",
+          "verdict": "USE — a real, verifiable milestone and a strong comeback story; relevant to viewers mainly as proof the AI-memory boom (and Samsung's stock case) has hard revenue behind it.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "tsmc-amkor-arizona-packaging",
@@ -265,7 +265,7 @@
           "who_should_use": "AI labs, hyperscalers, sovereign-AI and national-lab HPC buyers provisioning large training and inference clusters; enterprises building private 'AI factory' infrastructure.",
           "who_should_buy": "This is data-center capital equipment sold by the rack (Vera Rubin NVL72), not a consumer GPU — realistically only hyperscalers, clouds, governments and well-funded AI companies buy it. For everyone else, the honest answer is: don't buy, rent. For investors, Rubin cements NVIDIA's AI-infrastructure dominance, but the stock is priced for near-perfection — a June sector selloff was a reminder that expectations are sky-high.",
           "free_alternatives": "You don't buy Rubin — you rent it. Cloud GPU access (AWS, Microsoft Azure, Google Cloud, Oracle Cloud, plus CoreWeave and Lambda, all named Rubin adopters) lets you use the newest silicon by the hour with zero capex. For smaller workloads, prior-gen Blackwell/Hopper instances are far cheaper and widely available.",
-          "verdict": "USE (rent, don't buy) — genuinely the most important chip of the cycle, but for 99% of viewers it's a cloud-rental decision, not a purchase; investors should mind the lofty valuation.",
+          "verdict": "USE — genuinely the most important chip of the cycle, but for 99% of viewers it's a cloud-rental decision, not a purchase; investors should mind the lofty valuation.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -287,7 +287,7 @@
           "who_should_use": "Cloud providers, enterprise data centers and HPC operators refreshing server fleets; AI infrastructure teams pairing high-core-count CPUs with GPU accelerators; system builders (Dell, HPE, Lenovo, Supermicro).",
           "who_should_buy": "Venice is a data-center CPU, not a desktop part — it's for hyperscalers, enterprises and HPC buyers purchasing servers, typically 6-18 months out as systems reach market. For investors, being first to 2nm HPC is a real competitive milestone for AMD versus Intel and a differentiator in the AI CPU market — bullish, though execution and yield at 2nm bear watching. Consumers wanting AMD should look at Ryzen desktop/laptop parts instead.",
           "free_alternatives": "You don't buy server CPUs directly — you rent the capacity. EPYC-powered instances are available across AWS, Azure, Google Cloud and Oracle Cloud by the hour, so you can use current and next-gen EPYC without owning hardware. Existing 4th/5th-Gen EPYC (Genoa/Turin) instances remain far cheaper for most workloads.",
-          "verdict": "WATCH (rent, don't buy) — a genuine engineering milestone (first 2nm HPC chip) and the strongest NVIDIA alternative story; for viewers it's a cloud-rental / AMD-investing angle, not a consumer buy.",
+          "verdict": "WATCH — a genuine engineering milestone (first 2nm HPC chip) and the strongest NVIDIA alternative story; for viewers it's a cloud-rental / AMD-investing angle, not a consumer buy.",
           "credible": true,
           "image_is_placeholder": false
         }
@@ -375,7 +375,7 @@
           "who_should_use": "Elder-care facilities, hospitality and reception operators, museums, and research institutions in China exploring emotionally interactive service robots.",
           "who_should_buy": "Almost nobody outside China yet. This is an early-adopter and enterprise/institutional product; despite consumer-style marketing, the price, China-first availability and unproven real-world reliability make it a WATCH, not a purchase, for Western consumers.",
           "free_alternatives": "For companionship/assistant needs without a $17K+ robot: voice assistants (Alexa, Google Assistant), chatbot apps, or tablet-based check-in tools for elder care. No free humanoid equivalent exists.",
-          "verdict": "WATCH - a genuine mass-production and emotion-AI milestone, but China-only, expensive, and unproven in daily use; watch reliability and real deliveries before believing the companion hype.",
+          "verdict": "WATCH — WATCH - a genuine mass-production and emotion-AI milestone, but China-only, expensive, and unproven in daily use; watch reliability and real deliveries before believing the companion hype.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -397,7 +397,7 @@
           "who_should_use": "Large warehouse, logistics and automotive-manufacturing operators needing bipedal robots for tote handling, palletizing, loading and material movement in human-shared spaces.",
           "who_should_buy": "Enterprise buyers and logistics integrators, not consumers. For investors, AGLT will be a high-risk, high-volatility pure-play humanoid bet - interesting to WATCH but speculative until real revenue scales.",
           "free_alternatives": "None for the robot itself. Warehouses can compare against fixed automation (conveyors, AMRs from Locus/6 River) which are cheaper and more mature for many tasks than a general-purpose humanoid.",
-          "verdict": "WATCH - a landmark (first U.S. pure-play humanoid to go public) with real deployments and orders, but it's a SPAC not an IPO, and the humanoid business is still pre-profit; watch the financials, don't buy the hype.",
+          "verdict": "WATCH — WATCH - a landmark (first U.S. pure-play humanoid to go public) with real deployments and orders, but it's a SPAC not an IPO, and the humanoid business is still pre-profit; watch the financials, don't buy the hype.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -412,16 +412,16 @@
             "https://www.koreaherald.com/article/10741955"
           ],
           "credibility": "high",
-          "image_url": "https://www.kedglobal.com/data/ked/image/2026/06/21/ked202606210001.jpg",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNhNzhiZmEnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyM2ZDI4ZDknLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPktFRCBHTE9CQUwgLyBZQUhPTyBGSU48L3RleHQ+PC9zdmc+",
           "image_credit": "Boston Dynamics",
           "story": "Around June 19-22, 2026, reports emerged that Hyundai Motor Group would acquire SoftBank's remaining 9.65% stake in Boston Dynamics for approximately $325 million, making the robotics maker a wholly owned Hyundai subsidiary. The move follows a put option baked into Hyundai's original 2020 deal, in which it took an 80% controlling stake at a $1.1 billion valuation; SoftBank exercised its right to sell the rest back. The timing matters: Boston Dynamics unveiled a production version of its fully electric Atlas humanoid at CES 2026, and all 2026 Atlas output is already committed, with initial fleets shipping to Hyundai's Robotics Metaplant Application Center and to Google DeepMind, whose Gemini Robotics foundation models will power the machines. Full ownership tightens Hyundai's grip on a humanoid supply chain it is backing with a broader multibillion-dollar U.S. robotics investment.",
           "founding_story": "Boston Dynamics was founded in 1992 by Marc Raibert, spun out of his MIT Leg Laboratory work on dynamic legged locomotion. Famous for DARPA-funded machines like BigDog and the hydraulic Atlas, it was owned successively by Google (2013) and SoftBank (2017) before Hyundai acquired control in 2020-2021. The all-electric Atlas, revealed in 2024 to replace the hydraulic version, marked its pivot toward commercial humanoids.",
           "who_should_use": "Automotive and heavy-manufacturing plants (starting with Hyundai) piloting humanoids for parts sequencing and repetitive industrial tasks.",
           "who_should_buy": "Not a consumer product and not for sale to the public. This is a corporate ownership and strategy story; relevance is to enterprise partners and Hyundai/investors, not buyers.",
           "free_alternatives": "N/A - Atlas is not sold to consumers. Manufacturers weighing automation can evaluate traditional industrial robot arms (Fanuc, ABB, KUKA) which are proven and far cheaper for fixed tasks.",
-          "verdict": "WATCH - consolidating ownership plus the DeepMind/Gemini brain make Atlas one of the most credible industrial humanoids, but deployments are still early pilots; watch factory results, nothing to buy.",
+          "verdict": "WATCH — WATCH - consolidating ownership plus the DeepMind/Gemini brain make Atlas one of the most credible industrial humanoids, but deployments are still early pilots; watch factory results, nothing to buy.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "rivian-ceo-mind-robotics-humanoids",
@@ -434,16 +434,16 @@
             "https://www.forbes.com/sites/edgarsten/2026/05/19/rivian-founders-new-company-aims-to-evolve-humanoid-robots/"
           ],
           "credibility": "high",
-          "image_url": "https://image.cnbcfm.com/api/v1/image/108310814-1779389714331-gettyimages-2207258561-vcg111557653286.jpeg?v=1779389914&amp;w=1920&amp;h=1080",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNhNzhiZmEnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyM2ZDI4ZDknLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPkNOQkMgLyBURUNIQ1JVTkNIIC8gRk88L3RleHQ+PC9zdmc+",
           "image_credit": "Mind Robotics / Rivian",
           "story": "In a CNBC interview published June 13, 2026, Rivian CEO RJ Scaringe gave the first detailed public look at Mind Robotics, his humanoid-robotics venture, emphasizing a deliberately different approach from Elon Musk: rather than building robots inside the automaker, Mind Robotics is a separate company with Rivian as a large minority shareholder and launch customer. Founded in late 2025 and formally announced that November, the startup has raised more than $1 billion, including a $500 million Series A co-led by Accel and Andreessen Horowitz that valued it near $2 billion, following a $115 million seed round led by Eclipse. Mind Robotics plans to reveal its first product in under a year and will use Rivian's Normal, Illinois assembly plant as a live deployment environment for AI-powered industrial humanoids. The play underscores how EV makers increasingly see manufacturing humanoids as an adjacent frontier.",
           "founding_story": "Mind Robotics was founded in late 2025 by RJ Scaringe, who also founded Rivian in 2009 (originally 'Mainstream Motors') after earning a PhD from MIT. Structured as a Rivian spin-off rather than an internal division, it raised a $115M seed (led by Eclipse) in late 2025 and a $500M Series A (Accel, a16z) in early 2026, positioning Rivian's factories as its first proving ground.",
           "who_should_use": "For now, only Rivian's own manufacturing operations; broadly, EV and industrial manufacturers watching the automaker-plus-humanoid model.",
           "who_should_buy": "No product exists to buy yet - first reveal is still months away. Relevant to industry watchers and venture/robotics investors, not consumers or enterprise buyers today.",
           "free_alternatives": "N/A - no product. Manufacturers exploring automation now can pilot existing industrial arms or AMRs rather than wait for an unproven humanoid.",
-          "verdict": "WATCH - a credible, well-funded entrant with a smart 'separate company' structure and a real launch customer, but it's pre-product; watch for the first hardware reveal before drawing conclusions.",
+          "verdict": "WATCH — WATCH - a credible, well-funded entrant with a smart 'separate company' structure and a real launch customer, but it's pre-product; watch for the first hardware reveal before drawing conclusions.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "figure-botq-one-robot-per-hour",
@@ -456,16 +456,16 @@
             "https://roboticsandautomationnews.com/2026/05/27/figure-ramps-humanoid-robot-manufacturing-at-unprecedented-speed/101954/"
           ],
           "credibility": "high",
-          "image_url": "https://images.ctfassets.net/qx5k8y1u9drj/2mtuWCRJqrKBUajwFIUBj5/ebd7becf3859f6712a6d7e6fbedea1bc/BotQ_Ramping_F03_Prod_Open_Graph.jpg",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNhNzhiZmEnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyM2ZDI4ZDknLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPkZJR1VSRSBBSSBORVdTUk9PTSAvIEk8L3RleHQ+PC9zdmc+",
           "image_credit": "Figure AI",
           "story": "Figure AI announced (late April 2026, with continued coverage into June) that its BotQ manufacturing facility reached a production rate of one Figure 03 humanoid per hour, up from roughly one per day in January - a claimed 24x throughput increase in under 120 days. The scale-up runs on custom manufacturing-execution software across 150+ networked workstations with 50+ in-process inspection points; Figure reports end-of-line first-pass yield above 80% and battery yield of 99.3%, with 500+ units shipped and 9,000+ actuators produced, and more than 350 robots built through BotQ. Figure 02 robots are already operating in real production settings including BMW's Spartanburg plant and Amazon-linked logistics tests. These are company-reported numbers, not independently audited, so they should be read as a manufacturing-ambition milestone rather than a verified performance benchmark.",
           "founding_story": "Figure AI was founded in 2022 by Brett Adcock, the entrepreneur behind aviation startup Archer and jobs marketplace Vettery. Figure moved unusually fast, unveiling its Figure 01 humanoid in 2023, partnering with BMW and (briefly) OpenAI, and raising large rounds that pushed its valuation into the tens of billions. It has since built its own Helix AI models and the BotQ factory to pursue high-volume humanoid production.",
           "who_should_use": "Automotive and logistics enterprises running structured, repetitive material-handling tasks who are piloting general-purpose humanoids at scale.",
           "who_should_buy": "Enterprise pilot partners only. Not sold to consumers; the numbers are self-reported, so buyers and investors should treat throughput claims cautiously and demand independent, in-facility results.",
           "free_alternatives": "None for the robot. Firms can benchmark against mature AMRs and robotic arms, which are proven and cheaper for many of the same warehouse tasks.",
-          "verdict": "WATCH - if the one-per-hour rate is real and yields hold, it's a genuine manufacturing edge, but these are unaudited company claims; watch for third-party verification and real deployment reliability.",
+          "verdict": "WATCH — WATCH - if the one-per-hour rate is real and yields hold, it's a genuine manufacturing edge, but these are unaudited company claims; watch for third-party verification and real deployment reliability.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         }
       ],
       "other_news": [
@@ -550,7 +550,7 @@
           "who_should_use": "Aviation-industry watchers, manufacturing and supply-chain professionals, and eVTOL investors who want to understand how a Silicon Valley aircraft startup plans to actually build planes at automotive scale.",
           "who_should_buy": "You cannot buy the aircraft or a ticket yet. The honest angle: JOBY is a publicly traded, pre-revenue stock (~$8-9 range in late June 2026) and this JV materially de-risks Joby's biggest open question, production. Speculative growth investors who believe in eVTOL and can stomach volatility may see it as a positive catalyst; conservative investors should treat it as high-risk until certification and real deliveries land.",
           "free_alternatives": "For the actual trips Joby targets (airport-to-downtown hops), the cheap substitutes today are airport rail links, shared shuttles, ride-hail pooling, or existing helicopter charters (e.g., Blade, which Joby partners with) if you must fly. None are free, but public transit is the closest to it.",
-          "verdict": "WATCH - The most important eVTOL story of the month: it fixes Joby's manufacturing risk, but there's still no certified aircraft or paying passenger, so it's a strong watch, not a buy.",
+          "verdict": "WATCH — WATCH - The most important eVTOL story of the month: it fixes Joby's manufacturing risk, but there's still no certified aircraft or paying passenger, so it's a strong watch, not a buy.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -566,16 +566,16 @@
             "https://www.jobyaviation.com/news/joby-to-launch-air-taxi-service-in-uae"
           ],
           "credibility": "high",
-          "image_url": "https://www.aerotime.aero/images/2026/03/joby-confirming-prototype.jpeg",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyMzOGJkZjgnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyMwMzY5YTEnLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPkFFUk9USU1FIC8gR1VMRiBORVdTIC88L3RleHQ+PC9zdmc+",
           "image_credit": "Joby Aviation",
           "story": "Joby began flight testing its first production-conforming aircraft, registered N547JX, on March 11, 2026, at its Marina, California facility, marking the start of Stage 5, the final aircraft-level phase of the FAA type-certification process. The aircraft is built to FAA-approved designs and dedicated to Type Inspection Authorization (TIA) testing, with parts in production for eight more aircraft and FAA pilots expected to conduct their own 'for credit' evaluations later in 2026. In parallel, Joby aims to launch the world's first integrated air-taxi network in Dubai in 2026, with routes tied to Dubai International Airport, Palm Jumeirah, Dubai Marina and Downtown Dubai. Joby has said it targets a ramp toward roughly four aircraft per month by 2027 as production scales in California and Ohio.",
           "founding_story": "Same origin as above: Joby was founded in 2009 by JoeBen Bevirt in Santa Cruz, California. The company spent roughly a decade in relative secrecy perfecting its six-tilt-rotor, piloted four-passenger design before emerging publicly and listing on the NYSE in 2021 through a merger with Reinvent Technology Partners.",
           "who_should_use": "Frequent flyers into Dubai and DXB, UAE residents, and travel/aviation enthusiasts who want a realistic read on when they might actually board an electric air taxi.",
           "who_should_buy": "Riders still can't buy a ticket, but Dubai is the likeliest place to take one of the first commercial rides, so UAE-based readers should watch for launch bookings. For investors, Stage 5 is the make-or-break stretch; a clean, on-schedule finish would be the single biggest de-risking event for JOBY, while any slip is the main downside risk.",
           "free_alternatives": "In Dubai the same trips are already served cheaply by the Dubai Metro Red Line to DXB, RTA taxis, and hotel shuttles; a Palm Jumeirah monorail exists for that leg. Air taxi will be a premium time-saver, not a cost-saver.",
-          "verdict": "WATCH - Genuinely close to the finish line and Dubai is the most credible near-term launch, but 'flying Stage 5' is not 'certified,' so watch for the FAA sign-off before believing the timeline.",
+          "verdict": "WATCH — WATCH - Genuinely close to the finish line and Dubai is the most credible near-term launch, but 'flying Stage 5' is not 'certified,' so watch for the FAA sign-off before believing the timeline.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "archer-midnight-uae-us-certification-push-2026",
@@ -596,7 +596,7 @@
           "who_should_use": "UAE travelers, LA-area commuters eyeing the 2028 Olympics angle, and anyone tracking which company reaches commercial eVTOL service first.",
           "who_should_buy": "No consumer purchase yet. Abu Dhabi (and later US eIPP cities) are the most likely places to catch an early ride, so watch Archer's UAE launch and US pilot announcements. For investors, ACHR is a volatile pre-revenue stock; the completed Means of Compliance is a real edge, but the missing public transition flight and no certified aircraft keep it firmly speculative.",
           "free_alternatives": "In Abu Dhabi, taxis, the airport bus and hotel transfers cover the same short hops cheaply; in Los Angeles, Metro rail, FlyAway buses and ride-hail pooling are the low-cost substitutes for the airport and venue trips Archer targets.",
-          "verdict": "WATCH - Archer is arguably tied with Joby on paper and leads on Means of Compliance, but until it shows a public piloted transition flight and a real passenger, treat the hype with caution.",
+          "verdict": "WATCH — WATCH - Archer is arguably tied with Joby on paper and leads on Means of Compliance, but until it shows a public piloted transition flight and a real passenger, treat the hype with caution.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -618,7 +618,7 @@
           "who_should_use": "European and UK aviation followers, airline-partnership watchers, and anyone tracking whether a non-US, non-Chinese eVTOL can reach certification after the collapse of German rivals Lilium and Volocopter.",
           "who_should_buy": "No tickets or aircraft for sale to individuals. Vertical is the last major UK-listed pure-play eVTOL (EVTL), a small, cash-hungry stock that has repeatedly had to raise capital; only high-risk-tolerant investors should consider it, and even then as a long-shot bet on certification. Everyone else should simply watch Farnborough and CDR.",
           "free_alternatives": "For the regional and airport trips Vertical targets in Europe, existing trains (including the Elizabeth line and national rail to UK airports), coaches and shared transfers are far cheaper ways to make the same journey today.",
-          "verdict": "WATCH - Real, verifiable flight-test progress and a survivor in a brutal European market, but thin finances and a still-distant CDR make it a watch, and only a speculative one for investors.",
+          "verdict": "WATCH — WATCH - Real, verifiable flight-test progress and a survivor in a brutal European market, but thin finances and a still-distant CDR make it a watch, and only a speculative one for investors.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -640,7 +640,7 @@
           "who_should_use": "Hawaii residents and visitors, regional-airline and cargo-logistics professionals, and readers who want to see electric aviation actually carrying real payloads today rather than in slideshows.",
           "who_should_buy": "You can't buy a seat on these specific trial flights, but Surf Air/Hawaiian commercial electric service is a realistic near-term way Hawaii travelers could fly electric first. Beta (BETA) is newly public and better-capitalized than most peers with a fixed-wing product closer to certification; it's still a high-risk aviation startup stock, appropriate only for risk-tolerant investors.",
           "free_alternatives": "For interisland travel, conventional Hawaiian and Southwest jet flights already cover the routes and are often cheap; the ferry and, on individual islands, TheBus and shared shuttles are the lowest-cost ground options.",
-          "verdict": "USE - This is the rare eVTOL-adjacent story where real electric aircraft are flying real missions now; if you're in Hawaii, watch for the resulting commercial service, and investors get a comparatively de-risked name to track.",
+          "verdict": "USE — USE - This is the rare eVTOL-adjacent story where real electric aircraft are flying real missions now; if you're in Hawaii, watch for the resulting commercial service, and investors get a comparatively de-risked name to track.",
           "credible": true,
           "image_is_placeholder": false
         }
@@ -752,7 +752,7 @@
           "who_should_use": "Public-safety agencies, utility and infrastructure inspectors, surveyors, and any operator running DJI Dock 3 or Matrice 400 fleets that need range beyond a single radio link.",
           "who_should_buy": "Enterprise and government fleet operators already invested in the DJI Dock 3 / Matrice 400 ecosystem — this is a genuine capability upgrade for them. Note the US caveat: DJI is on the FCC Covered List, so newly-introduced hardware faces import/authorization hurdles in the US even though existing DJI gear keeps working. Non-US buyers face no such barrier. Consumers and hobbyists do not need this.",
           "free_alternatives": "Cheaper long-range relay options exist from the open-source/DIY world (ELRS-based ground stations, Doodle Labs mesh radios) and from rivals like Skydio (US-made docks) — though none plug natively into DJI's FlightHub 2. There is no 'free' equivalent; competing enterprise relays cost thousands.",
-          "verdict": "USE / BUY (for existing DJI fleets) — a real, well-specced range upgrade; US buyers should confirm import status first.",
+          "verdict": "USE — a real, well-specced range upgrade; US buyers should confirm import status first.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -775,7 +775,7 @@
           "who_should_use": "Immersive-video creators, FPV and VR enthusiasts, travel and action filmmakers who want reframe-in-post 360 footage without strapping a separate camera to a drone.",
           "who_should_buy": "This one you can actually buy. Buy it if you specifically want immersive 8K 360 / VR-style aerial footage and the novel goggle-plus-grip flying experience — it is unique in the market. If you mainly want sharp, stable standard aerial photos/video, a conventional camera drone will still out-resolve a 360 sensor's flat-frame crop, so weigh that. Order via antigravity.tech or Insta360.",
           "free_alternatives": "Cheaper conventional camera drones cover most needs: DJI's sub-250g Mini series (Mini 4K, Mini 3) and the DJI Neo, or Autel's Nano line, all cost less and give higher effective resolution for normal (non-360) shots. For 360 without a drone, mount an existing Insta360 X-series camera on a cheap sub-250g drone.",
-          "verdict": "BUY (for 360 creators) — genuinely first-of-its-kind and purchasable; overkill if you just want a normal camera drone.",
+          "verdict": "BUY — genuinely first-of-its-kind and purchasable; overkill if you just want a normal camera drone.",
           "credible": true,
           "image_is_placeholder": false
         },
@@ -903,16 +903,16 @@
             "https://www.engadget.com/2199519/meta-ai-glasses-hands-on-kylie-jenner-edition/"
           ],
           "credibility": "high",
-          "image_url": "https://image.cnbcfm.com/api/v1/image/108325134-1782163492984-Meta_Glasses_3_16x9.jpg?v=1782163531&amp;w=1920&amp;h=1080",
+          "image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2NDAnIGhlaWdodD0nMzAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNmNDcyYjYnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyNiZTE4NWQnLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nNjQwJyBoZWlnaHQ9JzMwMCcgZmlsbD0ndXJsKCNnKScvPjx0ZXh0IHg9JzMyJyB5PScyNjgnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPScyMicgZm9udC13ZWlnaHQ9J2JvbGQnIGZpbGw9JyMwYTBkMTEnIG9wYWNpdHk9JzAuODUnPkNOQkMgLyBNRVRBIC8gVE9NJ1MgR1U8L3RleHQ+PC9zdmc+",
           "image_credit": "Meta",
           "story": "On June 23, 2026, Meta unveiled 'Meta Glasses,' its first line of AI smart glasses designed in-house with EssilorLuxottica, dropping the Ray-Ban co-branding used on prior models. The lineup includes the Adventurer and Fury frames at $299, plus a $399 'Starfire' collaboration with Kylie Jenner that can use an AI voice meant to sound like her. They keep the same core hardware as second-gen Ray-Ban Meta glasses - a 12MP camera with 3K video, roughly 8 hours of battery, and about 40 hours total with the folding charging case - but add Meta's new Muse Spark model for faster on-device photo understanding. There is no in-lens display; these are camera-plus-audio-plus-assistant glasses, and they are available now at meta.com, Best Buy, Amazon, LensCrafters and Sunglass Hut.",
           "founding_story": "Meta (originally Facebook) was founded by Mark Zuckerberg with co-founders in 2004; it renamed to Meta in 2021 to signal a hardware and metaverse pivot. Its smart-glasses effort began with the 2021 Ray-Ban Stories built with eyewear giant EssilorLuxottica, evolving into the popular Ray-Ban Meta line before this 2026 shift to Meta's own branding.",
           "who_should_use": "People who want hands-free photos/video, music, calls, live translation and a voice assistant in a normal-looking pair of glasses, without staring at a phone.",
           "who_should_buy": "Buy the $299 Adventurer or Fury if you already wanted Ray-Ban Meta glasses - you get essentially the same capabilities for about $80 less. Skip the $399 Kylie edition unless the styling or celebrity voice is the whole point; you are paying extra for branding, not better hardware.",
           "free_alternatives": "Your existing phone camera plus a Bluetooth headset covers most of the same audio, calls and translation for free. Cheaper camera-free options like basic audio smart glasses (e.g. Amazon Echo Frames-style) cost less if you do not need the camera.",
-          "verdict": "BUY - the best-value entry into Meta's mature smart-glasses ecosystem, as long as you do not need an in-lens display.",
+          "verdict": "BUY — BUY - the best-value entry into Meta's mature smart-glasses ecosystem, as long as you do not need an in-lens display.",
           "credible": true,
-          "image_is_placeholder": false
+          "image_is_placeholder": true
         },
         {
           "id": "valve-steam-machine-1049-preorders-ships-june-30",
@@ -932,7 +932,7 @@
           "who_should_use": "PC gamers who want a plug-and-play Steam box under the TV without building or maintaining a full Windows gaming rig.",
           "who_should_buy": "Buy at $1,049 only if you specifically want a couch-first SteamOS machine and got a reservation invite. If you missed the June 25 lottery you literally cannot buy one yet, and for the same money a self-built or prebuilt Windows PC often delivers more raw performance - so most people should WATCH the queue and reviews first.",
           "free_alternatives": "A gaming PC you already own can stream to the TV via Steam Link or a cheap streaming stick for free; a Steam Deck you already have docks to a TV for far less than $1,049.",
-          "verdict": "WATCH - a genuinely appealing SteamOS console, but the lottery-only sales and RAM-driven $1,049 price mean you should wait for reviews and open stock before committing.",
+          "verdict": "WATCH — WATCH - a genuinely appealing SteamOS console, but the lottery-only sales and RAM-driven $1,049 price mean you should wait for reviews and open stock before committing.",
           "credible": true,
           "image_is_placeholder": true
         },
@@ -954,7 +954,7 @@
           "who_should_use": "Early adopters and developers who want a high-end mixed-reality headset for immersive video, productivity and spatial apps tied into Google/Gemini services.",
           "who_should_buy": "Buy the ~$1,799 / GBP 1,699 Galaxy XR if you want Vision-Pro-class displays at roughly half the price and you are invested in Android/Google services. For everyone else it is still a pricey, early-ecosystem device - most people should WATCH until the Android XR app catalog fills out.",
           "free_alternatives": "A Meta Quest 3 or 3S delivers most mainstream VR/MR at a fraction of the price; existing phones in a cheap VR shell cover casual 360 video.",
-          "verdict": "WATCH - impressive hardware and far cheaper than Vision Pro, but a young app ecosystem means only committed early adopters should buy now.",
+          "verdict": "WATCH — WATCH - impressive hardware and far cheaper than Vision Pro, but a young app ecosystem means only committed early adopters should buy now.",
           "credible": true,
           "image_is_placeholder": true
         },
@@ -976,7 +976,7 @@
           "who_should_use": "Creators, developers and power users who want to run large AI models, edit high-res video, or use on-device AI agents locally on a Windows laptop or mini PC.",
           "who_should_buy": "Do not buy anything yet - no RTX Spark PC is for sale, and pricing is unconfirmed. If you are eyeing a high-end AI laptop this year, WATCH for the fall launches and independent battery/performance reviews before deciding; if you need a machine now, a current RTX or Copilot+ laptop already does plenty.",
           "free_alternatives": "Cloud AI services (ChatGPT, Gemini, Claude) run large models with no new hardware; a current mid-range laptop plus a free local runner like Ollama handles smaller on-device models today.",
-          "verdict": "WATCH - a promising leap for on-device AI PCs, but with fall availability and no confirmed prices, there is nothing to buy in July 2026.",
+          "verdict": "WATCH — WATCH - a promising leap for on-device AI PCs, but with fall availability and no confirmed prices, there is nothing to buy in July 2026.",
           "credible": true,
           "image_is_placeholder": true
         },
@@ -998,7 +998,7 @@
           "who_should_use": "Anyone shopping for a premium foldable phone in 2026, or Samsung fans deciding whether to buy now or wait for the newest models.",
           "who_should_buy": "Do not buy a 2025 Samsung foldable at full price right now - with Unpacked days away on July 22, wait. If you want the newest Fold/Flip, hold for the keynote and launch-day pre-order deals; bargain hunters should watch for discounts on the outgoing Z Fold 7 / Z Flip 7 right after the event.",
           "free_alternatives": "Keeping your current phone until the July 22 reveal costs nothing; a standard slab flagship (Galaxy S-series or similar) covers the same needs for far less than a foldable.",
-          "verdict": "WATCH - the launch is essentially here, so hold off on any Samsung foldable purchase until the July 22 Unpacked pricing is official.",
+          "verdict": "WATCH — WATCH - the launch is essentially here, so hold off on any Samsung foldable purchase until the July 22 Unpacked pricing is official.",
           "credible": true,
           "image_is_placeholder": true
         }
@@ -1264,7 +1264,7 @@
           "who_should_use": "Tinkerers and privacy-minded power users who want a personal AI agent that runs on their own hardware and acts through the chat apps they already use.",
           "who_should_buy": "It's free and open source (MIT-licensed per coverage) - there's nothing to buy. Your only real costs are optional: a machine or small server to self-host it and pay-as-you-go API fees for whatever LLM you point it at.",
           "free_alternatives": "OpenClaw itself is the free/open alternative to paid personal-assistant and 'agentic' products; closest comparisons are commercial assistants and agent platforms you'd otherwise pay for, plus self-hosted rivals like the open-source Pi coding-agent SDK it builds on.",
-          "verdict": "WATCH - Genuinely the biggest open-source story of 2026 and free to run, but granting a self-hosted agent your camera, contacts and screen is a real security bet; pilot it in a sandbox before you trust it with your life.",
+          "verdict": "WATCH — WATCH - Genuinely the biggest open-source story of 2026 and free to run, but granting a self-hosted agent your camera, contacts and screen is a real security bet; pilot it in a sandbox before you trust it with your life.",
           "github_stars": 381313,
           "credible": true,
           "image_is_placeholder": false
@@ -1287,7 +1287,7 @@
           "who_should_use": "Developers who want an AI pair-programmer in the terminal but insist on choosing their own model - or running local models - rather than being tied to one proprietary IDE.",
           "who_should_buy": "The tool is free and open source; you only pay for the model tokens you consume (e.g. Claude or GPT API usage), or nothing at all if you point it at a local model via Ollama.",
           "free_alternatives": "OpenCode is the free/open alternative to paid coding assistants like Cursor and GitHub Copilot; other free options include Aider, Cline and the Pi coding agent.",
-          "verdict": "USE - If you want a serious AI coding agent that respects model choice and your budget, it's free, actively maintained, and a legitimate rival to paid IDEs - just supply your own API key or a local model.",
+          "verdict": "USE — USE - If you want a serious AI coding agent that respects model choice and your budget, it's free, actively maintained, and a legitimate rival to paid IDEs - just supply your own API key or a local model.",
           "github_stars": 181000,
           "credible": true,
           "image_is_placeholder": false
@@ -1310,7 +1310,7 @@
           "who_should_use": "Developers, privacy-conscious users and anyone who wants to run open-weight models offline or wire a local model into other tools without cloud costs.",
           "who_should_buy": "It's free and open source - nothing to buy. The only cost is your own hardware; bigger models want a capable GPU or Apple Silicon with enough RAM.",
           "free_alternatives": "Ollama is itself the free alternative to paid cloud LLM APIs; comparable free/open runners include llama.cpp (its underlying engine), LM Studio (free desktop app) and Jan.",
-          "verdict": "USE - The default, no-cost way to run capable AI models on your own machine; pair it with Open WebUI or OpenCode and you have a private stack that replaces paid subscriptions for many tasks.",
+          "verdict": "USE — USE - The default, no-cost way to run capable AI models on your own machine; pair it with Open WebUI or OpenCode and you have a private stack that replaces paid subscriptions for many tasks.",
           "github_stars": 175244,
           "credible": true,
           "image_is_placeholder": false
@@ -1333,7 +1333,7 @@
           "who_should_use": "Developers and tinkerers who want a coding agent small enough to actually read, understand and modify - a base to build their own agent on rather than a black box.",
           "who_should_buy": "Free and open source; you only pay for whatever model API you plug into it (or nothing with a local model).",
           "free_alternatives": "Pi is the minimalist free alternative to paid coding assistants like Cursor and Copilot; other free/open peers include OpenCode, Aider and Cline.",
-          "verdict": "USE - If you like understanding your tools, Pi is a delight: free, hackable and legitimately influential (it underpins OpenClaw). Casual users wanting turnkey polish may prefer OpenCode.",
+          "verdict": "USE — USE - If you like understanding your tools, Pi is a delight: free, hackable and legitimately influential (it underpins OpenClaw). Casual users wanting turnkey polish may prefer OpenCode.",
           "github_stars": 58000,
           "credible": true,
           "image_is_placeholder": false
@@ -1357,7 +1357,7 @@
           "who_should_use": "Artists, technical creators and researchers who want fine-grained, reproducible control over AI image and video generation and are willing to learn a node-based workflow.",
           "who_should_buy": "The software is free and open source; costs are optional - your own GPU (or a rented cloud GPU) to run heavier image and video models locally.",
           "free_alternatives": "ComfyUI is the free/open alternative to paid generative tools like Midjourney, DALL-E and Runway; other free options include Automatic1111 and Fooocus for simpler image generation.",
-          "verdict": "USE - If you want maximum control over open image and video models without subscription fees, ComfyUI is the standard - just budget a capable GPU and a learning curve; casual users may prefer simpler paid apps.",
+          "verdict": "USE — USE - If you want maximum control over open image and video models without subscription fees, ComfyUI is the standard - just budget a capable GPU and a learning curve; casual users may prefer simpler paid apps.",
           "github_stars": 119000,
           "credible": true,
           "image_is_placeholder": false
@@ -1451,7 +1451,7 @@
         "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov"
       ],
       "credibility": "high",
-      "verdict": "WATCH - The specs look best-in-class, but it's a gated preview you probably can't buy yet; wait for the promised general release and real-world benchmarks before switching."
+      "verdict": "WATCH — WATCH - The specs look best-in-class, but it's a gated preview you probably can't buy yet; wait for the promised general release and real-world benchmarks before switching."
     },
     {
       "sector": "AI",
@@ -1465,7 +1465,7 @@
         "https://www.cio.com/article/4191550/us-reverses-export-restrictions-on-anthropics-fable-5-mythos-5-ai-models/"
       ],
       "credibility": "high",
-      "verdict": "USE - If you were locked out, Fable 5 is worth returning to for coding and long-context tasks, but watch the July 7 shift to usage-based credits before committing heavy spend."
+      "verdict": "USE — USE - If you were locked out, Fable 5 is worth returning to for coding and long-context tasks, but watch the July 7 shift to usage-based credits before committing heavy spend."
     },
     {
       "sector": "AI",
@@ -1479,7 +1479,7 @@
         "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/"
       ],
       "credibility": "high",
-      "verdict": "USE - The free Search agents and Gemini app are worth trying today; only pay for AI Ultra/Spark on Mac if a desktop agent that touches your files is genuinely useful to you."
+      "verdict": "USE — USE - The free Search agents and Gemini app are worth trying today; only pay for AI Ultra/Spark on Mac if a desktop agent that touches your files is genuinely useful to you."
     },
     {
       "sector": "AI",
@@ -1493,7 +1493,7 @@
         "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - Promising for Microsoft 365 shops, but Agent Mode is new, staged, and licensing-gated; pilot it on non-critical work and confirm the autonomous edits before trusting it broadly."
+      "verdict": "WATCH — WATCH - Promising for Microsoft 365 shops, but Agent Mode is new, staged, and licensing-gated; pilot it on non-critical work and confirm the autonomous edits before trusting it broadly."
     },
     {
       "sector": "AI",
@@ -1507,7 +1507,7 @@
         "https://www.snowflake.com/en/ai-pulse/june-2026/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - Compelling if your data already lives in Snowflake, but it's a platform-locked enterprise play; several headline features are still 'GA soon,' so scope a pilot before buying in."
+      "verdict": "WATCH — WATCH - Compelling if your data already lives in Snowflake, but it's a platform-locked enterprise play; several headline features are still 'GA soon,' so scope a pilot before buying in."
     },
     {
       "sector": "AI",
@@ -1603,7 +1603,7 @@
         "https://en.sedaily.com/finance/2026/06/23/samsung-hbm4-sales-top-1-billion-within-four-months-of"
       ],
       "credibility": "high",
-      "verdict": "USE/WATCH — a real, verifiable milestone and a strong comeback story; relevant to viewers mainly as proof the AI-memory boom (and Samsung's stock case) has hard revenue behind it."
+      "verdict": "USE — a real, verifiable milestone and a strong comeback story; relevant to viewers mainly as proof the AI-memory boom (and Samsung's stock case) has hard revenue behind it."
     },
     {
       "sector": "Semiconductors",
@@ -1631,7 +1631,7 @@
         "https://www.energy.gov/articles/doe-announces-new-supercomputer-powered-dell-and-nvidia-speed-scientific-discovery"
       ],
       "credibility": "high",
-      "verdict": "USE (rent, don't buy) — genuinely the most important chip of the cycle, but for 99% of viewers it's a cloud-rental decision, not a purchase; investors should mind the lofty valuation."
+      "verdict": "USE — genuinely the most important chip of the cycle, but for 99% of viewers it's a cloud-rental decision, not a purchase; investors should mind the lofty valuation."
     },
     {
       "sector": "Semiconductors",
@@ -1645,7 +1645,7 @@
         "https://www.storagereview.com/news/amd-epyc-venice-enters-2nm-production-at-tsmc-extends-cpu-roadmap-for-ai-infrastructure"
       ],
       "credibility": "high",
-      "verdict": "WATCH (rent, don't buy) — a genuine engineering milestone (first 2nm HPC chip) and the strongest NVIDIA alternative story; for viewers it's a cloud-rental / AMD-investing angle, not a consumer buy."
+      "verdict": "WATCH — a genuine engineering milestone (first 2nm HPC chip) and the strongest NVIDIA alternative story; for viewers it's a cloud-rental / AMD-investing angle, not a consumer buy."
     },
     {
       "sector": "Semiconductors",
@@ -1729,7 +1729,7 @@
         "https://interestingengineering.com/ai-robotics/china-ubtech-humanoid-robot-companionship"
       ],
       "credibility": "high",
-      "verdict": "WATCH - a genuine mass-production and emotion-AI milestone, but China-only, expensive, and unproven in daily use; watch reliability and real deliveries before believing the companion hype."
+      "verdict": "WATCH — WATCH - a genuine mass-production and emotion-AI milestone, but China-only, expensive, and unproven in daily use; watch reliability and real deliveries before believing the companion hype."
     },
     {
       "sector": "Robotics",
@@ -1743,7 +1743,7 @@
         "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI"
       ],
       "credibility": "high",
-      "verdict": "WATCH - a landmark (first U.S. pure-play humanoid to go public) with real deployments and orders, but it's a SPAC not an IPO, and the humanoid business is still pre-profit; watch the financials, don't buy the hype."
+      "verdict": "WATCH — WATCH - a landmark (first U.S. pure-play humanoid to go public) with real deployments and orders, but it's a SPAC not an IPO, and the humanoid business is still pre-profit; watch the financials, don't buy the hype."
     },
     {
       "sector": "Robotics",
@@ -1757,7 +1757,7 @@
         "https://www.koreaherald.com/article/10741955"
       ],
       "credibility": "high",
-      "verdict": "WATCH - consolidating ownership plus the DeepMind/Gemini brain make Atlas one of the most credible industrial humanoids, but deployments are still early pilots; watch factory results, nothing to buy."
+      "verdict": "WATCH — WATCH - consolidating ownership plus the DeepMind/Gemini brain make Atlas one of the most credible industrial humanoids, but deployments are still early pilots; watch factory results, nothing to buy."
     },
     {
       "sector": "Robotics",
@@ -1771,7 +1771,7 @@
         "https://www.forbes.com/sites/edgarsten/2026/05/19/rivian-founders-new-company-aims-to-evolve-humanoid-robots/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - a credible, well-funded entrant with a smart 'separate company' structure and a real launch customer, but it's pre-product; watch for the first hardware reveal before drawing conclusions."
+      "verdict": "WATCH — WATCH - a credible, well-funded entrant with a smart 'separate company' structure and a real launch customer, but it's pre-product; watch for the first hardware reveal before drawing conclusions."
     },
     {
       "sector": "Robotics",
@@ -1785,7 +1785,7 @@
         "https://roboticsandautomationnews.com/2026/05/27/figure-ramps-humanoid-robot-manufacturing-at-unprecedented-speed/101954/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - if the one-per-hour rate is real and yields hold, it's a genuine manufacturing edge, but these are unaudited company claims; watch for third-party verification and real deployment reliability."
+      "verdict": "WATCH — WATCH - if the one-per-hour rate is real and yields hold, it's a genuine manufacturing edge, but these are unaudited company claims; watch for third-party verification and real deployment reliability."
     },
     {
       "sector": "Robotics",
@@ -1868,7 +1868,7 @@
         "https://www.fool.com/investing/2026/07/01/joby-aviations-stock-is-rising-after-teaming-up-with-toyota-for-a-new-manufacturing-venture/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - The most important eVTOL story of the month: it fixes Joby's manufacturing risk, but there's still no certified aircraft or paying passenger, so it's a strong watch, not a buy."
+      "verdict": "WATCH — WATCH - The most important eVTOL story of the month: it fixes Joby's manufacturing risk, but there's still no certified aircraft or paying passenger, so it's a strong watch, not a buy."
     },
     {
       "sector": "eVTOL",
@@ -1883,7 +1883,7 @@
         "https://www.jobyaviation.com/news/joby-to-launch-air-taxi-service-in-uae"
       ],
       "credibility": "high",
-      "verdict": "WATCH - Genuinely close to the finish line and Dubai is the most credible near-term launch, but 'flying Stage 5' is not 'certified,' so watch for the FAA sign-off before believing the timeline."
+      "verdict": "WATCH — WATCH - Genuinely close to the finish line and Dubai is the most credible near-term launch, but 'flying Stage 5' is not 'certified,' so watch for the FAA sign-off before believing the timeline."
     },
     {
       "sector": "eVTOL",
@@ -1898,7 +1898,7 @@
         "https://www.militaryaerospace.com/commercial-aerospace/article/55301297/archer-completes-first-evtol-flight-of-its-midnight-aircraft-in-abu-dhabi"
       ],
       "credibility": "high",
-      "verdict": "WATCH - Archer is arguably tied with Joby on paper and leads on Means of Compliance, but until it shows a public piloted transition flight and a real passenger, treat the hype with caution."
+      "verdict": "WATCH — WATCH - Archer is arguably tied with Joby on paper and leads on Means of Compliance, but until it shows a public piloted transition flight and a real passenger, treat the hype with caution."
     },
     {
       "sector": "eVTOL",
@@ -1912,7 +1912,7 @@
         "https://aviationweek.com/aerospace/advanced-air-mobility/vertical-rolls-out-final-vx4-evtol-prototype"
       ],
       "credibility": "high",
-      "verdict": "WATCH - Real, verifiable flight-test progress and a survivor in a brutal European market, but thin finances and a still-distant CDR make it a watch, and only a speculative one for investors."
+      "verdict": "WATCH — WATCH - Real, verifiable flight-test progress and a survivor in a brutal European market, but thin finances and a still-distant CDR make it a watch, and only a speculative one for investors."
     },
     {
       "sector": "eVTOL",
@@ -1926,7 +1926,7 @@
         "https://investors.beta.team/news-events/press-releases/detail/101/beta-technologies-announces-aircraft-purchase-agreement-and-launch-passenger-operations-partnership-with-surf-air-mobility"
       ],
       "credibility": "high",
-      "verdict": "USE - This is the rare eVTOL-adjacent story where real electric aircraft are flying real missions now; if you're in Hawaii, watch for the resulting commercial service, and investors get a comparatively de-risked name to track."
+      "verdict": "USE — USE - This is the rare eVTOL-adjacent story where real electric aircraft are flying real missions now; if you're in Hawaii, watch for the resulting commercial service, and investors get a comparatively de-risked name to track."
     },
     {
       "sector": "eVTOL",
@@ -2026,7 +2026,7 @@
         "https://enterprise.dji.com/o4-ground-station/specs"
       ],
       "credibility": "high",
-      "verdict": "USE / BUY (for existing DJI fleets) — a real, well-specced range upgrade; US buyers should confirm import status first."
+      "verdict": "USE — a real, well-specced range upgrade; US buyers should confirm import status first."
     },
     {
       "sector": "Drones",
@@ -2041,7 +2041,7 @@
         "https://www.thedronegirl.com/2026/01/07/antigravity-a1-chip-ambarella/amp/"
       ],
       "credibility": "high",
-      "verdict": "BUY (for 360 creators) — genuinely first-of-its-kind and purchasable; overkill if you just want a normal camera drone."
+      "verdict": "BUY — genuinely first-of-its-kind and purchasable; overkill if you just want a normal camera drone."
     },
     {
       "sector": "Drones",
@@ -2156,7 +2156,7 @@
         "https://www.engadget.com/2199519/meta-ai-glasses-hands-on-kylie-jenner-edition/"
       ],
       "credibility": "high",
-      "verdict": "BUY - the best-value entry into Meta's mature smart-glasses ecosystem, as long as you do not need an in-lens display."
+      "verdict": "BUY — BUY - the best-value entry into Meta's mature smart-glasses ecosystem, as long as you do not need an in-lens display."
     },
     {
       "sector": "Hardware",
@@ -2170,7 +2170,7 @@
         "https://the-gadgeteer.com/2026/06/27/steam-machine-2026-price-specs/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - a genuinely appealing SteamOS console, but the lottery-only sales and RAM-driven $1,049 price mean you should wait for reviews and open stock before committing."
+      "verdict": "WATCH — WATCH - a genuinely appealing SteamOS console, but the lottery-only sales and RAM-driven $1,049 price mean you should wait for reviews and open stock before committing."
     },
     {
       "sector": "Hardware",
@@ -2184,7 +2184,7 @@
         "https://www.tomsguide.com/computing/vr-ar/samsung-galaxy-xr-launches-for-usd1-700-less-than-apple-vision-pro-release-date-price-specs-and-more"
       ],
       "credibility": "high",
-      "verdict": "WATCH - impressive hardware and far cheaper than Vision Pro, but a young app ecosystem means only committed early adopters should buy now."
+      "verdict": "WATCH — WATCH - impressive hardware and far cheaper than Vision Pro, but a young app ecosystem means only committed early adopters should buy now."
     },
     {
       "sector": "Hardware",
@@ -2198,7 +2198,7 @@
         "https://www.pcworld.com/article/3154922/rtx-spark-all-the-laptops-and-mini-pcs-announced-so-far.html"
       ],
       "credibility": "high",
-      "verdict": "WATCH - a promising leap for on-device AI PCs, but with fall availability and no confirmed prices, there is nothing to buy in July 2026."
+      "verdict": "WATCH — WATCH - a promising leap for on-device AI PCs, but with fall availability and no confirmed prices, there is nothing to buy in July 2026."
     },
     {
       "sector": "Hardware",
@@ -2212,7 +2212,7 @@
         "https://www.sammobile.com/news/galaxy-z-flip-8-fold-8-launch-date-accidentally-revealed/"
       ],
       "credibility": "high",
-      "verdict": "WATCH - the launch is essentially here, so hold off on any Samsung foldable purchase until the July 22 Unpacked pricing is official."
+      "verdict": "WATCH — WATCH - the launch is essentially here, so hold off on any Samsung foldable purchase until the July 22 Unpacked pricing is official."
     },
     {
       "sector": "Hardware",
@@ -2438,7 +2438,7 @@
         "https://en.wikipedia.org/wiki/Peter_Steinberger_(programmer)"
       ],
       "credibility": "high",
-      "verdict": "WATCH - Genuinely the biggest open-source story of 2026 and free to run, but granting a self-hosted agent your camera, contacts and screen is a real security bet; pilot it in a sandbox before you trust it with your life."
+      "verdict": "WATCH — WATCH - Genuinely the biggest open-source story of 2026 and free to run, but granting a self-hosted agent your camera, contacts and screen is a real security bet; pilot it in a sandbox before you trust it with your life."
     },
     {
       "sector": "Open Source",
@@ -2452,7 +2452,7 @@
         "https://github.com/anomalyco/opencode/releases"
       ],
       "credibility": "high",
-      "verdict": "USE - If you want a serious AI coding agent that respects model choice and your budget, it's free, actively maintained, and a legitimate rival to paid IDEs - just supply your own API key or a local model."
+      "verdict": "USE — USE - If you want a serious AI coding agent that respects model choice and your budget, it's free, actively maintained, and a legitimate rival to paid IDEs - just supply your own API key or a local model."
     },
     {
       "sector": "Open Source",
@@ -2466,7 +2466,7 @@
         "https://github.com/ollama/ollama/releases"
       ],
       "credibility": "high",
-      "verdict": "USE - The default, no-cost way to run capable AI models on your own machine; pair it with Open WebUI or OpenCode and you have a private stack that replaces paid subscriptions for many tasks."
+      "verdict": "USE — USE - The default, no-cost way to run capable AI models on your own machine; pair it with Open WebUI or OpenCode and you have a private stack that replaces paid subscriptions for many tasks."
     },
     {
       "sector": "Open Source",
@@ -2480,7 +2480,7 @@
         "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/README.md"
       ],
       "credibility": "high",
-      "verdict": "USE - If you like understanding your tools, Pi is a delight: free, hackable and legitimately influential (it underpins OpenClaw). Casual users wanting turnkey polish may prefer OpenCode."
+      "verdict": "USE — USE - If you like understanding your tools, Pi is a delight: free, hackable and legitimately influential (it underpins OpenClaw). Casual users wanting turnkey polish may prefer OpenCode."
     },
     {
       "sector": "Open Source",
@@ -2495,7 +2495,7 @@
         "https://en.wikipedia.org/wiki/ComfyUI"
       ],
       "credibility": "high",
-      "verdict": "USE - If you want maximum control over open image and video models without subscription fees, ComfyUI is the standard - just budget a capable GPU and a learning curve; casual users may prefer simpler paid apps."
+      "verdict": "USE — USE - If you want maximum control over open image and video models without subscription fees, ComfyUI is the standard - just budget a capable GPU and a learning curve; casual users may prefer simpler paid apps."
     },
     {
       "sector": "Open Source",

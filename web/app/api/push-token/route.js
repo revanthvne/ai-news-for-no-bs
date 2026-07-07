@@ -23,7 +23,7 @@ export async function POST(req) {
           "Content-Type": "application/json",
           Prefer: "resolution=ignore-duplicates",
         },
-        body: JSON.stringify({ token, platform: platform || "unknown" }),
+        body: JSON.stringify({ token, platform: platform || "web" }),
       });
     } catch {
       return NextResponse.json({ ok: false }, { status: 500 });
