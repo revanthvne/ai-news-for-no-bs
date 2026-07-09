@@ -126,6 +126,16 @@ export function SectorFeed({ sectors }) {
   );
 }
 
+function TpField({ label, v }) {
+  if (!v) return null;
+  return (
+    <>
+      <div className="tp-lbl">{label}</div>
+      <div className="tp-text">{v}</div>
+    </>
+  );
+}
+
 function ProductCard({ p }) {
   const [open, setOpen] = useState(false);
   const hasDetail = p.deep_review || (p.experiments && p.experiments.length);
@@ -141,12 +151,12 @@ function ProductCard({ p }) {
       ) : null}
       {open && (
         <div className="tp-detail">
-          {p.deep_review ? (
-            <>
-              <div className="tp-lbl">Deep review</div>
-              <div className="tp-text">{p.deep_review}</div>
-            </>
-          ) : null}
+          <TpField label="End-to-end review" v={p.deep_review} />
+          <TpField label="Who should use it" v={p.who_should_use} />
+          <TpField label="Why it's good" v={p.the_good} />
+          <TpField label="Why it's bad" v={p.the_bad} />
+          <TpField label="What it lacks" v={p.what_it_lacks} />
+          <TpField label="Can AI models do it better?" v={p.ai_leverage} />
           {p.experiments && p.experiments.length ? (
             <>
               <div className="tp-lbl">Experiments — what you can build</div>

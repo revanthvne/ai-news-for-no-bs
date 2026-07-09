@@ -156,17 +156,26 @@ def _template(story: Dict) -> Dict:
 
 
 PRODUCT_SYSTEM = (
-    "You review new tech/AI products for 'NO BS — Should You Buy This?'. For the given product, return STRICT "
-    "JSON (no HTML) with two keys: "
-    "'deep_review' — 4-6 honest sentences: what it actually does, standout strengths, real weaknesses/limits, "
-    "who it's genuinely for, and whether it's worth paying for. Be specific and skeptical; if unsure, say so. "
-    "'experiments' — an array of 3 to 5 concrete, specific things someone could build or try with this product "
-    "to see what it can do (each a short, actionable idea). Never fabricate features."
+    "You review new tech/AI products for 'NO BS — Should You Buy This?'. Return STRICT JSON (no HTML), every "
+    "field SPECIFIC to THIS product — never generic filler. Keys:\n"
+    "- deep_review: 4-6 sentences, an end-to-end deep dive — what it is, how it works, and the overall take.\n"
+    "- who_should_use: the specific people/roles and concrete use cases it's genuinely for.\n"
+    "- the_good: why it's good — concrete strengths.\n"
+    "- the_bad: why it's bad — honest downsides.\n"
+    "- what_it_lacks: the real gaps / missing features / where it falls short of competitors.\n"
+    "- ai_leverage: honestly, could today's AI models (GPT/Claude/Gemini/open models) replicate or dramatically "
+    "improve this? State whether a builder could recreate its core value with AI, and where (if anywhere) the "
+    "product still adds real value beyond raw models.\n"
+    "- experiments: an array of 3-5 UNIQUE, concrete things to build or try with it — each distinct and specific "
+    "to this product, no repetition, no generic advice.\n"
+    "Be specific, skeptical, honest. If unsure, say so. Never fabricate features."
 )
+
+_PRODUCT_KEYS = ["deep_review", "who_should_use", "the_good", "the_bad", "what_it_lacks", "ai_leverage"]
 
 
 def synthesize_product(product: dict) -> dict:
-    """Enrich a top-product entry with a deep_review + 3-5 hands-on experiments."""
+    """Enrich a top-product entry with a full end-to-end review + unique experiments."""
     name = product.get("name", "This product")
     if config.has_llm():
         prompt = (f"PRODUCT\nName: {name}\nTagline: {product.get('tagline','')}\n"
@@ -175,20 +184,28 @@ def synthesize_product(product: dict) -> dict:
         if raw:
             try:
                 data = json.loads(raw)
-                dr, ex = data.get("deep_review"), data.get("experiments")
-                if dr and isinstance(ex, list) and ex:
-                    product["deep_review"] = dr
+                ex = data.get("experiments")
+                if data.get("deep_review") and isinstance(ex, list) and ex:
+                    for k in _PRODUCT_KEYS:
+                        product[k] = str(data.get(k, "") or "")
                     product["experiments"] = [str(x) for x in ex][:5]
                     return product
             except Exception:
                 pass
+    # Template fallback (specific-ish; real uniqueness comes from the LLM in the cloud).
     cat = product.get("category", "tool")
-    product["deep_review"] = (
-        f"{name} — {product.get('tagline','')}. A new {cat} product; try its free tier before paying and "
-        "look for open-source equivalents first. Deeper review pending AI analysis.")
+    tag = product.get("tagline", "")
+    product["deep_review"] = f"{name} — {tag}. A new {cat} product. Deeper AI review generates in the cloud run."
+    product["who_should_use"] = f"People evaluating {cat.lower()} tools who need what its tagline promises: {tag}"
+    product["the_good"] = "Fresh take on a real problem; worth a look before it gets crowded."
+    product["the_bad"] = "Unproven, early, and likely thin on edge cases; don't bet a workflow on v1."
+    product["what_it_lacks"] = "Track record, integrations, and independent reviews — all still to come."
+    product["ai_leverage"] = "Ask whether a plain GPT/Claude prompt or an open model already does 80% of this for free before paying."
     product["experiments"] = [
-        f"Run {name} on one real task from your workflow and compare it to your current tool.",
-        f"Push {name}'s free tier to its limits before you consider paying.",
-        "See whether an open-source or free alternative does the same job.",
+        f"Rebuild your current {cat.lower()} workflow around {name} for a week and log where it wins or breaks.",
+        f"Stress-test {name} on your single hardest real task and see if the output holds up.",
+        f"Wire {name} into an existing tool via its API/integrations and automate one repetitive job.",
+        f"Try to replicate {name}'s core feature with a plain GPT/Claude prompt and see how close you get.",
+        f"Run {name} head-to-head against a free or open-source alternative on the exact same input.",
     ]
     return product
