@@ -1,9 +1,8 @@
 // Approve / reject an edition straight from the email buttons.
 // GET /approve?edition=2026-07-01&action=approve[&secret=...]
 import { NextResponse } from "next/server";
+import { SUPABASE_URL, SUPABASE_SERVICE as SERVICE_KEY } from "../../lib/supabase-config";
 
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
 const APPROVE_SECRET = process.env.APPROVE_SECRET;
 
 function page(title, body, color) {

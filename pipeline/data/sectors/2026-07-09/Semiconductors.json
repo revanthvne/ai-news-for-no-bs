@@ -1,0 +1,155 @@
+{
+  "sector": "Semiconductors",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "tsmc-advanced-node-price-hikes-2026",
+      "headline": "TSMC hikes prices on ALL advanced nodes as 3nm runs at 120%+ utilization",
+      "one_liner": "TSMC is notifying Nvidia, Apple, AMD and Qualcomm of 5-10% wafer price increases on 3nm, 5nm and 7nm — 74% of its wafer business.",
+      "source_name": "Tom's Hardware / Yahoo Finance",
+      "source_links": [
+        "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs",
+        "https://finance.yahoo.com/markets/stocks/articles/tsmc-vs-nvidia-ai-semiconductor-190000743.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "TSMC is raising wafer prices 5-10% across its advanced nodes (3nm, 5nm, 7nm), which represent about 74% of its wafer revenue. What makes this unusual is that node prices normally drift down as yields mature; instead TSMC is raising them because 3nm utilization is estimated above 120% this year and above 110% in 2027. AI demand has handed TSMC near-monopoly pricing power at the leading edge. Its July 16 earnings are expected to show ~$39.8B revenue and $3.77 EPS, up sharply year over year.",
+      "founding_story": "TSMC (Taiwan Semiconductor Manufacturing Company) was founded in 1987 in Hsinchu, Taiwan by Morris Chang, backed by the Taiwanese government and Philips. Chang pioneered the 'pure-play foundry' model: TSMC would manufacture chips designed by others and never compete with its own customers, which let fabless firms like Nvidia, Apple and AMD exist. It is now the world's most valuable and technologically advanced chipmaker, effectively the sole volume source for leading-edge AI silicon.",
+      "who_should_use": "Fabless chip designers (Nvidia, AMD, Apple, Qualcomm, Broadcom, MediaTek) who need leading-edge 3nm/5nm capacity; hyperscalers designing custom AI accelerators; equity investors and supply-chain planners tracking cost pass-through into GPUs and phones.",
+      "who_should_buy": "This is a capacity-allocation and equity story, not a consumer purchase. Enterprises that must 'buy' are the fabless designers locking in wafer supply agreements — and they have essentially no alternative at 3nm. Investors weighing TSMC stock (NYSE: TSM) get a company with structural pricing power but heavy Taiwan geopolitical and capex risk. What makes it special: no one else can volume-produce sub-3nm AI chips. Who should NOT: anyone expecting these price hikes to reverse soon, or betting on a near-term China/Taiwan de-risking.",
+      "free_alternatives": "There is no 'free' alternative at the leading edge. Cheaper paths: design for mature nodes (28nm/16nm) where Samsung, GlobalFoundries and SMIC compete on price; use Samsung Foundry 2nm/3nm as a second source (lower yields, lower prices); or rent AI compute in the cloud instead of taping out custom silicon. For most companies renting GPUs beats fighting for wafers.",
+      "verdict": "WATCH — TSMC's pricing power is real and durable, but the stock already prices in a lot and the whole thesis rests on a stable Taiwan."
+    },
+    {
+      "id": "dram-hbm-antitrust-price-fixing-2026",
+      "headline": "Samsung, SK Hynix and Micron hit with US antitrust suit over 700% memory price surge",
+      "one_liner": "A new US class action accuses the big three of choking DRAM supply to feed high-margin HBM, as a fresh case tests whether HBM expansion proves collusion.",
+      "source_name": "TrendForce / Reuters",
+      "source_links": [
+        "https://www.trendforce.com/news/2026/07/08/news-new-dram-price-fixing-case-against-samsung-sk-hynix-and-micron-tests-whether-hbm-expansion-can-prove-collusion/",
+        "https://www.gizmochina.com/2026/06/30/samsung-micron-and-sk-hynix-sued-over-artificial-ram-shortage-and-price-hikes/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "In late June, 14 consumers and three small PC assembly/distribution firms sued Samsung, SK Hynix and Micron in the US, alleging coordinated supply cuts pushed memory prices up nearly 700% in four years. The core claim: the three shifted wafer capacity toward high-margin HBM for AI servers while deliberately holding back standard DRAM. A July 8 analysis frames it as a test of whether an HBM production pivot can legally count as collusion. The three control roughly the entire DRAM market, giving the case unusual weight.",
+      "founding_story": "The defendants are the memory oligopoly: Micron (founded 1978 in Boise, Idaho by Ward Parkinson and others), Samsung Electronics' semiconductor arm (Samsung founded 1938 in South Korea; entered DRAM in the 1980s), and SK Hynix (rooted in Hyundai Electronics, founded 1983, later Hynix, acquired by SK Group in 2012). All three have prior DRAM price-fixing settlements in the 2000s, which is part of why plaintiffs argue the pattern is repeating.",
+      "who_should_use": "Antitrust lawyers, PC and server OEMs squeezed by RAM costs, procurement teams, and investors modeling memory-maker margins and legal exposure. Also relevant to anyone who bought RAM or a PC in the last four years as a potential class member.",
+      "who_should_buy": "Not a product purchase. For OEMs and system builders, the practical takeaway is to lock long-term memory supply contracts now rather than buy spot. Investors in Micron (NASDAQ: MU), Samsung and SK Hynix should price in litigation and headline risk against currently fat margins. Who should NOT: anyone expecting a fast courtroom win — proving deliberate collusion (versus rational profit-seeking) is historically very hard.",
+      "free_alternatives": "For buyers hurt by prices: delay upgrades, buy used/refurbished DRAM, or shift workloads to cloud instances where the provider eats memory costs. There's no cheaper 'brand' alternative because all three suppliers are named defendants and pricing moves together.",
+      "verdict": "WATCH — the price pain is real and well documented, but antitrust cases like this usually take years and rarely deliver quick relief."
+    },
+    {
+      "id": "ai-memory-supercycle-hbm-2026",
+      "headline": "The memory supercycle: HBM to hit $54.6B as prices are forecast up 40-50% per quarter",
+      "one_liner": "Jefferies sees DRAM prices rising 40-50% in Q3 and another 30-40% in Q4 2026 as HBM eats 23% of DRAM wafers and 'cheap memory' ends.",
+      "source_name": "SK Hynix Newsroom / Investing.com",
+      "source_links": [
+        "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/",
+        "https://www.investing.com/analysis/the-end-of-cheap-memory-why-2026-marks-a-structural-shift-in-tech-economics-200675634",
+        "https://www.datacenterdynamics.com/en/news/samsung-and-sk-hynix-to-scale-up-memory-production-capacity-in-2026-to-meet-ai-demand/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "AI demand has flipped memory into a full supercycle. Bank of America estimates the 2026 HBM market at $54.6B, up 58% year over year, with HBM now consuming about 23% of all DRAM wafers. SK Hynix leads HBM at 50-55% share, Samsung 35-40%, Micron 5-10%. Jefferies forecasts DRAM prices rising 40-50% quarter-on-quarter in Q3 and another 30-40% in Q4, and both Samsung and SK Hynix are pouring capex into new fabs (Samsung P5, SK Hynix M15X) that won't come online until 2027-2028.",
+      "founding_story": "SK Hynix, the HBM leader, descends from Hyundai Electronics (founded 1983); it became Hynix in 2001 after the Hyundai-LG memory merger, nearly collapsed in the early-2000s DRAM crash, and was rescued and acquired by South Korea's SK Group in 2012. Its early bet on high-bandwidth memory for GPUs — long before the AI boom made HBM the hottest product in tech — is why it now leads the most profitable corner of the memory market.",
+      "who_should_use": "Data-center architects and hyperscalers speccing AI training clusters; GPU makers (Nvidia, AMD) that bundle HBM; PC/server OEMs and gamers bracing for higher RAM costs; memory-sector investors.",
+      "who_should_buy": "HBM is sold in bulk to a handful of AI accelerator makers — you can't buy it retail. Enterprises building AI infrastructure should lock multi-quarter contracts now; every quarter of delay is 30-50% more expensive on current forecasts. What makes it special: HBM is the true bottleneck of the AI buildout, arguably more than GPUs. Who should NOT overpay: consumers and gamers should buy standard RAM now or wait, not panic-buy at peak — supercycles eventually turn.",
+      "free_alternatives": "For AI workloads, rent cloud instances where the provider already absorbed HBM costs instead of building your own cluster. For consumers, stick with existing RAM, buy on the used market, or delay upgrades until new 2027-2028 fab capacity loosens supply. There is no cheaper HBM source — it's a three-player market.",
+      "verdict": "USE (rent, don't hoard) — the supercycle is real, so lock enterprise supply early but don't panic-buy consumer RAM at the top."
+    },
+    {
+      "id": "intel-18a-yield-fixed-ramp-2026",
+      "headline": "Intel says it has fixed 18A yields and is ramping Panther Lake at Arizona Fab 52",
+      "one_liner": "Intel resolved its 18A yield issues and plans up to 30,000 wafers/month across two sites — the make-or-break moment for its foundry comeback.",
+      "source_name": "The FPS Review / Intel Newsroom",
+      "source_links": [
+        "https://www.thefpsreview.com/2026/07/03/intel-news-roundup-solves-18a-yield-issues-rumored-18-core-nova-lake-s-cpus-panther-lake-gets-shared-memory-support-and-more/",
+        "https://newsroom.intel.com/client-computing/intel-unveils-panther-lake-architecture-first-ai-pc-platform-built-on-18a"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "Intel reports it has fixed the yield problems on its 18A process and is ramping production for 18A and the next-gen 14A, with combined output potentially exceeding 30,000 wafers per month across two sites. Panther Lake (Core Ultra Series 3), the first AI PC platform on 18A, launched at CES in January and is now shipping in 200+ laptop designs, built at the new Fab 52 in Chandler, Arizona. Yield resolution is critical: it's the main gate for Intel serving external foundry customers and justifying its US fab investments.",
+      "founding_story": "Intel was founded in 1968 in Mountain View, California by Robert Noyce (co-inventor of the integrated circuit) and Gordon Moore (of Moore's Law), with Andy Grove as employee number three and future CEO. It defined the PC era with the x86 processor and 'Intel Inside,' but fell behind TSMC and Samsung in manufacturing during the 2010s. 18A is the centerpiece of its bet-the-company effort to reclaim process leadership and become a contract foundry.",
+      "who_should_use": "PC OEMs and laptop buyers eyeing 18A-based AI PCs; potential Intel Foundry customers evaluating a US-based TSMC alternative; investors tracking Intel's turnaround; policymakers watching domestic chip capacity.",
+      "who_should_buy": "For consumers: Panther Lake laptops are a genuine buy if you want an efficient AI PC on cutting-edge US-made silicon. For enterprises: Intel Foundry is worth piloting as a second source to TSMC, but demand proof of sustained yields before committing high-volume designs. What makes it special: the only leading-edge logic fab ramping at scale on US soil. Who should NOT: risk-averse customers who can't tolerate Intel's execution history should wait for third-party yield confirmation.",
+      "free_alternatives": "Buyers who don't need 18A can get comparable or better performance-per-dollar from AMD (Ryzen, TSMC-built) or Apple Silicon laptops. Foundry customers can stick with proven TSMC or Samsung. Intel's pitch is supply diversification and geography, not lowest cost.",
+      "verdict": "WATCH — the yield fix is the most credible Intel-comeback signal in years, but 'Intel says it fixed it' has burned believers before; wait for external validation."
+    },
+    {
+      "id": "nvidia-h200-china-export-stalled-2026",
+      "headline": "Nvidia cleared to sell H200 to China — but still hasn't, as Beijing blocks purchases",
+      "one_liner": "Washington approved H200 exports on a case-by-case basis, yet Chinese authorities won't let domestic firms buy, leaving Nvidia's China business stalled.",
+      "source_name": "Brookings / CNBC",
+      "source_links": [
+        "https://www.brookings.edu/articles/ball-games-over-the-us-is-out-of-the-ai-chip-market-in-china/",
+        "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+        "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "After years of whiplash, the US in December 2025 allowed Nvidia's H200 (and AMD's MI325X) to be reviewed for China export on a case-by-case basis with security conditions. But despite the green light, Chinese authorities have not permitted domestic AI firms to buy H200s, and Nvidia has not recovered its Chinese customer base. Buyers who need procurement certainty won't order against a policy that could flip again in months, and local rivals like Huawei are filling the gap. Analysts increasingly argue the US is effectively out of China's AI chip market.",
+      "founding_story": "Nvidia was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem, reportedly sketched out at a Denny's in San Jose. It pioneered the GPU in 1999, then spent two decades turning graphics chips and its CUDA software platform into the backbone of modern AI. Its near-monopoly on AI training accelerators made it one of the world's most valuable companies — which is exactly why access to the giant China market became a geopolitical flashpoint.",
+      "who_should_use": "Nvidia investors sizing China revenue risk; Chinese AI labs weighing Huawei/domestic silicon versus restricted Nvidia parts; policymakers and export-control analysts; global hyperscalers watching supply reallocation.",
+      "who_should_buy": "Not a retail item — H200s sell to hyperscalers and AI labs. For Chinese enterprises, the practical reality is you often can't buy them regardless of US approval, so domestic accelerators (Huawei Ascend) are the default. For Nvidia investors, treat China upside as an option, not a base case. Who should NOT: anyone underwriting a Nvidia thesis that assumes China revenue snaps back — it may be structurally gone.",
+      "free_alternatives": "Chinese buyers' real alternatives are domestic chips (Huawei Ascend, Cambricon, Biren) and renting compute offshore where legally possible. These lag Nvidia on software maturity (CUDA) but are increasingly the only obtainable option inside China.",
+      "verdict": "WATCH — the approval is symbolically big but commercially hollow for now; assume China is a lost market until real orders actually ship."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Nvidia and TSMC push AI deeper into the fab",
+      "one_liner": "TSMC is using Nvidia CUDA-X, Metropolis and TAO to accelerate lithography, process simulation and automated defect inspection across its factories.",
+      "source_name": "Nvidia Newsroom / EE News Europe",
+      "source_links": [
+        "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+        "https://www.eenewseurope.com/en/nvidia-and-tsmc-push-ai-deeper-into-semiconductor-fabs/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "US chip labor shortage threatens billions in fab investment",
+      "one_liner": "The skilled-worker deficit could hit 157,000 by 2030, risking delays to new plants in Texas, Arizona, Ohio, New York and California.",
+      "source_name": "Bloomberg",
+      "source_links": [
+        "https://www.bloomberg.com/news/articles/2026-07-07/semiconductor-worker-shortfall-endangers-us-chip-factory-revival"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Memory fab equipment spending to top $50B for the first time",
+      "one_liner": "2026 300mm memory tool investment rises 29%, with DRAM equipment at $37B and 3D NAND at $14B as AI demand tightens capacity.",
+      "source_name": "SemiEngineering",
+      "source_links": [
+        "https://semiengineering.com/chip-industry-week-in-review-145/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Global chip sales hit $120.6B in May, up 9.2% month-over-month",
+      "one_liner": "The SIA reported strong sequential growth, underscoring that the AI-led semiconductor upcycle is still accelerating.",
+      "source_name": "Semiconductor Industry Association",
+      "source_links": [
+        "https://www.semiconductors.org/news-events/latest-news/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Micron and GM sign strategic US chip supply agreement",
+      "one_liner": "The deal aims to shore up automotive semiconductor supply chains onshore amid ongoing memory tightness.",
+      "source_name": "SemiEngineering",
+      "source_links": [
+        "https://semiengineering.com/chip-industry-week-in-review-145/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Mature-node foundry prices climb as 8-inch utilization recovers to 88%",
+      "one_liner": "AI demand is spilling into legacy nodes; top-10 foundry pricing is up 5-15% as older capacity tightens.",
+      "source_name": "SemiEngineering",
+      "source_links": [
+        "https://semiengineering.com/chip-industry-week-in-review-145/"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

@@ -25,6 +25,21 @@ import config
 UA = {"User-Agent": "NO-BS-DailyAIShort/1.0 (+https://github.com/)"}
 TIMEOUT = 20
 
+import re, html as _html
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def clean_html(text: str) -> str:
+    """Strip HTML tags + boilerplate (RSS summaries often embed <p>/<a> markup)
+    so story text is clean prose, never raw markup."""
+    if not text:
+        return ""
+    t = _TAG_RE.sub(" ", text)
+    t = _html.unescape(t)
+    # drop the RSS 'Discussion | Link' trailers Product Hunt/Reddit add
+    t = re.sub(r"\b(Discussion|Comments|Link)\b(\s*\|\s*)?", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
 # Curated, free RSS feeds mapped to the channel's beats.
 RSS_FEEDS = {
     "AI": [
@@ -85,7 +100,7 @@ def fetch_rss(max_per_feed: int = 8) -> List[Dict]:
                     "category": category,
                     "published": published.isoformat() if published else None,
                     "score": 0.0,
-                    "summary": getattr(entry, "summary", "")[:600],
+                    "summary": clean_html(getattr(entry, "summary", ""))[:600],
                 })
     return out
 
@@ -147,6 +162,56 @@ def fetch_github_releases(days: int = 10) -> List[Dict]:
     return out
 
 
+def fetch_producthunt(max_items: int = 20) -> List[Dict]:
+    """Product Hunt's daily launches — great for spotting new AI products/tools."""
+    out: List[Dict] = []
+    if feedparser is None:
+        return out
+    for url in ("https://www.producthunt.com/feed", "https://www.producthunt.com/feed?category=artificial-intelligence"):
+        try:
+            parsed = feedparser.parse(url, request_headers=UA)
+        except Exception:
+            continue
+        for entry in parsed.entries[:max_items]:
+            title = getattr(entry, "title", "").strip()
+            if not title:
+                continue
+            summary = clean_html(getattr(entry, "summary", ""))[:400]
+            published = None
+            if getattr(entry, "published_parsed", None):
+                published = dt.datetime.fromtimestamp(time.mktime(entry.published_parsed), dt.timezone.utc)
+            out.append({
+                "title": title,
+                "url": getattr(entry, "link", "https://www.producthunt.com"),
+                "source": "Product Hunt",
+                # PH is product-launch focused; default to AI unless clearly hardware.
+                "category": _guess_category(title + " " + summary),
+                "published": published.isoformat() if published else None,
+                "score": 1.2,  # curated launches — give them a nudge to surface
+                "summary": summary,
+            })
+    # de-dup within PH by url
+    seen, ded = set(), []
+    for s in out:
+        if s["url"] in seen:
+            continue
+        seen.add(s["url"]); ded.append(s)
+    return ded
+
+
+def top_products(n: int = 6) -> List[Dict]:
+    """Today's standout product launches (from Product Hunt), any sector."""
+    out: List[Dict] = []
+    for p in fetch_producthunt(max_items=18)[:n]:
+        out.append({
+            "name": p["title"],
+            "tagline": (p.get("summary") or "")[:150],
+            "url": p["url"],
+            "category": p.get("category", "AI"),
+        })
+    return out
+
+
 _CATEGORY_HINTS = {
     "Semiconductors": ["chip", "semiconductor", "nvidia", "tsmc", "amd", "wafer", "hbm", "nm ", "gpu", "foundry"],
     "Robotics": ["robot", "humanoid", "atlas", "figure", "cobot", "boston dynamics"],
@@ -171,8 +236,9 @@ def gather_all() -> List[Dict]:
     """Pull from every free source and return a combined candidate list."""
     stories: List[Dict] = []
     stories += fetch_rss()
-    stories += fetch_hackernews()
+    stories += fetch_hackernews()      # https://news.ycombinator.com
     stories += fetch_github_releases()
+    stories += fetch_producthunt()     # https://www.producthunt.com
     # de-dup by URL
     seen, deduped = set(), []
     for s in stories:

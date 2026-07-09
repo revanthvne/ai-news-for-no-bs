@@ -1,0 +1,160 @@
+{
+  "sector": "Robotics",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "agility-robotics-spac-2026",
+      "headline": "Agility Robotics goes public in a $2.5B SPAC — the first pure-play humanoid on US markets",
+      "one_liner": "Digit maker will list as 'AGLT' via Michael Klein's Churchill Capital SPAC, raising ~$620M — the largest capital raise in humanoid history.",
+      "source_name": "Business Wire (official) / TechCrunch / Yahoo Finance",
+      "source_links": [
+        "https://www.businesswire.com/news/home/20260624555633/en/Agility-Robotics-to-Go-Public-Through-$2.5-Billion-Merger-with-Churchill-Capital-Corp-XI",
+        "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+        "https://finance.yahoo.com/technology/ai/articles/agility-robotics-public-2-5-100000852.html"
+      ],
+      "credibility": "high",
+      "image_url": "https://mms.businesswire.com/media/20260624555633/en/2838385/22/Screenshot_2026-06-24_012057.jpg",
+      "story": "On June 24, 2026, Agility Robotics announced it will go public by merging with Michael Klein's Churchill Capital Corp XI (Nasdaq: CCXI) at a $2.5B pre-money valuation, expecting more than $620M in gross proceeds — billed as the largest capital raise in humanoid-robot history. The combined company will trade as 'AGLT' and pitches itself as the only US-listed pure-play humanoid firm with proven, paying commercial deployments. Its Digit robot already works at Schaeffler, GXO, Toyota Motor Manufacturing Canada and Mercado Libre, logging 65,000+ operating hours across nine facilities, and Agility says it holds $300M+ in multi-year (milestone-contingent) orders for the next-gen Digit v5. The ~$200M PIPE is led by existing investor Foxconn.",
+      "founding_story": "Agility was spun out of Oregon State University's Dynamic Robotics Lab in 2015 by Dr. Jonathan Hurst, Dr. Damion Shelton and Mikhail Jones; Hurst and Shelton first met as robotics PhD students at Carnegie Mellon. The OSU lab pioneered dynamic bipedal walking (ATRIAS, then Cassie in 2016), which Agility commercialized into Digit, its first torso-and-arms humanoid, around 2019-2020. It is backed by DCVC, Playground Global, Amazon, SoftBank Vision Fund 2, Nvidia, Schaeffler and Foxconn, and is now led by CEO Peggy Johnson (ex-Magic Leap CEO, ex-Microsoft). It is one of very few humanoid firms with multiple years of real, paid factory deployments rather than demos.",
+      "who_should_use": "Warehouse, distribution and light-manufacturing operators fighting chronic labor shortages for repetitive tote/tray moving, container unloading and line-side logistics. Digit is purpose-built for structured, human-scale industrial tasks — not homes, not delicate assembly, not eldercare. Best fit: 3PLs, auto-parts suppliers and e-commerce fulfillment centers already running conveyors and AMRs that want a bipedal picker for the gaps fixed automation cannot reach.",
+      "who_should_buy": "Realistically this is an enterprise pilot, not an off-the-shelf purchase: deployments run as multi-year contracts (robot-as-a-service style), and the economics only pencil out at high-utilization, hard-to-staff sites running multiple shifts. What is genuinely special is proof — 65,000+ real operating hours and repeat enterprise customers, which almost no competitor can claim. Who should NOT: small warehouses, anyone expecting general-purpose autonomy out of the box, and retail investors treating the SPAC as a sure thing — Agility is deeply unprofitable, SPAC de-listings and down-rounds are common, and those 'orders' are contingent on hitting contractual milestones.",
+      "free_alternatives": "For most warehouse jobs, cheaper and more proven options win today: fixed robotic arms (Fanuc, ABB, Universal Robots) for repetitive pick-and-place, and autonomous mobile robots (Locus, Zebra/Fetch, Geek+) for transport — all with better uptime and clearer ROI than any humanoid. A biped only earns its price where you specifically need a human form factor on human infrastructure (stairs, existing shelving, trailers). If the task is fixed and repetitive, do not buy a humanoid to do it.",
+      "verdict": "WATCH — Genuinely the most commercially proven humanoid, but it is a cash-burning, pre-profit company going public via SPAC; watch the deployment hours, not the ticker."
+    },
+    {
+      "id": "figure-03-production-bmw-2026",
+      "headline": "Figure hits 1-robot-per-hour production and lands a second BMW deployment",
+      "one_liner": "Figure says it built 350+ Figure 03 humanoids at up to one per hour and now has more robots than employees; BMW will use it for logistics.",
+      "source_name": "Figure (official) / The AI Insider / The Robot Report",
+      "source_links": [
+        "https://www.figure.ai/news/ramping-figure-03-production",
+        "https://theaiinsider.tech/2026/06/26/bmw-to-use-figure-ais-figure-03-for-logistics-work-at-us-factory/",
+        "https://www.therobotreport.com/top-10-robotic-stories-june-2026/"
+      ],
+      "credibility": "high",
+      "image_url": "https://images.ctfassets.net/qx5k8y1u9drj/2mtuWCRJqrKBUajwFIUBj5/ebd7becf3859f6712a6d7e6fbedea1bc/BotQ_Ramping_F03_Prod_Open_Graph.jpg",
+      "story": "In 2026 Figure said its BotQ factory scaled Figure 03 output from one robot per day to roughly one per hour — a claimed 24x throughput jump in under 120 days — delivering 350+ units, and per CEO Brett Adcock pushing Figure's robot count past its human headcount (~750) by late June. On June 26, BMW confirmed it will deploy Figure 03 for parts-sequencing logistics at its Spartanburg, SC plant, following an earlier Figure 02 pilot that supported production of 30,000+ X3 vehicles. Figure 03 is built around Helix, the company's in-house vision-language-action AI. The numbers are impressive, but most come from Figure itself with limited independent verification of sustained, productive work.",
+      "founding_story": "Figure was founded in May 2022 by serial entrepreneur Brett Adcock, who previously built recruiting marketplace Vettery (sold to Adecco for $110M) and co-founded eVTOL maker Archer Aviation. Adcock seeded Figure with $100M of his own money and recruited engineers from Boston Dynamics, Tesla, Apple and Agility. Backers and partners have included Microsoft, OpenAI, Nvidia, Intel and Jeff Bezos; a February 2024 round reportedly valued it near $2.6B, and it has since raised far larger rounds reportedly valuing it in the tens of billions (exact figures vary by report, so treat them cautiously). Figure moved its AI fully in-house with Helix after reportedly winding down an earlier OpenAI collaboration.",
+      "who_should_use": "Automotive and heavy-manufacturing plants wanting a humanoid for line-side logistics — moving parts into sequencing trolleys, tending stations, repetitive fetch-and-place on human-designed lines — plus Figure's own data-collection and R&D fleet. It is not a home product yet, despite 'general-purpose' and household marketing; domestic use remains demos and research.",
+      "who_should_buy": "No one can walk up and buy one — Figure sells enterprise deployments and pilots, and even those are early-stage co-development projects. What is genuinely special is the vertical stack (own factory, own AI model, own actuators) and the fastest claimed production ramp in the sector. But stay skeptical: 'robots outnumber employees' counts units built, not useful work delivered, and most public footage is choreographed. Who should NOT: consumers, and any operator expecting turnkey ROI today rather than a multi-quarter integration effort.",
+      "free_alternatives": "Same reality as other humanoids: for fixed automotive tasks, cobots and fixed arms (KUKA, Fanuc, Universal Robots) plus AGVs and tugger trains already handle sequencing logistics faster and cheaper, with proven uptime. Figure's only real edge is tasks that specifically need a human form on existing infrastructure. If you are BMW piloting the future, it is interesting; if you need throughput now, conventional automation still wins.",
+      "verdict": "WATCH — Real hardware and a real BMW deployment, but the eye-popping stats are self-reported; judge it on independent, sustained productive work, not on production counts."
+    },
+    {
+      "id": "1x-neo-home-robot-2026",
+      "headline": "1X ships the $20K Neo home robot — with a human stranger sometimes driving it",
+      "one_liner": "1X's Neo humanoid ships to homes in 2026 at $20K or $499/mo, but hard tasks route to a remote human 'Expert Mode' operator — a privacy flashpoint.",
+      "source_name": "The Robot Report / Forbes / eWeek",
+      "source_links": [
+        "https://www.therobotreport.com/teleop-not-autonomy-the-path-for-1x-neo-humanoid/",
+        "https://www.forbes.com/sites/johnkoetsier/2026/04/30/1x-kicks-off-full-scale-production-of-humanoid-robot-neo/",
+        "https://www.eweek.com/news/1x-neo-humanoid-home-robot-2026/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "1X opened a Hayward, California factory in spring 2026 and began taking orders for Neo, a roughly 5'6\", ~66 lb soft-bodied home humanoid priced at $20,000 outright or $499/month. The catch, confirmed by 1X, is that Neo launches only partly autonomous: harder tasks like folding laundry route to 'Expert Mode', where a 1X teleoperator remotely takes control through the robot's cameras and the robot 'learns' from the demonstration. That means a remote human could be seeing and operating inside your home — the story's biggest controversy. 1X counters with no-go zones, scheduling and opt-outs, but independent estimates put launch autonomy around only 60-70%.",
+      "founding_story": "1X was founded in 2014 in Moss, Norway as Halodi Robotics by roboticist Bernt Oivind Bornich, initially building safe, high-torque actuators (its gearless Revo1 drive) and the EVE wheeled humanoid for security and logistics. It rebranded to 1X in 2022 and pivoted to home robots. It became the OpenAI Startup Fund's first robotics bet ($23.5M Series A2, March 2023), then raised a $100M Series B led by EQT Ventures in January 2024, plus larger rounds since. Neo, unveiled in 2025, is its consumer play and reportedly booked ~10,000 pre-orders within days.",
+      "who_should_use": "Early-adopter households, accessibility and eldercare research pilots, and researchers curious about home humanoids and human-in-the-loop learning. Concretely useful for light chores (tidying, fetching, loading a dishwasher) under supervision. It is not a reliable unattended caregiver, and it is a poor fit for privacy-sensitive homes given the teleoperation model.",
+      "who_should_buy": "Honestly, almost no one should buy for utility yet — at $20K or $499/month you are pre-paying to be a beta tester and a training-data source, with a stranger potentially teleoperating inside your home. What is genuinely novel: it is the first consumer-priced, consumer-available home humanoid, and the soft body and near-silent (~22 dB) operation are real engineering. Who should NOT buy: anyone expecting Rosie-the-Robot autonomy, anyone with privacy or home-security concerns, and anyone who cannot comfortably lose $20K on an experiment.",
+      "free_alternatives": "Task-specific appliances crush Neo on value and reliability: a $500-1,500 robot vacuum/mop (Roomba, Roborock), a dishwasher, and doing your own laundry all beat a $20K teleoperated humanoid at their single jobs. For eldercare, a video-call tablet plus human aides is cheaper and safer. Neo's only claimed advantage is a generality it does not reliably possess yet.",
+      "verdict": "SKIP (for now) — A landmark product and fascinating bet, but paying $20K to beta-test a robot a stranger may drive through your kitchen is not a purchase; it is a subscription to someone else's R&D."
+    },
+    {
+      "id": "tesla-optimus-2026",
+      "headline": "Tesla's Optimus: giant promises, a slipping Fremont ramp, and a leadership exit",
+      "one_liner": "Tesla keeps pushing Optimus timelines — Fremont production slipped toward mid/late 2026, its program head left, and dexterous hands remain unsolved.",
+      "source_name": "Electrek / Quartz / Tesla SEC 8-K",
+      "source_links": [
+        "https://electrek.co/2025/07/03/tesla-optimus-shambles-head-of-program-exits-production-delayed/",
+        "https://qz.com/tesla-optimus-humanoid-robot-delay",
+        "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026026551/exhibit991.htm"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "Tesla continues to position Optimus as a world-changing product and a future revenue pillar, with Elon Musk touting eventual output of thousands of units and a ~$20K-$30K consumer price around 2027. Reality has lagged the rhetoric: Tesla missed its 2025 build target (a few hundred units against a 5,000 goal), Optimus program lead Milan Kovac departed in 2025, and reports say Tesla stockpiled nearly-complete bodies while struggling with dexterous hands/forearms and rare-earth-dependent actuator supply. Full-scale Fremont production has slipped toward mid/late 2026. Tesla's own disclosures on Optimus unit counts stay thin, so treat specific production figures with caution.",
+      "founding_story": "Optimus (the 'Tesla Bot') was unveiled as a concept at Tesla's AI Day in August 2021 — famously introduced via a person in a robot costume — with a first prototype shown in 2022 and Optimus Gen 2 in December 2023. The program leans on Tesla's EV supply chain, in-house AI compute and its FSD vision stack, and was long led by VP of engineering Milan Kovac until his 2025 exit, after which oversight reportedly shifted to Tesla's AI/Autopilot leadership. Optimus has never been sold, and essentially every ship date announced so far has been pushed back.",
+      "who_should_use": "Today, only Tesla's own factories — Optimus units have been shown doing simple sorting and handling on Fremont lines. There is no external customer product. If it ships as promised, the intended users would be Tesla plants first, then general manufacturing and logistics, and eventually consumers — but that is a roadmap, not a reality you can deploy.",
+      "who_should_buy": "Nobody can buy one; there is no purchasable Optimus. For investors, Optimus is a call option on Tesla's execution, not a product line with revenue — and this program's track record justifies heavy skepticism of any date. What could make it special is Tesla's manufacturing scale and vertical integration, if the hands and real autonomy get solved. Who should NOT: anyone underwriting a Tesla valuation on Optimus shipping on time, or buyers expecting an affordable home robot this decade.",
+      "free_alternatives": "For actual factory work you can deploy now, Agility's Digit, Apptronik's Apollo and conventional cobots/AMRs are all real and pilotable today, unlike Optimus. If you want Tesla exposure, that is a stock decision, not a robot you can use. As a product, the honest 'alternative' to Optimus in 2026 is literally any humanoid you can actually take delivery of.",
+      "verdict": "WATCH (skeptically) — Enormous ambition and real engineering muscle, but perennial delays, a program-lead exit and unsolved dexterity mean promises still outrun product; do not price in the hype."
+    },
+    {
+      "id": "amazon-warehouse-robots-2026",
+      "headline": "Amazon passes 1 million warehouse robots and adds a talking Proteus — while quietly killing Blue Jay",
+      "one_liner": "Amazon runs 1M+ robots on its DeepFleet AI and is rolling a voice-controlled Proteus into a EUR10B Europe push — but shelved its flashy Blue Jay arm.",
+      "source_name": "Amazon (official) / CNBC / TechCrunch",
+      "source_links": [
+        "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+        "https://www.cnbc.com/2026/06/05/amazon-robot-proteus-warehouse-ai-layoffs.html",
+        "https://techcrunch.com/2026/02/18/amazon-halts-blue-jay-robotics-project-after-less-than-six-months/"
+      ],
+      "credibility": "high",
+      "image_url": "https://assets.aboutamazon.com/07/2b/a30de91842d0a8d5c3cbe3296cac/about-amazon-hero-inline003-amazon-deliveringthefuture-shv1-robotics-roboticarms-2550x1434.jpg",
+      "story": "Amazon is the world's largest real-world robotics operator: it has surpassed one million deployed robots and runs DeepFleet, a generative-AI 'foundation model' that coordinates its mobile-robot fleet and reportedly cut travel time ~10%. In June 2026 it unveiled a next-generation, conversational Proteus robot that takes spoken instructions and figures out its own routing, as part of a EUR10B European fulfillment expansion (adding 25,000 jobs), with broader deployment targeted for 2027. The NO BS wrinkle: Amazon quietly discontinued its heavily promoted multi-arm 'Blue Jay' robot in early 2026 after less than six months, saying only the underlying tech will live on. It is the clearest evidence that boring, task-specific automation — not flashy humanoids — is what actually scales today.",
+      "founding_story": "Amazon Robotics traces to Kiva Systems, founded in 2003 by Mick Mountz to build the low orange drive units that shuttle shelves to human pickers. Amazon acquired Kiva in 2012 for ~$775M and rebranded it Amazon Robotics in 2015, then scaled it into the backbone of its fulfillment network. Newer systems include the Sparrow, Cardinal and Robin arms, the touch-sensing Vulcan, and the autonomous Proteus mobile robot, all increasingly coordinated by the DeepFleet AI model. Amazon builds these primarily for its own operations rather than selling them.",
+      "who_should_use": "This is Amazon's internal stack, not a product you buy — but it is the reference model for how large-scale warehouse automation actually works: dense fleets of cheap, reliable, task-specific mobile robots and arms, orchestrated by fleet-level AI, with humans kept in the loop for exceptions. Operators evaluating automation should study it as the realistic template, versus the humanoid hype cycle.",
+      "who_should_buy": "Not for sale, so 'buying in' means either being an Amazon shareholder or copying the playbook with commercial equivalents. What is genuinely special is scale and orchestration at a level no one else has — a million coordinated robots doing real, profitable work every day. Who should NOT read this as blanket endorsement of cutting-edge form factors: Amazon itself killed Blue Jay, a reminder that even the biggest operator drops automation that does not earn its keep.",
+      "free_alternatives": "For everyone who is not Amazon, commercial AMRs and arms deliver the same idea affordably: Locus Robotics, Zebra/Fetch, Geek+ and Exotec for mobile fulfillment; Fanuc, ABB and Universal Robots for picking. These are cheaper, proven and buyable today — and for warehouse ROI they beat any humanoid. The lesson is to match the robot to the task, not to buy a general-purpose android.",
+      "verdict": "USE (the model) — You cannot buy Amazon's fleet, but its 'many cheap task robots plus fleet AI' approach — and its willingness to axe Blue Jay — is the honest blueprint anyone hyping humanoids should copy."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Chinese humanoid startups AI2 Robotics and X Square each raise at roughly $2.8B valuations",
+      "one_liner": "AI2 Robotics (wheeled AlphaBot) reportedly raised ~$735M as both firms hit ~$2.8B valuations in late June/July 2026 — China's humanoid cash surge.",
+      "source_name": "SiliconANGLE / TechCrunch",
+      "source_links": [
+        "https://siliconangle.com/2026/06/29/chinese-robotics-outfits-ai2-robotics-x-square-robots-secure-funding-2-8b-valuation/",
+        "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Boston Dynamics' new electric Atlas is 'fully committed' for 2026, shipping to Hyundai and Google DeepMind",
+      "one_liner": "Electric Atlas enters production with all 2026 units committed to Hyundai's robotics center and Google DeepMind; Hyundai eyes 30,000 units/yr by 2028.",
+      "source_name": "Automate.org / Forbes",
+      "source_links": [
+        "https://www.automate.org/robotics/industry-insights/boston-dynamics-to-begin-production-on-redesigned-atlas-humanoid-in-2026",
+        "https://www.forbes.com/sites/johnkoetsier/2026/01/06/atlas-humanoid-robots-production-fully-committed-for-2026-factory-will-build-30000-per-year/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Apptronik's Apollo hits $935M in total Series A funding at a $5B+ valuation",
+      "one_liner": "Google- and B Capital-backed Apptronik has now raised ~$935M (latest tranche $520M at ~$5B) to ramp its Apollo humanoid for logistics and manufacturing.",
+      "source_name": "TechCrunch / CNBC",
+      "source_links": [
+        "https://techcrunch.com/2026/02/11/humanoid-robot-startup-apptronik-has-now-raised-935m-at-a-5b-valuation/",
+        "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Nvidia and Hugging Face push open-source humanoid AI with Jetson Thor and LeRobot",
+      "one_liner": "Nvidia's Jetson Thor now runs Hugging Face's LeRobot vision-language-action models on open robots like Reachy 2, lowering the barrier to physical AI.",
+      "source_name": "The AI Insider",
+      "source_links": [
+        "https://theaiinsider.tech/2026/07/07/nvidia-and-hugging-face-bring-new-models-and-frameworks-to-lerobot-for-open-source-robotics/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Collaborative Robotics unveils Proxie 2 mobile manipulation robot",
+      "one_liner": "Cobot's second-gen Proxie adds bigger payload, self-swapping batteries, autonomous task identification and an optional two-armed manipulation module.",
+      "source_name": "The Robot Report",
+      "source_links": [
+        "https://www.therobotreport.com/top-10-robotic-stories-june-2026/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Germany's Neura Robotics raises a big round backed by Amazon and Nvidia",
+      "one_liner": "Neura Robotics landed major strategic funding, including from Amazon and Nvidia, to scale its cognitive humanoid (4NE-1) and cobot lineup.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/10/neura-robotics-funding-ai-humanoid-robots.html"
+      ],
+      "credibility": "high"
+    }
+  ]
+}

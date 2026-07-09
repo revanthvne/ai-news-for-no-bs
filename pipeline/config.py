@@ -39,6 +39,10 @@ APPROVER_EMAIL = os.getenv("APPROVER_EMAIL", "")  # set in .env — no address h
 # (which clips messages over ~102 KB) shows it in full. "full" inlines every
 # deep-dive (large — good for Apple Mail, will be clipped in Gmail).
 EMAIL_MODE = os.getenv("EMAIL_MODE", "compact")  # compact | full
+
+# When true, scheduled editions publish straight to the live site (no approval
+# gate). Set AUTO_PUBLISH=false to require the email Approve button first.
+AUTO_PUBLISH = os.getenv("AUTO_PUBLISH", "true").lower() == "true"
 SMTP_HOST = os.getenv("SMTP_HOST", "")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 SMTP_USER = os.getenv("SMTP_USER", "")

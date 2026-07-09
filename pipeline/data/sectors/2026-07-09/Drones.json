@@ -1,0 +1,146 @@
+{
+  "sector": "Drones",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "dji-ev50-evtol",
+      "headline": "DJI reveals its first eVTOL cargo drone, the EV50, after a secret Everest run",
+      "one_liner": "A 50kg-payload, 150km-range VTOL cargo aircraft that already flew ozone gear to 29,072 ft on Everest's north side.",
+      "source_name": "DroneXL / Pandaily / DJI",
+      "source_links": [
+        "https://dronexl.co/2026/07/09/dji-ev50-evtol-delivery-drone-everest/",
+        "https://pandaily.com/dji-ev50-everest-vtol-cargo-drone-jul2026",
+        "https://www.suasnews.com/2026/07/beyond-the-helicopter-djis-ev50-drone-brings-autonomous-logistics-to-the-slopes-of-mount-everest/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "DJI announced the EV50, its first fixed-wing eVTOL cargo drone, by disclosing it had quietly flown a 12-day research campaign on the north side of Mount Everest, reaching 8,861 m while carrying ozone-measurement gear for Peking University. The aircraft is 3.7 m long, hits 160 km/h unloaded, carries a 50 kg payload in a 270-liter standardized cargo bay, and claims a 150 km range. Safety design is the headline: eleven motors with failure tolerance, eight lift rotors that lock into an aerodynamic position for cruise, a redundant self-heating pitot tube, and a standard emergency parachute. Critically, DJI gave no price, no launch date, and no market availability.",
+      "founding_story": "DJI was founded in 2006 by Frank Wang (Wang Tao) in Shenzhen and grew from selling flight controllers into the dominant consumer and enterprise drone maker. The EV50 marks its first move into the eVTOL cargo/logistics category, a segment already contested by Chinese rivals like EHang and Western firms; DJI framed the Everest campaign as a high-altitude proof point rather than a product launch. Exact program timeline and team details were not disclosed, so treat internal origin specifics as unconfirmed.",
+      "who_should_use": "High-altitude and remote-logistics operators: mountain research stations, disaster-relief teams resupplying cut-off areas, mining and energy sites in terrain where helicopters are expensive or unsafe, and climate-science groups needing repeatable atmospheric sampling runs. The standardized cargo module also suits middle-mile B2B freight between fixed depots.",
+      "who_should_buy": "Nobody can buy it yet, and that is the honest headline. There is no price, no launch date, and no announced market, so this is a technology demonstrator, not a purchasable product. What is genuinely special is the payload-to-range-at-altitude combination plus DJI's manufacturing scale, which could undercut incumbents on cost if it ships. Do NOT budget for it, build operations around it, or treat vendor claims as verified performance until independent flights and pricing exist.",
+      "free_alternatives": "For actual available cargo/VTOL needs today, look at flying platforms you can buy or contract now: DJI's own FlyCart 30 for shorter-range heavy lift, Wingcopter 198 for fixed-wing delivery, or contracting Zipline for autonomous logistics. None match the EV50's spec sheet, but they exist and have prices.",
+      "verdict": "WATCH — a genuinely impressive spec sheet and a real Everest flight, but with no price, date, or market it is a headline, not a buy."
+    },
+    {
+      "id": "dji-agras-t55-t100",
+      "headline": "DJI launches next-gen Agras T55 and T100 agricultural spraying drones globally",
+      "one_liner": "New farm drones add 250k-points/sec radar and a dual-battery system claiming 50% more hover time at the same payload.",
+      "source_name": "DroneDJ",
+      "source_links": [
+        "https://dronedj.com/2026/07/02/new-dji-agricultural-drones-agras/",
+        "https://www.dji.com/media-center/announcements"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "DJI expanded its precision-agriculture line with a global launch of the Agras T55 and the Agras T100 Dual Battery Spraying System, aimed at everything from orchards and small farms to large-scale field work. The T55 adds an all-new millimeter-wave radar generating point-cloud data at up to 250,000 points per second for obstacle detection in cluttered environments like orchards. The T100 Dual Battery Spraying System uses two intelligent batteries to claim a 50% increase in hover time at the same payload, cutting swap-and-charge downtime. Both target spraying, spreading, and lifting with a stated focus on efficiency and operator safety.",
+      "founding_story": "DJI (founded 2006, Shenzhen, by Frank Wang) launched its Agras agricultural line in 2015 and has iterated it into the global default for aerial crop spraying, especially across Asia and increasingly Latin America and parts of Europe. The T55/T100 continue that lineage; DJI positions ag as one of its most durable enterprise revenue streams even as consumer drones face US regulatory pressure.",
+      "who_should_use": "Row-crop and orchard operators, agricultural spraying-service contractors, and co-ops covering large acreage who currently rely on ground rigs or manned aircraft. The T55's dense radar suits orchards, vineyards, and terraced or obstacle-heavy fields; the T100's dual battery suits crews running long continuous days who lose money to battery swaps.",
+      "who_should_buy": "Commercial spraying contractors and large farms where labor and coverage economics justify a five-figure machine plus batteries, chargers, and generators. What makes it special is the radar density and reduced downtime, both of which translate directly to acres-per-day. It is NOT for hobbyists, small kitchen-garden growers, or US buyers who should first confirm state pesticide-application rules, remote-pilot certification, and any DJI procurement/import restrictions before committing.",
+      "free_alternatives": "Cheaper competition is real: XAG P-series and V-series spraying drones often undercut DJI, and Hylio (US-assembled, favorable for buyers wary of DJI regulatory risk) offers AG-series swarming sprayers. For small plots, a ground sprayer or a contracted service beats owning any drone.",
+      "verdict": "BUY — if you spray for a living the radar and dual-battery downtime cuts pay for themselves; everyone else is overbuying."
+    },
+    {
+      "id": "dji-ap100-parachute",
+      "headline": "DJI's \"Priceless Below\" reveal is the AP100 parachute for the Matrice 400",
+      "one_liner": "A self-powered recovery chute that deploys in under 600ms and can fire even after the drone's battery and controller fail.",
+      "source_name": "DroneXL",
+      "source_links": [
+        "https://dronexl.co/2026/07/08/dji-ap100-parachute-matrice-400/",
+        "https://dronexl.co/2026/07/02/dji-enterprise-teaser-priceless-below-matrice-30-successor/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "After a week of speculation that DJI's \"For the Priceless Below\" teaser pointed to a Matrice 30 successor, the July 8 reveal turned out to be the AP100 Parachute, a rear-mounted recovery system for the Matrice 400. It deploys in under 600 milliseconds and brings the aircraft down at less than 5 m/s to protect people and property beneath the flight path. Its differentiator is independence: the AP100 carries its own flight controller, sensors, and power, so it keeps sensing attitude and can deploy even after the drone's battery, flight controller, or control links have failed. It runs self-checks on its gas generator and comms from the moment the drone powers on.",
+      "founding_story": "This is a DJI Enterprise accessory, not a new company or aircraft, released for the Matrice 400 platform. The naming and marketing deliberately implied a bigger reveal, and some outlets openly called it a letdown versus the hyped 'new enterprise drone.' DJI's push into certified safety hardware tracks with tightening BVLOS and flight-over-people rules in Europe and elsewhere, where a compliant parachute can be the difference between a legal mission and a grounded one.",
+      "who_should_use": "Matrice 400 operators flying inspection, mapping, public-safety, or delivery missions over people, roads, or infrastructure where regulators require a proven descent-rate mitigation. Particularly relevant for European crews needing to meet SORA/operational-authorization requirements.",
+      "who_should_buy": "Enterprise Matrice 400 fleets that fly over populated or high-value areas and need documented risk mitigation, not hobbyists. What genuinely makes it special is the fully independent power/sensor/controller stack that survives a total aircraft failure, which cheaper tethered chutes do not. Do NOT buy it if you do not fly a Matrice 400, or if your operations are purely over open, unpopulated terrain where a chute adds cost and weight for little regulatory benefit.",
+      "free_alternatives": "Third-party recovery systems from ParaZero (SafeAir) and Avss/Indemnis have covered DJI enterprise airframes for years and may fit your compliance regime at competitive prices; for a first-party fit and warranty, the AP100 is the safer integration bet.",
+      "verdict": "BUY — essential if you fly a Matrice 400 over people, but it is a safety accessory, not the new drone the teaser implied."
+    },
+    {
+      "id": "drone-delivery-bvlos-scale-2026",
+      "headline": "Amazon, Wing and Zipline push drone delivery from pilots into real neighborhoods",
+      "one_liner": "Zipline passes 1M commercial deliveries and Wing tops 350k as BVLOS approvals turn drone delivery into routine revenue.",
+      "source_name": "TS2 / DroneXL / About Amazon",
+      "source_links": [
+        "https://ts2.tech/en/drone-delivery-showdown-wing-vs-zipline-p2-vs-amazon-prime-air-mk30/",
+        "https://dronexl.co/2026/05/19/amazon-prime-air-baton-rouge-mk30-drone-delivery/",
+        "https://www.aboutamazon.com/news/transportation/amazon-drone-prime-air-expanded-delivery-faa-approval"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Drone delivery in 2026 has shifted from demo corridors to regulated, revenue-generating operations, with Zipline reporting over 1 million commercial deliveries and Wing surpassing 350,000. Amazon Prime Air is expanding beyond test markets, launching in Baton Rouge with 12-20 MK30 drones delivering packages up to five pounds within a 7.5-mile radius and scouting metro Atlanta. The MK30 uses lidar-based sense-and-avoid for autonomous BVLOS flight. The FAA's routine BVLOS rule, expected to be finalized around 2026-2027, would replace today's waiver-by-waiver approach and is the real unlock for nationwide scale.",
+      "founding_story": "Zipline was founded in 2014 (Keller Rinaudo Cliffton and co-founders) delivering blood in Rwanda before entering US retail and healthcare logistics. Wing began inside Google X around 2012 and is now an Alphabet subsidiary. Amazon Prime Air was announced by Jeff Bezos in 2013 and spent over a decade fighting technical and regulatory hurdles before reaching today's limited commercial service.",
+      "who_should_use": "Consumers in launch markets (parts of Texas, Georgia, Louisiana and select metros) wanting fast delivery of small, urgent items; pharmacies, quick-commerce retailers, and health systems moving prescriptions, small parts, and food. Municipalities and logistics planners should watch closely as a last-mile option for dense suburbs.",
+      "who_should_buy": "This is a service, not a product you buy, so the honest 'purchase' is retailers and health systems deciding whether to partner. Zipline and Wing are worth piloting if you sell small, time-sensitive, high-margin items in an approved coverage zone; the special value is minutes-not-hours delivery and lower per-drop cost at scale. Do NOT build your logistics around it if you are outside coverage areas, ship heavy or bulky goods, or need guaranteed nationwide reach before the FAA BVLOS rule lands.",
+      "free_alternatives": "For most sellers, established last-mile options (courier apps, DoorDash/Uber Direct, USPS/UPS same-day) remain cheaper, weatherproof, and available everywhere today; drone delivery only wins on speed in the narrow zones where it is live.",
+      "verdict": "WATCH — genuinely operational and scaling, but coverage is still thin and the make-or-break FAA BVLOS rule is not final yet."
+    },
+    {
+      "id": "nato-counter-drone-40b",
+      "headline": "NATO approves a $40B+ five-year counter-drone and drone-procurement push",
+      "one_liner": "Allies commit over $40B to counter-UAV defenses, drone buys and operator training as cheap drones reshape warfare.",
+      "source_name": "Army Recognition / DefenseScoop / Defense One",
+      "source_links": [
+        "https://www.armyrecognition.com/news/aerospace-news/2026/nato-approves-40-billion-counter-drone-initiative-to-defeat-low-cost-uav-threats",
+        "https://defensescoop.com/2026/07/06/pentagon-awards-task-order-to-av-for-titan-drone-defense/",
+        "https://www.defenseone.com/business/2026/07/defense-business-brief-radar-makers-answer-drone-boom-armys-private-capital-appetite-one-lawmakers-caution-contractors/414570/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "NATO announced in Ankara on July 7, 2026 that allies will invest more than $40 billion over five years to expand counter-drone defenses, drone procurement, and operator training, a direct response to how cheap UAVs have reshaped the battlefield in Ukraine and the Middle East. The move lands alongside a US Pentagon $80.5 million task order to AeroVironment for Titan counter-UAS tech to protect Air Force bases, and reflects an arms race where a $500 drone can threaten multimillion-dollar assets. Radar-maker Echodyne is scaling toward 30,000 units a year to feed detection demand. Ukraine, for context, is on pace to build roughly seven million military UAVs this year.",
+      "founding_story": "NATO was founded in 1949; this is a procurement and capability initiative, not a company or product. It formalizes a shift many analysts have flagged since 2022: legacy air defense is too expensive to trade shot-for-shot against swarms of low-cost drones, forcing investment in radar, electronic warfare, directed energy, and interceptors. Vendors like AeroVironment (founded 1971 by Paul MacCready) and Echodyne are positioned to benefit.",
+      "who_should_use": "Defense ministries, base commanders, and critical-infrastructure security teams (airports, energy, ports) planning layered counter-UAS. Also relevant to defense investors and suppliers of radar, RF sensing, EW, and interceptor systems reading demand signals.",
+      "who_should_buy": "This is government/enterprise defense spending, not a consumer purchase. For defense buyers the honest read is that the money is real and durable, but effectiveness depends on integration across sensors, EW, and effectors rather than any single box, and lawmakers are already cautioning contractors against over-promising. It is NOT relevant to hobbyists, commercial operators, or anyone expecting counter-drone gear to be legally usable by civilians, jamming and kinetic intercept are heavily restricted.",
+      "free_alternatives": "There is no free alternative to national defense procurement. For civil sites, cheaper passive measures (RF detection-only systems, geofencing, and coordination with law enforcement) are the lawful starting point before any active counter-drone spend.",
+      "verdict": "USE — defense and infrastructure planners should treat this as a durable funding signal, but demand integrated systems and independent test data, not vendor slideware."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "AeroVironment wins $80.5M task order for Titan counter-drone tech to defend Air Force bases",
+      "one_liner": "The Pentagon task order backs AI-enabled small-UAS defense as base protection becomes a spending priority.",
+      "source_name": "DefenseScoop",
+      "source_links": [
+        "https://defensescoop.com/2026/07/06/pentagon-awards-task-order-to-av-for-titan-drone-defense/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "US Air Force moves Anduril YFQ-44A and General Atomics YFQ-42A into CCA production early",
+      "one_liner": "Both Collaborative Combat Aircraft entered Increment 1 production roughly four months ahead of schedule.",
+      "source_name": "Aviation Today / Defense One",
+      "source_links": [
+        "https://www.aviationtoday.com/2026/07/02/the-drone-arms-race-accelerates/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Ukraine on pace to build about 7 million military UAVs in 2026",
+      "one_liner": "Wartime output underscores how cheap drones now dominate procurement volumes and battlefield tactics.",
+      "source_name": "Aviation Today",
+      "source_links": [
+        "https://www.aviationtoday.com/2026/07/02/the-drone-arms-race-accelerates/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Radar-maker Echodyne targets 30,000 units a year to meet counter-drone demand",
+      "one_liner": "A planned ~$40M plant expansion near Seattle aims to mass-produce radars for drone detection.",
+      "source_name": "Defense One",
+      "source_links": [
+        "https://www.defenseone.com/business/2026/07/defense-business-brief-radar-makers-answer-drone-boom-armys-private-capital-appetite-one-lawmakers-caution-contractors/414570/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Drone stocks slide even as defense backlogs grow",
+      "one_liner": "Share prices for listed drone makers are down, but order backlogs point to underlying demand strength.",
+      "source_name": "Yahoo Finance",
+      "source_links": [
+        "https://finance.yahoo.com/markets/stocks/articles/drone-stocks-down-defense-backlogs-115500190.html"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

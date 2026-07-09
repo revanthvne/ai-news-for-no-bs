@@ -1,0 +1,149 @@
+{
+  "sector": "Open Source",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "kimi-k27-code",
+      "headline": "Moonshot's Kimi K2.7-Code pushes open-weight coding models past most closed rivals",
+      "one_liner": "Beijing's Moonshot AI ships an open-weight coding model that claims +21.8% over K2.6 and now runs inside GitHub Copilot.",
+      "source_name": "MarkTechPost",
+      "source_links": [
+        "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+        "https://llm-stats.com/models/kimi-k2.6",
+        "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Kimi K2.7-Code is Moonshot AI's latest open-weight coding model, built on the trillion-parameter K2.6 Mixture-of-Experts base and released under a modified MIT license. It reports a 21.8% jump on Moonshot's own Kimi Code Bench v2 over K2.6 while cutting reasoning-token usage by roughly 30%, and the K2 line has been tying or beating GPT-5.5-class models on SWE-Bench Pro at a fraction of the cost. As of July 2026 it became the first selectable open-weight model in the GitHub Copilot model picker for Business and Enterprise. The license is effectively MIT unless you exceed 100M monthly users or $20M monthly revenue, at which point you must display 'Kimi K2' branding.",
+      "founding_story": "Moonshot AI was founded in 2023 in Beijing by Yang Zhilin (Tsinghua and Carnegie Mellon alumnus) along with co-founders including Zhou Xinyu and Wu Yuxin. It rose to prominence with the Kimi chatbot and long-context models, then shifted toward open-weight releases with the Kimi K2 family in 2025-2026 to compete globally on cost and openness. The company is backed by Alibaba and other Chinese investors.",
+      "who_should_use": "Engineering teams that want a self-hostable coding model to avoid per-seat closed-model bills; startups running agentic coding workflows in CI who need INT4-quantized weights on their own GPUs; researchers benchmarking open-weight against frontier closed models. Concrete uses: running an in-house coding assistant, powering autonomous PR agents, or backing tools like Cursor/Cline via a local endpoint.",
+      "who_should_buy": "The weights are free, but you pay somewhere: either GPU infra to self-host a 1T-parameter MoE (non-trivial, needs serious hardware) or Moonshot's hosted API, which is the pragmatic choice for most. It's special because it is genuinely near-frontier on coding at a large cost discount. Worth paying for the hosted tier if you burn money on GPT-5.5 coding calls. Skip self-hosting unless you have the GPU fleet and a real data-residency or volume reason.",
+      "free_alternatives": "Qwen3-Coder and DeepSeek's coding models (both open-weight), Meta's Llama-derived coder variants, Mistral's code models, and GLM-5 coding builds. All are free to download; the honest trade-off is Kimi K2.7-Code currently benchmarks at or above most of them on agentic coding.",
+      "verdict": "USE — if you already self-host or want to cut closed-model coding costs, this is the strongest open-weight option right now, but only if you can feed its hardware appetite."
+    },
+    {
+      "id": "strix-pentest",
+      "headline": "Strix: an open-source AI agent that actually breaks into your app to prove the bug is real",
+      "one_liner": "Autonomous AI penetration-testing agent that validates vulnerabilities with working proofs-of-concept, now past 36K GitHub stars.",
+      "source_name": "GitHub / usestrix",
+      "source_links": [
+        "https://github.com/usestrix/strix",
+        "https://docs.strix.ai/",
+        "https://www.coddykit.com/pages/blog-detail?id=512896&slug=strix-the-open-source-ai-penetration-testing-tool-that-finds-and-fixes-your-app-"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Strix is an open-source autonomous penetration-testing agent that runs your code dynamically, finds vulnerabilities, and validates them through actual exploits rather than just flagging suspicious patterns. Agents ship with an offensive toolkit: HTTP interception proxy, browser exploitation, shell and command execution, a custom exploit runtime, recon/OSINT, and static plus dynamic analysis. It plugs into GitHub Actions and CI/CD so teams can scan on every pull request and block insecure code, and it works with any LLM backend including OpenAI, Anthropic Claude, Google Gemini, or local models via Ollama. The project has crossed 36,000 stars, at times adding nearly 2,000 in a single day.",
+      "founding_story": "Strix is built by the Strix team (GitHub org 'usestrix', with a commercial site at strix.ai) as an open-source project positioning itself as 'autonomous security for the AI era.' Precise founding details and the founders' names are not clearly documented in the public sources reviewed, so treat origin specifics as unconfirmed; what is verifiable is the rapid 2026 star growth and active repo.",
+      "who_should_use": "AppSec engineers and small security teams who cannot afford continuous manual pentests; DevSecOps engineers wanting a PR-gating scanner that produces real PoCs instead of noisy alerts; solo developers hardening a web app before launch. Concrete uses: nightly CI security scans, pre-release exploit validation, and triaging which SAST findings are actually exploitable.",
+      "who_should_buy": "The tool is free and self-hosted; your real cost is LLM tokens, which can add up on large codebases. There's a commercial Strix offering for teams wanting managed/hosted autonomous security. Worth it for teams without a dedicated pentest budget who still ship fast. Do NOT bother if you already have a mature security org with continuous human red-teaming, or if you can't supervise an agent that literally executes exploit code.",
+      "free_alternatives": "OWASP ZAP and Nuclei for scanning, Metasploit for exploitation, and PentestGPT for LLM-assisted testing. These are proven and free; Strix's differentiator is autonomous end-to-end validation rather than manual chaining.",
+      "verdict": "USE — a genuinely useful free AppSec force-multiplier, provided you sandbox it carefully and watch the token bill."
+    },
+    {
+      "id": "officecli",
+      "headline": "OfficeCLI gives AI agents full control of Word, Excel and PowerPoint with no Office installed",
+      "one_liner": "A single-binary, Apache-2.0 CLI that lets Claude Code, Cursor and Copilot read, edit and automate Office files natively.",
+      "source_name": "GitHub / iOfficeAI",
+      "source_links": [
+        "https://github.com/iOfficeAI/OfficeCLI",
+        "https://aiweekly.co/alerts/officecli-ships-apache-20-office-file-cli-aimed-at-ai-agents",
+        "https://github.com/iOfficeAI/OfficeCLI/releases"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "OfficeCLI is an open-source, single self-contained binary purpose-built so AI agents can read, edit, and automate .docx, .xlsx, and .pptx files without any Microsoft Office installation. It ships a formula and pivot engine with 350+ Excel functions auto-evaluated on write, native OOXML pivot tables, and a built-in HTML/PNG rendering engine for high-fidelity document previews. It runs on macOS, Linux, and Windows with zero dependencies and auto-detects Claude Code, Cursor, VS Code, and GitHub Copilot to install itself as a skill. Released under Apache 2.0, it has gathered over 10,800 GitHub stars.",
+      "founding_story": "OfficeCLI is developed by the iOfficeAI project on GitHub. Public sources confirm the Apache-2.0 license, the single-binary design, and its 2026 traction, but do not clearly name the individual founders or a founding date, so treat the origin specifics as unconfirmed.",
+      "who_should_use": "Developers building agentic workflows that must generate real Office deliverables (reports, financial models, decks) on servers with no Office license; automation engineers replacing brittle python-docx/openpyxl glue; teams giving coding assistants document-editing skills. Concrete uses: an agent that fills a quarterly Excel model, batch-generates PowerPoint from data, or edits contract Word docs in CI.",
+      "who_should_buy": "It's fully Apache-2.0 with no paid tier surfaced, so nobody needs to buy anything. What makes it special is being the first tool designed for agents rather than humans, with a proper formula/pivot engine. Honest call: adopt it free. Do NOT expect vendor support or SLAs, and don't rely on it for pixel-perfect fidelity in complex legacy documents without testing.",
+      "free_alternatives": "python-docx, openpyxl and python-pptx (Python libraries), LibreOffice headless conversion, and Pandoc. These are mature but not agent-native; OfficeCLI's edge is the single binary and skill auto-install for coding assistants.",
+      "verdict": "USE — if your agents need to touch Office files, this is the cleanest free option available today."
+    },
+    {
+      "id": "meetily",
+      "headline": "Meetily is the self-hosted, 100%-local answer to Otter and Granola",
+      "one_liner": "Rust-based open-source meeting assistant with local Whisper/Parakeet transcription and Ollama summaries — no cloud required.",
+      "source_name": "GitHub / Zackriya-Solutions",
+      "source_links": [
+        "https://github.com/Zackriya-Solutions/meetily",
+        "https://meetily.ai/",
+        "https://aitoolly.com/ai-news/article/2026-07-06-meetily-the-privacy-first-open-source-ai-meeting-assistant-built-with-rust-and-local-processing"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Meetily is a privacy-first, open-source AI meeting assistant that runs entirely on your own hardware, so no audio or transcript ever leaves the device. Built in Rust, it does real-time transcription via Parakeet and Whisper at up to 4x standard speed, plus speaker diarization and summarization through local or bring-your-own-key LLMs via Ollama. It targets macOS, Windows, and Linux and pitches itself directly as a self-hosted alternative to cloud tools like Otter.ai and Granola. The community edition is MIT-licensed and free.",
+      "founding_story": "Meetily is built by Zackriya Solutions, a company that develops the project in the open on GitHub (Zackriya-Solutions/meetily) with a product site at meetily.ai. It grew from a developer-community project into a fuller product with Community, Pro, and Enterprise tiers; exact founding-team names and dates are not clearly documented in the reviewed sources, so treat those specifics as unconfirmed.",
+      "who_should_use": "Privacy-conscious professionals in law, healthcare, and finance who can't send meeting audio to a cloud vendor; consultants under NDA; anyone in a GDPR/HIPAA-sensitive workflow. Concrete uses: recording and summarizing client calls fully offline, generating minutes on an air-gapped laptop, or keeping transcripts on company infrastructure.",
+      "who_should_buy": "Individuals should stay on the free MIT Community edition. The Pro tier ($10/user/month billed annually) and Enterprise (custom) make sense for organizations wanting centralized storage, white-glove deployment, EU data residency, and managed GDPR/HIPAA/NIS2 compliance. Worth paying for if compliance and support are business-critical. Do NOT pay if you're a solo user comfortable self-hosting — the free build does the core job.",
+      "free_alternatives": "Whisper.cpp plus a local LLM you wire together yourself, Vibe (local transcription app), and self-hosted Whisper deployments. These require more assembly; Meetily's edge is an integrated, polished local pipeline with diarization out of the box.",
+      "verdict": "USE — the strongest open-source pick if you want meeting AI without shipping your conversations to someone else's cloud."
+    },
+    {
+      "id": "openproject-17-6",
+      "headline": "OpenProject 17.6 lands with XWiki integration, merging project management and knowledge base",
+      "one_liner": "The open-source Jira/MS Project alternative ships a native XWiki link plus Backlogs and Meetings improvements.",
+      "source_name": "OpenProject",
+      "source_links": [
+        "https://www.openproject.org/",
+        "https://github.com/opf/openproject/releases"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "OpenProject 17.6.0 was released on July 8, 2026, headlined by a new XWiki integration that connects project work with enterprise knowledge management. Together, OpenProject and XWiki now offer an integrated open-source stack for organizations that want to run both projects and documentation on their own infrastructure. The release also brings further improvements to Backlogs, Meetings, and administration to help teams plan and execute more efficiently. OpenProject remains a self-hostable, GPL-licensed alternative to Jira and Microsoft Project.",
+      "founding_story": "OpenProject originated as a fork of ChiliProject, which itself descended from Redmine, the Ruby-on-Rails project management tool. It is developed by OpenProject GmbH, based in Berlin, Germany, which has maintained the community (GPL) and enterprise editions for over a decade with an open, on-premise-first philosophy.",
+      "who_should_use": "Teams and public-sector or regulated organizations that need self-hosted project management for data-sovereignty reasons; agencies wanting Gantt charts, boards, and backlogs without SaaS lock-in; teams that also want a linked wiki via XWiki. Concrete uses: running sprint boards on-prem, managing government project portfolios, or pairing docs and tasks on your own servers.",
+      "who_should_buy": "The Community edition is free and GPL. OpenProject's paid Enterprise edition (cloud or on-premise) adds features like advanced Gantt, boards, and support, and is worth it for organizations needing SLAs, security add-ons, and hands-on support. Honest call: buy Enterprise if you need support and the premium modules; otherwise the free edition is fully capable. Do NOT buy if a small team is happy with the community feature set.",
+      "free_alternatives": "Redmine (the ancestor), Taiga, Focalboard, Plane, and Leantime — all open-source project management tools. OpenProject's advantages are maturity, Gantt/portfolio depth, and now the XWiki documentation tie-in.",
+      "verdict": "USE — the most mature open-source, self-hostable project management suite, and the XWiki link is a real reason to upgrade if you self-host docs too."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "GitHub adds Kimi K2.7 Code to Copilot as its first open-weight model option",
+      "one_liner": "Copilot Business and Enterprise users can now pick an open-weight model in the model picker, offering a lower-cost coding path.",
+      "source_name": "GitHub Blog / Releasebot",
+      "source_links": [
+        "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/",
+        "https://releasebot.io/updates/github"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Open-source collaboration grows worldwide, piling pressure on maintainers",
+      "one_liner": "GitHub data shows cross-border collaboration up 16% quarter-over-quarter, with the EU leading pushes and India leading new repos.",
+      "source_name": "Help Net Security",
+      "source_links": [
+        "https://www.helpnetsecurity.com/2026/07/09/github-open-source-collaboration/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "GitHub ships new maintainer tools to cope with rising contribution volume",
+      "one_liner": "Pull request limits, repo-level controls, pinned issue comments, quieter notifications, and faster PR diffs aim to reduce maintainer burnout.",
+      "source_name": "GitHub Blog",
+      "source_links": [
+        "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "The 'license wars' continue to redefine what counts as open source",
+      "one_liner": "A 2024-2026 retrospective argues source-available and restricted licenses are eroding the OSI definition of open source.",
+      "source_name": "x-cmd blog",
+      "source_links": [
+        "https://www.x-cmd.com/blog/260706-dark-side-of-open-source/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "AI agent and browser-automation repos dominate GitHub trending in mid-2026",
+      "one_liner": "Projects like Alibaba's page-agent and other browser-automation tools top trending charts, reflecting the year's local-AI-and-agents theme.",
+      "source_name": "Trendshift / GitHub Trending",
+      "source_links": [
+        "https://trendshift.io/monthly",
+        "https://github.com/trending"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

@@ -1,7 +1,5 @@
 import { NextResponse } from "next/server";
-
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+import { SUPABASE_URL, SUPABASE_ANON as ANON } from "../../../lib/supabase-config";
 
 export async function POST(req) {
   let email;

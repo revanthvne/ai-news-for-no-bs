@@ -46,8 +46,10 @@ def push_supabase(edition: dict) -> dict:
         "payload": edition,
     }
     try:
-        r = requests.post(f"{base}/rest/v1/editions", headers=headers,
-                          json=ed_row, timeout=30)
+        # upsert on the edition_date unique key so re-runs on the same day update
+        # the row instead of failing with a 409 conflict.
+        r = requests.post(f"{base}/rest/v1/editions?on_conflict=edition_date",
+                          headers=headers, json=ed_row, timeout=30)
         ok = r.status_code < 300
         return {"ok": ok, "status": r.status_code, "body": r.text[:300]}
     except Exception as e:

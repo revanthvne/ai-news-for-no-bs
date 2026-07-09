@@ -1,0 +1,173 @@
+{
+  "sector": "Drones",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "dji-mini-5-pro-sub250-flagship",
+      "headline": "DJI Mini 5 Pro: The Best Sub-250g Drone You Can (Still) Buy in America",
+      "one_liner": "DJI's best pocket drone: a 1-inch 50MP sensor and LiDAR night-sensing in a 249g body — but DJI never officially sold it in the US.",
+      "source_name": "Space.com / DroneXL / Tom's Guide",
+      "source_links": [
+        "https://www.space.com/technology/drones/dji-mini-5-pro-drone-review",
+        "https://dronexl.co/2025/09/14/dji-mini-5-pro-official-description-leaked/",
+        "https://www.tomsguide.com/cameras-photography/drones/dji-drones-still-available-to-buy-usa-february-26",
+        "https://jvn.photo/dji-ban-united-states/"
+      ],
+      "credibility": "High — the Mini 5 Pro is a shipping product with hands-on reviews (Space.com, jvn.photo); US availability and ban status corroborated by Tom's Guide and DroneXL across Sept 2025-2026.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Launched September 18, 2025, the DJI Mini 5 Pro packs a 1-inch 50MP CMOS sensor, 4K/60 HDR video, a 225-degree flexible gimbal, forward LiDAR and omnidirectional obstacle sensing into a 249g body that stays under the registration threshold in most countries. It is, on image quality per gram, the best small camera drone on the market. The catch for Americans: DJI never listed the Mini 5 Pro (or the flagship Mavic 4 Pro) on its US store, blaming a 'customs misunderstanding,' though authorized dealers like B&H stock it. On December 22, 2025 the FCC added all DJI gear to its Covered List, so no NEW DJI models can get fresh US authorization going forward — but existing units keep flying and the FCC extended security/firmware updates to January 1, 2029.",
+      "founding_story": "DJI (Da-Jiang Innovations) was founded November 6, 2006 by Frank Wang (Wang Tao), then a student at the Hong Kong University of Science and Technology, who prototyped flight controllers in his dorm before moving the company to Shenzhen. It bootstrapped from selling ~$6,000 flight-control modules into the dominant global drone maker (roughly 70%+ consumer share) via the Phantom and later Mavic and Mini lines. The Mini series (since the 2019 Mavic Mini) exists specifically to slip under the sub-250g regulatory line.",
+      "who_should_use": "Travel vloggers and YouTubers, real-estate and property photographers, hobbyists and casual creators who want near-professional aerial stills and video without registration paperwork, and anyone who values a drone that fits in a jacket pocket.",
+      "who_should_buy": "Buy it if you want the best-imaging pocket drone, period — roughly $800 for the base kit and about $1,100-1,400 for the Fly More combo through US authorized dealers. What is genuinely special: a true 1-inch sensor, vertical/225-degree gimbal and LiDAR low-light avoidance at 249g is unmatched. Who should NOT: US buyers who need DJI's official US warranty channel, who worry about long-term parts/repair availability under the ban, or anyone doing federal/law-enforcement work (DJI is locked out of that procurement).",
+      "free_alternatives": "The older DJI Mini 4 Pro is cheaper, still excellent, and gives you ~90% of the Mini 5 Pro with a smaller sensor. The DJI Neo / Neo 2 (~$199) is far cheaper but a tiny-sensor selfie drone, not a photo tool. HoverAir X1 is a self-flying alternative but no 1-inch sensor. Autel's Nano/Lite compete but are also now on the Covered List. Honestly: for pure image quality nothing cheaper beats the 1-inch sensor, but the Mini 4 Pro is the value pick.",
+      "verdict": "BUY — the best pocket drone made, but buy from a US authorized dealer now; the ban means supply, parts and support only get harder from here."
+    },
+    {
+      "id": "skydio-x10d-record-army-order",
+      "headline": "Skydio X10D Lands the Largest Single-Vendor Drone Order in US Army History",
+      "one_liner": "The American anti-DJI just won a $52M, ~3,000-unit US Army order — the biggest single-vendor sUAS buy in Army history, awarded in 72 hours.",
+      "source_name": "Skydio / DroneXL / DroneDJ",
+      "source_links": [
+        "https://www.skydio.com/blog/u-s-army-usd52-million-order-skydio-x10d",
+        "https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order/",
+        "https://dronedj.com/2026/03/24/skydio-us-army-drone-order/",
+        "https://dronedj.com/2026/04/14/skydio-middle-east-us-military/"
+      ],
+      "credibility": "Very high — the $52M order is confirmed on Skydio's own newsroom and reported by DroneXL and DroneDJ (March 2026); the follow-on USAFCENT deal via DroneDJ (April 2026).",
+      "image_url": null,
+      "image_credit": null,
+      "story": "In March 2026 the US Army ordered nearly 3,000 Skydio X10D drones for more than $52 million — the largest single-vendor small-UAS purchase in Army history, and notably moved from bid to award in under 72 hours. The X10D is the defense variant of the X10, built for GPS-denied, electronically-contested airspace using six navigation cameras and visual inertial odometry to hold position and navigate home when satellite signals are jammed or spoofed. It carries 48MP telephoto, 50.3MP wide and 64MP narrow cameras plus the first Teledyne FLIR Boson+ thermal (640x512) on a small UAS. In April 2026 Skydio added a ~$9M USAFCENT contract to secure US airbases in the Middle East.",
+      "founding_story": "Skydio was founded in 2014 by Adam Bry, Abe Bachrach and Matt Donahoe, MIT alumni who had worked on Google's Project Wing. It first made its name with self-flying consumer drones (R1, Skydio 2), then in August 2023 made the 'very difficult decision' to exit the consumer market entirely — it was losing money on every consumer unit — to focus on enterprise and public safety. It is now the largest US drone maker, with over 1,500 enterprise/public-sector customers and more than half its business in defense (reportedly ~22,000 units with the DoD).",
+      "who_should_use": "Police and fire departments running drone-as-first-responder programs, utility/rail/pipeline inspectors, the military for ISR, base and border security teams, and search-and-rescue units — anyone who needs a drone that keeps flying when GPS is jammed.",
+      "who_should_buy": "Government agencies and enterprises that need NDAA-compliant, US-made autonomy. Price reality: Skydio does not publish prices; enterprise X10 packages run well into five figures (roughly $11k and up) and X10D defense kits higher, usually bundled with subscriptions and support. What is genuinely special is the best-in-class obstacle-dodging autonomy and true GPS-denied navigation. Who should NOT: consumers and hobbyists — you effectively cannot buy one, and it is wildly overkill and overpriced next to a DJI Mini.",
+      "free_alternatives": "For agencies, DJI's Matrice line is cheaper and arguably more capable per dollar — but banned from federal and most government use, which is the whole point of Skydio. In public safety, BRINC, Flock's Alpha and Autel (also Covered-Listed) compete. For consumers there is simply no reason to consider Skydio; a DJI Mini or Air wins on price and image quality.",
+      "verdict": "USE / BUY (agencies only) — if you need NDAA-compliant US autonomy in contested airspace it is the leader; everyone else, skip — it is not for you and not for sale to you."
+    },
+    {
+      "id": "amazon-prime-air-mk30-drone-delivery",
+      "headline": "Amazon Prime Air Drone Delivery Is Finally Real — and Coming to a Suburb Near You",
+      "one_liner": "MK30 drones now drop sub-5-lb packages in ~30 minutes across a dozen-plus US metros — $4.99 for Prime members, if you live in a covered suburb.",
+      "source_name": "DroneXL / FreightWaves / Amazon",
+      "source_links": [
+        "https://dronexl.co/2026/07/03/amazon-prime-air-drones-omaha-suburbs/",
+        "https://dronexl.co/2026/05/19/amazon-prime-air-baton-rouge-mk30-drone-delivery/",
+        "https://www.freightwaves.com/news/amazon-to-scale-up-drone-delivery-in-2025-ceo-says",
+        "https://en.wikipedia.org/wiki/Amazon_Prime_Air"
+      ],
+      "credibility": "High — MK30 rollouts and pricing reported through 2026 by DroneXL and FreightWaves; Amazon is the primary source for coverage areas and delivery targets.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Amazon's MK30 drone (an ~83-lb aircraft that carries up to 5 lb at ~73 mph within a 7.5-mile radius, and flies in light rain) is now live or announced across Texas (San Antonio, Waco, Dallas-Fort Worth, a Houston site), Arizona (Tolleson), the Detroit suburbs, Tampa, Kansas City, Baton Rouge, Chicago's south suburbs and the Omaha suburbs, with metro Atlanta being explored. The service had made roughly 16,000 deliveries by early 2026. Amazon says it will reach communities with 30 million customers by the end of 2026 and 500 million annual deliveries by 2030. Pricing runs $4.99 per delivery for Prime members and $9.99 for non-members.",
+      "founding_story": "Jeff Bezos unveiled Prime Air on 60 Minutes in December 2013 with a '30-minute delivery' promise that was widely mocked as vaporware. It took more than nine years, several drone redesigns and a modest 2022 debut in Lockeford, California and College Station, Texas before the service reached real neighborhoods at any scale. Rivals got to routine autonomous flight first: Alphabet's Wing (spun out of Google X in 2018) and Zipline (founded 2014 by Keller Rinaudo Cliffton, which cut its teeth delivering blood and medicine in Rwanda and Ghana).",
+      "who_should_use": "Suburban Prime members in covered zones who occasionally need small, urgent items fast — medications, batteries, a phone charger, small household goods — and who have a clear yard or drop space for the drone.",
+      "who_should_buy": "It costs nothing to try if you are in a coverage area and it is genuinely fast for light, urgent items. The honest reality: it only carries items under 5 lb, needs open drop space, the eligible catalog is limited, and it is weather- and daylight-limited. Who should NOT bother: apartment dwellers, rural customers (not covered), and the ~99% of people who simply do not live in one of the narrow launch suburbs yet.",
+      "free_alternatives": "For most people, standard Prime same-day/next-day delivery is free (with membership), needs no yard, and carries any size item — it beats drones today for nearly everything. Where available, Walmart's Wing partnership and Zipline do the same job; DoorDash/Instacart cover urgent convenience items; and your local pharmacy still wins for a single prescription.",
+      "verdict": "USE (if in-zone) — genuinely quick and effectively free for Prime members in coverage; for everyone else it is still a tech demo, not a service you can rely on."
+    },
+    {
+      "id": "faa-part-108-bvlos-rule",
+      "headline": "FAA's Part 108 BVLOS Rule: The Regulation That Unlocks the Whole US Drone Economy — Still Not Final",
+      "one_liner": "The rule to make routine beyond-visual-line-of-sight flights legal at scale — the key to delivery and inspection — is still not final in mid-2026.",
+      "source_name": "Federal Register / Pillsbury Law / DroneDeploy",
+      "source_links": [
+        "https://www.federalregister.gov/documents/2026/01/28/2026-01644/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations-reopening-of-comment",
+        "https://www.pillsburylaw.com/en/news-and-insights/faa-proposed-rule-bvlos.html",
+        "https://www.dronedeploy.com/blog/part-108-faa-bvlos-proposal",
+        "https://www.faa.gov/newsroom/fact_sheets/Fact_Sheet_BVLOS.pdf"
+      ],
+      "credibility": "Very high — the NPRM and the Jan 28, 2026 reopened comment period are in the Federal Register; status and analysis from Pillsbury Law, DroneDeploy and the FAA's own BVLOS fact sheet.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Part 108 would replace the slow, per-flight Part 107 waiver regime with a standardized framework for routine Beyond Visual Line of Sight operations — the thing that makes drone delivery, long-range infrastructure inspection and drone-as-first-responder economically viable — for aircraft up to 1,320 lb, using risk tiers, mandatory detect-and-avoid, Remote ID and UTM traffic integration. The FAA published the proposed rule (NPRM) on August 7, 2025, drew over 3,000 comments, then reopened the comment period on January 28, 2026 (it closed in February). A final rule was widely expected in spring 2026 but has slipped: as of July 2026 it is NOT yet published in final form, and implementation is expected 6-12 months after it is. This is the single biggest lever for US commercial drone growth, and it is still stuck in the pipeline.",
+      "founding_story": "The push to 'normalize' BVLOS traces to the FAA's 2021 BVLOS Aviation Rulemaking Committee (ARC) report, after years of one-off waivers and Section 44807 exemptions granted to Amazon, Zipline and Wing created mounting pressure for a real rule. It was turbocharged by President Trump's June 2025 executive order 'Unleashing American Drone Dominance,' which directed the FAA to finally publish a BVLOS rule on a deadline — a deadline the agency has now blown.",
+      "who_should_use": "Drone-delivery operators, utility/rail/pipeline/energy inspection firms, precision-agriculture services, public-safety DFR programs, surveyors and mapping companies — essentially every commercial operator whose economics depend on flying past what a human eye can see.",
+      "who_should_buy": "This is a rule, not a product — there is nothing to purchase. For operators: do not wait. Get your Part 107, build your safety case and detect-and-avoid plan now, and watch the docket, because those ready on day one will have a real first-mover edge. Who should ignore it entirely: pure recreational hobbyists — recreational flying under existing rules is unaffected.",
+      "free_alternatives": "There is no substitute for the rule itself. The available path today is Part 107 plus BVLOS waivers and 44807 exemptions — slow and case-by-case, but real and usable right now. Operators outside the US can look at Europe's U-space framework, but it does not transfer to US airspace.",
+      "verdict": "WATCH — the most consequential thing in US commercial drones, but it is still only a proposal; plan and prepare for it, do not bet your launch date on it."
+    },
+    {
+      "id": "ukraine-interceptor-fiber-optic-fpv-drones",
+      "headline": "Ukraine's $1,000 Interceptor Drones Are Downing Shaheds — and the Pentagon Wants In",
+      "one_liner": "Fiber-optic 'unjammable' FPVs and $1,000 computer-vision Shahed-hunters are reshaping the war — and the Pentagon now wants to buy them.",
+      "source_name": "Military Times / DroneXL / Shatterbelt",
+      "source_links": [
+        "https://www.militarytimes.com/news/pentagon-congress/2026/03/11/these-are-ukraines-1000-interceptor-drones-the-pentagon-wants-to-buy/",
+        "https://dronexl.co/2026/03/23/ukraine-fiber-optic-fpv-drones-radio-cable/",
+        "https://www.shatterbelt.co/articles/fiber-optic-fpv-drone",
+        "https://dronexl.co/2026/02/10/fiber-optic-drone-ukraine-battlefields/"
+      ],
+      "credibility": "High — reported by Military Times (Pentagon interest, March 2026) and DroneXL; specific kill counts are Ukrainian/maker-stated and should be treated as claims, not audited figures.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Two cheap innovations from Ukraine are rewriting drone warfare. Fiber-optic FPV drones trail a physical spool of cable 30-65 km, making them immune to jamming, spoofing or interception — an upgrade that adds only about $60 per drone, with newer models adding a radio fallback for when the cable snaps. On the defensive side, low-cost interceptor drones like SkyFall's P1-SUN — roughly $1,000 each, ~280 mph, with computer vision and thermal imaging — are claimed to have downed more than 1,500 Shahed loitering munitions and 1,000 other drones in four months. In March 2026 the Pentagon signaled it wants to buy Ukrainian-style $1,000 interceptors, a fraction of the cost of the missiles currently used against cheap drones.",
+      "founding_story": "This is a distributed, wartime ecosystem, not a single company — thousands of Ukrainian volunteer workshops, startups and state programs (such as Brave1) iterating weekly since Russia's 2022 invasion. SkyFall is one of the more prominent Ukrainian makers behind the interceptor push; other fiber-optic and interceptor designs come from a shifting roster of small manufacturers. Precise founding details for individual makers are often deliberately obscured for security reasons and are not reliably public.",
+      "who_should_use": "Militaries and defense planners studying attritable, low-cost air defense and jam-proof strike; counter-UAS units; and analysts tracking how a $1,000 drone can defeat a multi-hundred-thousand-dollar threat.",
+      "who_should_buy": "Not a consumer or investable product — these are battlefield weapons made under wartime conditions, not retail goods, and there is no stock to buy. What is genuinely important here is the doctrine: cost-per-kill is now the decisive metric, and the US is racing to catch up. Who should NOT treat this as actionable: anyone hoping to purchase, invest in, or replicate these systems as a civilian.",
+      "free_alternatives": "None applicable — there is no legal civilian equivalent to a loitering-munition interceptor. Hobbyists interested in the underlying tech can legally experiment with fiber-optic video links and computer-vision tracking on sub-250g drones using open-source autopilots (ArduPilot, PX4), which is where a lot of this innovation originated.",
+      "verdict": "WATCH — the clearest signal of where warfare is heading and a genuine Pentagon priority, but there is nothing here to buy or invest in."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Anduril's Ohio 'Arsenal-1' Megafactory Starts Cranking Out Fury Wingman Drones",
+      "one_liner": "Anduril's Ohio 'Arsenal-1' megafactory is building Fury wingman drones ahead of schedule; the Army gave it a 10-year, $20B counter-drone ceiling.",
+      "source_name": "Defense News / DefenseScoop",
+      "source_links": [
+        "https://www.defensenews.com/unmanned/2026/03/19/high-speed-combat-drone-production-starts-at-new-us-anduril-plant-in-days/",
+        "https://defensescoop.com/2026/03/14/anduril-20-billion-dollar-army-contract/"
+      ],
+      "credibility": "High — reported March 2026 by Defense News and DefenseScoop; the $20B figure is a 10-year ceiling, not guaranteed spend."
+    },
+    {
+      "headline": "DJI Neo 2: A 135g, ~$199 Palm-Launch Drone That Embarrasses Pricier Rivals",
+      "one_liner": "November 2025's Neo 2 adds omnidirectional sensing, LiDAR and 4K/60 for about $199 — arguably the best beginner drone, though not officially US-sold.",
+      "source_name": "The Drone Girl / TechRadar",
+      "source_links": [
+        "https://www.thedronegirl.com/2025/11/13/dji-neo-2/",
+        "https://www.techradar.com/cameras/drones/dji-neo-2-review"
+      ],
+      "credibility": "High — reviews from The Drone Girl (Nov 2025) and TechRadar; note it is not officially available in the US market."
+    },
+    {
+      "headline": "Police Drone-as-First-Responder Programs Explode — Flock, Skydio and BRINC Race for Deals",
+      "one_liner": "Flock's US-made Alpha, Skydio and BRINC are racing for police drone-as-first-responder deals; Skydio logged 10M calls for service in early 2026.",
+      "source_name": "DroneXL / DroneLife / EFF",
+      "source_links": [
+        "https://dronexl.co/2026/06/02/flock-alpha-camera-drone-dfr-push/",
+        "https://dronelife.com/2026/06/19/fort-worth-dfr-program-vendor-evaluation/",
+        "https://www.eff.org/deeplinks/2025/12/drone-first-responder-programs-2025-review"
+      ],
+      "credibility": "High — DroneXL and DroneLife (June 2026) plus EFF's DFR year-in-review; DJI is locked out of this US law-enforcement procurement."
+    },
+    {
+      "headline": "It's Not Just DJI: Autel and All Foreign Drones Land on the FCC Covered List",
+      "one_liner": "December 2025's FCC order swept ALL foreign-made drones and critical components onto the Covered List — Autel included, not just DJI.",
+      "source_name": "DroneLife / Wiley Law",
+      "source_links": [
+        "https://dronelife.com/2025/12/22/fcc-adds-foreign-made-drones-and-components-to-covered-list-citing-national-security-risks/",
+        "https://www.wiley.law/alert-In-Unexpected-First-of-Its-Kind-Action-FCC-Adds-All-Foreign-Produced-Uncrewed-Aircraft-Systems-and-UAS-Critical-Components-to-Covered-List"
+      ],
+      "credibility": "Very high — the FCC action is documented by DroneLife and law firms Wiley and Akin Gump (Dec 2025)."
+    },
+    {
+      "headline": "General Atomics' YFQ-42A 'Dark Merlin' Flies 4-Hour Semi-Autonomous Missions",
+      "one_liner": "General Atomics' YFQ-42A 'Dark Merlin' has flown 4-hour semi-autonomous missions and, with Anduril's Fury, was picked for initial CCA production.",
+      "source_name": "US Air Force (af.mil) / GA-ASI",
+      "source_links": [
+        "https://www.af.mil/News/Article-Display/Article/4287627/collaborative-combat-aircraft-yfq-42a-takes-to-the-air-for-flight-testing/",
+        "https://www.ga-asi.com/ga-asi-marks-another-aviation-first-with-yfq-42a-cca-flight-testing"
+      ],
+      "credibility": "High — US Air Force (af.mil) and General Atomics (GA-ASI) primary sources; the dual YFQ-42/YFQ-44 production selection was reported June 2026."
+    },
+    {
+      "headline": "The Drone-Delivery Race Goes Three-Way: Walmart + Wing Already Blanket Georgia and Texas",
+      "one_liner": "As Amazon expands, Walmart and Alphabet's Wing already blanket metro Atlanta and Dallas — the US drone-delivery race is now a three-way fight.",
+      "source_name": "DroneXL",
+      "source_links": [
+        "https://dronexl.co/2026/05/08/amazon-prime-air-metro-atlanta-expansion-wing-walmart/"
+      ],
+      "credibility": "High — DroneXL (May 2026) on the Amazon vs Walmart/Wing competition across Georgia and Texas."
+    }
+  ]
+}

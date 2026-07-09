@@ -1,0 +1,148 @@
+{
+  "sector": "Hardware",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "galaxy-z-fold-8",
+      "headline": "Samsung Galaxy Z Fold 8 Unpacked set for July 22 in London",
+      "one_liner": "Samsung's next foldable trio lands July 22, with a wider passport-shaped Fold 8 rumored to start around $1,999.",
+      "source_name": "Tom's Guide / Forbes / PhoneArena",
+      "source_links": [
+        "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-unpacked-2026-preview-galaxy-z-fold-8-z-flip-8-intelligent-eyewear-and-more",
+        "https://www.forbes.com/sites/jaymcgregor/2026/06/27/samsung-galaxy-z-fold-8-release-date-specs-price-galaxy-z-flip-8/",
+        "https://www.phonearena.com/galaxy-z-fold-8-release-date-price-features-news"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Samsung has scheduled its 2026 Galaxy Unpacked for July 22, reportedly in London, where it is expected to unveil the Galaxy Z Fold 8, a wider Fold 8 variant, the Galaxy Z Flip 8, a Watch 9 series and Galaxy smart glasses. Leaks point to the Fold 8 moving to a wider 4:3 'passport' aspect ratio with a roughly 7.6-inch inner AMOLED and a broader cover screen. Pricing is rumored to start near $1,999 for 256GB, climbing past $2,400 for higher tiers. As of today these remain rumors and pre-launch leaks, not confirmed specs.",
+      "founding_story": "Samsung launched the original Galaxy Fold in 2019 after a rocky, delayed debut when review units broke; it has iterated a new foldable every year since. The line grew out of Samsung Display's flexible-OLED work and Samsung's long-running push to differentiate Android hardware from Apple. The Z Fold 8 is the eighth mainline generation of that lineage.",
+      "who_should_use": "Power users who want a phone that doubles as a small tablet: people who multitask across two or three apps, read PDFs and spreadsheets on the go, or want a large canvas for AI assistants and split-screen work. Frequent travelers and executives who currently carry both a phone and a tablet are the clearest fit.",
+      "who_should_buy": "Buy only if you genuinely use the big inner screen daily and can stomach a ~$2,000 price. What makes it special is the wider inner display and Samsung's mature multi-window software, not raw camera or battery leadership. It is not worth it for most people who just want a great slab phone; a Galaxy S26 Ultra or iPhone gives better cameras and battery for far less. Do NOT buy if you are hard on devices, hate creases, or resent paying flagship-plus money for a first-look device.",
+      "free_alternatives": "No free alternative to a foldable, but a standard Galaxy S26, Pixel, or a used prior-gen Z Fold 6/7 delivers most of the daily experience for hundreds less. For big-screen work, pairing a cheap tablet with any phone via Samsung DeX or Google's cross-device tools is far cheaper.",
+      "verdict": "WATCH — wait for July 22 confirmation and independent reviews before spending $2,000 on leaked specs."
+    },
+    {
+      "id": "rog-xreal-r1",
+      "headline": "ROG Xreal R1 AR gaming glasses ship mid-July at $849",
+      "one_liner": "Asus and Xreal's 240Hz micro-OLED glasses project a 171-inch virtual screen for PC and console gamers, at a premium $849.",
+      "source_name": "Tom's Hardware / Engadget / Road to VR",
+      "source_links": [
+        "https://www.tomshardware.com/virtual-reality/asus-rog-xreal-r1-ar-glasses-pre-orders-start-today-at-usd849-240-hz-virtual-gaming-at-171-inches-on-pc-xbox-and-playstation",
+        "https://www.engadget.com/2173261/the-rog-xreal-r1-ar-gaming-glasses-are-now-available-to-pre-order-for-dollar849/",
+        "https://roadtovr.com/rog-xreal-r1-pre-orders-now-live-240hz-microoled-gaming-glasses-priced-at-850/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "The ROG Xreal R1, a co-branded collaboration between Asus ROG and AR-glasses maker Xreal, is billed as the first 240Hz-capable micro-OLED AR glasses and began a sequential rollout in mid-July 2026 at $849. Each eye gets a 1,920x1,080 Sony 0.55-inch micro-OLED panel that renders a virtual display up to 171 inches, aimed at PC, Xbox and PlayStation gamers. A Control Dock connects via DisplayPort 1.4 and dual HDMI 2.0. The roughly $200 premium over the Xreal One Pro buys mainly the higher refresh rate and gaming-focused dock.",
+      "founding_story": "Xreal (formerly Nreal) was founded in 2017 in China by Chi Xu and built a business selling tethered display glasses that mirror a screen rather than full standalone AR. It has steadily pushed refresh rate and optics across its One and One Pro lines. The R1 is a first collaboration with Asus's ROG gaming brand, layering ROG tuning and the Control Dock onto Xreal's optics.",
+      "who_should_use": "PC and console gamers who want a huge private screen in small spaces, dorm dwellers, and travelers who game on a laptop or Steam Deck in cramped seats. Also useful for a big-screen movie or productivity canvas when a real monitor is not available.",
+      "who_should_buy": "Buy if you specifically want high-refresh gaming on a giant virtual screen and already own a capable PC or console; the 240Hz micro-OLED panel is genuinely ahead of rivals. It is a luxury, not a value pick. Do NOT buy if you wear the glasses only occasionally, get motion discomfort, or expect standalone AR apps; these are a wired display accessory, not a computer.",
+      "free_alternatives": "None truly free. A regular monitor or TV is cheaper and sharper for stationary use. Xreal's own One Pro costs about $200 less if you do not need 240Hz, and non-gaming display glasses from Viture or the base Xreal One undercut the R1 significantly.",
+      "verdict": "WATCH — a genuine spec leader, but wait for real-world eye-comfort and latency reviews before paying $849."
+    },
+    {
+      "id": "nothing-phone-4b",
+      "headline": "Nothing Phone (4b) launches at £299 as brand's new budget 'b' series",
+      "one_liner": "Nothing's cheapest phone yet brings Glyph design, a 120Hz AMOLED and 6-year security updates, but nearly overlaps its own 4a.",
+      "source_name": "9to5Google / Notebookcheck / TechCabal",
+      "source_links": [
+        "https://9to5google.com/2026/07/07/nothing-phone-4b-hands-on-launch-price-specs/",
+        "https://www.notebookcheck.net/Nothing-Phone-4b-launches-with-a-120Hz-AMOLED-display-Snapdragon-processor-and-up-to-a-6-000mAh-battery.1336537.0.html",
+        "https://techcabal.com/2026/07/07/nothing-phone-4b-price-release-date-specs/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Nothing unveiled the Phone (4b) on July 7, 2026, launching a new entry-level 'b' series that sits below the Phone (4a) at £299 / €329. It packs a 6.77-inch 120Hz AMOLED, a Snapdragon 6 Gen 4, 8GB RAM, a 5,200mAh battery (6,000mAh in India), Android 16, and a promise of 3 OS and 6 years of security updates. Cameras are a 50MP main, 8MP ultrawide and 16MP selfie. Reviewers liked the build and design but flagged that the positioning overlaps awkwardly with the still-good Phone (4a).",
+      "founding_story": "Nothing was founded in 2020 by Carl Pei, a OnePlus co-founder, in London, aiming to make consumer tech interesting again with transparent designs and the light-up Glyph interface. It shipped its first phone in 2022 and has expanded into earbuds and a growing phone lineup. The Phone (4b) is the debut of its lower-cost 'b' sub-brand meant to widen its audience.",
+      "who_should_use": "Budget buyers who want a phone that looks distinctive rather than generic, students, and anyone who values long software support on a cheap device. Good for people leaving an aging mid-ranger who want clean Android and years of updates without flagship spending.",
+      "who_should_buy": "Buy if design, the Glyph lights and 6-year security support matter more to you than raw speed, and you are outside markets where the 4a is cheaper. What is special is the look and update commitment at this price, not performance. Do NOT buy if the Phone (4a) is available near the same price in your region, since reviewers say the 4a is the better value.",
+      "free_alternatives": "None free. In the same price band, the Nothing Phone (4a), a Samsung Galaxy A-series, or a Pixel 'a' phone often deliver better cameras or chips per dollar. Buying last year's mid-ranger on sale usually beats the 4b on value.",
+      "verdict": "USE — a likable, well-supported budget phone, but only if the better-value Phone (4a) is not cheaper where you live."
+    },
+    {
+      "id": "fitbit-air",
+      "headline": "Google Fitbit Air brings a $99 screenless Whoop-style band to the mainstream",
+      "one_liner": "A 12g screenless tracker with a week of battery and no mandatory subscription for core tracking, undercutting Whoop hard.",
+      "source_name": "Android Central / Google Blog / Thurrott",
+      "source_links": [
+        "https://www.androidcentral.com/wearables/fitbit/google-fitbit-air-launch-specs-price",
+        "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/",
+        "https://www.thurrott.com/smart-tech/338097/google-fitbit-air-review"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Google's Fitbit Air is a screenless, band-style fitness tracker that pairs with the Google Health app for 24/7 heart-rate and SpO2 monitoring, weighing about 12 grams with up to a week of battery and a five-minute quick charge. It launched at $99 (with a $129.99 Stephen Curry special edition) and works with both Android and iOS. Unlike Whoop, most core tracking is free, though Google Health Coach and some advanced features need a Health Premium subscription. It is one of 2026's most talked-about fitness releases because it makes the screenless-band category cheap.",
+      "founding_story": "Fitbit was founded in 2007 by James Park and Eric Friedman as a pioneer of clip-on and wrist activity trackers, and Google completed its acquisition of the company in early 2021. Since then Google has folded Fitbit into its broader health and Pixel ecosystem. The Air is Google's move to answer subscription-locked bands like Whoop with a low-cost, mostly subscription-free screenless tracker.",
+      "who_should_use": "People who want continuous health and sleep tracking without a watch on their wrist: sleepers who dislike bright screens, athletes who want a low-profile band, and anyone tracking recovery, steps and heart rate around the clock on a budget.",
+      "who_should_buy": "Buy if you want cheap, comfortable 24/7 tracking and hate the idea of a mandatory monthly fee; the free core tracking at $99 is the genuine differentiator versus Whoop. Do NOT buy if you want an on-device screen, notifications, or built-in GPS, or if you will not open the app to read data since the band itself shows nothing. Skip the Premium upsell unless the coaching truly earns it.",
+      "free_alternatives": "Your phone's built-in step and sleep tracking (Apple Health, Google Fit/Health) is free and already in your pocket. A cheap Xiaomi Smart Band or Amazfit adds a screen and heart-rate for similar money. Whoop is the direct rival but locks features behind a subscription.",
+      "verdict": "BUY — the rare fitness band that is cheap, comfortable, and doesn't hold basic tracking hostage behind a subscription."
+    },
+    {
+      "id": "xiaomi-watch-s5",
+      "headline": "Xiaomi's July design push: Watch S5 and 6mm UltraThin power bank",
+      "one_liner": "Xiaomi leans on silicon-carbon batteries and slim bezels for a bright new smartwatch and a 6mm, 5,000mAh magnetic power bank.",
+      "source_name": "Yanko Design / TechRadar",
+      "source_links": [
+        "https://www.yankodesign.com/2026/07/07/the-8-best-tech-gadgets-of-july-2026/",
+        "https://www.techradar.com/home/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-july-2026"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "Among July 2026's design-forward hardware, Xiaomi stood out with the Watch S5 46mm, featuring a 1.48-inch AMOLED at up to 2,500 nits and a 2.6mm bezel said to be about 40% narrower than the prior generation. Xiaomi also drew attention with an UltraThin magnetic power bank just 6mm thick and around 98 grams that still holds 5,000mAh thanks to a silicon-carbon battery. Both are examples of Xiaomi using new battery chemistry and tighter industrial design rather than raw new features. Details here come from hands-on roundups rather than full lab reviews.",
+      "founding_story": "Xiaomi was founded in 2010 in Beijing by Lei Jun and a group of co-founders, initially around its MIUI Android software and value-priced smartphones. It expanded into a vast ecosystem of wearables, power banks and smart-home gear sold at aggressive prices. The Watch S5 and UltraThin power bank continue Xiaomi's pattern of pushing premium-feeling design into affordable accessories.",
+      "who_should_use": "Value-minded buyers who want a bright, good-looking smartwatch without Apple/Samsung pricing, and travelers or commuters who want a pocketable magnetic power bank for phones that support MagSafe-style charging. Good for people already in Xiaomi's ecosystem.",
+      "who_should_buy": "Buy the Watch S5 if you want a bright AMOLED and long battery on a budget and don't need deep third-party app support; buy the UltraThin bank if pocketability matters more than raw capacity. Nothing here is revolutionary beyond thinner design and newer battery chemistry. Do NOT buy if you need tight iPhone integration, robust health accuracy, or a power bank with large multi-device capacity.",
+      "free_alternatives": "For the watch, your phone plus a cheap band covers basic fitness for less. For charging, a standard slab power bank costs less per mAh; you only pay a premium for the thin magnetic form factor. Anker and Baseus offer comparable slim magnetic banks worth comparing on price.",
+      "verdict": "WATCH — attractive, affordable design showcases, but wait for full reviews to confirm battery life and health-sensor accuracy."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Samsung Galaxy Z Flip 8 expected alongside the Fold 8 at July 22 Unpacked",
+      "one_liner": "The clamshell Flip 8 is tipped to headline the same event, with the usual larger cover screen and battery refinements rumored.",
+      "source_name": "PhoneArena",
+      "source_links": [
+        "https://www.phonearena.com/galaxy-z-flip-8-release-date-price-features-news"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Motorola Razr 70 and Razr 70 Ultra reportedly headed to India in July",
+      "one_liner": "Motorola is said to be bringing its premium clamshell foldables to India this month, expanding foldable competition.",
+      "source_name": "Gizmochina",
+      "source_links": [
+        "https://www.gizmochina.com/2026/06/30/top-5-upcoming-smartphone-launches-in-july-2026/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Oppo Reno 16 mid-range lineup among July 2026 smartphone launches",
+      "one_liner": "Oppo's Reno 16 series is on the July release calendar, continuing the crowded mid-range refresh cycle.",
+      "source_name": "Gizmochina",
+      "source_links": [
+        "https://www.gizmochina.com/2026/06/30/top-5-upcoming-smartphone-launches-in-july-2026/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Lenovo shows AI 'super agent', smart glasses and new Yoga laptops at CES 2026",
+      "one_liner": "Lenovo's CES 2026 slate spanned a personal AI agent, PC-and-phone-connected smart glasses, and refreshed Yoga and IdeaPad laptops.",
+      "source_name": "Lenovo StoryHub / Windows Latest",
+      "source_links": [
+        "https://news.lenovo.com/pressroom/press-releases/ces-2026-mobile-gaming-consumer-commercial-portfolios/",
+        "https://www.windowslatest.com/2025/12/31/lenovo-smart-glasses-ces-2026-leaks/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "TechRadar names its favorite tech of 2026 so far across TVs, audio and more",
+      "one_liner": "After testing 639 gadgets in 2026, TechRadar's mid-year list highlights standout OLED TVs, coffee machines and more.",
+      "source_name": "TechRadar",
+      "source_links": [
+        "https://www.techradar.com/tech/the-best-tech-of-2026-so-far-the-21-finest-gadgets-weve-tested-this-year"
+      ],
+      "credibility": "high"
+    }
+  ]
+}

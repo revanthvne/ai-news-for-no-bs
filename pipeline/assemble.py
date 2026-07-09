@@ -17,6 +17,7 @@ import config
 import credibility
 import images
 import email_render
+import sources
 
 # The order sectors appear in the edition (matches the channel's beats).
 SECTOR_ORDER = [
@@ -103,6 +104,10 @@ def assemble(date: str, enrich: bool = False, enrich_budget: int = 10) -> dict:
         },
         "credibility_audit": credibility.audit(all_stories),
     }
+    try:
+        edition["top_products"] = sources.top_products()  # today's launches, any sector
+    except Exception:
+        edition["top_products"] = []
     return edition
 
 

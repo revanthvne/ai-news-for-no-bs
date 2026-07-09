@@ -22,6 +22,8 @@ HIGH = {
     "gulfnews.com", "pcworld.com", "androidpolice.com", "androidcentral.com",
     "phonearena.com", "gamespot.com", "techradar.com", "restofworld.org",
     "kyivpost.com", "fedscoop.com", "insidedefense.com",
+    "electrek.co", "qz.com", "macrumors.com", "macworld.com", "huggingface.co",
+    "9to5mac.com", "9to5google.com", "electrifynews.com", "theregister.com",
 }
 
 # Tier 2 — specialist trade press, respected blogs, PR wires, official-ish: "medium"
@@ -32,6 +34,10 @@ MEDIUM = {
     "technode.com", "kedglobal.com", "sof.news", "cio.com", "coindesk.com",
     "lowaltitudeeconomy.aero", "airdatanews.com", "ossinsight.io", "crunchbase.com",
     "24-7 wallst.com", "247wallst.com", "tomsguide.com", "pitchbook.com",
+    "news.ycombinator.com", "producthunt.com",  # user-requested discovery sources
+    "the-decoder.com", "techtimes.com", "techspot.com", "thenewstack.io",
+    "morganlewis.com", "pillsburylaw.com", "dronedeploy.com", "tipranks.com",
+    "focustaiwan.tw", "sammobile.com", "anysilicon.com", "dcd.com",
 }
 
 # Official company / primary domains are always trusted.
@@ -59,6 +65,8 @@ def rate_domain(url: str) -> str:
     d = _domain(url)
     if not d:
         return "low"
+    if d.endswith(".gov") or d.endswith(".gov.uk") or d.endswith(".mil"):
+        return "high"  # primary government/official source
     if any(d == s or d.endswith("." + s) for s in OFFICIAL_SUFFIXES):
         return "high"
     if d in HIGH:

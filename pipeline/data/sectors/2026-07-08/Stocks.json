@@ -1,0 +1,153 @@
+{
+  "sector": "Stocks",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "sk-hynix-nasdaq-listing",
+      "headline": "SK Hynix's ~$28B Nasdaq Debut: The AI Memory King Finally Comes to U.S. Investors",
+      "one_liner": "World's #2 memory maker and HBM leader lists ADRs on Nasdaq (SKHY) around July 10 - the second-biggest share sale ever, behind SpaceX.",
+      "source_name": "CNBC, Fortune, The Motley Fool",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/24/sk-hynix-nasdaq-adr-listing-south-korea.html",
+        "https://fortune.com/2026/07/05/sk-hynix-us-stock-listing-nasdaq-29-billion-micron-ai-boom-chips/",
+        "https://www.fool.com/investing/2026/07/08/sk-hynixs-28-billion-nasdaq-listing-would-be-the-s/"
+      ],
+      "credibility": "High - CNBC, Fortune and The Motley Fool, corroborated across outlets.",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108312292-1779856306117-gettyimages-2242156311-AFP_79L24ZR.jpeg?v=1779856317&w=1920&h=1080",
+      "story": "SK Hynix is launching a roughly $28-29 billion American Depositary Receipt listing on the Nasdaq (ticker SKHY), expected to price around July 9 and begin trading around July 10. At that size it would be the second-biggest share sale in history, trailing only SpaceX's June debut. The draw is the AI memory boom: SK Hynix holds about 60% of the high-bandwidth-memory (HBM) market, the specialized memory that sits beside Nvidia and AMD accelerators, and its Seoul-listed shares have run roughly 800% amid a global memory shortage. The listing gives U.S. investors direct access for the first time. Not financial advice.",
+      "founding_story": "Founded in 1983 as Hyundai Electronics by Chung Ju-yung, founder of Korea's Hyundai Group, to push into semiconductors. It rebranded as Hynix Semiconductor in 2001 and was spun off from Hyundai in 2003 after surviving a near-fatal early-2000s memory bust. SK Group acquired a controlling stake for roughly $3 billion in February 2012, creating SK Hynix, and the company bought Intel's NAND flash business in 2021 (about $9 billion, now Solidigm). It is today the world's #2 memory maker and a lead HBM co-developer with Nvidia. Details verified via Wikipedia and company histories.",
+      "who_should_use": "Sector watchers tracking the AI memory supercycle and the HBM oligopoly (Samsung, SK Hynix, Micron); macro and semiconductor traders who want a U.S.-hours read on Asian memory pricing; and long-term investors who could not previously buy SK Hynix on a U.S. exchange.",
+      "who_should_buy": "Bull case, and what makes it special: it is the purest large-cap HBM play now available on a U.S. exchange, with dominant share, sold-out capacity and a direct Nvidia partnership. Bear case: memory is one of the most brutally cyclical corners of tech; new ADR listings can trade at a premium or discount to the Seoul shares, and a massive capacity buildout (two new Korean fabs) risks oversupply into 2027-28. Suits risk-tolerant investors who understand memory cycles, not those chasing after an 800% run. Not financial advice; no guarantees.",
+      "free_alternatives": "The SOXX and SMH semiconductor ETFs already hold memory names; Micron (MU) is the U.S.-listed HBM proxy; and a broad Nasdaq-100 (QQQ) or total-market index fund gives cheaper, diversified exposure without single-stock cyclicality. For most people the ETF route is the smarter, lower-risk way to own this theme.",
+      "verdict": "WATCH - Historic listing and a genuine franchise, but let the ADR find its price and respect the memory cycle. Not financial advice."
+    },
+    {
+      "id": "spacex-ipo",
+      "headline": "SpaceX's $85.7B IPO: The Biggest Stock Debut in History Is Now Trading",
+      "one_liner": "SpaceX (SPCX) raised a record ~$85.7B on June 12, popped 19% day one, then spiked toward $225 and a brief $3T-plus market cap.",
+      "source_name": "NPR, CNBC, Bloomberg",
+      "source_links": [
+        "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+        "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+        "https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-ipo-at-135-per-share-reuters-says"
+      ],
+      "credibility": "High - NPR, CNBC and Bloomberg (Reuters-sourced pricing).",
+      "image_url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7175x4036+0+374/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2F64%2F3500d0904c00af4082f7255cef03%2Fgettyimages-2277186477.jpg",
+      "story": "SpaceX priced its IPO at $135 a share (about a $1.75 trillion valuation) and raised roughly $85.7 billion on June 12 - shattering Saudi Aramco's 2019 record of about $25.6 billion and becoming the largest IPO ever. The stock opened at $150 and closed its first day at $160.95, up 19%, then ran as high as about $225 within days, briefly pushing its market cap above $3 trillion and making it the world's fourth-most-valuable company. The book was more than twice oversubscribed (around $150 billion in orders), and roughly 30% of public shares were reserved for retail via Robinhood, Fidelity, Schwab, SoFi and E*TRADE. It is the defining market event of 2026 so far. Not financial advice.",
+      "founding_story": "Elon Musk founded SpaceX in 2002 (after selling PayPal) in El Segundo and later Hawthorne, California, aiming to slash launch costs and make life multi-planetary. It nearly went bankrupt after three straight Falcon 1 failures; the fourth flight reached orbit in 2008, making it the first privately funded liquid-fuel rocket to do so. A NASA cargo contract in 2008 rescued the company; Dragon reached the ISS in 2012, the first orbital booster landing came in 2015, and Crew Dragon carried astronauts in 2020. Starlink and Starship are now central to its value.",
+      "who_should_use": "Watch it if you track mega-cap IPOs, the space and defense complex, or Starlink's consumer and enterprise ramp; volatility traders will note the enormous post-IPO swings; and index watchers should track likely future index inclusion, which could force passive-fund buying.",
+      "who_should_buy": "Bull case, and what makes it special: there is no comparable public company - unmatched launch dominance, fast-growing recurring Starlink revenue and the Musk halo create genuine scarcity value. Bear case: it is priced for perfection on extreme sales multiples, big lockup expirations loom, there is Musk key-man and governance risk, and the price already whipsawed from $135 to $225 in weeks. Suits only investors comfortable owning a brand-new, thinly-seasoned, highly volatile mega-cap. Not financial advice; no guarantees.",
+      "free_alternatives": "Cheaper, lower-risk exposure exists via space ETFs such as ARKX, or broad index funds that may add SPCX later at portfolio weight; established aerospace and defense (via an ETF like ITA) is a tamer adjacency. For most people, simply waiting out the post-IPO volatility is smarter than chasing the debut.",
+      "verdict": "WATCH - Historic and exciting, but a freshly public, wildly volatile mega-cap; let the hype and lockups settle first. Not financial advice."
+    },
+    {
+      "id": "nvidia-black-sheep",
+      "headline": "Nvidia Is the 'Black Sheep' of the Chip Rally - Up Just ~3% While Peers Soar",
+      "one_liner": "The world's most valuable company (~$4.8T) is nearly flat in 2026 as AMD (+171%) and Micron (+305%) rip - the AI leader has become the laggard.",
+      "source_name": "24/7 Wall St., CNBC, CompaniesMarketCap",
+      "source_links": [
+        "https://247wallst.com/investing/2026/07/06/how-nvidia-became-the-black-sheep-of-the-chip-stock-rally/",
+        "https://www.cnbc.com/2026/07/07/as-chip-sector-takes-it-on-the-chin-traders-bet-on-a-big-nvidia-rally-.html",
+        "https://companiesmarketcap.com/nvidia/marketcap/"
+      ],
+      "credibility": "High - CNBC and market-data sources; 24/7 Wall St. for the framing.",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108324773-1782131265368-gettyimages-2282192099-20090101260622-99-815071.jpeg?v=1782131312&w=1920&h=1080",
+      "story": "Nvidia trades around $197 (July 7) and is up only about 3% in 2026 - a striking laggard while AMD has surged roughly 171%, Micron about 305% and the SMH semiconductor ETF about 59%. The fundamentals are not the problem: Q1 FY2027 revenue was $81.6 billion (+85% year over year), data-center revenue $75.2 billion (+92%), and it still owns roughly 81% of the AI-chip market. What changed is the narrative - custom ASICs (Broadcom) and memory names are capturing the incremental AI dollar. A report that its next-gen Kyber NVL144 rack had slipped to 2028 hit sentiment; Nvidia denied it and said the roadmap is on schedule. Not financial advice.",
+      "founding_story": "Nvidia was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem - famously sketched out over coffee at a Denny's in San Jose. Its early bet was the graphics processing unit (the GeForce line; IPO in 1999). The pivotal move was CUDA in 2006, which turned GPUs into general-purpose compute engines and became the software moat that now powers the AI boom. Huang remains CEO more than 30 years on.",
+      "who_should_use": "Long-term AI investors weighing whether the sector leader has become the value play; options and momentum traders (calls outran puts roughly 2-to-1 on July 7); and anyone tracking the two big rotations - custom ASICs versus GPUs, and memory versus compute.",
+      "who_should_buy": "Bull case, and what makes it special: it is rare for a Magnificent Seven leader to trade like a laggard, and on forward earnings Nvidia looks its cheapest in years (Goldman flagged about 21.7x as 'compelling'), with CUDA lock-in and ~80% share intact. Bear case: relative momentum is broken, custom silicon and memory are eating the marginal dollar, there is roadmap execution risk (Kyber), and it is now a Michael Burry short target. Suits patient investors comfortable being contrarian. Not financial advice; no guarantees.",
+      "free_alternatives": "SMH and SOXX hold Nvidia plus the very peers beating it, so you capture the whole rally rather than one name; QQQ or an S&P 500 index fund own Nvidia at portfolio weight with far less single-stock risk. For most people an ETF is the smarter way to own this theme.",
+      "verdict": "WATCH - The unusual case of the sector king as the contrarian pick; fundamentally strong but its momentum is broken. Not financial advice."
+    },
+    {
+      "id": "micron-memory-supercycle",
+      "headline": "Micron's $1 Trillion Moonshot: Up 700% as the AI Memory Shortage Rages",
+      "one_liner": "Boise's Micron (MU) hit $1T faster than any company ever and trades near $1,090 - HBM is sold out to 2027 as DRAM prices spike.",
+      "source_name": "Forbes, BoiseDev, TechTimes",
+      "source_links": [
+        "https://www.forbes.com/sites/petercohan/2026/05/27/microns-unstoppable-march-past-1-trillion/",
+        "https://boisedev.com/news/2026/05/26/micron-trillion/",
+        "https://www.techtimes.com/articles/318825/20260622/micron-earnings-2026-record-margins-confirm-ai-memory-tax-your-next-pc.htm"
+      ],
+      "credibility": "High - Forbes and regional/tech outlets; figures corroborated across sources.",
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/6a16956c289605bcf70c5d5b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "story": "Micron is up roughly 305% in 2026 and more than 700% over the past year, trading near $1,089. It crossed a $1 trillion market cap on May 26 - the fastest ascent in history, doubling in about 48 days - and is now around $1.2 trillion. Q2 FY2026 revenue nearly tripled to about $23.86 billion, EPS was $12.20, and gross margin hit 75% with guidance toward 81%-plus, above the peak margins Nvidia ever posted. HBM capacity is sold out through 2026 with orders booked into 2027-28, and DRAM prices jumped about 90% in Q1 as the big three memory makers shifted roughly 93% of output toward AI memory. Not financial advice.",
+      "founding_story": "Micron was founded in 1978 in Boise, Idaho by twin brothers Ward and Joe Parkinson with Dennis Wilson and Doug Pitman - literally in the basement of a dentist's office. Potato billionaire J.R. Simplot took a 40% stake for about $1 million in 1980, funding the first wafer fab (64K DRAM) in 1981; the company IPO'd in 1984. It is the last U.S.-based survivor of the DRAM wars and one of only three global memory makers. Verified via Wikipedia and BoiseDev.",
+      "who_should_use": "Sector watchers following the memory supercycle and the 'AI memory tax' now raising PC and phone prices; cyclical traders who play the DRAM/NAND price cycle; and investors gauging how much AI spend is rotating from compute toward memory.",
+      "who_should_buy": "Bull case, and what makes it special: genuinely sold-out demand, oligopoly pricing power and best-in-class margins right now make it the purest U.S.-listed HBM play. Bear case: memory is the most violently cyclical part of tech, a 700% run prices in enormous good news, and every prior supercycle ended in a glut and a margin collapse - chasing memory peaks has historically been punishing. Suits investors who understand they are buying a cyclical, likely near a high. Not financial advice; no guarantees.",
+      "free_alternatives": "SMH and SOXX provide memory exposure without betting the cycle top on a single stock, and a broad index (QQQ or VTI) dilutes the boom-bust. For most people, an ETF is smarter than buying MU after a roughly 7x run.",
+      "verdict": "WATCH - The supercycle is real, but so is the cycle; do not chase a 700% move into peak cyclical margins. Not financial advice."
+    },
+    {
+      "id": "amd-mi400-run",
+      "headline": "AMD Is Up 171% in 2026 With the MI400 Launch Near - The Credible Nvidia Challenger",
+      "one_liner": "AMD (~$540) has ripped 171% YTD on AI-accelerator hopes; its 2nm MI400 ships in H2 2026 as data-center GPU revenue is seen doubling.",
+      "source_name": "S&P Global, 24/7 Wall St., Yahoo Finance",
+      "source_links": [
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/03/amd-s-next-generation-ai-chips-set-to-power-2026-data-center-growth",
+        "https://247wallst.com/investing/2026/07/06/how-nvidia-became-the-black-sheep-of-the-chip-stock-rally/",
+        "https://finance.yahoo.com/news/buy-amd-stock-mi400-launch-182315989.html"
+      ],
+      "credibility": "High - S&P Global Market Intelligence for estimates; Yahoo Finance and 24/7 Wall St.",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/36A390CAAEA995C8EF9AE43DDB6E893DB0D677CA88BD6E885021180637F04AF1/subgraphmysterio/resizefill_w1200_h676;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F6f0af714944129c1f031d0cd3f9af558",
+      "story": "AMD is up about 171% in 2026, trading near $543 in late June. At CES in January, CEO Lisa Su unveiled the MI400 accelerator series (CDNA 5 architecture, TSMC 2nm; the flagship MI455X carries 432GB of HBM4), with launch slated for the second half of 2026. S&P Global Market Intelligence projects roughly $7.2 billion of MI400 revenue in 2026 and sees AMD's data-center GPU sales rising about 114% to around $15 billion. That makes AMD the market's clearest 'second source' to Nvidia as hyperscalers hunt for alternatives. Not financial advice.",
+      "founding_story": "AMD was founded in 1969 by Jerry Sanders and seven colleagues from Fairchild Semiconductor in Sunnyvale, California, starting as a second-source maker of other firms' chips. It became Intel's main x86 rival, acquired graphics maker ATI in 2006, and nearly collapsed in the early 2010s until Lisa Su took over as CEO in 2014 and drove the Ryzen and EPYC turnaround. It bought Xilinx in 2022 and is now Nvidia's primary merchant-GPU challenger.",
+      "who_should_use": "AI investors who want a non-Nvidia accelerator play; traders positioning around the MI400 launch as a catalyst; and watchers of hyperscaler capex and the broader 'anyone-but-Nvidia' second-sourcing trend.",
+      "who_should_buy": "Bull case, and what makes it special: it is the only scaled merchant-GPU rival to Nvidia, with a real share-gain story, a credible 2nm roadmap and hyperscaler demand for an alternative. Bear case: after a 171% sprint it is priced for flawless MI400 execution, its ROCm software still trails CUDA, and any launch slip or AI-capex wobble could hit hard. Suits investors who believe in the challenger thesis and can stomach volatility. Not financial advice; no guarantees.",
+      "free_alternatives": "SMH and SOXX hold AMD alongside Nvidia and the memory names, so you capture the accelerator theme without single-name launch risk; index funds own it at portfolio weight. For most people the ETF is the lower-risk way to play the AI-chip race.",
+      "verdict": "WATCH - A genuine challenger with a real catalyst, but priced for perfection after a 171% run. Not financial advice."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Broadcom's AI Revenue More Than Doubles to $10.8B as the Custom-Chip Bet Pays Off",
+      "one_liner": "AVGO's custom XPUs for Google, Meta, OpenAI and Anthropic pushed AI revenue to $10.8B in Q2, and it reaffirms $100B+ AI guidance - yet sits ~24% off its high.",
+      "source_name": "CNBC, The Motley Fool",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html",
+        "https://www.fool.com/investing/2026/07/06/broadcom-is-24-off-its-high-and-just-unveiled-a-cu/"
+      ],
+      "credibility": "High - CNBC earnings coverage and The Motley Fool."
+    },
+    {
+      "headline": "'Big Short' Michael Burry Bets Against the AI Boom - Shorts Nvidia, Tesla, Caterpillar",
+      "one_liner": "Burry has disclosed shorts on Nvidia, Tesla, Caterpillar, Applied Materials and the SOXX ETF; the Shiller P/E near 40 echoes the dot-com peak.",
+      "source_name": "Fortune, TheStreet",
+      "source_links": [
+        "https://fortune.com/2026/07/02/michael-burry-short-caterpillar-ai-infrastructure-bubble-power-systems-valuation/",
+        "https://www.thestreet.com/investing/stocks/michael-burry-doubles-down-on-stock-market-ai-message-for-2026"
+      ],
+      "credibility": "Medium-High - Fortune and TheStreet; positions from disclosures, framing is opinion."
+    },
+    {
+      "headline": "OpenAI and Anthropic File Confidentially - but May Delay After SpaceX's Rocky Debut",
+      "one_liner": "OpenAI filed confidentially (reported ~$730-850B target) and Anthropic followed; both may slip toward 2027 as investors digest SpaceX's wild post-IPO swings.",
+      "source_name": "Barchart/The Globe and Mail, AI Weekly",
+      "source_links": [
+        "https://www.barchart.com/story/news/3116486/openai-anthropic-ipo-what-s-confirmed-what-s-still-speculation",
+        "https://aiweekly.co/alerts/openai-files-confidential-ipo-targeting-850b-valuation"
+      ],
+      "credibility": "Medium - confidential filings; valuations and timing are reported/speculative and unconfirmed."
+    },
+    {
+      "headline": "Figma, a 2025 IPO Darling, Is Down ~40% in 2026 - a Cautionary IPO Tale",
+      "one_liner": "Figma (FIG) trades near $21, off its ~$143 peak, hit by lockup expirations and a SaaS multiple reset - a reminder that first-day IPO pops often fade.",
+      "source_name": "Yahoo Finance, Secfi",
+      "source_links": [
+        "https://finance.yahoo.com/quote/FIG/",
+        "https://secfi.com/newsletter/figmas-ipo-pricing-analysis"
+      ],
+      "credibility": "Medium-High - live quote data plus Secfi analysis."
+    },
+    {
+      "headline": "Chip Stocks Slide ~5% on DeepSeek Chip Report - but Nvidia Bucks the Drop",
+      "one_liner": "The VanEck Semiconductor ETF fell about 5% on July 7 after a Reuters report that DeepSeek is developing its own AI chip; Nvidia still closed higher.",
+      "source_name": "CNBC, Reuters",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/07/as-chip-sector-takes-it-on-the-chin-traders-bet-on-a-big-nvidia-rally-.html",
+        "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+      ],
+      "credibility": "High - CNBC market coverage citing a Reuters report."
+    }
+  ]
+}

@@ -3,9 +3,7 @@
 // This means the site renders real content with ZERO backend setup.
 import fs from "node:fs";
 import path from "node:path";
-
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const SUPABASE_ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+import { SUPABASE_URL, SUPABASE_ANON } from "./supabase-config";
 
 function editionsDir() {
   return path.join(process.cwd(), "public", "editions");
@@ -23,8 +21,8 @@ function readLocal(file) {
 async function supabaseGet(query) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/${query}`, {
     headers: { apikey: SUPABASE_ANON, Authorization: `Bearer ${SUPABASE_ANON}` },
-    // Editions change once/day; cache for an hour.
-    next: { revalidate: 3600 },
+    // Always read the DB fresh — new editions must appear immediately.
+    cache: "no-store",
   });
   if (!res.ok) return null;
   return res.json();

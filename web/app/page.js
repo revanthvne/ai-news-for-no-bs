@@ -1,10 +1,11 @@
 import { getLatestEdition, listEditions } from "../lib/data";
-import { SectorFeed } from "./components";
+import { SectorFeed, TopProducts } from "./components";
 import Subscribe from "./subscribe";
 
 // Refresh the homepage cache every 30 min so a fresh 6-hourly edition shows up
 // quickly (a redeploy on each commit also regenerates it).
-export const revalidate = 1800;
+// Render fresh from the DB on every request — new editions appear instantly.
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const edition = await getLatestEdition();
@@ -33,10 +34,15 @@ export default async function Home() {
             {" "}· {c.heroes} deep-dives · {c.sectors} sectors
           </span>
         </div>
-        <a className="allnews-btn" href={`/all-news/${edition.edition_date}`}>
-          🔍 Deep Dive — All News ({c.all_news})
-        </a>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          <a className="allnews-btn" href="/editions">🗂 View all editions</a>
+          <a className="allnews-btn" href={`/all-news/${edition.edition_date}`}>
+            🔍 Deep Dive — All News ({c.all_news})
+          </a>
+        </div>
       </div>
+
+      <TopProducts products={edition.top_products} />
 
       <SectorFeed sectors={edition.sectors} />
 

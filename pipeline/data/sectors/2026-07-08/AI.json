@@ -1,0 +1,166 @@
+{
+  "sector": "AI",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "openai-gpt-5-6-public-release",
+      "headline": "OpenAI Unlocks GPT-5.6 for Everyone After a Government Time-Out",
+      "one_liner": "Sol, Terra and Luna leave their 'trusted partners only' cage today: three tiers, three prices, and one very awkward cyber backstory.",
+      "source_name": "OpenAI, CNBC, TechCrunch",
+      "source_links": [
+        "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+        "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/"
+      ],
+      "credibility": "high",
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill",
+      "image_credit": "OpenAI",
+      "story": "GPT-5.6 is OpenAI's newest model family, split into three durable tiers under a new naming scheme: Sol (flagship, deepest reasoning), Terra (balanced everyday model, roughly 2x cheaper than GPT-5.5), and Luna (fastest and cheapest). It debuted June 26 as a locked-down preview restricted to about a dozen government-vetted partners because its cybersecurity and biology capabilities spooked regulators, and OpenAI publicly grumbled that this 'government access process' should not become the norm. On July 8 OpenAI began opening it to everyone through ChatGPT, Codex and the API after securing a US regulatory green light. It matters because it is the first frontier launch where a US lab was openly told to hold a model back, and because the tiered pricing finally gives builders a clean intelligence-versus-cost dial.",
+      "founding_story": "OpenAI was founded in December 2015 as a nonprofit research lab by Sam Altman, Elon Musk, Greg Brockman, Ilya Sutskever, Wojciech Zaremba and John Schulman, with the stated mission of building safe artificial general intelligence. It added a capped-profit arm in 2019 and has taken more than 13 billion dollars from Microsoft over successive rounds; Brockman and Altman still run the company (Musk left the board in 2018 and later sued). GPT-5.6 is notable internally for a new naming logic OpenAI introduced with this release: the number marks the generation, while Sol, Terra and Luna are permanent capability tiers meant to advance on their own cadence. OpenAI also says it burned over 700,000 A100-equivalent GPU hours on automated red-teaming for this launch and plans to run Sol on Cerebras wafer-scale hardware at up to 750 tokens per second in July.",
+      "who_should_use": "Terra is the sensible daily driver for developers and knowledge workers who want GPT-5.5-level quality at half the cost: chat, drafting, analysis, RAG pipelines and mid-complexity agents. Sol earns its keep only on genuinely hard, long-horizon work, security researchers doing vulnerability discovery and patching, bioinformatics teams running long genomics analyses, and engineers using the new 'max' reasoning effort or 'ultra' multi-subagent mode on messy codebases. Luna is for high-volume, latency-sensitive jobs such as classification, routing, extraction and cheap agent loops where you are paying per million tokens and care about throughput.",
+      "who_should_buy": "Teams already standardized on ChatGPT Enterprise or the OpenAI API should pay for Terra as their default and reserve Sol for the few tasks that actually need it. Pricing is per million tokens: Sol is 5 dollars in / 30 out, Terra 2.50 in / 15 out, Luna 1 in / 6 out. What genuinely makes GPT-5.6 special is the tiering plus the honest capability dial (max and ultra modes) and best-in-class Terminal-Bench coding scores, not a magic jump in raw IQ. Who should NOT buy: anyone defaulting every call to Sol will torch their budget for marginal gains, and cost-first shops running huge token volumes will find open Chinese models 80 to 90 percent cheaper at similar quality. If you were burned by the preview's aggressive safety refusals on legitimate security work, wait a few weeks for the blocks to loosen.",
+      "free_alternatives": "For most work, Google's Gemini 3.5 Flash and Anthropic's free Claude tier are genuinely competitive and cost nothing to try. For builders chasing cost, open-weight models are the real story: DeepSeek V4, Alibaba's Qwen 3 and Moonshot's Kimi are free to self-host or roughly a tenth the API price and land within striking distance on coding and reasoning. Honest take: nothing free quite matches Sol on the hardest long-horizon agentic and cyber tasks yet, but for 90 percent of everyday prompts the free and open options are close enough that paying Sol rates is hard to justify.",
+      "verdict": "USE — Make Terra your default and pull the Sol lever only when a task truly needs it; paying flagship prices for everything is exactly the hype trap this channel exists to call out."
+    },
+    {
+      "id": "anthropic-claude-sonnet-5",
+      "headline": "Claude Sonnet 5 Brings Near-Opus Agent Skills at a Mid-Tier Price",
+      "one_liner": "Anthropic's most agentic Sonnet yet lands close to Opus 4.8, cheap enough to run all day, if you ignore the sneaky tokenizer tax.",
+      "source_name": "Anthropic, TechCrunch, VentureBeat",
+      "source_links": [
+        "https://www.anthropic.com/news/claude-sonnet-5",
+        "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+        "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo"
+      ],
+      "credibility": "high",
+      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg",
+      "image_credit": "Anthropic",
+      "story": "Claude Sonnet 5, released June 30, is Anthropic's mid-tier workhorse rebuilt to plan, use browsers and terminals, and run autonomously at a level that recently required its far pricier Opus models. Anthropic says its agentic performance now sits close to Opus 4.8 while costing a fraction as much, and early partners like Cursor, Lovable and Kiro report it finishes multi-step coding jobs where older Sonnets stalled. It is the new default model on Claude's Free and Pro plans and is live in Claude Code and the API. It matters because the price-to-capability curve for practical agent work just shifted, and because it landed while Anthropic races toward a blockbuster IPO.",
+      "founding_story": "Anthropic was founded in 2021 by siblings Dario Amodei (CEO) and Daniela Amodei (President) along with a group of researchers who left OpenAI, including Jared Kaplan and Tom Brown, over disagreements about safety and direction. It positioned itself as the safety-first lab, built the Claude family and the Constitutional AI approach, and has raised enormous sums from Amazon and Google among others. In May 2026 it closed a round valuing it near 965 billion dollars, and by June it had confidentially filed to go public. Sonnet 5 fits its ladder of models (Haiku, Sonnet, Opus, plus the restricted Fable and Mythos cyber models) as the volume model most customers actually run day to day.",
+      "who_should_use": "Software teams are the core audience: Sonnet 5 shines on brownfield code, tracing a failing test to its root cause, writing a reproducing test, shipping a fix and verifying it in one pass. It is also strong for operations automation (updating CRM records then sending the follow-up, insurance intake, loss runs), legal research, and data-exploration agents where follow-through across many steps matters more than raw genius. Anyone building agents that must stay on-plan and respect conventions over long sessions should test it against their current model.",
+      "who_should_buy": "Startups and engineering orgs running agentic coding or automation at volume should pay for it, and Claude Code subscribers get it by default. API pricing is introductory at 2 dollars per million input and 10 per million output through August 31, then 3 and 15, versus Opus 4.8 at 5 and 25. What genuinely makes it special is agentic follow-through and self-checking at Sonnet prices. The honest catch: Sonnet 5 uses a new tokenizer that maps the same text to roughly 1.0 to 1.35x more tokens, so your bill can rise even at the same sticker rate, Anthropic set the intro price to be 'roughly cost-neutral,' which is a quiet admission the raw price cut is smaller than it looks. Who should NOT buy: pure cost-minimizers with non-sensitive workloads (Chinese open models undercut it hard), and security teams needing reduced guardrails, Anthropic itself points those users to Opus 4.8.",
+      "free_alternatives": "Gemini 3.5 Flash is the closest free-to-try rival and is cheaper per token for high-volume agents. On open weights, Qwen 3 Coder, DeepSeek V4 and Zhipu's GLM are free to self-host and now competitive on agentic coding benchmarks, and DeepSeek V4 undercuts Claude on price by roughly 7 to 17x. Honest take: for absolute lowest cost the open Chinese models win, and for the very hardest tasks Opus 4.8 or GPT-5.6 Sol edge ahead, but for reliable day-to-day agentic coding Sonnet 5 currently offers the best balance of dependability and price.",
+      "verdict": "BUY — For agentic coding and automation it is the strongest value on the market right now; just watch the tokenizer inflating your token counts and do not assume the discount is as big as the headline."
+    },
+    {
+      "id": "google-gemini-3-5-flash-computer-use",
+      "headline": "Gemini 3.5 Flash Bakes 'Computer Use' Straight Into the Cheap Model",
+      "one_liner": "Google turned its budget model into a screen-driving agent that clicks, types and browses, cheap, fast, and still a little reckless.",
+      "source_name": "Google (The Keyword), TechCrunch, VentureBeat",
+      "source_links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+        "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+        "https://venturebeat.com/technology/google-says-gemini-3-5-flash-can-slash-enterprise-ai-costs-by-more-than-1-billion-a-year"
+      ],
+      "credibility": "high",
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-header__light_7VsKV.width-1300.png",
+      "image_credit": "Google DeepMind",
+      "story": "On June 24 Google made 'computer use' a built-in tool inside Gemini 3.5 Flash, its fast, low-cost model, so developers can build agents that see a screen, reason, and take actions across browser, mobile and desktop environments. Previously this lived only in a separate Gemini 2.5 computer-use model; folding it into mainline Flash means cheap, high-throughput agents for continuous software testing, form-filling and knowledge work. Google pairs it with optional enterprise safeguards that require confirmation for irreversible actions and halt tasks on detected prompt injection. It matters because it pushes reliable agentic automation down to a price point where running it at scale actually pencils out, VentureBeat reports Google pitching over a billion dollars a year in potential enterprise savings.",
+      "founding_story": "The model comes from Google DeepMind, itself a merger. DeepMind was founded in London in 2010 by Demis Hassabis, Shane Legg and Mustafa Suleyman and acquired by Google in 2014. In April 2023 Google combined DeepMind with the Google Brain team into a single unit, Google DeepMind, under Hassabis, and shipped the first Gemini models that December as its answer to GPT-4. Gemini 3.5 launched in May 2026 at Google I/O with an explicit bet on agents over chatbots; the June computer-use addition to Flash is part of that push, showcased with partners including Browserbase, Browser Use and UiPath.",
+      "who_should_use": "Developers and RPA teams building browser or desktop automation are the sweet spot: QA engineers running continuous UI tests, ops teams automating repetitive web workflows, and startups (Browserbase, Browser Use, UiPath are cited customers) wiring agents into legacy apps that lack APIs. It is also attractive for high-volume, cost-sensitive agent loops where you would never pay flagship prices per step. Anyone prototyping an agent that must accomplish long-horizon tasks across real interfaces should try the Browserbase demo before committing.",
+      "who_should_buy": "Enterprises with large-scale, repetitive digital workflows are the ones who should pay, via the Gemini API and Gemini Enterprise Agent Platform, because the savings compound at volume. What genuinely makes it special is putting frontier-ish agentic action into a cheap, fast model with enterprise safety toggles built in. Who should NOT buy or deploy blindly: anyone expecting hands-off reliability. Computer-use agents across the industry still misclick, get stuck, and are vulnerable to prompt injection from the very pages they browse, Google itself recommends sandboxing, human-in-the-loop checks and strict access controls. If your task touches money, credentials, or irreversible actions, treat it as an assisted tool, not an autonomous employee.",
+      "free_alternatives": "Open-source browser agents are surprisingly capable and free: Browser Use and Playwright driven by open models let you build similar automations without per-token action fees. Anthropic's computer use (via Claude) and OpenAI's computer-using agents are the main paid rivals and are roughly comparable on reliability. Honest take: no computer-use system, free or paid, is dependable enough for unattended high-stakes work yet, so the deciding factor is cost and integration, and on cost Gemini 3.5 Flash plus open tooling is hard to beat.",
+      "verdict": "USE — Great for cheap, high-volume automation of low-risk web and desktop tasks, but keep a human on anything sensitive; the 'agent does your job' framing is still marketing ahead of reality."
+    },
+    {
+      "id": "meta-muse-image",
+      "headline": "Meta's Muse Image Is Free, Everywhere, and Trained on Your Photos",
+      "one_liner": "Meta Superintelligence Labs' first image model is baked into Instagram and WhatsApp, and users are already fighting it over their own pictures.",
+      "source_name": "Meta (About FB), TechCrunch, CNBC",
+      "source_links": [
+        "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+        "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+        "https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Muse Image, launched July 7, is the first image-generation model from Meta Superintelligence Labs, rolling out free inside the Meta AI app, meta.ai, Instagram Stories in the US and WhatsApp in limited countries, with Facebook coming soon. Meta pitches it as an 'agentic' generator that invokes search and coding tools, self-refines its output, and draws on Instagram for social context to personalize images. Almost immediately, users pushed back over the model's use of their own photos and social data, and CNBC framed it as Meta trying to catch Google and OpenAI after spending billions. It matters less as a quality breakthrough and more as a distribution play: Meta is putting a decent image generator in front of billions of people for free, with privacy strings attached.",
+      "founding_story": "Meta Superintelligence Labs (MSL) is the reorganized AI group Mark Zuckerberg stood up in 2025 as part of an aggressive superintelligence push, anchored by a roughly 14 billion dollar deal that brought Scale AI founder Alexandr Wang in to help lead it. It sits on top of Meta's older FAIR research lab (started in 2013 under Yann LeCun) but represents a deliberate reset toward productized, consumer-facing models. MSL's first flagship model, Muse Spark, debuted in April 2026 as a ground-up overhaul of Meta's AI; Muse Image is the first image model in that line, with Muse Video already in development. Reporting is clear on the Wang hire and the April Spark launch; exact team size and training-data sourcing for Muse Image remain only partially disclosed by Meta.",
+      "who_should_use": "Casual creators already living inside Instagram, WhatsApp and Messenger are the intended users: making Stories art, quick edits, meme images and social posts without leaving the app. It is genuinely convenient for people who want free, good-enough images with zero setup and like that it can pull in personal context. Hobbyists and social media managers running Meta-native content can lean on it for volume casual work.",
+      "who_should_buy": "Nobody needs to buy this as a standalone product, everyday use is free, with heavier use folded into Meta's existing subscription plans. What is genuinely special is reach and price (free, inside apps you already use), not image quality or control, which trails dedicated tools. Who should NOT rely on it: professional designers, brand and agency teams, and anyone who needs precise control, commercial-use clarity or reproducibility, the pro tools are simply better. And anyone privacy-conscious should think hard before use: the model leans on your photos and Instagram activity, which is exactly what triggered the immediate backlash, check and adjust Meta's data settings first, or skip it.",
+      "free_alternatives": "There are many, and several are better. Google's Nano Banana / Imagen line and Microsoft Copilot's image tools are free and strong on quality; open-weight Flux and Stable Diffusion are free to run and give far more control, including local and offline use. Ideogram and Leonardo offer generous free tiers, and Midjourney (paid) still leads on raw aesthetics. Honest take: Muse Image's only real edge is being pre-installed where you already chat and post, on quality and control, free tools like Flux and paid leaders like Midjourney beat it.",
+      "verdict": "SKIP — Fine as a free toy inside apps you already use, but it is a distribution and data play, not a pro tool; if you care about quality, control, or your own photos, reach for something else."
+    },
+    {
+      "id": "chinese-open-models-us-enterprise-surge",
+      "headline": "Chinese AI Models Are Quietly Eating Up US Enterprise Token Spend",
+      "one_liner": "DeepSeek, Qwen, Kimi and GLM now run up to 46% of US enterprise API tokens, because they are 60 to 90% cheaper and nearly as good.",
+      "source_name": "CNBC, VentureBeat, Bloomberg",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+        "https://venturebeat.com/infrastructure/how-deepseeks-radical-architecture-is-shattering-silicon-valleys-token-moat",
+        "https://www.bloomberg.com/news/articles/2026-04-27/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "image_credit": null,
+      "story": "As OpenAI and Anthropic prices stayed high, US companies quietly shifted a large chunk of their AI workloads to cheaper open-weight Chinese models. CNBC reports that the share of tokens US firms run on Chinese models via OpenRouter has held above 30 percent every week since February and spiked as high as 46 percent, up from an 11 percent average the prior year, because these models run 60 to 90 percent cheaper while performing close to frontier US models. Named adopters include Lindy (which moved 100 percent of traffic to DeepSeek), Shopify and Airbnb (touting Alibaba's Qwen 3), and Coinbase (using GLM and Kimi to cut nearly half its AI spend). It matters because it breaks the assumption that serious AI means paying a US lab, and it is now drawing scrutiny from US lawmakers.",
+      "founding_story": "This is a movement, not one company. DeepSeek, founded in 2023 by Liang Wenfeng and bankrolled by his quant hedge fund High-Flyer, stunned the industry in early 2025 by matching top models at a fraction of the training cost and open-sourcing the weights; its V4 generation continued the price assault in 2026. Alibaba's Qwen line is the cloud giant's open model family; Moonshot AI (founded 2023 by Yang Zhilin, maker of the Kimi models) raised 2 billion dollars at a 20 billion valuation in 2026 as open-source demand surged; and Zhipu AI (a Tsinghua University spinoff behind the GLM models) is closing in on US frontier quality. Their common thread is aggressive efficiency and open weights, which let anyone self-host or buy inference cheaply, undercutting the closed US labs on price.",
+      "who_should_use": "Cost-sensitive engineering teams running large token volumes are the obvious users: batch processing, classification, extraction, RAG, code assistance and internal agents where you control the data and can tolerate models sitting roughly six to nine months behind the absolute frontier. Startups watching burn, researchers wanting weights they can fine-tune, and anyone who needs on-prem or air-gapped deployment (for data control) benefit most. Companies like Lindy, Coinbase, Shopify and Airbnb have publicly leaned on them for exactly this kind of high-volume, cost-driven work.",
+      "who_should_buy": "The whole point is that you largely do not 'buy' these, you self-host open weights for near-zero marginal cost, or rent them via OpenRouter and similar at a fraction of US prices; DeepSeek V4 Pro is reportedly 7x cheaper on input and 17x on output than Claude Sonnet or GPT-5.5-Med. What genuinely makes them special is the price-to-quality ratio, nothing from a US lab comes close on cost. Who should NOT route work here: regulated industries and anyone handling sensitive, personal or export-controlled data, given data-governance questions, unclear data flows on hosted Chinese endpoints, and a fresh US congressional probe (July 8) into their use in American firms. Treat them as a powerful tool for non-sensitive, high-volume workloads, not a drop-in for everything.",
+      "free_alternatives": "These models are themselves the cheap alternative to US labs, and most are open-weight and free to run (DeepSeek V4, Qwen 3, GLM, and Kimi's open releases). If geopolitics or compliance rule them out, the closest Western free or cheap options are Google's Gemini 3.5 Flash, Meta's open Llama line, Mistral's open models, and the free tiers of ChatGPT and Claude. Honest take: on pure cost per token nothing Western matches the Chinese open models today, so the real alternatives compete on trust, compliance and support, not price.",
+      "verdict": "USE — Route your non-sensitive, high-volume workloads here and you will cut costs dramatically, just keep regulated and confidential data off them and watch the tightening US policy climate."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Anthropic Overtakes OpenAI on Revenue as It Files Confidentially for a Landmark IPO",
+      "one_liner": "Reports peg Anthropic near a 47 billion dollar run rate, likely 35% above OpenAI, after a confidential S-1 and a ~965 billion valuation.",
+      "source_name": "The Information, Fortune, CNBC",
+      "source_links": [
+        "https://www.theinformation.com/newsletters/the-briefing/anthropic-likely-generating-least-35-revenue-openai",
+        "https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/",
+        "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Anthropic Restores Its Most Powerful Models, Fable 5 and Mythos 5, After an Export-Control Truce",
+      "one_liner": "Following a 19-day suspension over US export controls, Anthropic's cyber-grade models returned July 1 alongside a proposed jailbreak-scoring framework.",
+      "source_name": "Fortune, Anthropic",
+      "source_links": [
+        "https://fortune.com/2026/07/01/anthropic-fable-mythos-ai-models-restored-trump-administration-export-controls/",
+        "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Sysdig Documents JADEPUFFER, the First End-to-End AI-Run Ransomware Attack",
+      "one_liner": "An autonomous LLM agent handled recon, credential theft, lateral movement and encryption itself, going from failed login to working fix in 31 seconds.",
+      "source_name": "Sysdig, BleepingComputer",
+      "source_links": [
+        "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+        "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "US Lawmakers Open a Probe Into Chinese AI Models Running Inside American Companies",
+      "one_liner": "With Chinese open models taking up to 46% of US enterprise tokens, Congress is now asking hard questions about data and dependency.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/08/chinese-ai-models-probe-us-lawmakers.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Google Ships Nano Banana 2 Lite and Gemini Omni Flash",
+      "one_liner": "Google keeps flooding the zone with cheaper, faster image and multimodal models aimed squarely at high-volume builders.",
+      "source_name": "Google (The Keyword)",
+      "source_links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Moonshot AI Raises 2 Billion Dollars at a 20 Billion Valuation as Open-Source Demand Soars",
+      "one_liner": "The maker of the Kimi models cashes in on the global rush toward cheap, open-weight AI that is reshaping enterprise budgets.",
+      "source_name": "TechCrunch",
+      "source_links": [
+        "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/"
+      ],
+      "credibility": "high"
+    }
+  ]
+}

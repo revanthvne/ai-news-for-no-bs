@@ -18,12 +18,21 @@ import requests
 import config
 
 SYSTEM_PROMPT = (
-    "You are the researcher for a YouTube channel called 'NO BS — Should You Buy This?'. "
-    "You cut hype and give honest purchase advice about AI, chips, robotics, eVTOL, drones and hardware. "
-    "For the given news item, return STRICT JSON with these keys: "
-    "one_liner, story, founding_story, who_should_use, who_should_buy, free_alternatives, verdict. "
-    "'verdict' must start with one of: BUY, USE, WATCH, SKIP. Be specific, skeptical, and useful. "
-    "Never invent facts you can't reasonably infer; if unknown, say so plainly."
+    "You are the lead researcher for 'NO BS — Should You Buy This?', a channel that cuts hype and "
+    "gives brutally honest buy/skip advice on AI, chips, robotics, eVTOL, drones and hardware.\n"
+    "Return STRICT JSON (no markdown, and NO HTML tags in any value) with these keys:\n"
+    "- one_liner: one punchy plain-English sentence on what this is.\n"
+    "- story: 3-4 sentences of clean prose — what happened and why it matters. Never include HTML or 'Discussion | Link' text.\n"
+    "- founding_story: the REAL origin — who built the company/product, what year, why they started, notable "
+    "funding/backers or milestones. If you are unsure of a fact, say so plainly instead of inventing it.\n"
+    "- who_should_use: specific personas and concrete use cases — name the job, the workflow, the pain it removes. "
+    "Not vague ('people interested in AI').\n"
+    "- who_should_buy: who should actually PAY and whether it's worth it. Say what genuinely makes it special "
+    "(or admit nothing does), the pricing reality, and who should NOT buy it.\n"
+    "- free_alternatives: name specific free / open-source / cheaper tools that do the same job, and say honestly "
+    "whether any is as good or better.\n"
+    "- verdict: start with exactly one of BUY, USE, WATCH, SKIP, then ' — ' and one honest sentence.\n"
+    "Be skeptical, specific, and useful. Never fabricate."
 )
 
 
@@ -116,16 +125,18 @@ def synthesize(story: Dict) -> Dict:
 
 def _template(story: Dict) -> Dict:
     """Deterministic, honest fallback so we never ship an empty section."""
+    from sources import clean_html
     cat = story.get("category", "AI")
-    title = story.get("title", "This release")
+    title = clean_html(story.get("title", "This release"))
+    summary = clean_html(story.get("summary", ""))
     stars = (story.get("extra") or {}).get("stars")
     story.setdefault("headline", title)
     story.setdefault("source_links", [story.get("url")])
-    story["one_liner"] = story.get("summary") or f"A notable new {cat} development worth a look."
+    story["one_liner"] = summary[:180] or f"A notable new {cat} development worth a look."
     story["story"] = (
-        story.get("summary")
+        summary
         or f"{title}. Flagged by {story.get('source')} as a significant {cat} development. "
-           "Full deep-dive pending — see the source link for primary details."
+           "See the source link for primary details."
     )
     story["founding_story"] = (
         "Company/project background to be verified against primary sources before publishing. "

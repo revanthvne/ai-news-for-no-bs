@@ -91,21 +91,55 @@ function OtherNews({ items, sector }) {
   );
 }
 
-export function SectorFeed({ sectors }) {
+function Sector({ sec }) {
+  const [open, setOpen] = useState(true);
   return (
-    <>
-      {(sectors || []).map((sec) => (
-        <section key={sec.sector} className="sector">
-          <h2 className="sector-head">
-            {SECTOR_EMOJI[sec.sector] || "•"} {sec.sector}
-            <span className="sector-count">· {sec.heroes.length} deep-dives</span>
-          </h2>
+    <section className="sector">
+      <h2 className="sector-head" onClick={() => setOpen((o) => !o)}>
+        <span>
+          {SECTOR_EMOJI[sec.sector] || "•"} {sec.sector}
+          <span className="sector-count"> · {sec.heroes.length} deep-dives</span>
+        </span>
+        <span className="sector-toggle" aria-label={open ? "collapse" : "expand"}>
+          {open ? "▲" : "▼"}
+        </span>
+      </h2>
+      {open && (
+        <div>
           {sec.heroes.map((s, i) => (
             <HeroCard key={s.id || i} s={s} idx={i + 1} />
           ))}
           <OtherNews items={sec.other_news} sector={sec.sector} />
-        </section>
+        </div>
+      )}
+    </section>
+  );
+}
+
+export function SectorFeed({ sectors }) {
+  return (
+    <>
+      {(sectors || []).map((sec) => (
+        <Sector key={sec.sector} sec={sec} />
       ))}
     </>
+  );
+}
+
+export function TopProducts({ products }) {
+  if (!products || !products.length) return null;
+  return (
+    <div className="card topproducts">
+      <h3 style={{ marginTop: 0 }}>🚀 Top products launching today</h3>
+      <div className="tp-grid">
+        {products.map((p, i) => (
+          <a key={i} className="tp-item" href={p.url} target="_blank" rel="noreferrer">
+            <div className="tp-name">{p.name}</div>
+            {p.tagline ? <div className="tp-tagline">{p.tagline}</div> : null}
+            <div className="tp-cat">{p.category}</div>
+          </a>
+        ))}
+      </div>
+    </div>
   );
 }

@@ -19,3 +19,7 @@ dist/
 
 # os
 .DS_Store
+
+# one-shot setup script (contains secrets — never commit)
+setup.sh
+*.local.sh

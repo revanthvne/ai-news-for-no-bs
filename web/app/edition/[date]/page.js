@@ -1,11 +1,7 @@
-import { getEdition, listEditionDates } from "../../../lib/data";
-import { SectorFeed } from "../../components";
+import { getEdition } from "../../../lib/data";
+import { SectorFeed, TopProducts } from "../../components";
 
-export const revalidate = 3600;
-
-export function generateStaticParams() {
-  return listEditionDates().map((date) => ({ date }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function EditionPage({ params }) {
   const edition = await getEdition(params.date);
@@ -21,12 +17,16 @@ export default async function EditionPage({ params }) {
   return (
     <main>
       <div className="topbar">
-        <a href="/">← All editions</a>
-        <a className="allnews-btn" href={`/all-news/${edition.edition_date}`}>
-          🔍 All News ({c.all_news})
-        </a>
+        <a href="/">← Latest</a>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          <a className="allnews-btn" href="/editions">🗂 View all editions</a>
+          <a className="allnews-btn" href={`/all-news/${edition.edition_date}`}>
+            🔍 All News ({c.all_news})
+          </a>
+        </div>
       </div>
       <h1 style={{ fontSize: 22 }}>Daily AI Short — {edition.edition_date}</h1>
+      <TopProducts products={edition.top_products} />
       <SectorFeed sectors={edition.sectors} />
     </main>
   );

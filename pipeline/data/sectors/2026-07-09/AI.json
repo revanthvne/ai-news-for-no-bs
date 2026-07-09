@@ -1,0 +1,146 @@
+{
+  "sector": "AI",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "gpt-5-6-public",
+      "headline": "OpenAI opens GPT-5.6 (Sol, Terra, Luna) to everyone after government hold lifts",
+      "one_liner": "OpenAI publicly released its GPT-5.6 family on July 9 after two weeks limited to 'trusted partners' at the US government's request.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+        "https://llm-stats.com/llm-updates"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "OpenAI made its GPT-5.6 models, branded Sol, Terra and Luna, available to all ChatGPT users and API developers on July 9, 2026, roughly two weeks after it had restricted the rollout to a small group of partners at the request of the US government. Alongside the models OpenAI previewed GPT-Live, a voice generation that can listen and speak simultaneously. The public launch landed the same week rivals shipped their own frontier updates, making early July one of the most crowded release windows the industry has seen. Independent benchmark confirmation beyond OpenAI's own numbers is still thin, so treat headline capability claims with caution.",
+      "founding_story": "OpenAI was founded in 2015 by Sam Altman, Elon Musk, Greg Brockman, Ilya Sutskever and others as a nonprofit research lab, later adding a capped-profit arm. GPT-5.6 is an incremental successor in the GPT-5 line; the Sol/Terra/Luna split reflects OpenAI's move to ship task-tuned variants rather than one monolithic model. The temporary government-imposed limitation on release is a genuinely novel wrinkle in the model's history and signals tightening state involvement in frontier launches.",
+      "who_should_use": "Developers wanting the latest OpenAI reasoning models via API; ChatGPT power users who hit limits on older models; teams building voice agents who want GPT-Live's simultaneous listen-and-speak. Concrete uses: customer-support voice bots, long-form coding assistance, and multi-step agent workflows.",
+      "who_should_buy": "Worth paying for if you are already in the OpenAI ecosystem and need marginally better reasoning or the new live-voice capability. What makes it special right now is GPT-Live's full-duplex voice, which few competitors match in production. Honest call: for pure text and coding, the uplift over GPT-5.5 is incremental, not transformative. Do NOT buy if you are cost-sensitive, since Chinese open models undercut it heavily, or if you need reproducible third-party benchmarks before committing.",
+      "free_alternatives": "Z.ai's GLM-5.2 is free to download and self-host and is far cheaper per token; Meta Llama and DeepSeek open weights cost nothing to run; Google's free Gemini tier and Anthropic's free Claude Sonnet 5 cover most consumer needs.",
+      "verdict": "WATCH — a solid incremental release whose standout is live voice, but wait for independent benchmarks before betting production budgets on the capability claims."
+    },
+    {
+      "id": "claude-sonnet-5",
+      "headline": "Anthropic ships Claude Sonnet 5 as a cheaper way to run agents",
+      "one_liner": "Sonnet 5 targets autonomous tool-use and agentic coding at $2/$10 per million tokens introductory pricing through Aug 31.",
+      "source_name": "Anthropic / TechCrunch",
+      "source_links": [
+        "https://www.anthropic.com/news/claude-sonnet-5",
+        "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Anthropic launched Claude Sonnet 5 on June 30, 2026 as the new default model for Free and Pro users, pitched explicitly as a cheaper way to run agents that plan, use browsers and terminals, and act autonomously. Introductory pricing is $2 per million input tokens and $10 per million output tokens through August 31, after which it rises to $3/$15. On Anthropic's published agentic-coding benchmark it scores 63.2%, below Opus 4.8's 69.2% but above the prior Sonnet 4.6. It sits as a mid-tier workhorse rather than a flagship, which is exactly the point.",
+      "founding_story": "Anthropic was founded in 2021 by siblings Dario and Daniela Amodei together with a group of former OpenAI researchers, built around a safety-first mission and the Claude model family. Sonnet is Anthropic's balanced mid-tier line, positioned between the small Haiku and the flagship Opus. Sonnet 5 continues Anthropic's strategy of pushing agentic capability down into cheaper models as larger ones handle the frontier.",
+      "who_should_use": "Developers running high-volume agent workloads who cannot afford Opus pricing; startups building coding assistants, browser automation, or customer workflows; Pro users who want strong default performance for free. Concrete uses: CI code fixes, research agents, and document-processing pipelines.",
+      "who_should_buy": "Worth paying for if you run agents at scale and want most of Opus's autonomy at a fraction of the cost. What makes it special is the price-to-agentic-capability ratio and Anthropic's strong tool-use reliability. Honest call: if your task genuinely needs top-tier reasoning, pay up for Opus 4.8; Sonnet 5 trails it meaningfully on hard coding. Do NOT buy if open Chinese models like GLM-5.2 already meet your quality bar, since they are cheaper still.",
+      "free_alternatives": "Claude Sonnet 5 itself is free in Anthropic's Free plan for interactive use; GLM-5.2 open weights self-hosted; DeepSeek and Qwen open models for agentic coding at near-zero marginal cost.",
+      "verdict": "USE — the best value-for-agents model from a frontier lab right now, as long as you do not need absolute top-tier reasoning."
+    },
+    {
+      "id": "glm-5-2-china-share",
+      "headline": "Chinese open models now run up to 46% of US enterprise API tokens",
+      "one_liner": "A CNBC investigation found Chinese models like Z.ai's GLM-5.2 capture 30-46% of enterprise API token usage on US developer platforms.",
+      "source_name": "CNBC / VentureBeat",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+        "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost",
+        "https://en.wikipedia.org/wiki/Z.ai"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "A CNBC investigation published July 7, 2026 confirmed that Chinese AI models now account for between 30% and 46% of enterprise API token usage flowing through US developer platforms, driven by cost and by access uncertainty around US frontier models. The standout is Z.ai's open-weights GLM-5.2, which lands within a point of Anthropic's Opus 4.8 on a closely watched agentic benchmark at roughly a fifth of the cost, and saw its daily token volume grow about 27x on Vercel in its first full week. Open Chinese models are reported to run 60% to 90% cheaper than leading US models. The shift is a real structural pressure on OpenAI and Anthropic pricing, not hype.",
+      "founding_story": "Z.ai is the international brand of Zhipu AI, a Chinese company spun out of Tsinghua University research in 2019, and one of China's leading large-model developers. Its GLM series is released as open weights, free to download, fine-tune and self-host, which is central to its rapid enterprise adoption. GLM-5.2 is the latest in that line and its release is the clearest sign yet that Chinese labs have narrowed the gap with US frontier models.",
+      "who_should_use": "Cost-sensitive engineering teams; companies needing on-prem or self-hosted models for data control; developers doing high-volume coding or long-horizon agent tasks. Concrete uses: internal coding copilots, batch document processing, and agent fleets where per-token cost dominates.",
+      "who_should_buy": "This is open weights, so there is nothing to buy in the traditional sense; you pay only for hosting or a cheap API reseller. What genuinely makes GLM-5.2 special is frontier-adjacent agentic coding at a fraction of the cost with full self-host control. Honest call: strongly worth evaluating for cost-driven workloads. Do NOT adopt if your organization has data-provenance, compliance, or geopolitical restrictions on Chinese-origin models, which is a real concern for regulated US enterprises.",
+      "free_alternatives": "GLM-5.2 is itself free to self-host; other free options include DeepSeek, Qwen, and Meta Llama open weights, all of which undercut US frontier API pricing.",
+      "verdict": "USE — evaluate GLM-5.2 seriously for cost-driven and self-hosted workloads, but weigh compliance and provenance risks before putting it in regulated pipelines."
+    },
+    {
+      "id": "anthropic-revenue-lead",
+      "headline": "Anthropic overtakes OpenAI on revenue as their business models diverge",
+      "one_liner": "Fortune reports Anthropic now leads OpenAI on self-reported revenue, powered by enterprise and API demand rather than consumer subscriptions.",
+      "source_name": "Fortune / CNBC",
+      "source_links": [
+        "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+        "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Fortune reported in early July 2026 that Anthropic has overtaken OpenAI on self-reported revenue, with Anthropic tracking toward a roughly $47 billion annualized run rate against OpenAI's disclosed $25-33 billion range. The two companies have diverged sharply: Anthropic earns roughly 85% of revenue from enterprise and developer API customers, while OpenAI earns roughly 85% from ChatGPT consumer subscriptions. Anthropic also became the most valuable AI startup in a spring funding round. These are company-provided figures rather than audited results, so read the exact numbers with skepticism even if the directional shift is well sourced.",
+      "founding_story": "Anthropic was founded in 2021 by former OpenAI staff led by Dario and Daniela Amodei, betting on enterprise and API distribution and safety. OpenAI, founded in 2015, built its business primarily around the consumer ChatGPT product. The revenue crossover is a milestone because it validates Anthropic's developer-and-enterprise-first strategy over OpenAI's consumer-first one.",
+      "who_should_use": "This is industry news, not a product. Relevant for founders, investors, enterprise buyers evaluating vendor stability, and developers choosing which platform to standardize on. Concrete use: factoring vendor trajectory into a multi-year API commitment.",
+      "who_should_buy": "There is nothing to buy here; it is a market-structure signal. What it genuinely tells you is that betting on Anthropic's API as a long-term platform now has stronger commercial footing. Honest call: do not over-index on self-reported run-rate figures when picking a vendor. Ignore this entirely if you are an end user who just wants the best model, since revenue rankings do not determine output quality.",
+      "free_alternatives": "Not applicable; this is a news item, not a purchasable product.",
+      "verdict": "WATCH — a meaningful signal about Anthropic's enterprise momentum, but the numbers are self-reported so weigh the trend, not the exact figures."
+    },
+    {
+      "id": "gemini-3-5-pro-ga",
+      "headline": "Google clears Gemini 3.5 Pro for July launch after repeated slips",
+      "one_liner": "Gemini 3.5 Pro, with a 2M-token context window, is cleared for July general availability after missing its June target amid quality issues.",
+      "source_name": "TechTimes / Startup Fortune",
+      "source_links": [
+        "https://www.techtimes.com/articles/319318/20260629/gemini-35-pro-cleared-july-launch-fable-5-nears-return-gpt-56-stays-locked.htm",
+        "https://startupfortune.com/google-delays-gemini-35-pro-to-july-as-talent-exodus-deepens-the-pressure-on-its-ai-ambitions/"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "Google's Gemini 3.5 Pro, announced at I/O on May 19, 2026, is now cleared for a July general-availability launch after slipping from its original June target. Reports cited struggles on advanced reasoning, coding and long-horizon tasks plus token-efficiency problems as reasons for the delay, and as of early July it remained in a limited Vertex AI enterprise preview rather than fully public. Its headline feature is a two-million-token context window, the largest in any production frontier model. Because the full public launch had not clearly landed as of July 7, treat the GA timing as still fluid.",
+      "founding_story": "Gemini is developed by Google DeepMind, formed in 2023 by merging Google Brain and DeepMind under Demis Hassabis. The Gemini line is Google's flagship multimodal model family and its answer to GPT and Claude. Gemini 3.5 Pro's protracted, publicly reported delays are unusual for Google and reflect competitive pressure and reported talent departures.",
+      "who_should_use": "Enterprises on Google Cloud and Vertex AI; teams needing very long context, such as whole-codebase or large-document reasoning; existing Workspace and Gemini app users. Concrete uses: analyzing million-token document sets, long-codebase refactoring, and multimodal enterprise workflows.",
+      "who_should_buy": "Worth it if you are already committed to Google Cloud or specifically need the 2M-token context window, which is genuinely differentiated. Honest call: the reported reasoning and coding weaknesses mean it may trail Claude Opus and GPT-5.6 on hard tasks at launch, so validate on your own workloads first. Do NOT buy in for mission-critical coding until independent benchmarks confirm it closed the gaps that caused the delays.",
+      "free_alternatives": "Google's own free Gemini app and AI Studio tier cover many needs; open long-context models and GLM-5.2 offer cheaper alternatives for large-context work.",
+      "verdict": "WATCH — the 2M-token context is a real draw, but the repeated delays and reported quality gaps mean you should benchmark it yourself before relying on it."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "SpaceXAI releases Grok 4.5 publicly with Opus-class performance claims",
+      "one_liner": "Grok 4.5 launched July 8, 2026 with claims of frontier-level performance; independent verification of the benchmark claims remains limited.",
+      "source_name": "AI Release Tracker",
+      "source_links": [
+        "https://aireleasetracker.com/latest",
+        "https://llm-stats.com/llm-updates"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "First documented end-to-end autonomous AI ransomware attack analyzed",
+      "one_liner": "Sysdig's Threat Research Team published analysis of JADEPUFFER, described as the first fully autonomous AI-run ransomware operation.",
+      "source_name": "Sysdig / Crescendo AI",
+      "source_links": [
+        "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "OpenAI previews GPT-Live full-duplex voice models",
+      "one_liner": "GPT-Live can listen and speak at the same time, launched alongside the public GPT-5.6 rollout.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "US Commerce lifts export controls, restoring an Anthropic model globally",
+      "one_liner": "A model Anthropic had to pull under a June 12 export-control order returned to all users on July 1 after the order was lifted.",
+      "source_name": "AIapps / CNBC",
+      "source_links": [
+        "https://www.aiapps.com/blog/top-ai-news-july-breakthroughs-launches-trends/",
+        "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "GLM-5.2 posts fastest model adoption Vercel tracked in 2026",
+      "one_liner": "Daily token volume grew roughly 27x and customer count roughly 80x in GLM-5.2's first full week on Vercel.",
+      "source_name": "VentureBeat",
+      "source_links": [
+        "https://venturebeat.com/technology/z-ais-open-weights-glm-5-2-beats-gpt-5-5-on-multiple-long-horizon-coding-benchmarks-for-1-6th-the-cost"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

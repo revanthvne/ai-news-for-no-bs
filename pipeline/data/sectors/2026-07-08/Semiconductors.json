@@ -1,0 +1,154 @@
+{
+  "sector": "Semiconductors",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "nvidia-vera-rubin",
+      "headline": "Nvidia's Vera Rubin Hits Full Production, the Blackwell Successor Is Here",
+      "one_liner": "Nvidia's next-gen Vera Rubin AI platform reached full production ahead of schedule, with HBM4 GPUs and cloud systems shipping in 2H 2026.",
+      "source_name": "NVIDIA Newsroom, CNBC, VideoCardz",
+      "source_links": [
+        "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+        "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+        "https://videocardz.com/newz/nvidia-vera-rubin-nvl72-detailed-72-gpus-36-cpus-260-tb-s-scale-up-bandwidth"
+      ],
+      "credibility": "high",
+      "image_url": "https://iprsoftwaremedia.com/219/files/202601/695c3b3b3d63323e2ab85448_nvidia-rubin-platform/nvidia-rubin-platform_f0b2b61b-6d27-4de9-a6d3-d921352e1368-prv.jpg",
+      "story": "Nvidia unveiled its Vera Rubin platform at CES in January 2026 as a stack of six new chips: the Vera CPU, Rubin GPU, NVLink 6 switch, ConnectX-9 SuperNIC, BlueField-4 DPU and Spectrum-X Ethernet. The company says Rubin reached full production in early 2026, ahead of its original 2H-2026 guidance, with partner systems such as the Vera Rubin NVL72 rack shipping to cloud providers in the second half of the year. The Rubin GPU packs roughly 336 billion transistors across two reticle-sized dies and moves to HBM4 with up to 288GB and about 22 TB/s of bandwidth per GPU. It matters because Rubin is the compute backbone the entire frontier-AI industry builds on, and Jensen Huang has told investors Blackwell-plus-Rubin orders could reach $1 trillion through 2027.",
+      "founding_story": "Nvidia was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem, famously sketched out at a Denny's in San Jose. Its GeForce 256 (1999) was marketed as the world's first GPU, but the pivotal move was CUDA in 2006, which turned graphics chips into general-purpose parallel computers and, almost by accident, laid the foundation for the deep-learning boom. That bet made Nvidia the first company ever to reach a $5 trillion market value, in October 2025.",
+      "who_should_use": "Hyperscalers (AWS, Google Cloud, Microsoft, Oracle Cloud), neoclouds (CoreWeave, Lambda, Nebius, Nscale), and frontier AI labs training and serving trillion-parameter models. Also sovereign-AI programs and HPC centers that need the highest per-rack throughput available and want Nvidia's full CUDA software stack rather than assembling their own.",
+      "who_should_buy": "Realistically only well-capitalized cloud and AI operators buy Rubin hardware directly; NVL72-class racks run into the millions of dollars per unit. What genuinely makes it special is that no rival matches Nvidia's full-stack combination of CPU, GPU, networking and the CUDA software moat at this scale. Who should NOT buy: enterprises and developers who can simply rent capacity, and inference-focused shops chasing the lowest cost per token, where custom ASICs can undercut it. For investors: Nvidia trades on enormous expectations and the $1 trillion figure is management's order guidance, not booked revenue. This is not financial advice.",
+      "free_alternatives": "Do not buy, rent. Blackwell and Rubin capacity is available by the hour on CoreWeave, Lambda and the major clouds. Prior-generation Hopper (H100/H200) and Blackwell parts are now plentiful and far cheaper on the secondary and rental markets and are more than enough for most fine-tuning and inference. AMD MI300/MI325 or custom ASICs are viable for inference; open hardware is not competitive at this tier yet.",
+      "verdict": "WATCH — Rubin is the most important chip of 2026, but unless you actually operate a data center, rent the compute rather than buying the hardware or chasing the stock at these multiples."
+    },
+    {
+      "id": "ai-memory-supercycle-dram-hbm",
+      "headline": "The AI Memory Supercycle: DRAM Prices Double as Micron Posts a Record Quarter",
+      "one_liner": "AI's hunger for HBM has drained DRAM supply; consumer RAM prices roughly doubled in 2026 with no real relief expected until 2027-2028.",
+      "source_name": "CNBC, IEEE Spectrum, Tom's Hardware",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+        "https://spectrum.ieee.org/dram-shortage",
+        "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026"
+      ],
+      "credibility": "high",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108279186-1773870972855-108279186-1773779752082-gettyimages-2256072008-MICRON_NY.jpeg?v=1773870991&w=1920&h=1080",
+      "story": "Micron reported a record fiscal Q3 on June 24, 2026, with revenue around $41 billion, data-center revenue above $25 billion, and gross margin near 85 percent, and guided the next quarter toward roughly $50 billion. The reason is a brutal memory shortage: DRAM contract prices jumped 80-95 percent in a single quarter, and a 16Gb DDR5 chip went from about $7 in September 2025 to roughly $27 by December. The cause is that Samsung, SK Hynix and Micron, which control more than 95 percent of DRAM, are diverting wafers to high-margin HBM for AI accelerators, starving ordinary memory. It matters because it is now an 'AI tax' on everyone's PCs, phones and SSDs, and smartphone and PC shipments are projected to fall in 2026 as a result.",
+      "founding_story": "Micron was founded in 1978 in a Boise, Idaho basement by twin brothers Ward and Joe Parkinson with Dennis Wilson and Doug Pitman, bankrolled early by local potato billionaire J.R. Simplot. It survived decades of brutal memory boom-and-bust to become the only US-headquartered DRAM maker and one of the three companies (with Korea's Samsung and SK Hynix, the latter descended from Hyundai Electronics, 1983) that control the world's memory. HBM has transformed memory from a commodity afterthought into the hottest bottleneck in AI.",
+      "who_should_use": "This is essential context for anyone who buys memory: PC builders, gamers, laptop and phone shoppers, SSD buyers, and data-center operators sizing 2026-2027 budgets. It also matters to investors tracking the notoriously cyclical memory market.",
+      "who_should_buy": "If you genuinely need RAM, an SSD, or a new PC now, buy sooner rather than later: prices are still climbing through Q3 2026 and both analysts and Intel's CEO see no real relief until 2027-2028. What makes this moment special is that memory has become a genuine constraint on AI, not a cheap afterthought. Who should NOT overpay: if you can wait or do not need the upgrade, sitting out the spike is historically the winning move because memory always crashes eventually. For investors, Micron and SK Hynix have already run hard, and buying memory names at cycle peaks has burned people before. This is not financial advice.",
+      "free_alternatives": "Honest cheaper options: buy used or last-generation DDR4/DDR5 modules on the secondary market, skip capacity you will not actually use, and keep your current machine one more year. For workloads, cloud and rented instances push the memory cost onto the provider. For the vast majority of non-AI uses, older and second-hand memory is perfectly good enough.",
+      "verdict": "BUY NOW IF YOU NEED IT — grab the RAM, SSD or PC upgrade before Q4 if it is already on your list; if you can wait, sit out the spike because memory prices always fall again."
+    },
+    {
+      "id": "tsmc-2nm-n2-ramp",
+      "headline": "TSMC's 2nm (N2) Ramps Hard, Sold Out for 2026 and Racing to Arizona",
+      "one_liner": "TSMC's 2nm (N2) node is in volume production and reportedly sold out for 2026, powering the next chips from Nvidia, AMD and Apple.",
+      "source_name": "Tom's Hardware, TechSpot, Focus Taiwan",
+      "source_links": [
+        "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-begins-quietly-volume-production-of-2nm-class-chips-first-gaa-transistor-for-tsmc-claims-up-to-15-percent-improvement-at-iso-power",
+        "https://www.techspot.com/news/109900-tsmc-pushes-2-nanometer-manufacturing-ahead-schedule-while.html",
+        "https://focustaiwan.tw/business/202601150025"
+      ],
+      "credibility": "high",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/YAQU3zRSbuCHbUYm5L4oD4-1920-80.jpg",
+      "story": "TSMC began N2 volume production in Q4 2025 at Fab 22 in Kaohsiung and Fab 20 in Hsinchu, and by early 2026 was running an estimated 90,000-100,000 wafers per month with both plants reportedly sold out for the year. N2 is TSMC's first gate-all-around (nanosheet) transistor, delivering roughly 10-15 percent more speed or 25-30 percent lower power versus N3. Citing strong AI demand, TSMC is accelerating N2 to its Arizona site and pulling forward Fab 2 and Fab 3 timelines. It matters because nearly every flagship AI and mobile chip, from Nvidia Rubin components and AMD's MI400 compute dies to Apple's processors, depends on this one company's leading-edge node.",
+      "founding_story": "TSMC was founded in 1987 by Morris Chang in Hsinchu, Taiwan, with backing from the Taiwanese government and Philips. Chang's radical idea was the 'pure-play foundry': a factory that only manufactures other companies' chip designs and never competes with them, which unlocked the entire fabless industry, including Nvidia, AMD, Apple, Qualcomm and Broadcom. Today TSMC is the world's most advanced and most valuable chipmaker.",
+      "who_should_use": "Fabless chip designers, Nvidia, AMD, Apple, Qualcomm, MediaTek and Broadcom, plus well-funded AI-chip startups that need leading-edge silicon. Buyers of end products rely on it indirectly, since so many premium 2026-2027 devices trace back to N2.",
+      "who_should_buy": "You cannot 'buy' N2 unless you are a chip designer booking wafer capacity, and it is both sold out and expensive, with N2 wafers reported near $30,000 each. What makes it special is that no one else can reliably mass-produce at this node with these yields, giving TSMC a near-monopoly on the frontier. Who should NOT rely on it: cost-sensitive products that do not need the bleeding edge and can stay on mature nodes. For investors, TSMC is the classic picks-and-shovels play on the whole AI build-out, but it carries concentrated Taiwan geopolitical risk. This is not financial advice.",
+      "free_alternatives": "For chip designers, Samsung's SF2 (2nm, cheaper but less proven yields) and Intel's 18A (US-based and ramping) are the alternatives. For most products, TSMC's own mature N3 and N5 nodes are cheaper and still excellent. For everyone else, renting cloud compute sidesteps the leading-edge wafer question entirely.",
+      "verdict": "WATCH — N2 is the single most important manufacturing story in tech, but it is not something you buy directly, and if you hold TSMC as a stock, respect the Taiwan concentration risk."
+    },
+    {
+      "id": "amd-mi400-helios",
+      "headline": "AMD's MI400 and 'Helios' Rack Arrive in 2H 2026, the First Credible Nvidia Rival",
+      "one_liner": "AMD's Helios rack and MI450 GPUs ship in 2H 2026, anchored by a 6GW OpenAI deal, its most serious challenge to Nvidia yet.",
+      "source_name": "Tom's Hardware, The Next Platform, DCD",
+      "source_links": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-touts-instinct-mi430x-mi440x-and-mi455x-ai-accelerators-and-helios-rack-scale-ai-architecture-at-ces-full-mi400-series-family-fulfills-a-broad-range-of-infrastructure-and-customer-requirements",
+        "https://www.nextplatform.com/compute/2026/02/23/amd-says-helios-racks-and-mi400-series-gpus-on-track-for-2h-2026/",
+        "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/"
+      ],
+      "credibility": "high",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/KVDkgSDu7PnDSMSF4P8fX4-1920-80.jpg",
+      "story": "At CES 2026 AMD detailed its full MI400 family, the MI430X for HPC with full FP64, and the MI440X and MI455X tuned for low-precision FP4/FP8 AI, along with the double-wide Helios rack. Helios packs 72 MI455X accelerators and 31TB of HBM4 and is rated up to 2.9 FP4 exaFLOPS for inference and 1.4 FP8 exaFLOPS for training, with the compute dies built on TSMC's N2, and AMD says it is on track for Q3 2026. The anchor is a deal for OpenAI to deploy 6 gigawatts of AMD GPUs starting in the second half of 2026, with a first 1GW data center on the MI450. It matters because, for the first time, a rival matches Nvidia at rack scale, giving hyperscalers real second-source leverage on price.",
+      "founding_story": "AMD was founded in 1969 by Jerry Sanders and seven colleagues from Fairchild Semiconductor, and spent decades as the scrappy number two to Intel in x86. Near collapse in the early 2010s, it hired Lisa Su as CEO in 2014; her Zen architecture (2017) and chiplet strategy revived the company, and the $49 billion Xilinx acquisition (2022) plus the MI300 launch (2023) opened its data-center AI assault.",
+      "who_should_use": "Hyperscalers and neoclouds that want an alternative to Nvidia, marquee AI labs (notably OpenAI, plus Meta, Microsoft and Oracle), national labs and HPC centers that need the MI430X's FP64, and inference-heavy operators that benefit from AMD's larger HBM capacity per GPU.",
+      "who_should_buy": "Buyers who want to break Nvidia lock-in and are willing to invest in the less-mature ROCm software stack. What makes it special is more HBM per GPU and frequently better price-performance on inference, plus a genuine second source. Who should NOT buy: teams deeply tied to CUDA or that need turnkey software today, since ROCm has closed much of the gap but still trails. For investors, AMD's AI ramp is real but still a fraction of Nvidia's, and software and execution risk remain. This is not financial advice.",
+      "free_alternatives": "Rent current MI300/MI325 capacity on the clouds to test workloads before committing to hardware. If software maturity matters more than price, Nvidia's stack is still the safe default; for fixed, high-volume workloads, custom ASICs (Broadcom-built or Google TPUs) can be cheaper. Prior-generation AMD and Nvidia parts remain fine and far cheaper for most jobs.",
+      "verdict": "WATCH — AMD is finally a real rack-scale alternative to Nvidia; test it in the cloud before buying hardware, and weigh the stock knowing software maturity is still the swing factor."
+    },
+    {
+      "id": "intel-18a-foundry",
+      "headline": "Intel's 18A Goes High-Volume: Panther Lake Ships and Foundry Deals Loom",
+      "one_liner": "Intel's make-or-break 18A node is in high-volume production and shipping in Panther Lake laptops, with foundry deals possibly landing in 2H 2026.",
+      "source_name": "Intel Newsroom, EE Times, The Next Web",
+      "source_links": [
+        "https://newsroom.intel.com/client-computing/intel-unveils-panther-lake-architecture-first-ai-pc-platform-built-on-18a",
+        "https://www.eetimes.com/intels-confidence-shows-as-it-readies-new-processors-on-18a/",
+        "https://thenextweb.com/news/intel-computex-2026-18a-panther-nova-lake-ai-pc"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Intel's 18A, its first process with RibbonFET gate-all-around transistors and PowerVia backside power delivery, is in high-volume manufacturing in Arizona and Oregon. Panther Lake launched as Core Ultra Series 3 at CES in January 2026 and is shipping in more than 200 laptop designs, with handhelds and 288-core Clearwater Forest servers previewed at Computex in June. Intel says any signed external foundry deals are most likely in Q3 or Q4 2026, once prospective customers evaluate their first test chips. It matters because 18A is effectively a referendum on whether Intel can be a leading-edge foundry again, and whether the US has a credible domestic alternative to TSMC, a question sharpened by the US government taking an equity stake in Intel in 2025.",
+      "founding_story": "Intel was founded in 1968 by Robert Noyce and Gordon Moore, of Moore's Law, with Andy Grove as its third employee. It invented the commercial microprocessor (the 4004 in 1971) and rode x86 to decades of PC and server dominance, then lost its process lead around 2018 amid 10nm delays. Pat Gelsinger's 2021 IDM 2.0 foundry bet faltered and he was pushed out in 2024; Lip-Bu Tan took over in 2025 with 18A as the linchpin of the turnaround.",
+      "who_should_use": "PC makers and buyers who want efficient AI-PC laptops (Panther Lake); enterprises and governments seeking a US-based leading-edge foundry (18A and the coming 14A) as a TSMC alternative; and prospective foundry customers such as large cloud providers currently evaluating test chips.",
+      "who_should_buy": "Laptop buyers, yes: Panther Lake AI PCs are a legitimate buy if you want strong battery life and on-device AI, and there is broad model choice. Foundry customers should wait for proven yield data before committing volume. What genuinely stands out is PowerVia backside power, which is ahead of TSMC, plus a real US manufacturing footprint. Who should NOT buy in: anyone assuming the foundry turnaround is already won, since external traction is still unproven. For investors, this is a high-risk turnaround with government backing; only stomach it if you can handle volatility. This is not financial advice.",
+      "free_alternatives": "For laptops, AMD Ryzen AI and Qualcomm Snapdragon X (Arm) rival Panther Lake on efficiency, and Apple Silicon is excellent if you will switch ecosystems. Prior-generation Intel Lunar Lake and Core machines are cheaper and still very capable. For foundry work, TSMC's N2 remains the proven default.",
+      "verdict": "WATCH, BUY THE LAPTOPS — Panther Lake AI PCs are worth buying now, but Intel's foundry comeback and its stock stay a show-me story until external customers actually sign."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Nvidia's China Business Collapses Despite Trump Lifting the H200 Ban",
+      "one_liner": "Washington approved H200 sales to China, but Beijing's boycott left Nvidia booking essentially zero China data-center revenue in mid-2026.",
+      "source_name": "CNBC, Al Jazeera, Brookings",
+      "source_links": [
+        "https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html",
+        "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china",
+        "https://www.brookings.edu/articles/ball-games-over-the-us-is-out-of-the-ai-chip-market-in-china/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "OpenAI and Broadcom Unveil 'Jalapeno,' Their First Custom AI Chip",
+      "one_liner": "OpenAI's first in-house silicon, co-designed with Broadcom for inference, is part of a 10GW custom-accelerator push starting in 2H 2026.",
+      "source_name": "CNBC, Tom's Hardware",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+        "https://www.tomshardware.com/openai-broadcom-to-co-develop-10gw-of-custom-ai-chips"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Huawei Doubles Ascend AI Chip Output, but Domestic HBM Is the Bottleneck",
+      "one_liner": "Huawei targets around 600,000 Ascend 910C chips in 2026 on SMIC 7nm, yet thin domestic HBM supply caps real-world deployment.",
+      "source_name": "SemiAnalysis, Bloomberg",
+      "source_links": [
+        "https://newsletter.semianalysis.com/p/huawei-ascend-production-ramp",
+        "https://www.bloomberg.com/news/articles/2025-09-29/huawei-to-double-output-of-top-ai-chip-as-nvidia-wavers-in-china"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "ASML's High-NA EUV Splits the Industry: Intel Adopts, TSMC Says Too Expensive",
+      "one_liner": "Intel is running the first commercial High-NA EUV for its 14A node, while TSMC won't use the roughly $350M-plus machines in volume before 2029.",
+      "source_name": "AnySilicon, TrendForce",
+      "source_links": [
+        "https://anysilicon.com/news/asml-expects-first-high-na-euv-chips-within-months-as-tsmc-delays-adoption-over-cost-concerns/",
+        "https://www.trendforce.com/news/2026/02/16/news-asmls-high-na-euv-for-2027-28-which-giants-are-betting-big-intel-samsung-sk-hynix-or-tsmc/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Samsung Bets on 2nm (SF2) and Tesla to Revive Its Foundry",
+      "one_liner": "Samsung is ramping 2nm SF2 for the Exynos 2600 and a $16.5B Tesla AI5/AI6 deal, chasing TSMC with Taylor, Texas output slated for 2027.",
+      "source_name": "Korea Herald, SamMobile",
+      "source_links": [
+        "https://www.koreaherald.com/article/10718955",
+        "https://www.sammobile.com/news/samsung-start-making-second-generation-2nm-chips-2026/"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

@@ -1,10 +1,6 @@
-import { getEdition, listEditionDates } from "../../../lib/data";
+import { getEdition } from "../../../lib/data";
 
-export const revalidate = 3600;
-
-export function generateStaticParams() {
-  return listEditionDates().map((date) => ({ date }));
-}
+export const dynamic = "force-dynamic";
 
 const EMOJI = {
   AI: "🧠", Semiconductors: "🔩", Robotics: "🤖", eVTOL: "🚁",

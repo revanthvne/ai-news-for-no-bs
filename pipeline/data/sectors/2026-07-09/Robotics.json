@@ -1,0 +1,149 @@
+{
+  "sector": "Robotics",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "unitree-star-ipo",
+      "headline": "Unitree wins approval for $619M Shanghai STAR Market IPO",
+      "one_liner": "China's top humanoid seller cleared a record-fast IPO review and could debut as early as late July.",
+      "source_name": "Reuters / Caixin Global",
+      "source_links": [
+        "https://www.caixinglobal.com/2026-07-03/unitree-robotics-wins-approval-for-618-million-star-market-ipo-102460136.html",
+        "https://finance.yahoo.com/technology/articles/chinese-robot-maker-unitree-wins-052743978.html",
+        "https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "On July 3, 2026, the China Securities Regulatory Commission gave final approval for Unitree Robotics to list on Shanghai's STAR Market, targeting roughly 4.2 billion yuan (about $619 million) by selling at least 40.4 million shares. The company plans to price and potentially debut as early as late July, funneling proceeds into AI robotic models, hardware research and a smart-robot manufacturing base. Unitree is one of the rare humanoid makers actually turning a profit, posting an adjusted net profit of 600 million yuan (about $90 million) in 2025. Its 73-day review from filing to approval is among the fastest on record for the STAR Market, signaling how eager Chinese regulators are to back embodied AI.",
+      "founding_story": "Unitree was founded in 2016 in Hangzhou by Wang Xingxing, who built his first cheap quadruped (XDog) as a graduate student. The company made its name selling low-cost, agile quadruped robot dogs (the Go and B-series) that dramatically undercut Boston Dynamics on price, then expanded into low-cost humanoids like the H1 and G1. That relentless cost focus is exactly why it became the world's top humanoid seller by unit volume in 2025.",
+      "who_should_use": "Robotics researchers, university labs and hobbyist developers who want an affordable, programmable quadruped or humanoid platform (G1, Go2, B2) for locomotion, manipulation and RL research. Also relevant to industrial integrators piloting inspection and patrol robots, and to content/marketing teams staging robot demos on a budget.",
+      "who_should_buy": "Buy Unitree hardware if you need a genuinely cheap, capable research platform and can tolerate rougher software, docs and support than Western rivals; a G1 humanoid or Go2 dog costs a fraction of comparable US machines, which is the real differentiator. The IPO shares themselves are an A-share retail-hype bet, not a considered value play, so treat any stock interest with heavy skepticism. Do NOT buy if you need turnkey enterprise support, export-clean supply chains, or a robot that ships production-ready for a specific labor task out of the box.",
+      "free_alternatives": "For research, open-source stacks like ROS 2, NVIDIA Isaac Sim/Lab and MuJoCo let you prototype in simulation for free before buying any hardware. Hugging Face LeRobot offers free models and datasets for low-cost arms. Boston Dynamics' Spot SDK and open quadruped designs (e.g., Stanford Pupper) are cheaper learning routes.",
+      "verdict": "WATCH — the hardware is the best cheap research deal going, but the IPO is a hype-driven China A-share story, not an investment thesis for most readers."
+    },
+    {
+      "id": "agility-churchill-spac",
+      "headline": "Agility Robotics to go public via $2.5B Churchill Capital SPAC",
+      "one_liner": "Maker of the Digit warehouse humanoid becomes the first pure-play humanoid company headed to US public markets.",
+      "source_name": "Agility Robotics / TechCrunch",
+      "source_links": [
+        "https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi",
+        "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+        "https://finance.yahoo.com/technology/articles/agility-robotics-goes-public-churchill-140537469.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Agility Robotics announced a definitive merger with Michael Klein's Churchill Capital Corp XI (Nasdaq: CCXI), valuing the combined company at about $2.5 billion and expected to trade under ticker AGLT. The deal is projected to bring in more than $620 million in gross proceeds, including a $200 million PIPE at $10 per share, and is slated to close in 2026 pending shareholder and SEC approval. Agility says its Digit robot has logged over 65,000 operating hours across nine customer facilities including GXO, Schaeffler and Toyota, and has secured more than $300 million in multi-year Digit v5 orders. Notably, CEO Peggy Johnson is not promising a home robot anytime soon, keeping the pitch focused on warehouses and logistics.",
+      "founding_story": "Agility Robotics spun out of Oregon State University's Dynamic Robotics Laboratory in 2015, co-founded by Damion Shelton, Jonathan Hurst and Mikhail Jones. It grew from the ostrich-legged bipedal research robot Cassie into Digit, a warehouse humanoid built specifically for moving totes and bins. The company has long positioned itself as the pragmatic, work-first alternative to flashier consumer-humanoid promises.",
+      "who_should_use": "Warehouse, distribution and third-party logistics operators (3PLs) automating repetitive tote handling, trailer unloading and bin moving, especially where labor shortages and turnover are high. Manufacturing plants like Schaeffler and Toyota use Digit for materials movement in structured, semi-caged workflows.",
+      "who_should_buy": "Enterprises with high-volume, repetitive material-handling tasks and the integration budget to deploy fleets should evaluate Digit; the genuine strength is real deployed hours and a robot purpose-built for logistics rather than a general-purpose demo. Retail investors eyeing AGLT should remember SPAC humanoid stocks are volatile and pre-profit, so size any position accordingly. Do NOT buy for home use, unstructured environments, or if you expected a dexterous general-purpose humanoid — Agility itself is steering expectations away from that.",
+      "free_alternatives": "Traditional fixed automation (conveyors, AMRs from Locus or 6 River, robotic arms) is often cheaper and more reliable for the same tote tasks today. For evaluating whether humanoids fit at all, warehouse simulation tools and pilots via integrators cost less than committing to fleets.",
+      "verdict": "WATCH — Digit has real logistics traction, but a SPAC listing and pre-profit humanoid economics make AGLT a speculative bet, not a sure thing."
+    },
+    {
+      "id": "tesla-optimus-v3-production",
+      "headline": "Tesla begins slow Optimus V3 production ramp at Fremont",
+      "one_liner": "Musk visits the Optimus line as Tesla targets summer mass-production start, but admits early output will be extremely slow.",
+      "source_name": "Electrek / eWeek",
+      "source_links": [
+        "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/",
+        "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "https://www.eweek.com/robotics/tesla-optimus-robot-launch-timeline/"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "On July 1, 2026, Elon Musk posted a photo from the Optimus production line at Tesla's Fremont factory, signaling the start of a mass-production push for the third-generation robot (V3). The robot is roughly 173 cm and 57 kg, with 22 degrees of freedom per hand, about 50 actuators, and is powered by Tesla's new AI5 chip plus xAI's Grok for voice. Tesla concedes initial output will be extremely slow because roughly 10,000 largely new components lack a mature supply chain. Long-term price targets sit at $20,000–$30,000, though current build costs are far higher, and full scale is not expected until 2027.",
+      "founding_story": "Optimus was announced by Elon Musk at Tesla's 2021 AI Day, initially teased with a person in a robot suit, then shown as real prototypes from 2022 onward. Tesla's thesis is that its self-driving vision stack, chips and manufacturing muscle can be repurposed to build a general-purpose humanoid at car-industry scale and cost. Timelines have repeatedly slipped, which is worth remembering against every new promise.",
+      "who_should_use": "For now, nobody outside Tesla — Optimus V3 runs exclusively inside Tesla's own factories on internal material-handling and assembly tasks. It is relevant to watch for manufacturers and investors tracking whether Tesla can hit humanoid unit costs no one else has.",
+      "who_should_buy": "You cannot buy one; it is not for sale to the public in 2026. Nothing here is uniquely purchasable yet, and Tesla's history of missed Optimus deadlines means even the timeline deserves skepticism. If you are an investor, exposure is only via TSLA stock, where Optimus is one speculative line item among many, not a standalone product you can evaluate. Do NOT make purchase or business plans assuming availability, pricing, or capability that Tesla has only demonstrated in controlled settings.",
+      "free_alternatives": "There is no product to substitute yet. If you want to experiment with humanoid or manipulation AI today, open platforms like Hugging Face LeRobot, NVIDIA Isaac Lab, and lower-cost humanoids from Unitree are actually available now.",
+      "verdict": "WATCH — the manufacturing ambition is real and could reset humanoid economics, but with no product to buy and a long record of slipped dates, believe it when robots ship."
+    },
+    {
+      "id": "figure-03-bmw-spartanburg",
+      "headline": "Figure 03 starts complex parts-sequencing work at BMW Spartanburg",
+      "one_liner": "Figure's newest humanoid graduates from pick-and-place to sorting unsorted parts into sequencing trolleys on a live line.",
+      "source_name": "Figure AI / Manufacturing Digital",
+      "source_links": [
+        "https://www.figure.ai/news/f-03-at-bmw",
+        "https://manufacturingdigital.com/articles/how-bmw-is-using-figure-ai-humanoid-robots-in-production",
+        "https://humanoidroboticstechnology.com/industry-news/figure-deploys-figure-03-at-bmw-plant-spartanburg/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "BMW said on June 25, 2026 that Figure AI's Figure 03 humanoid would begin a logistics sequencing task at Plant Spartanburg, and Figure confirmed on June 30 the robot had arrived in Hall 52. Rather than simple sheet-metal loading, Figure 03 now picks parts from larger unsorted containers and sorts them into sequencing trolleys before assembly. The work is coordinated by Figure's pixels-to-actions vision-language-action model, Helix 02, which controls the robot's hands, arms, torso and feet together so it can manipulate parts while walking and repositioning to pull heavy carts. It is a meaningful step up in task complexity from the earlier Figure 02 pilot at the same plant.",
+      "founding_story": "Figure AI was founded in 2022 by Brett Adcock, a serial entrepreneur who previously co-founded aviation startup Archer and jobs marketplace Vettery. Figure's pitch is a general-purpose humanoid running its own end-to-end neural foundation model, Helix, with BMW as a flagship real-world proving ground. The company has raised at eye-watering valuations on the promise that Helix generalizes across tasks.",
+      "who_should_use": "Automakers and large manufacturers with structured assembly and logistics halls that involve repetitive, physically awkward parts handling and sequencing. Operations and automation leaders evaluating whether vision-language-action humanoids can flex across multiple tasks without task-specific reprogramming.",
+      "who_should_buy": "Large industrial buyers with the scale, integration resources and multi-year horizon to co-develop deployments should engage Figure; the genuine differentiator is Helix, an in-house foundation model handling whole-body coordination, versus bolt-on control stacks. Pricing and ROI remain unproven at scale, so treat vendor claims cautiously. Do NOT buy if you are an SMB, need guaranteed uptime today, or want a robot for unstructured or home environments — this is early-stage industrial pilot territory, not a shipping appliance.",
+      "free_alternatives": "For many single, repetitive station tasks, conventional industrial arms (Fanuc, KUKA, Universal Robots) and AMRs remain far cheaper and more reliable than a humanoid. Simulation-first evaluation via NVIDIA Isaac and open VLA research (OpenVLA, LeRobot) costs nothing to explore before committing.",
+      "verdict": "USE (pilot only) — a genuinely impressive complexity jump for large manufacturers, but it is still an early real-world trial, so scope pilots tightly and verify ROI yourself."
+    },
+    {
+      "id": "uma-northstar-humanoid",
+      "headline": "Ex-Tesla Optimus scientist unveils European humanoid startup UMA",
+      "one_liner": "Remi Cadene's Paris-based UMA reveals its Northstar humanoid and a 'Real-Time Learning' teach-by-demonstration architecture.",
+      "source_name": "Electrek / Interesting Engineering",
+      "source_links": [
+        "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/",
+        "https://interestingengineering.com/ai-robotics/french-firm-humanoid-learns-faster-demonstrations",
+        "https://roboticsbusinessnews.com/news/10/3226/uma-introduces-humanoid-robot-and-real-time-learning-architecture-for-industrial-physical-ai.html"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "On July 7, 2026, at the Machina Summit, Paris-based UMA unveiled the design of its first humanoid, Northstar, and introduced 'Real-Time Learning,' an architecture meant to let robots pick up skills through human demonstration rather than manual programming. UMA argues that reliability — running tasks steadily for hours — matters more for real deployment than flashy one-off manipulation demos. The robot uses human-scale proportions, a neutral visor instead of a face, and deliberately visible mechanical joints, a design choice aimed at European trust and clear human-vs-machine distinction. It targets manufacturing, logistics, healthcare and care settings.",
+      "founding_story": "UMA was founded in 2025 by Remi Cadene (a former Tesla Optimus AI scientist who also helped create Hugging Face's LeRobot open-source robotics library), along with Pierre Sermanet, Robert Knight and Simon Alibert. Headquartered in Paris with teams in London and Geneva, the founders pitch a European 'Physical AI' champion emphasizing safety, real-world robustness and learning from experience. As of the reveal, this is largely design and vision — a shipping robot with independent performance data is not yet public.",
+      "who_should_use": "European manufacturers, logistics operators and care/healthcare facilities interested in a locally-built, safety-and-trust-focused humanoid, plus AI and robotics researchers curious about demonstration-based (imitation-learning) skill acquisition. Right now it is mostly of interest to industry watchers and potential pilot partners, not end buyers.",
+      "who_should_buy": "No one can buy yet — this is a vision-and-design reveal, not an available product, and independent proof of the Real-Time Learning claims does not exist publicly. The honest read: nothing here is purchasable or verified, so the only 'special' factor is a credible founding team and a European trust-and-safety angle. Do NOT commit budget or roadmaps on the basis of this announcement; wait for real deployment data and third-party benchmarks.",
+      "free_alternatives": "Cadene's own Hugging Face LeRobot is free and open source, letting researchers experiment with imitation and demonstration learning on low-cost arms today. NVIDIA Isaac Lab and MuJoCo cover free simulation-based skill learning without waiting for UMA hardware.",
+      "verdict": "WATCH — strong pedigree and a thoughtful European trust angle, but it is still a design reveal with no shipping robot or independent results, so keep expectations grounded."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Chinese firms show off eerily human-looking pop-star humanoids",
+      "one_liner": "New consumer-facing humanoids from China drew attention for lifelike faces and slightly off lip-synch, reviving uncanny-valley debate.",
+      "source_name": "The Register",
+      "source_links": [
+        "https://www.theregister.com/ai-and-ml/2026/07/02/new-humanoid-robots-from-china-look-like-creepy-pop-star-action-figures-complete-with-slightly-dodgy-lip-synch/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "SEC filings confirm Agility-Churchill Capital XI business combination terms",
+      "one_liner": "Churchill Capital Corp XI 8-K and Form 425 filings lay out the Agility Robotics merger structure and disclosures.",
+      "source_name": "US SEC (EDGAR)",
+      "source_links": [
+        "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026071287/ea029548401ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/0002074973/000121390026076112/ea0297344-425_churchill11.htm"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Analysts frame 2026 as humanoid robotics' shift from pilot to platform",
+      "one_liner": "Investment commentary argues the sector is moving from one-off pilots toward scaled, foundation-model-driven platforms.",
+      "source_name": "KraneShares",
+      "source_links": [
+        "https://kraneshares.com/humanoid-robotics-in-2026-the-race-from-pilot-to-platform/"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Unitree IPO seen as a test of frothy China robotics valuations",
+      "one_liner": "With venture capital flooding Chinese robotics, Unitree's Shanghai debut becomes a bellwether for whether valuations hold.",
+      "source_name": "South China Morning Post",
+      "source_links": [
+        "https://www.scmp.com/tech/tech-trends/article/3359290/unitree-ipo-test-valuations-venture-capital-floods-china-robotics"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "BMW expands humanoid deployment plans to German plants",
+      "one_liner": "BMW says it will deploy humanoid robots in production in Germany for the first time, extending its Spartanburg work.",
+      "source_name": "BMW Group PressClub",
+      "source_links": [
+        "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en"
+      ],
+      "credibility": "high"
+    }
+  ]
+}

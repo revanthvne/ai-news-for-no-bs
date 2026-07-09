@@ -90,9 +90,13 @@ def _build_live(date: str) -> dict:
 
     lead = sectors_out[0]["heroes"][0] if sectors_out else {"headline": "Daily AI Short"}
     all_stories = [h for s in sectors_out for h in s["heroes"]]
+    try:
+        tp = sources.top_products()
+    except Exception:
+        tp = []
     return {
         "edition_date": date, "channel": config.CHANNEL_NAME, "generated_by": "live",
-        "sectors": sectors_out, "all_news": all_news,
+        "sectors": sectors_out, "all_news": all_news, "top_products": tp,
         "lead": {"headline": lead["headline"], "sector": sectors_out[0]["sector"] if sectors_out else ""},
         "counts": {"sectors": len(sectors_out),
                    "heroes": sum(len(s["heroes"]) for s in sectors_out),
@@ -115,7 +119,8 @@ def build_edition(date: str, mode: str) -> dict:
         edition = _build_live(date)
     edition["edition_id"] = date
     edition["subject"] = email_render.subject(edition)
-    edition["status"] = "pending_approval"
+    # Auto-publish (default) makes scheduled editions go live immediately.
+    edition["status"] = "approved" if config.AUTO_PUBLISH else "pending_approval"
     return edition
 
 

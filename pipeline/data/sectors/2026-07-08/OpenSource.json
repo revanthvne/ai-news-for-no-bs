@@ -1,0 +1,163 @@
+{
+  "sector": "Open Source",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "curl-summer-of-bliss",
+      "headline": "curl declares a 'Summer of Bliss': no security reports accepted for all of July",
+      "one_liner": "The small team behind code on 20B+ devices will refuse every vulnerability report July 1-Aug 3, 2026 - a burnout flare after an AI-slop era.",
+      "source_name": "daniel.haxx.se (curl) / BleepingComputer / The New Stack",
+      "source_links": [
+        "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+        "https://github.com/curl/curl",
+        "https://www.bleepingcomputer.com/news/security/curl-ending-bug-bounty-program-after-flood-of-ai-slop-reports/"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/1/curl/curl",
+      "image_credit": "curl / GitHub",
+      "story": "curl is the ubiquitous open-source data-transfer tool and libcurl library that runs on an estimated 20+ billion devices - phones, cars, TVs, routers and nearly every backend. On June 15, 2026, lead maintainer Daniel Stenberg announced that the project will not accept or process any vulnerability report between July 1 and August 3, 2026, nicknaming it the 'summer of bliss'; both the HackerOne submission form and the security email address become dead ends for the month. The trigger is exhaustion: the small, volunteer-heavy team had been under intense pressure for months - including a single release that shipped eighteen CVE fixes - on top of the 2025-26 wave of AI-generated 'slop' reports that gutted signal-to-noise, with genuine reports falling from roughly one-in-six to one-in-twenty. As a direct side effect, the curl 8.22.0 release was pushed out to September 2, 2026.",
+      "founding_story": "curl was created by Daniel Stenberg in 1996 (first as 'httpget', then 'urlget', then curl) and grew into foundational internet plumbing maintained by a very small core team. The backdrop is real and documented on Stenberg's own blog and Mastodon: curl ran a HackerOne bug bounty from 2019, but in early 2026 it was overwhelmed by confidently-wrong, LLM-fabricated vulnerability reports; the July 2026 blackout is the maintainers collectively taking a break rather than burning out entirely.",
+      "who_should_use": "Effectively everyone already depends on curl/libcurl - it is embedded in countless devices and backends. The people who must actually act on this news are security researchers and pentesters (hold your reports until August 3, 2026) and engineering leaders who should note the release slip and plan around no security fixes shipping during July.",
+      "who_should_buy": "curl is free and open source under the permissive curl license - there is nothing to buy, ever. If it is load-bearing in your product, the honest cost you owe is support: commercial curl support contracts are available through wolfSSL (Stenberg's employer), and sponsoring the project or its maintainers directly is the actual remedy for the burnout this story is about.",
+      "free_alternatives": "For the tool itself, wget handles simple downloads, HTTPie is a friendlier JSON/CLI client, and every language ships an HTTP library - but none match libcurl's protocol breadth or ubiquity, so 'replacing curl' misses the point. The real lesson of this story: there is no free substitute for funded, rested maintainers.",
+      "verdict": "USE (and fund) - keep using curl, respect the July blackout, and if it is in your stack, sponsor it; this is the clearest proof yet that critical open source needs money and rest, not just GitHub stars.",
+      "github_stars": null
+    },
+    {
+      "id": "minimax-m3",
+      "headline": "MiniMax M3 puts frontier-class, million-token, multimodal model weights in the open",
+      "one_liner": "China's MiniMax open-sourced a 428B-param MoE with 1M-token context and native multimodality; it claims 59% on SWE-bench Pro - self-reported.",
+      "source_name": "Hugging Face / The Decoder / TechTimes",
+      "source_links": [
+        "https://huggingface.co/MiniMaxAI",
+        "https://the-decoder.com/minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leaders/",
+        "https://www.techtimes.com/articles/317532/20260601/minimax-m3-open-weight-coding-model-frontier-claims-unverified-benchmarks.htm"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "image_credit": null,
+      "story": "MiniMax M3 launched on June 1, 2026, with open weights live on Hugging Face by June 7 - a 428-billion-parameter (about 23B active) mixture-of-experts model with a 1-million-token context window and native image/video understanding. MiniMax pitches it as the first open-weight model to combine frontier coding, million-token context and multimodality in one architecture, reporting 59.0% on SWE-bench Pro - ahead of GPT-5.5 and Gemini 3.1 Pro by its own numbers, though behind Claude Opus 4.8's roughly 69%. The important caveat: those benchmark scores are company-reported, run on MiniMax's own infrastructure, and have not yet been independently reproduced. What is verifiable and matters is that the actual weights are downloadable under a permissive license, so you can run, fine-tune and audit the model yourself.",
+      "founding_story": "MiniMax is a Shanghai-based AI company (backed by Alibaba and Tencent) known for its earlier 'abab' models and the Hailuo video generator. M3 is its mid-2026 flagship open-weight release, part of the broader 2025-26 wave of Chinese labs shipping open weights to compete with closed US frontier models. Detailed internal origins of the M3 project are not publicly documented, so treat any specifics beyond the release facts as unconfirmed.",
+      "who_should_use": "Teams building coding agents or long-context pipelines (whole-repo reasoning, large-document RAG) who want frontier-ish capability without per-token API lock-in, and researchers who need open weights to fine-tune or audit. The 1M context and native multimodality are the genuine differentiators for document- and video-heavy workloads.",
+      "who_should_buy": "The weights are free (a permissive MIT/Apache-class license). The real cost is compute: a 428B MoE needs serious multi-GPU hardware to self-host, so most users will either rent a host or use MiniMax's paid API. Using the hosted API is fine for prototyping, but note the governance issue - as a Chinese-company endpoint it is subject to China's National Intelligence Law, so for sensitive data, self-hosting the open weights (or using a Western host) is the honest recommendation.",
+      "free_alternatives": "Against closed APIs (GPT-5.5, Gemini 3.1 Pro, Claude Opus), M3 trades some quality for open weights and lower cost. Among open-weight peers it is a crowded field: Kimi K2.7-Code for coding-token efficiency, DeepSeek V4 for price and reasoning, Qwen 3.6 for single-GPU practicality, and GLM-5.2. If you need max context plus multimodal in one open model, M3 is compelling; if you just want the best open coder per dollar, benchmark it against Kimi and DeepSeek on your own tasks first.",
+      "verdict": "WATCH (leaning USE) - genuinely valuable open weights, but wait for independent benchmarks before trusting the 'beats GPT-5.5' framing, and mind the data-jurisdiction issue if you use the hosted API instead of self-hosting.",
+      "github_stars": null
+    },
+    {
+      "id": "mcpsnoop",
+      "headline": "mcpsnoop, 'Wireshark for MCP', hits Hacker News as agent debugging matures",
+      "one_liner": "A zero-config, single-binary Go proxy that shows every real tool call between your AI client and your MCP servers, live in your terminal.",
+      "source_name": "GitHub / Hacker News (Show HN) / TechTimes",
+      "source_links": [
+        "https://github.com/kerlenton/mcpsnoop",
+        "https://news.ycombinator.com/item?id=48777144",
+        "https://www.techtimes.com/articles/319699/20260704/mcp-debugging-goes-transparent-new-open-source-tool-sees-what-inspector-misses.htm"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/1/kerlenton/mcpsnoop",
+      "image_credit": "mcpsnoop / GitHub",
+      "story": "mcpsnoop, published July 4, 2026 and posted as a Show HN, is a transparent proxy that sits in the real data path between an AI client (Cursor, Claude Code, Codex) and its Model Context Protocol servers, copying every JSON-RPC frame to a live terminal UI while forwarding traffic untouched. Its pitch: the official MCP Inspector connects as its own client, so it never sees what your actual client sends - mcpsnoop shows the real traffic, including the call the model got wrong or never made. It is a single Go binary with prebuilt cross-platform releases, and it adds session replay, capability-negotiation views, latency/error call-outs, stream filtering, and JSON/HTML/text export. As MCP becomes the default way to wire tools into agents, this fills a real debugging gap.",
+      "founding_story": "mcpsnoop is an independent open-source project by GitHub developer 'kerlenton,' launched directly as a Show HN on July 4, 2026. It is early-stage with no visible company or funding behind it, so while the tool is immediately useful, treat long-term maintenance as unproven.",
+      "who_should_use": "Anyone building or debugging MCP servers or agent integrations: server authors verifying their tools actually behave, and developers chasing down why an agent calls a tool with the wrong arguments (or not at all). Concretely, drop it between Claude Code/Cursor and your server, reproduce the bug, and watch the real frames, latencies and errors.",
+      "who_should_buy": "Free and open source; nothing to buy, no cloud tier, no API cost. It runs locally as one binary - the only real 'cost' is trust: it can see all MCP traffic, so review the source before pointing it at anything sensitive.",
+      "free_alternatives": "The official MCP Inspector is the obvious free comparison - great for poking a server directly, but by design it cannot see your real client's traffic, which is exactly mcpsnoop's niche. Generic tools like mitmproxy or Wireshark work at the transport layer but are not MCP-aware. For live, MCP-native pipe visibility, mcpsnoop is currently the best free option.",
+      "verdict": "USE - if you touch MCP at all, it is a free, low-risk addition to your debugging kit; just remember it is a brand-new solo project, so do not build critical process around it yet.",
+      "github_stars": null
+    },
+    {
+      "id": "emdash",
+      "headline": "Emdash lets you run a whole team of coding agents in parallel, each in its own worktree",
+      "one_liner": "Open-source 'agentic development environment' (YC W26) runs many coding agents at once - Claude Code, Codex, Gemini - isolated in git worktrees.",
+      "source_name": "GitHub / Y Combinator / emdash.sh",
+      "source_links": [
+        "https://github.com/generalaction/emdash",
+        "https://emdash.sh/",
+        "https://www.ycombinator.com/companies/emdash"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/1/generalaction/emdash",
+      "image_credit": "Emdash / GitHub",
+      "story": "Emdash is an open-source desktop app for running multiple AI coding agents at the same time, each isolated in its own git worktree, so you can spin up several attempts at a fix or feature, review the diffs, and merge whatever works without agents clobbering each other's files. It is deliberately provider-agnostic - Claude Code, Codex, OpenCode, Gemini, Amp and more - and runs on local projects or over SSH on a remote machine. You can pull issues from Linear, GitHub, Jira, GitLab, Asana and others, then review diffs, open PRs, inspect CI and merge from one place. At roughly 2,400 GitHub stars with 60K+ downloads, it is an early leader in the fast-growing parallel-agent-orchestration niche.",
+      "founding_story": "Emdash is a Y Combinator Winter 2026 company, founded by Arne Strickmann and Raban von Spiegel in San Francisco. The project is young - the repo shows heavy, active development (dozens of releases) rather than a long track record - and deeper origin details beyond the YC batch and founders are not yet publicly documented.",
+      "who_should_use": "Developers who already lean on coding agents and want to parallelize - running several agents on separate tickets, or racing multiple solutions to the same bug, with clean worktree isolation. It is a strong fit for teams with issue-driven workflows (Linear/Jira to agent to PR) who want to keep their preferred agent CLI but manage many at once.",
+      "who_should_buy": "The app is free and open source; you run it on your own machine. The real costs are downstream: each underlying agent needs its own API key or subscription (Claude Code, Codex, etc.), and running many in parallel multiplies token spend fast - that is the budget line to watch. There is no required paid Emdash cloud tier; remote-over-SSH just uses your own box.",
+      "free_alternatives": "Against hosted, paid orchestration (cloud 'agent farm' products or one-shot services like Broccoli), Emdash's edge is being free, local and provider-agnostic. Open-source peers include Conductor-style worktree managers or rolling your own git worktrees plus tmux, and Aider/OpenHands for single-agent flows. If you specifically want a polished multi-agent, multi-provider cockpit, Emdash is the strongest free pick today; if you only ever run one agent, a plain CLI is simpler.",
+      "verdict": "USE - the best free way right now to herd multiple coding agents with clean worktree isolation; just watch the combined API bill, because parallelism multiplies token cost.",
+      "github_stars": 2400
+    },
+    {
+      "id": "paradedb",
+      "headline": "ParadeDB pushes 'one Postgres instead of a second search system' as Postgres eats search",
+      "one_liner": "Open-source pg_search extension adds Elastic-quality full-text search and vector retrieval to Postgres - 700K+ installs, VC-backed.",
+      "source_name": "GitHub / TechCrunch / ParadeDB",
+      "source_links": [
+        "https://github.com/paradedb/paradedb",
+        "https://techcrunch.com/2025/07/15/paradedb-takes-on-elasticsearch-as-interest-in-postgres-explodes-amid-ai-boom/",
+        "https://www.paradedb.com/blog/series-a-announcement"
+      ],
+      "credibility": "high",
+      "image_url": "https://opengraph.githubassets.com/1/paradedb/paradedb",
+      "image_credit": "ParadeDB / GitHub",
+      "story": "ParadeDB is an open-source Postgres extension (pg_search) that adds Elasticsearch-quality full-text search, vector retrieval and fast aggregations directly to a Postgres database - the pitch is 'search without a second system,' so you drop the operational pain of syncing data into a separate Elastic cluster. The ParadeDB Community edition has been installed 700,000+ times, and the project is a standard-bearer for the 2026 trend of Postgres absorbing workloads that used to need dedicated infrastructure. It is used in production from startups to enterprises, including Alibaba Cloud, Bilt Rewards and Modern Treasury. (Its headline funding - a $12M Series A led by Craft Ventures, about $14M total, with Y Combinator participating - landed in mid-2025; the continued adoption through 2026 is the ongoing story.)",
+      "founding_story": "ParadeDB is a Y Combinator-backed company created to build a modern Elasticsearch alternative on top of Postgres rather than as yet another standalone search engine. It launched in late 2023 and grew quickly on the back of developer frustration with deploying and syncing separate Elastic/OpenSearch clusters, later raising a $12M Series A led by Craft Ventures in 2025. (Specific founder names are not verified here.)",
+      "who_should_use": "Teams already running Postgres who need real full-text search, hybrid keyword-plus-vector search, or analytics but do not want to stand up and sync a separate Elasticsearch/OpenSearch cluster. Concretely: app developers adding search to an existing Postgres app, and teams building RAG or hybrid-search features who want one system for both relational data and retrieval.",
+      "who_should_buy": "The Community edition is free and open source and you can self-host it on your own Postgres. Paid options exist - ParadeDB Enterprise (self-managed, for high-availability and large-scale deployments) and managed offerings - and they are worth it mainly if you need enterprise support, HA and scale guarantees rather than DIY. For most teams, self-hosting the free extension is the right start; pay only when uptime and support SLAs justify it.",
+      "free_alternatives": "As a replacement for paid/managed Elastic (Elastic Cloud) or OpenSearch, ParadeDB's advantage is not running a second system at all. Other free/open options: native Postgres full-text search plus pgvector (simpler, but weaker relevance and analytics than pg_search), self-hosted OpenSearch or Elasticsearch (more powerful search, far more ops overhead), or Typesense/Meilisearch for lightweight standalone search. If your data already lives in Postgres, ParadeDB is usually the least-effort strong option; if you need heavyweight, tunable search at massive scale, a dedicated engine may still win.",
+      "verdict": "USE - if you are on Postgres and tempted to bolt on Elasticsearch, try ParadeDB first; it kills an entire syncing/ops headache for free, and you can pay for a managed tier later only if scale demands it.",
+      "github_stars": null
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Moonshot ships Kimi K2.7-Code, an open-weight coding specialist tuned for cheaper agent runs",
+      "one_liner": "June 12 release: a 1T-param MoE (32B active) with 256K context and roughly 30% fewer reasoning tokens than K2.6, weights on Hugging Face under a Modified MIT license.",
+      "source_name": "Hugging Face / MarkTechPost",
+      "source_links": [
+        "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+        "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "OpenClaw crosses ~382k stars - passing React and Linux - even as security researchers raise alarms",
+      "one_liner": "Peter Steinberger's self-hosted personal AI agent is now the most-starred software repo on GitHub, but a self-modifying agent wired to your messengers draws prompt-injection warnings.",
+      "source_name": "GitHub / The New Stack",
+      "source_links": [
+        "https://github.com/openclaw/openclaw",
+        "https://thenewstack.io/openclaw-github-stars-security/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Google's Universal Commerce Protocol advances an open standard for agentic shopping",
+      "one_liner": "Google-led open protocol (with Shopify, Etsy, Target, Walmart and 20+ partners) for AI-agent commerce; a March 2026 update added cart and catalog support, and it interoperates with MCP and A2A.",
+      "source_name": "Google Developers Blog / ucp.dev",
+      "source_links": [
+        "https://developers.googleblog.com/under-the-hood-universal-commerce-protocol-ucp/",
+        "https://ucp.dev/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Google joins the Eclipse Foundation and sponsors Open VSX",
+      "one_liner": "Google becomes an Eclipse Strategic Member and backs Open VSX - the vendor-neutral VS Code extension registry (300M+ monthly downloads) behind Cursor, Windsurf, Kiro and Antigravity.",
+      "source_name": "Google Open Source Blog / The New Stack",
+      "source_links": [
+        "https://opensource.googleblog.com/2026/06/google-joins-the-eclipse-foundation-as-a-strategic-member-to-accelerate-ai-integrated-developer-tools.html",
+        "https://thenewstack.io/open-vsx-managed-registry/"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "DeepSeek V4 resets the open-weight cost floor with Pro and Flash variants",
+      "one_liner": "The April 2026 open-weight release leans on low price and algorithmic reasoning, leading several competitive-programming benchmarks; weights are on Hugging Face.",
+      "source_name": "Hugging Face / BenchLM",
+      "source_links": [
+        "https://huggingface.co/deepseek-ai",
+        "https://benchlm.ai/blog/posts/best-chinese-llm"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

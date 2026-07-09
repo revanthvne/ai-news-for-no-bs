@@ -1,0 +1,148 @@
+{
+  "sector": "Stocks",
+  "as_of": "2026-07-09",
+  "heroes": [
+    {
+      "id": "deepseek-chip-selloff",
+      "headline": "DeepSeek's Own AI Chip Rattles the Semiconductor Trade",
+      "one_liner": "Reuters says China's DeepSeek is building an in-house inference chip, sparking a July 7 chip and memory selloff.",
+      "source_name": "Reuters / Bloomberg",
+      "source_links": [
+        "https://www.usnews.com/news/top-news/articles/2026-07-07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say",
+        "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says",
+        "https://finance.yahoo.com/technology/ai/articles/exclusive-chinas-deepseek-developing-own-103437335.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "Reuters reported on July 7, 2026 that DeepSeek has spent the past year quietly developing a proprietary AI inference chip to cut its reliance on Nvidia and Huawei. The chip targets inference, where trained models generate responses, rather than the harder task of training new models. The news, layered on top of growing skepticism about the durability of the AI rally, pushed Nvidia down about 1.5% premarket and hit memory names harder, with Micron off roughly 4.7%, Western Digital about 6.3%, and SanDisk around 4.6%. The Nasdaq opened notably lower with chip stocks broadly under pressure.",
+      "founding_story": "DeepSeek was founded in 2023 and grew out of Chinese quantitative hedge fund High-Flyer, led by Liang Wenfeng. It became globally known in early 2025 for releasing capable open-weight models trained at a claimed fraction of Western labs' cost, which itself triggered a major AI-stock selloff at the time. Moving into custom silicon marks a significant strategic shift for the company.",
+      "who_should_use": "Semiconductor-sector watchers, ETF and index investors tracking the SOX/chip complex, and AI-infrastructure analysts who want to understand demand concentration risk in Nvidia and memory suppliers.",
+      "who_should_buy": "This story matters most to anyone heavily concentrated in a single chip name or the AI-hardware theme, as a reminder that customer-built silicon is a real long-term risk to merchant chipmakers. Honest take: a single unconfirmed sourcing report is a sentiment event, not a thesis-breaker, and one Chinese inference chip does not undo global GPU demand. This is not financial advice. Those who should NOT act on it are traders tempted to make a leveraged bet on one day's headline reaction.",
+      "free_alternatives": "Read the primary Reuters/Bloomberg reports directly rather than paywalled hot takes; use free tools like Yahoo Finance, Finviz, and the SEC EDGAR filings for Nvidia and Micron; broad-market or total-market index funds diversify away single-chip-name risk at near-zero cost.",
+      "verdict": "WATCH — a credible but unconfirmed report worth tracking for confirmation, not a reason to reshuffle a portfolio on one red open."
+    },
+    {
+      "id": "meta-compute-cloud",
+      "headline": "Meta Launches 'Meta Compute' to Sell Its Excess AI Power",
+      "one_liner": "Meta plans a cloud business renting surplus AI compute, taking on AWS, Azure and Google Cloud; shares jumped ~9%.",
+      "source_name": "Bloomberg / Motley Fool",
+      "source_links": [
+        "https://www.bloomberg.com/news/articles/2026-07-01/meta-is-building-a-cloud-business-to-sell-excess-ai-compute",
+        "https://www.fool.com/investing/2026/07/08/mark-zuckerbergs-meta-stock-surged-9-on-new-cloud/",
+        "https://finance.yahoo.com/technology/ai/articles/meta-meta-launches-meta-compute-131618209.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "On July 1, 2026, Meta unveiled plans for a cloud infrastructure business, reportedly called Meta Compute, to sell access to AI computing power and models built on its own massive data-center buildout. The move opens a new revenue line beyond advertising and puts Meta into direct competition with AWS, Microsoft Azure and Google Cloud. Meta shares climbed roughly 9% on the news, easing pressure on a stock that had lagged the S&P 500 earlier in the year. The plan leverages AI infrastructure spending projected to reach $125 billion to $145 billion in 2026.",
+      "founding_story": "Meta began as Facebook, launched in 2004 by Mark Zuckerberg and Harvard classmates, and rebranded to Meta Platforms in 2021 to emphasize its metaverse and AI ambitions. Its advertising engine funds one of the largest AI infrastructure buildouts in the world, which is exactly the surplus capacity this cloud business aims to monetize.",
+      "who_should_use": "Cloud and megacap-tech analysts, developers curious about a new place to rent AI compute, and investors modeling how hyperscaler capex converts into future revenue.",
+      "who_should_buy": "Relevant to those following the megacap-AI trade and anyone weighing whether Meta's enormous capex can generate outside returns rather than just internal cost. Honest take: this is early-stage and unproven against entrenched hyperscalers, and a 9% pop reflects optimism, not delivered revenue. This is not financial advice. People who should NOT act on it are those chasing the one-day spike expecting the cloud unit to be material to earnings soon.",
+      "free_alternatives": "Meta's own investor-relations filings and quarterly capex disclosures are free; compare cloud economics using public AWS, Azure and Google Cloud pricing pages; broad tech index funds (e.g., a total-market or Nasdaq-100 fund) capture Meta without single-stock concentration.",
+      "verdict": "WATCH — a genuinely interesting strategic pivot, but judge it on realized cloud revenue in coming quarters, not the announcement pop."
+    },
+    {
+      "id": "sk-hynix-nasdaq-ipo",
+      "headline": "SK Hynix's Record $28B Nasdaq Listing Tests the AI Boom",
+      "one_liner": "Memory giant SK Hynix debuts on Nasdaq July 11 under 'SKHY' in the largest foreign US listing ever, demand 7x supply.",
+      "source_name": "Fortune / Yahoo Finance",
+      "source_links": [
+        "https://fortune.com/2026/07/05/sk-hynix-stock-us-listing-nasdaq-ai-boom-bust-memory-chip-shortage/",
+        "https://finance.yahoo.com/technology/article/sk-hynix-ipo-to-give-us-investors-bigger-bite-of-the-memory-pie-as-shortages-persist-193700352.html"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "SK Hynix is set to begin US public trading on the Nasdaq on July 11, 2026, offering about 177.9 million American depositary shares under the ticker SKHY. The company is seeking to raise roughly $28 billion, which would be the largest foreign listing in history, with reported demand running at about seven times available shares. The Korea-listed stock has surged roughly 770% over the prior 12 months on insatiable demand for high-bandwidth memory (HBM) used in AI accelerators. Analysts frame the debut as a bellwether for whether the AI memory boom still has room to run or is nearing a top.",
+      "founding_story": "SK Hynix traces its roots to Hyundai Electronics, founded in 1983, later becoming Hynix Semiconductor before SK Group acquired a controlling stake in 2012 and renamed it SK Hynix. It is now one of the world's top memory makers alongside Samsung and Micron, and a key HBM supplier for Nvidia's AI systems.",
+      "who_should_use": "IPO watchers, memory- and HBM-cycle analysts, and investors wanting direct US-listed exposure to the AI memory supply chain rather than through Korean shares.",
+      "who_should_buy": "This matters to anyone tracking the AI memory cycle and to investors who see the listing as a sentiment gauge for the whole AI trade. Honest take: a stock up 770% in a year listing into 7x oversubscription carries real cyclicality risk, and memory is famously boom-and-bust; hot IPOs frequently trade violently in early sessions. This is not financial advice. Those who should NOT act on it are people tempted to buy at any price on day one without understanding memory-cycle downside.",
+      "free_alternatives": "The IPO prospectus (F-1/424B) on SEC EDGAR is free and the best primary source; free IPO calendars from Nasdaq, StockAnalysis and IPOScoop track pricing; a semiconductor index ETF gives diversified memory exposure without single-IPO risk.",
+      "verdict": "WATCH — a landmark listing and a useful AI-sentiment barometer, but a red-hot, deeply cyclical debut deserves patience over day-one enthusiasm."
+    },
+    {
+      "id": "amd-ai-surge",
+      "headline": "AMD's AI Comeback: Up ~130%+ YTD on Hyperscaler Wins",
+      "one_liner": "AMD shares have roughly doubled in 2026 as MI300/MI400 accelerators gain hyperscaler traction, including a big Meta deal.",
+      "source_name": "TheStreet / 24-7 Wall St.",
+      "source_links": [
+        "https://www.thestreet.com/investing/stocks/amd-advanced-micro-devices-inc-stock-price-target-goldman-sachs-july-2026",
+        "https://247wallst.com/investing/2026/07/03/up-140-ytd-three-catalysts-will-take-amd-to-new-highs-in-2026/",
+        "https://www.fool.com/investing/2026/07/04/why-july-could-be-a-big-month-for-amd-stock-invest/"
+      ],
+      "credibility": "medium",
+      "image_url": null,
+      "story": "Advanced Micro Devices has been one of 2026's standout large-cap performers, with shares up roughly 130% year-to-date (some sources cite more) as investors bet on its improving position in AI accelerators. Its MI300X series has drawn hyperscalers including Microsoft, Meta and Oracle seeking cheaper alternatives to Nvidia, and reports point to a large multiyear Meta commitment around the newer MI400 series. AMD data-center revenue reached about $5.8 billion in Q1 2026, up 57% year over year. With megacap earnings due in late July, AI-capex commentary is a key near-term catalyst.",
+      "founding_story": "AMD was founded in 1969 by Jerry Sanders and a group of former Fairchild Semiconductor engineers. Long the number-two x86 CPU maker behind Intel, it was transformed under CEO Lisa Su (since 2014) into a serious data-center and GPU competitor, and is now Nvidia's most credible rival in AI accelerators.",
+      "who_should_use": "Semiconductor investors comparing Nvidia alternatives, data-center capex analysts, and anyone modeling how hyperscaler multi-sourcing reshapes the AI-chip market.",
+      "who_should_buy": "Relevant to those weighing the AI-accelerator competitive landscape and whether a number-two chip supplier can keep taking share. Honest take: a stock that has already roughly doubled this year prices in a lot of good news, and elevated expectations make it vulnerable to any capex or guidance disappointment. This is not financial advice. Those who should NOT act on it are momentum chasers extrapolating a 130% run indefinitely without watching valuation and gross-margin trends.",
+      "free_alternatives": "AMD's own 10-Q/10-K and earnings calls on SEC EDGAR and investor relations are free; free screeners like Finviz and Yahoo Finance track valuation vs. peers; a semiconductor ETF spreads risk across AMD, Nvidia and the broader chip complex.",
+      "verdict": "WATCH — a real competitive turnaround with genuine hyperscaler wins, but the easy money is behind it and July earnings set the bar high."
+    },
+    {
+      "id": "sp500-record-july-streak",
+      "headline": "S&P 500 Near Records as the 11-Year July Streak Is Tested",
+      "one_liner": "S&P 500 up ~9.6% and Nasdaq ~12.8% in H1 2026, but early-July chip wobble puts the index's July win streak at risk.",
+      "source_name": "CNBC / EBC / Motley Fool",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html",
+        "https://www.ebc.com/forex/s-and-p-500-returns-july-2026-can-the-11-year-winning-streak-survive",
+        "https://www.fool.com/investing/2026/07/08/sp-500-near-record-high-etf-smart-buy-qqqm/"
+      ],
+      "credibility": "high",
+      "image_url": null,
+      "story": "The S&P 500 rose about 9.6% and the Nasdaq about 12.8% in the first half of 2026, with the Dow closing at a record 53,055.91 on July 6. The S&P closed around 7,537 that day, roughly 1% below its early-June record of about 7,610. The index has finished higher every July from 2015 through 2025, an 11-year streak now at risk after it closed July 8 below its June 30 level amid the DeepSeek-driven chip selloff. FactSet expects Q2 S&P 500 earnings growth of about 23% year over year, a strong backdrop as megacap results arrive late in the month.",
+      "founding_story": "The S&P 500 in its modern 500-company form was launched by Standard & Poor's in 1957 as a broad gauge of large US companies. It is maintained today by S&P Dow Jones Indices and underpins trillions of dollars in index funds and ETFs, making it the default benchmark for US equity performance.",
+      "who_should_use": "Long-term index investors, retirement savers benchmarking their portfolios, and anyone gauging overall market breadth and seasonality rather than individual stocks.",
+      "who_should_buy": "This is the broad-market backdrop that matters to nearly every equity holder, especially passive index and 401(k) investors. Honest take: seasonality streaks like the July record are trivia, not a strategy, and near-record levels with concentrated megacap leadership mean drawdowns are always possible. This is not financial advice. Those who should NOT act on it are people trying to time entries and exits off a calendar pattern; consistent contributions beat streak-chasing.",
+      "free_alternatives": "Low-cost broad index funds and ETFs (total-market or S&P 500 trackers) from major providers carry near-zero fees; free tools like the CNBC/Yahoo Finance market pages and the St. Louis Fed's FRED database let you track the index and earnings trends yourself.",
+      "verdict": "USE — the broad market remains the honest default for most long-term investors; treat the July streak as color, not a signal."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "Micron and memory names slide as DeepSeek chip news hits storage stocks",
+      "one_liner": "Micron fell ~4.7%, Western Digital ~6.3% and SanDisk ~4.6% on July 7 as AI-hardware sentiment wobbled.",
+      "source_name": "Reuters / Yahoo Finance",
+      "source_links": [
+        "https://finance.yahoo.com/technology/ai/articles/exclusive-chinas-deepseek-developing-own-103437335.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Big Tech 'Mag 7' steps up as chip stocks take a breather in early July",
+      "one_liner": "After an 80%+ first-half surge in semis, investors rotated toward megacap software and platforms.",
+      "source_name": "Yahoo Finance",
+      "source_links": [
+        "https://finance.yahoo.com/markets/stocks/articles/big-tech-resurgence-investors-waiting-072037591.html"
+      ],
+      "credibility": "medium"
+    },
+    {
+      "headline": "Late-July megacap earnings loom as the market's next catalyst",
+      "one_liner": "Microsoft, Meta, Amazon and Alphabet report late July; AI capex guidance will steer chip-demand expectations.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/06/stock-market-today-live-updates.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Tech led H1 2026 gains, but the biggest winners were outside the US",
+      "one_liner": "Emerging-market and international tech outpaced US megacaps in the first half, per CNBC's mid-year review.",
+      "source_name": "CNBC",
+      "source_links": [
+        "https://www.cnbc.com/2026/07/01/tech-stocks-mag-7-emerging-markets-nvidia-chip-ai.html"
+      ],
+      "credibility": "high"
+    },
+    {
+      "headline": "Nvidia's June dip fuels debate: healthy consolidation or repricing?",
+      "one_liner": "NVDA fell ~10.8% in June, raising questions ahead of its late-August results and elevated Q2 expectations.",
+      "source_name": "BeInCrypto / Intellectia",
+      "source_links": [
+        "https://beincrypto.com/nvidia-stock-price-forecast-july-2026/",
+        "https://intellectia.ai/blog/nvidia-stock-analysis-july-2026"
+      ],
+      "credibility": "medium"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "sector": "eVTOL",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "joby-last-gate-dubai-toyota",
+      "headline": "Joby hits the last gate: FAA final-stage flight testing, Dubai's certified vertiport, and a Toyota factory joint venture",
+      "one_liner": "The eVTOL front-runner is one FAA gate from launch, Dubai just certified the world's first commercial vertiport for it, and Toyota is now a production partner.",
+      "source_name": "Joby Aviation newsroom, Gulf News, Aviation A2Z",
+      "source_links": [
+        "https://www.jobyaviation.com/news/joby-aviation-and-toyota-motor-corporation-launch-initial-phase-of-a-strategic-manufacturing-alliance-to-realize-air-mobility-for-all",
+        "https://aviationa2z.com/index.php/2026/07/07/dubai-unveils-worlds-first-certified-commercial-vertiport/",
+        "https://gulfnews.com/business/aviation/air-taxi-maker-joby-aviation-enters-final-stages-of-faa-certification-ahead-of-dubai-launch-1.500337553"
+      ],
+      "credibility": "High. Threads corroborated by Joby's and Toyota's own press releases, Gulf News, and GCAA-reported vertiport certification (Khaleej Times / Aviation A2Z). Certification timing remains an estimate, not a guarantee.",
+      "image_url": "https://cdn.sanity.io/images/h5mp19kq/production/38f0798ee3f0e57f4415e465f3ddb1e0e92ca063-6000x4000.jpg?w=1200",
+      "story": "Joby has cleared FAA type-certification Stage 4 and is now flying its first FAA-conforming S4 aircraft under Type Inspection Authorization (TIA), the step that lets FAA pilots run official for-credit flights before a type certificate can issue, targeted for late 2026. In parallel, the UAE's GCAA on July 7, 2026 certified VDX next to Dubai International Airport as the world's first purpose-built commercial vertiport, and Joby holds a six-year exclusive to run Dubai's network with a public launch ordered before year-end. On June 30, 2026 Joby and Toyota launched the initial phase of a manufacturing joint venture to industrialize production. Joby also owns Blade's former passenger business (about 90,000 riders in 2025) and has Delta and Uber tie-ins for the U.S.",
+      "founding_story": "Real and well-documented. Joby Aero was founded in 2009 by JoeBen Bevirt, who incubated it with a handful of engineers in 'The Barn' workshop in the Santa Cruz Mountains after earlier robotics and consumer-gadget ventures. Toyota first invested in 2017 and had put in roughly $894M by 2023; Joby went public in August 2021 via a SPAC merger with Reinvent Technology Partners (backed by Reid Hoffman and Mark Pincus) on the NYSE. Bevirt remains founder-CEO and is reported to be the eVTOL sector's first billionaire on his stake.",
+      "who_should_use": "Launch-city riders first: Dubai airport-to-Palm Jumeirah passengers who want a ~12-minute hop instead of a 45-minute drive, and eventually NYC travelers wanting JFK-to-Manhattan in under 10 minutes via Blade/Delta lounges. Also relevant to vertiport operators and airport authorities (Skyports, RTA, Port Authority of NY/NJ) planning charging-equipped hubs, and to OEM-watchers studying how Toyota production discipline transfers to aircraft.",
+      "who_should_buy": "You cannot buy the aircraft; you can buy a future ride or the stock (NYSE: JOBY). The ride is genuinely special: quiet, zero-operating-emissions, four seats plus pilot, ~200 mph, and it will exist first in Dubai and likely a U.S. city. Cost reality: early fares will be premium helicopter-adjacent, not Uber-cheap. As an investment, JOBY is the sector's front-runner but still pre-revenue and priced for years of flawless execution; anyone who cannot stomach dilution, certification slips, or a multi-year hold should not bet the mortgage on it. Not financial advice.",
+      "free_alternatives": "For the job-to-be-done today, cheaper options usually win: airport express trains and rideshare beat any air taxi on price, and in Dubai the Metro plus a taxi is a fraction of the cost. Existing helicopter shuttles (Blade) already do JFK-Manhattan now. Joby's honest edge is noise, emissions, and eventually price-per-seat at scale, not being cheaper on day one.",
+      "verdict": "WATCH — Closest thing to a real ticket in the West, but you are paying front-runner prices for a company that still has to finish certification and actually fly paying passengers; ride it before you buy it."
+    },
+    {
+      "id": "faa-eipp-integration-pilot-program",
+      "headline": "Washington clears the runway: the FAA's eVTOL Integration Pilot Program starts real operations this summer",
+      "one_liner": "A Trump executive order spawned an 8-project, 26-state program letting eVTOLs fly commercial-style missions in 2026, ahead of full FAA type certification.",
+      "source_name": "FAA, U.S. DOT, Morgan Lewis",
+      "source_links": [
+        "https://www.faa.gov/newsroom/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil-eight",
+        "https://www.transportation.gov/briefing-room/future-aviation-here-trumps-transportation-secretary-sean-p-duffy-and-faa-unveil",
+        "https://www.morganlewis.com/pubs/2026/03/dot-and-faa-announce-eipp-participants"
+      ],
+      "credibility": "High. Primary announcements from the FAA and U.S. DOT, with independent legal and trade-press analysis (Morgan Lewis, Commercial UAV News).",
+      "image_url": null,
+      "story": "On March 9, 2026, Transportation Secretary Sean Duffy and the FAA named eight winning projects for the Advanced Air Mobility and eVTOL Integration Pilot Program (eIPP), chosen from more than 30 proposals and spanning 26 states. The concepts range from urban air taxis and regional passenger runs to cargo, emergency medical response, and offshore energy transport, with public operations set to begin by summer 2026. Data from these projects is meant to feed the FAA's future rulemaking, effectively giving eVTOLs a supervised on-ramp before full type certificates exist. Joby, Archer, and Beta are all named partners, and it powered Joby's New York and Bay Area demonstration flights.",
+      "founding_story": "This is a policy vehicle, not a company. It traces to President Trump's June 2025 'Unleashing American Drone Dominance' executive order, which directed DOT and the FAA to stand up an integration pilot program. DOT/FAA opened solicitations, received 30-plus proposals, and announced the eight selections in March 2026; participation still depends on finalizing Other Transaction Agreement (OTA) contracts, a caveat Joby itself flags in its filings.",
+      "who_should_use": "eVTOL operators and manufacturers wanting real-world flight hours and FAA relationship-building before type certification; cities, airports, and state DOTs (New York's Port Authority, for example) that want to pilot vertiport and airspace integration; and cargo, air-ambulance, and offshore-energy operators testing non-passenger use cases that can scale faster than urban air taxis.",
+      "who_should_buy": "There is nothing to buy here, and that is the point: this is the single biggest near-term catalyst for the whole U.S. sector, so it should shape how you read every American eVTOL stock. What is genuinely special is regulatory momentum — a government actively pulling the timeline forward. What is not: these are demonstrations and limited operations, not blanket approval to sell tickets nationwide, and OTA contracts can still stall. Do not treat an eIPP mention in a press release as proof of imminent revenue.",
+      "free_alternatives": "The 'alternative' to a pilot program is simply waiting for full Part 21 type certification, which is slower but the real bar for scaled service. For the underlying missions, helicopters, existing cargo aircraft, and ground ambulances already do this work today, and will keep winning on availability until eVTOL fleets and vertiports actually exist at scale.",
+      "verdict": "WATCH — The most important thing happening in U.S. advanced air mobility, but it is a runway, not a destination; judge companies by what they actually fly under it, not by the logo on the slide."
+    },
+    {
+      "id": "archer-cash-burn-certification-reality",
+      "headline": "Archer's reality check: shares down ~61% from their high as cash burn and a missing transition flight rattle investors",
+      "one_liner": "United- and Stellantis-backed Archer is still in the FAA race and the eIPP, but a fresh 52-week low, ~$1.9M revenue, and dilution fears expose the hype gap.",
+      "source_name": "The Motley Fool, TipRanks",
+      "source_links": [
+        "https://www.fool.com/investing/2026/07/08/archer-aviation-is-down-61-thats-great-news-for-lo/",
+        "https://www.fool.com/investing/2026/06/29/archer-aviation-stock-hits-a-new-52-week-low-is-no/",
+        "https://www.tipranks.com/news/catalyst/archer-aviation-sinks-as-cash-burn-fears-intensify"
+      ],
+      "credibility": "Medium-high. Financial press (Motley Fool, TipRanks) citing real share price, revenue, and filings; note these include opinion/analysis framing, not company statements.",
+      "image_url": "https://g.foolcdn.com/editorial/images/872375/archer-aviation-evtol-aircraft-on-tarmac-at-sunset-n703ax-achr-1.jpg",
+      "story": "Archer's stock hit a new 52-week low in late June 2026 (roughly $4.84, about a $3.7B market cap) and trades around 61% below its all-time high, after falling ~30.5% in June alone. The pressure is fundamental: trailing-12-month revenue is only about $1.9M, cash burn is heavy, and a new prospectus to resell 5M-plus shares stoked dilution fears, all while investors wait on a delayed full transition (hover-to-cruise) flight test for the Midnight aircraft. Archer is behind Joby on FAA type certification but is a named partner across eIPP projects in eight states and holds a military contract for up to six aircraft. It has real backers — United Airlines (a $10M deposit toward 200 aircraft) and Stellantis for manufacturing.",
+      "founding_story": "Real. Archer was founded in October 2018 by Adam Goldstein and Brett Adcock, who had just sold their hiring-marketplace startup Vettery to Adecco for about $110M. They bootstrapped early, recruited engineers from the Airbus Vahana and Kitty Hawk eVTOL teams, and took Archer public via SPAC in 2021. Adcock left in 2022 (later founding humanoid-robot company Figure AI), leaving Goldstein as sole CEO and chairman. Its four-seat Midnight aircraft is aimed at short urban hops.",
+      "who_should_use": "Future riders in Archer's launch markets — Abu Dhabi and Dubai in the UAE, and eIPP-selected U.S. cities — plus defense buyers exploring its military variant. Also relevant to United Airlines customers if the airline's route-feeder vision materializes. As with all eVTOLs, the near-term rider is a premium short-hop traveler, not a daily commuter.",
+      "who_should_buy": "You buy the stock (NYSE: ACHR), not the plane. Honest read: this is a high-risk pre-revenue bet where a ~$3.7B valuation sits on ~$1.9M of sales, with ongoing cash burn and shareholder dilution. The Motley Fool's own bull case is essentially 'it is cheaper than it was' — which is not the same as cheap. It suits only risk-tolerant investors sizing a small speculative position for a 2030s payoff; retirees, the leverage-happy, and anyone needing this money within a few years should not touch it. Not financial advice.",
+      "free_alternatives": "For getting across a city, a train, subway, or rideshare wins on cost every time today, and helicopters already cover the premium point-to-point niche Archer is chasing. For investors wanting eVTOL exposure with more certification progress, Joby is the front-runner comparison; for less binary risk, established aerospace or simply an index fund are the 'free alternatives' to single-stock speculation.",
+      "verdict": "SKIP — Compelling aircraft, ugly investment math right now: paying billions for a company with roughly a million dollars of revenue is a bet on the next decade, not this year, and the market is finally saying so."
+    },
+    {
+      "id": "beta-technologies-public-and-delivering",
+      "headline": "Beta Technologies: the quiet contrarian that IPO'd and is actually delivering aircraft",
+      "one_liner": "Vermont's Beta raised over $1B in its Nov 2025 IPO and is flying real Alia aircraft in Hawaii, Norway and NZ — betting cargo and CTOL beat air-taxi hype.",
+      "source_name": "FlyingMag, BETA Technologies, SEC filings",
+      "source_links": [
+        "https://www.flyingmag.com/beta-technologies-electric-aircraft-ipo/",
+        "https://beta.team/stories/electric-aircraft-maker-beta-technologies-raises-over-1-billion-in-us-ipo",
+        "https://www.sec.gov/Archives/edgar/data/0001784570/000162828026033824/a2026q1earningsrelease.htm"
+      ],
+      "credibility": "High. IPO covered by FlyingMag and Beta's own newsroom; financials in Beta's SEC 8-K. Certification dates are company projections and can move.",
+      "image_url": null,
+      "story": "Beta priced an upsized IPO at $34/share on November 3, 2025, above range, raising over $1B at roughly a $7.4B valuation and giving it a large R&D war chest. Unlike air-taxi-first rivals, Beta leads with its conventional-takeoff CX300 (eCTOL) and cargo/medical missions, with a backlog near 900 orders and its own fast-charging network. In 2026 it has been putting aircraft in the field — an Alia CTOL demo campaign across Hawaii in June, plus demonstrations with Bristow in Norway and Air New Zealand — and it was selected for U.S. deliveries under the FAA's eIPP. Management targets FAA certification for the CX300 by late 2026 or early 2027, with the piloted Alia eVTOL following about a year later.",
+      "founding_story": "Real. Beta was founded in 2017 by Kyle Clark, a former professional ice-hockey player (drafted by the NHL's Washington Capitals) and Harvard-trained engineer, in South Burlington, Vermont. Clark built an early prototype called Ava before the current Alia design; the CX300 production aircraft earned FAA special airworthiness certification in November 2024 and Beta flew the first U.S. passenger-carrying flight by an electric aircraft in June 2025. Backers over time have included Fidelity and Amazon's Climate Pledge Fund, and it works with the U.S. Air Force under Agility Prime.",
+      "who_should_use": "Cargo and logistics operators (parcel and feeder routes), hospital and organ-transport / air-ambulance networks, regional operators wanting a simpler eCTOL first, and defense customers via Agility Prime. Charging-infrastructure planners also care: Beta sells and installs charge pads other operators can use. It is less about the glamorous urban commuter and more about un-sexy missions that pencil out sooner.",
+      "who_should_buy": "You buy the stock (NYSE: BETA) or, if you are an operator, the aircraft/charging hardware. What is genuinely special is discipline — leading with a certifiable CTOL and revenue-ready cargo/medical work instead of promising Jetsons commutes, backed by a fat post-IPO balance sheet. What is not: it is still pre-profit, the eVTOL (Alia 250) trails the CX300, and 'CTOL' means it needs runways, not just vertiports. Suits investors who want eVTOL exposure with a pragmatic, cash-cushioned story and can hold for years. Not financial advice.",
+      "free_alternatives": "For cargo and regional hops today, existing turboprops (Cessna Caravans) and ground trucking are cheaper and available now; for medical transport, conventional air ambulances and helicopters already run. Beta's pitch is lower operating cost and emissions once certified and scaled — a future win, not a present one.",
+      "verdict": "WATCH — The most grown-up story in the sector: real aircraft, real deliveries, real cash, and a boring-on-purpose cargo-first plan — but it is still burning money and its air taxi is the last thing to arrive, not the first."
+    },
+    {
+      "id": "ehang-eh216-selling-tickets-china",
+      "headline": "While the West argues about certification, China's EHang is already selling air-taxi tickets — but the money isn't there yet",
+      "one_liner": "EHang's CAAC-certified, pilotless EH216-S flies paying sightseers in Guangzhou and Hefei, yet Q1 2026 swung back to a loss on just four aircraft deliveries.",
+      "source_name": "EHang (GlobeNewswire), Low Altitude Economy, CompositesWorld",
+      "source_links": [
+        "https://www.globenewswire.com/news-release/2026/06/09/3308569/0/en/EHang-Reports-First-Quarter-2026-Unaudited-Financial-Results.html",
+        "https://lowaltitudeeconomy.aero/evtol-news-and-electric-aircraft-news/advanced-air-mobility/ehang-is-about-to-sell-the-worlds-first-evtol-ticket-one-certificate-made-it-legal",
+        "https://www.compositesworld.com/news/ehang-posts-record-q4-revenue-first-gaap-profit-as-eh216-s-commercial-launch-nears"
+      ],
+      "credibility": "High on the operational facts (CAAC certification, ticketed flights) and financials, though the numbers are company-reported and unaudited for Q1 2026.",
+      "image_url": null,
+      "story": "EHang is the only company in the world flying certified, ticketed passenger eVTOLs for the public: its two-seat, pilotless EH216-S holds a CAAC type certificate, production certificate, and operator certificates, and licensed operators fly ticketed sightseeing loops at sites in Guangzhou and Hefei (a Hefei ride runs about RMB 299). But the finances are lumpy: after posting its first GAAP-profitable quarter (Q4 2025), EHang reported a Q1 2026 net loss of about RMB126.4M on revenue of only RMB25.7M (US$3.7M) and just four eVTOL deliveries, with roughly 40% of revenue coming from aerial-media (light-show) drones rather than passenger craft. It is operationally years ahead of the U.S. players, but on fixed-zone joyrides, not point-to-point city transport.",
+      "founding_story": "Real. EHang was founded in 2014 by Huazhi Hu in Guangzhou, China, reportedly after a friend's death in a flying accident spurred his interest in autonomous, pilotless flight. The company listed on the Nasdaq in 2019, secured the world's first eVTOL type certificate for the autonomous EH216-S from China's CAAC in 2023, followed by production and operator certificates, enabling commercial passenger operations from 2025 onward.",
+      "who_should_use": "Right now, tourists and thrill-seekers in Chinese cities that offer EH216-S sightseeing, plus tourism and scenic-area operators buying aircraft for aerial rides. It is not for commuters: these are hovering/circling flights within a designated zone around a single vertiport, not A-to-B transport. Aerial-media and light-show buyers are also a real (and currently larger) customer base.",
+      "who_should_buy": "You buy the stock (Nasdaq: EH) or, as a Chinese tourism operator, the aircraft. What is genuinely special: EHang has actual paying passengers and regulatory approval nobody else has, and a pilotless model that removes crew cost. What is not: revenue is tiny and volatile, Q1 2026 was a loss, the autonomous approach carries different safety-perception and export risks, and it operates in a single regulatory regime. Suits investors who specifically want China-AAM exposure and accept high volatility; those wanting a diversified or Western-regulated bet should look elsewhere. Not financial advice.",
+      "free_alternatives": "For the sightseeing job-to-be-done, helicopter tours and observation decks are the established, cheaper-per-experience alternatives, and they already operate worldwide. EHang's novelty is the pilotless electric ride itself; as transport it does not yet compete with a taxi or metro because it does not take you anywhere new.",
+      "verdict": "WATCH — Genuinely the world leader in flying paying passengers, and a real rebuttal to Western skeptics — but until the revenue stops being tiny and lumpy, it is a certification-and-tourism story, not yet a transportation business."
+    }
+  ],
+  "other_news": [
+    {
+      "id": "evtol-legal-wars-joby-archer-vertical",
+      "headline": "The eVTOL courtroom wars grind on: Joby vs Archer trade secrets, plus patent and China-parts fights",
+      "one_liner": "Joby's trade-secret suit against Archer inches through federal court while Archer presses an ITC complaint over Joby's Chinese components and a patent case against Vertical.",
+      "source_name": "FlightGlobal, Aviation Week",
+      "source_links": [
+        "https://www.flightglobal.com/airframers/2026/07/joby-and-archers-trade-secret-battle-inches-along-in-federal-court/",
+        "https://aviationweek.com/aerospace/emerging-technologies/us-trade-watchdog-investigates-jobys-china-ties"
+      ],
+      "credibility": "High. Reported by established aerospace trade press (FlightGlobal, Aviation Week) tracking active federal court and USITC proceedings."
+    },
+    {
+      "id": "vertical-aerospace-850m-chair-exit",
+      "headline": "UK's Vertical Aerospace lines up up to $850M and loses its chairman as VX4 timeline slips",
+      "one_liner": "Vertical secured a financing package of up to $850M for VX4 certification and scale-up, but chairman Domhnal Slattery stepped down and full certification is now targeted for 2028.",
+      "source_name": "FlyingMag, AeroMorning",
+      "source_links": [
+        "https://www.flyingmag.com/vertical-aerospace-850m-air-taxi-certification/",
+        "https://aeromorning.com/en/vertical-aerospace-chair-steps-down-amid-850m-scale-up/"
+      ],
+      "credibility": "High. Funding and leadership change covered by FlyingMag and AeroMorning; certification date is Vertical's own target."
+    },
+    {
+      "id": "eve-air-mobility-embraer-flight-tests",
+      "headline": "Embraer's Eve Air Mobility builds flight-test hours but pushes certification to 2028",
+      "one_liner": "Eve has flown its full-scale prototype dozens of times (demonstrating for Brazil's government), targets first transition flights in Q3 2026, and now aims for 2028 certification.",
+      "source_name": "Eve Air Mobility, Aerospace Global News",
+      "source_links": [
+        "https://www.eveairmobility.com/eve-air-mobility-builds-flight-test-momentum-with-50-successful-flights/",
+        "https://aerospaceglobalnews.com/news/eve-evtol-transition-flight-certification-slip/"
+      ],
+      "credibility": "High on flight-test facts (company releases); the 2028 certification target reflects a publicly reported slip from earlier plans."
+    },
+    {
+      "id": "sarla-aviation-india-demonstrator",
+      "headline": "India's Sarla Aviation completes flight tests of its largest homegrown eVTOL demonstrator",
+      "one_liner": "Sarla Aviation wrapped integrated flight testing of a ~700 kg half-scale demonstrator, advancing India's ambition to build an indigenous air taxi.",
+      "source_name": "New Atlas",
+      "source_links": [
+        "https://newatlas.com/aircraft/india-evtol-demonstrator-sarla-aviation-sylla-shunya/"
+      ],
+      "credibility": "Medium-high. Reported by New Atlas; an early-stage demonstrator milestone, not a certified or commercial aircraft."
+    },
+    {
+      "id": "aam-workforce-vertiport-bottleneck",
+      "headline": "The unglamorous bottleneck: eVTOL pilots, mechanics and vertiports aren't ready at scale",
+      "one_liner": "Even as aircraft near certification, the AAM pilot pipeline, maintenance (MRO) capacity and vertiport buildout lag — the constraints that could cap 2026-2027 rollouts.",
+      "source_name": "Aviation Week, U.S. DOT",
+      "source_links": [
+        "https://aviationweek.com/business-aviation/maintenance-training/aam-pilot-pipeline-advances-mro-constraints-loom",
+        "https://www.transportation.gov/sites/dot.gov/files/2025-12/AAM%20National%20Strategy%202025.pdf"
+      ],
+      "credibility": "High. Aviation Week trade analysis plus the U.S. DOT's AAM National Strategy document; a structural-risk story rather than a single event."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "sector": "Hardware",
+  "as_of": "2026-07-08",
+  "heroes": [
+    {
+      "id": "meta-glasses-299",
+      "headline": "Meta's $299 Smart Glasses Ditch the Ray-Ban Logo to Undercut Everyone",
+      "one_liner": "Meta's own-brand AI glasses start at $299 with the same camera and chip as Ray-Ban Meta, no logo tax and no display.",
+      "source_name": "CNBC / Meta Newsroom / MacRumors",
+      "source_links": [
+        "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html",
+        "https://www.meta.com/blog/introducing-meta-glasses-a-range-of-new-styles-from-meta-and-essilorluxottica-starting-at-299/",
+        "https://www.macrumors.com/2026/06/23/meta-launches-its-own-299-smart-glasses/"
+      ],
+      "credibility": "High. Announced on Meta's official newsroom and covered by CNBC, Bloomberg and MacRumors on June 23, 2026. The product is on sale now, not a rumor.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "On June 23, 2026, Meta and eyewear giant EssilorLuxottica launched a self-branded Meta Glasses line starting at $299, with the Fury and Adventurer frames at $299 and a $399 Starfire edition co-designed with Kylie Jenner. They drop the Ray-Ban and Oakley names but keep the same Snapdragon AR1 Gen 1 chip, 12MP camera, six-mic array and roughly eight-hour battery as the second-generation Ray-Ban Meta. There is no in-lens display here, so you talk to Meta AI and capture photos and video rather than see a screen. They are available now at Meta.com, Best Buy, Amazon, LensCrafters and Sunglass Hut.",
+      "founding_story": "Meta's glasses program began with 2021's Ray-Ban Stories, a flop hurt by weak battery life and privacy backlash. The 2023 second-generation Ray-Ban Meta was the surprise hit that pushed camera glasses into the mainstream, built through Meta's multi-year partnership with EssilorLuxottica, the owner of Ray-Ban and Oakley. This 2026 launch is the first time Meta has sold glasses under its own name rather than a fashion house's, a deliberate move to strip out the brand premium and chase volume. Mark Zuckerberg has repeatedly framed glasses as the computing platform that follows the smartphone.",
+      "who_should_use": "Commuters and parents who want hands-free photos and video of a moment without pulling out a phone; travelers who want live translation and look-and-ask visual search; POV creators and podcasters capturing first-person clips; and people already living in Instagram and WhatsApp who want quick voice capture on their face.",
+      "who_should_buy": "At $299 this is the best-value entry into competent AI camera glasses for someone who mainly wants a good camera, open-ear audio and Meta AI. What is genuinely special is the price-to-hardware ratio: you get essentially Ray-Ban Meta internals for $80 to $100 less. It is otherwise incremental, using the same chip and camera as the 2023 to 2025 models, so existing Ray-Ban Meta owners gain nothing. Do NOT buy if you expected a heads-up display (that is the $799 Ray-Ban Display), if an always-ready camera on your face makes you or the people around you uncomfortable, or if you do not use Meta's apps.",
+      "free_alternatives": "The phone in your pocket already takes better photos and does translation and AI queries for free, so the glasses only win on hands-free convenience. Rival camera glasses are worse or gone: Amazon's Bee is audio-only and the old Ray-Ban Stories are discontinued. The real step-up is Meta's own $799 Ray-Ban Display if you actually want a screen. No cheaper glasses match this feature set today.",
+      "verdict": "BUY - The cheapest route into genuinely useful AI camera glasses, but only if you do not already own Ray-Ban Meta and can live without a display."
+    },
+    {
+      "id": "samsung-unpacked-2026",
+      "headline": "Samsung's July 22 Unpacked Promises 'A New Shape' - Galaxy Z Fold 8 and Flip 8 Incoming",
+      "one_liner": "Samsung confirmed a July 22 Unpacked for the Galaxy Z Fold 8, Flip 8 and new Watches; the teaser hints at a wider, thinner fold.",
+      "source_name": "SamMobile / TechRadar / India TV",
+      "source_links": [
+        "https://www.sammobile.com/news/samsung-galaxy-unpacked-event-july-22-2026-z-flip-fold-8/",
+        "https://www.techradar.com/phones/samsung-phones/samsung-just-set-the-date-for-its-next-galaxy-unpacked-and-a-new-shape-unfolds-could-be-its-biggest-clue-yet-about-what-to-expect",
+        "https://www.indiatvnews.com/technology/news/samsung-galaxy-unpacked-2026-set-for-july-22-galaxy-z-fold-8-flip-8-and-watch-9-series-expected-2026-07-08-1047519"
+      ],
+      "credibility": "High for the event: Samsung officially confirmed July 22, 2026. The specific specs and prices below are leaks and rumors until the reveal.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Samsung has officially set Galaxy Unpacked for July 22, 2026, at 9 a.m. EDT from London, under the tagline 'A New Shape Unfolds.' Expected on stage are the Galaxy Z Fold 8, a rumored Z Fold 8 Ultra, the clamshell Z Flip 8, and new Galaxy Watch 9 and Watch Ultra 2 wearables, with leaks pointing to a shorter, wider Fold. Nothing is official until the 22nd, so every spec and price is still leak-based. As of July 8 you can register interest for reservation credits but cannot yet buy anything.",
+      "founding_story": "Samsung shipped the first modern foldable, the Galaxy Fold, in 2019 after a bruising false start in which review units broke, then recovered to define the category. The Z Fold and Z Flip lines have iterated every year since 2020, leaning on Samsung Display, the in-house panel arm that also supplies rivals including Apple. Unpacked is Samsung's twice-yearly flagship stage, and the summer edition has centered on foldables since 2021. The 'A New Shape Unfolds' teaser hints at the biggest form-factor change to the Fold in years.",
+      "who_should_use": "Android power users who want a tablet-sized screen that folds into a pocket; heavy multitaskers running split-screen apps and documents; Flip buyers who want a compact, style-first phone; and Samsung loyalists overdue to upgrade from a Fold 5, Fold 6 or older.",
+      "who_should_buy": "Nobody should buy yet. Wait for the July 22 reveal and independent reviews. If the leaks hold, the Fold 8 is for people who genuinely use the large inner screen for reading, docs and multitasking and can stomach a likely $1,800-plus price. What could make it special is a thinner, wider book design with a smaller crease; if it is only a spec bump, it is incremental. Do NOT preorder blind on reservation hype, and do NOT buy a foldable if you do not actually need a folding screen, since a $1,000 slab flagship is more durable and better value.",
+      "free_alternatives": "A standard Galaxy S26 Ultra or a Pixel 10 Pro does 95% of what most people need for far less money. Rival foldables already ship and may undercut or out-spec Samsung, so cross-shop the Pixel 10 Pro Fold, Honor Magic V and OnePlus Open. There is no free alternative to a foldable; the honest alternative is simply not buying one.",
+      "verdict": "WATCH - A confirmed and potentially major redesign, but wait for the July 22 reveal and real reviews before spending foldable money."
+    },
+    {
+      "id": "valve-steam-machine-2026",
+      "headline": "Valve's Steam Machine Is Finally Here at $1,049 - 6x a Steam Deck, But RAM Prices Stung",
+      "one_liner": "Valve's living-room SteamOS console-PC shipped June 30 at $1,049; it is powerful and tinker-free, but memory shortages pushed the price up.",
+      "source_name": "Engadget / The Verge / VGC",
+      "source_links": [
+        "https://www.engadget.com/gaming/pc/valves-steam-machine-launches-in-2026-everything-we-know-so-far-200458597.html",
+        "https://www.theverge.com/news/818672/valve-android-apps-steam-frame",
+        "https://www.videogameschronicle.com/news/valve-confirms-steam-machine-price-and-release-details-have-been-delayed-by-exploding-component-prices/"
+      ],
+      "credibility": "High. Valve-confirmed specs and pricing, with launch coverage from Engadget, The Verge, PC Gamer and VGC. It began shipping June 30, 2026.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Valve's second-generation Steam Machine, a small cube-shaped PC that runs SteamOS on your TV, began shipping June 30, 2026 at $1,049 for 512GB and $1,349 for 2TB, sold through a randomized reservation queue meant to blunt scalpers. Valve says it is roughly six times more powerful than a Steam Deck, built on a semi-custom AMD Zen 4 CPU and RDNA 3 GPU and targeting 4K 60fps with FSR upscaling. It launches alongside a redesigned Steam Controller and the still-unpriced Steam Frame VR headset. Reviewers call it the best plug-and-play living-room PC, but note the price climbed well above early expectations because of the 2025 to 2026 memory shortage.",
+      "founding_story": "Valve was founded in 1996 by former Microsoft engineers Gabe Newell and Mike Harrington and runs Steam, the dominant PC game store. Its first Steam Machines in 2015 were third-party PCs running an immature SteamOS, and they flopped badly. Valve regrouped, and the 2022 Steam Deck handheld proved SteamOS and the Proton compatibility layer could run Windows games on Linux at scale. Announced November 12, 2025, this Steam Machine is Valve's own console-like box and its mature second attempt at the living-room dream.",
+      "who_should_use": "PC gamers who want console simplicity in the living room without building or tuning a rig; Steam Deck owners who want a big-screen home base that shares the same library; people who dislike Windows overhead and want a quiet, small SteamOS box; and tinkerers who still want an open platform under the hood.",
+      "who_should_buy": "Worth it for players with large Steam libraries who want 4K/60-ish gaming on a TV and value SteamOS's simplicity over a Windows gaming PC. What is special is the polish: reservation fairness, a proper controller and a one-tap Steam experience. But at $1,049 and up it is not a value play, since a comparable Windows mini-PC or a PS5 Pro can match or beat it on price per frame. Do NOT buy if you are on a budget, only play a handful of console exclusives, or already own a capable gaming PC.",
+      "free_alternatives": "If you already own a gaming PC, Steam Link streams to your TV for free and SteamOS is a free download for existing hardware. Consoles like the PS5 and Xbox Series X are cheaper upfront and get exclusives, and a DIY mini-PC can undercut it. The Steam Machine wins only on the combination of power, small size and SteamOS convenience, not on raw value.",
+      "verdict": "WATCH - Genuinely the best living-room SteamOS box, but memory-shortage pricing makes it hard to recommend over a cheaper mini-PC or console right now."
+    },
+    {
+      "id": "apple-iphone-fold-2026",
+      "headline": "Apple's First Foldable iPhone Is Reportedly Entering Production - for About $2,000 This Fall",
+      "one_liner": "Apple's long-rumored folding iPhone is tipped for a September launch above $2,000: crease-free and iPad-style, but still unconfirmed by Apple.",
+      "source_name": "MacRumors / Macworld",
+      "source_links": [
+        "https://www.macrumors.com/roundup/iphone-fold/",
+        "https://www.macworld.com/article/2629813/apple-folding-iphone-ultra-design-display-specs-release.html",
+        "https://www.macrumors.com/2026/06/26/iphone-18-pro-and-foldable-to-get-price-hikes/"
+      ],
+      "credibility": "Medium. Extensive supply-chain reporting from MacRumors, Macworld and Bloomberg's Mark Gurman, but Apple has NOT announced or confirmed this product. Treat all specs as rumor.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "Multiple credible supply-chain reports say Apple's first foldable iPhone, nicknamed the iPhone Fold or iPhone Ultra, is entering mass production around mid-2026 for a September launch beside the iPhone 18 Pro. It is described as a book-style fold with a roughly 7.8-inch inner screen, a roughly 5.5-inch cover screen, a nearly invisible crease Apple reportedly chased 'regardless of cost,' and a titanium-and-aluminum frame. Pricing is expected to cross $2,000, which would make it the most expensive iPhone Apple has ever sold. Crucially, Apple has confirmed none of this; leaked iOS beta code referencing fold states is the only first-party hint.",
+      "founding_story": "Apple has never made a foldable, and iPhone-fold rumors have circulated since roughly 2017 while Samsung, Huawei and Google shipped multiple generations. Apple's usual pattern is to enter a category late and polished, as it did with smartwatches and wireless earbuds. Reports credit Samsung Display as the likely panel supplier and say Apple prioritized crease elimination and thinness over cost. If it ships, it will be Apple's first genuinely new iPhone form factor since the 2017 iPhone X.",
+      "who_should_use": "iPhone loyalists who have wanted a pocket tablet but refused to switch to Android foldables; heavy readers, note-takers and multitaskers who live inside Apple's ecosystem; and people who simply want the largest possible iPhone screen.",
+      "who_should_buy": "Nobody can buy it yet because it does not officially exist. If it launches near $2,000, it suits well-off Apple users who genuinely want a folding screen and will use the extra real estate daily, not status buyers. What could make it special is the reported crease-free hinge and tight ecosystem integration; if those do not materialize, it is a very expensive first-generation gamble. Do NOT plan a purchase around rumors, and remember that first-generation Apple hardware historically ships with compromises, so waiting for the second version is the safe play.",
+      "free_alternatives": "Any current iPhone 17 or 18, or a much cheaper Android foldable such as the Samsung Z Fold, Pixel Fold or OnePlus Open, does the job today for less. If you just want a big screen affordably, an iPhone Pro Max plus an iPad mini can cost less than one foldable. The honest alternative is to wait.",
+      "verdict": "WATCH - Potentially the biggest iPhone in years, but it is unconfirmed until Apple shows it, so do not budget for rumors."
+    },
+    {
+      "id": "ai-wearable-recorders-2026",
+      "headline": "AI Note-Taking Wearables Grow Up - Plaud Leads, Bee Goes to Amazon, Limitless Gets Killed",
+      "one_liner": "AI voice-recorder wearables matured in 2026: Plaud's ~$179 NotePin S leads, Amazon's Bee is $50, and Meta bought and shut down Limitless.",
+      "source_name": "TechCrunch / Forbes / Plaud",
+      "source_links": [
+        "https://techcrunch.com/2026/01/04/plaud-launches-a-new-ai-pin-and-a-desktop-meeting-notetaker/",
+        "https://www.forbes.com/sites/iainmartin/2025/09/02/how-an-ai-notetaker-became-one-of-the-few-profitable-ai-startups/",
+        "https://www.plaud.ai/blogs/news/plaud-unveils-notepins-and-desktop"
+      ],
+      "credibility": "High for Plaud (TechCrunch, Forbes and Plaud's own newsroom). The Limitless shutdown and Amazon-Bee deal are widely reported, but confirm current availability before buying.",
+      "image_url": null,
+      "image_credit": null,
+      "story": "The wearable AI-recorder category consolidated hard in 2026. Plaud, a rare profitable AI-hardware startup, launched the button-equipped NotePin S at about $179 and a desktop companion at CES 2026, and says it has shipped over two million devices to more than 1.5 million users. Amazon acquired the $49.99 Bee pendant and repositioned it as a cheap, always-listening memory companion. Meanwhile Meta acquired Limitless, formerly Rewind.ai, in December 2025 and stopped selling its pendant, stranding EU and UK users - a cautionary tale about buying into a single startup's hardware.",
+      "founding_story": "Plaud, founded in 2021 and based in San Francisco, built its business on ChatGPT-powered transcription hardware and became one of the few profitable AI-hardware startups, per Forbes in 2025, with the original NotePin winning Tom's Guide's 2025 wearable award. Bee was an independent startup making a low-cost listening pendant until Amazon acquired it in 2025. Limitless began as Dan Siroker's Rewind.ai, pivoted to a wearable pendant, then was absorbed by Meta in December 2025 and discontinued. The pattern is clear: capable hardware, but longevity depends entirely on the parent company.",
+      "who_should_use": "Consultants, students, journalists and salespeople who sit through back-to-back meetings or lectures and want automatic transcripts, summaries and action items; people with memory or focus challenges who want a searchable record of their day; and researchers running interviews.",
+      "who_should_buy": "For serious meeting or lecture documentation, the Plaud NotePin S at about $179 in hardware, plus a subscription for higher transcription limits, is the most mature and best-supported pick. What makes Plaud special is polish and, crucially, a profitable company likely to keep the service running. Bee at $49.99 is fine for casual personal life-logging, not real work. Do NOT buy any of these if a free phone app covers you, if you are in a two-party-consent state and cannot get consent, or if always-on recording makes you uneasy.",
+      "free_alternatives": "Free and cheap apps win for many people: Otter.ai, Google Recorder, Apple's built-in voice and call transcription, and the meeting AI in Microsoft Teams and Zoom all transcribe and summarize with no new hardware. The wearables only win on frictionless, phone-free, always-on capture. For most people the phone already in your pocket is enough.",
+      "verdict": "USE - Plaud's NotePin S is the safe pick if you truly live in meetings; everyone else should try free phone transcription first and treat startup pendants as a subscription risk."
+    }
+  ],
+  "other_news": [
+    {
+      "headline": "OpenAI's Jony Ive-Designed AI Device Still 'On Track' for Late 2026",
+      "one_liner": "OpenAI says its first screen-free AI companion, designed with Jony Ive, is on track for the second half of 2026 - but there is still no reveal, price or confirmed form factor.",
+      "source_name": "Axios / TechRadar",
+      "source_links": [
+        "https://www.axios.com/2026/01/19/openai-device-2026-lehane-jony-ive",
+        "https://www.techradar.com/ai-platforms-assistants/chatgpt/2026-could-be-the-year-we-move-beyond-smartphones-led-by-a-sam-altman-and-jony-ive-designed-ai-device"
+      ],
+      "credibility": "Medium. An OpenAI executive went on record with Axios in January 2026, but the device is unseen and all form-factor details are leaks."
+    },
+    {
+      "headline": "Xreal's ROG R1 AR Glasses Put a 171-Inch Virtual Screen on Your Face",
+      "one_liner": "The ROG-branded Xreal R1 tethered AR glasses project a 171-inch, up-to-240Hz virtual display and opened preorders with availability targeted for July 2026.",
+      "source_name": "Gizmodo / The Gadgeteer",
+      "source_links": [
+        "https://gizmodo.com/best-gadgets-june-2026-2000778942",
+        "https://the-gadgeteer.com/2026/07/03/standout-gadgets-june-2026/"
+      ],
+      "credibility": "Medium-high. Hands-on coverage from Gizmodo and The Gadgeteer of a shipping consumer product."
+    },
+    {
+      "headline": "Nothing Headphone (a) Undercuts Its Predecessor and Fixes the Sound",
+      "one_liner": "Nothing's follow-up over-ears, the Headphone (a), roughly halve the price of the Headphone (1) and fix its sound complaints, per TechRadar's review.",
+      "source_name": "TechRadar",
+      "source_links": [
+        "https://www.techradar.com/audio/wireless-headphones/nothing-headphone-a-review"
+      ],
+      "credibility": "High. Full hands-on review from TechRadar."
+    },
+    {
+      "headline": "Meta's $799 Ray-Ban Display Glasses Gain Muse Spark AI and a Teleprompter",
+      "one_liner": "The in-lens-display Ray-Ban Meta Display ($799 with the Neural Band wristband) added Muse Spark AI and a discreet teleprompter feature in 2026.",
+      "source_name": "Meta / Moor Insights & Strategy",
+      "source_links": [
+        "https://www.meta.com/help/ai-glasses/1809764829519902/",
+        "https://moorinsightsstrategy.com/research-notes/ray-ban-meta-smart-glasses-review-better-cooler-and-more-useful-than-ever/"
+      ],
+      "credibility": "High. Meta's own release notes plus an independent review from Moor Insights & Strategy."
+    },
+    {
+      "headline": "The 2026 Memory Shortage Is Quietly Inflating Gadget Prices",
+      "one_liner": "A global RAM and SSD shortage driven by AI data-center demand pushed up prices on the Steam Machine, PCs and even the next iPhones through 2026.",
+      "source_name": "Tom's Hardware / VGC",
+      "source_links": [
+        "https://www.tomshardware.com/pc-components/best-of-ces-2026-innovating-amidst-the-ram-and-storage-apocalypse",
+        "https://www.videogameschronicle.com/news/valve-confirms-steam-machine-price-and-release-details-have-been-delayed-by-exploding-component-prices/"
+      ],
+      "credibility": "High. Reported by Tom's Hardware and VGC and explicitly confirmed by Valve as the reason for its pricing."
+    },
+    {
+      "headline": "A $35 Y2K Keychain Camera Was One of June's Most-Wanted Gadgets",
+      "one_liner": "Reto's Kodak-branded Charmera Millennium Edition, a tiny 1.6MP keychain digicam leaning into the Y2K look, was a surprise June 2026 hit.",
+      "source_name": "The Gadgeteer",
+      "source_links": [
+        "https://the-gadgeteer.com/2026/06/12/best-gadgets-june-2026/"
+      ],
+      "credibility": "Medium. Covered in The Gadgeteer's monthly best-gadgets roundup."
+    }
+  ]
+}
