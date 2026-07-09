@@ -38,6 +38,17 @@ export async function getLatestEdition() {
   return readLocal("latest.json");
 }
 
+// Find a product review by slug across recent editions (newest first).
+export async function getProduct(slug) {
+  const list = await listEditions();
+  for (const e of (list || []).slice(0, 7)) {
+    const ed = await getEdition(e.edition_date);
+    const p = (ed?.top_products || []).find((x) => x.slug === slug);
+    if (p) return { product: p, edition_date: e.edition_date };
+  }
+  return null;
+}
+
 // Build-time list of edition dates (used by generateStaticParams).
 export function listEditionDates() {
   try {

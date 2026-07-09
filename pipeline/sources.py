@@ -199,12 +199,14 @@ def fetch_producthunt(max_items: int = 20) -> List[Dict]:
     return ded
 
 
-def top_products(n: int = 6) -> List[Dict]:
+def top_products(n: int = 8) -> List[Dict]:
     """Today's standout product launches (from Product Hunt), any sector."""
     out: List[Dict] = []
-    for p in fetch_producthunt(max_items=18)[:n]:
+    for p in fetch_producthunt(max_items=24)[:n]:
+        name = p["title"]
         out.append({
-            "name": p["title"],
+            "name": name,
+            "slug": re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:60],
             "tagline": (p.get("summary") or "")[:150],
             "url": p["url"],
             "category": p.get("category", "AI"),

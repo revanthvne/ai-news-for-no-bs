@@ -126,53 +126,19 @@ export function SectorFeed({ sectors }) {
   );
 }
 
-function TpField({ label, v }) {
-  if (!v) return null;
-  return (
-    <>
-      <div className="tp-lbl">{label}</div>
-      <div className="tp-text">{v}</div>
-    </>
-  );
-}
-
 function ProductCard({ p }) {
-  const [open, setOpen] = useState(false);
-  const hasDetail = p.deep_review || (p.experiments && p.experiments.length);
   return (
-    <div className="tp-item">
+    <a className="tp-item" href={`/product/${p.slug}`}>
       <div className="tp-name">{p.name}</div>
       {p.tagline ? <div className="tp-tagline">{p.tagline}</div> : null}
-      <div className="tp-cat">{p.category}</div>
-      {hasDetail ? (
-        <button className="tp-toggle" onClick={() => setOpen((o) => !o)}>
-          {open ? "▲ Hide" : "🔬 Review + experiments"}
-        </button>
-      ) : null}
-      {open && (
-        <div className="tp-detail">
-          <TpField label="End-to-end review" v={p.deep_review} />
-          <TpField label="Who should use it" v={p.who_should_use} />
-          <TpField label="Why it's good" v={p.the_good} />
-          <TpField label="Why it's bad" v={p.the_bad} />
-          <TpField label="What it lacks" v={p.what_it_lacks} />
-          <TpField label="Can AI models do it better?" v={p.ai_leverage} />
-          {p.experiments && p.experiments.length ? (
-            <>
-              <div className="tp-lbl">Experiments — what you can build</div>
-              <ul className="tp-exp">
-                {p.experiments.map((e, i) => (
-                  <li key={i}>{e}</li>
-                ))}
-              </ul>
-            </>
-          ) : null}
-          <a className="tp-link" href={p.url} target="_blank" rel="noreferrer">
-            Open {p.name} ↗
-          </a>
-        </div>
-      )}
-    </div>
+      <div className="tp-meta-row">
+        <span className="tp-cat">{p.category}</span>
+        {p.rating ? <span className="tp-rating">{p.rating}/10</span> : null}
+        {p.verdict ? <span className="tp-verdict">{p.verdict.split(/\s|—/)[0]}</span> : null}
+      </div>
+      {p.hot_take ? <div className="tp-hot">{p.hot_take}</div> : null}
+      <div className="tp-readmore">Read full review →</div>
+    </a>
   );
 }
 

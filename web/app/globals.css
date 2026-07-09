@@ -50,6 +50,14 @@ a { color: var(--accent); }
 .tp-exp li { color:#cdd6df; font-size:13px; line-height:1.5; margin-bottom:5px; }
 .tp-link { display:inline-block; margin-top:10px; color:var(--accent); font-weight:700;
   font-size:13px; text-decoration:none; }
+.tp-meta-row { display:flex; gap:8px; align-items:center; margin-top:8px; flex-wrap:wrap; }
+.tp-rating { color:var(--accent); font-weight:800; font-size:13px; }
+.tp-verdict { font-size:11px; font-weight:700; color:#f59e0b; background:#3a2f14; padding:2px 8px; border-radius:999px; }
+.tp-hot { color:#e8eef2; font-size:13px; line-height:1.45; margin-top:8px; font-style:italic; }
+.tp-readmore { color:var(--accent); font-weight:700; font-size:12px; margin-top:10px; }
+.prod-rating { color:var(--accent); font-weight:900; font-size:18px; }
+.prod-hot { color:var(--text); font-size:16px; line-height:1.5; margin:14px 0 0; font-style:italic;
+  border-left:3px solid var(--accent); padding-left:12px; border-radius:0; }
 
 .card { background: var(--card); border:1px solid var(--border); border-radius:14px;
   margin:14px 0; overflow:hidden; }

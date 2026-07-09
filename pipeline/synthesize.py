@@ -57,21 +57,28 @@ def _model_for(provider: str) -> str:
 
 
 def _llm_call(prompt: str, system: str = SYSTEM_PROMPT) -> str | None:
+    import time
     provider = config.LLM_PROVIDER
     model = _model_for(provider)
-    try:
-        if provider == "groq":
-            return _openai_compatible(
-                "https://api.groq.com/openai/v1/chat/completions",
-                config.GROQ_API_KEY, model, prompt, system)
-        if provider == "openai":
-            return _openai_compatible(
-                "https://api.openai.com/v1/chat/completions",
-                config.OPENAI_API_KEY, model, prompt, system)
-        if provider == "anthropic":
-            return _anthropic(config.ANTHROPIC_API_KEY, model, prompt, system)
-    except Exception as e:
-        print(f"  ! LLM call failed ({e}); falling back to template.")
+    endpoints = {
+        "groq": ("https://api.groq.com/openai/v1/chat/completions", config.GROQ_API_KEY),
+        "openai": ("https://api.openai.com/v1/chat/completions", config.OPENAI_API_KEY),
+    }
+    for attempt in range(4):  # retry with backoff, mainly for 429 rate limits
+        try:
+            if provider in endpoints:
+                url, key = endpoints[provider]
+                return _openai_compatible(url, key, model, prompt, system)
+            if provider == "anthropic":
+                return _anthropic(config.ANTHROPIC_API_KEY, model, prompt, system)
+            return None
+        except Exception as e:
+            msg = str(e)
+            if ("429" in msg or "rate" in msg.lower() or "503" in msg) and attempt < 3:
+                time.sleep(4 + attempt * 4)  # 4s, 8s, 12s backoff
+                continue
+            print(f"  ! LLM call failed ({e}); falling back to template.")
+            return None
     return None
 
 
@@ -83,6 +90,7 @@ def _openai_compatible(url: str, key: str, model: str, prompt: str, system: str 
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.4,
+        "max_tokens": 1800,
         "response_format": {"type": "json_object"},
     })
     r.raise_for_status()
@@ -156,55 +164,72 @@ def _template(story: Dict) -> Dict:
 
 
 PRODUCT_SYSTEM = (
-    "You review new tech/AI products for 'NO BS — Should You Buy This?'. Return STRICT JSON (no HTML), every "
-    "field SPECIFIC to THIS product — never generic filler. Keys:\n"
-    "- deep_review: 4-6 sentences, an end-to-end deep dive — what it is, how it works, and the overall take.\n"
-    "- who_should_use: the specific people/roles and concrete use cases it's genuinely for.\n"
-    "- the_good: why it's good — concrete strengths.\n"
-    "- the_bad: why it's bad — honest downsides.\n"
-    "- what_it_lacks: the real gaps / missing features / where it falls short of competitors.\n"
-    "- ai_leverage: honestly, could today's AI models (GPT/Claude/Gemini/open models) replicate or dramatically "
-    "improve this? State whether a builder could recreate its core value with AI, and where (if anywhere) the "
-    "product still adds real value beyond raw models.\n"
-    "- experiments: an array of 3-5 UNIQUE, concrete things to build or try with it — each distinct and specific "
-    "to this product, no repetition, no generic advice.\n"
-    "Be specific, skeptical, honest. If unsure, say so. Never fabricate features."
+    "You are a senior product reviewer for 'NO BS — Should You Buy This?'. Write like a sharp human expert who "
+    "actually sat down and used the product for an afternoon — opinionated, first person where it reads naturally, "
+    "concrete, and free of marketing fluff or hedging clichés. Return STRICT JSON (no HTML). Every field must be "
+    "UNIQUE to THIS product and sound like a person, not a spec sheet:\n"
+    "- hot_take: one punchy, opinionated sentence — your gut verdict.\n"
+    "- rating: an integer 1-10, your honest score.\n"
+    "- verdict: exactly one of BUY, USE, WATCH, SKIP.\n"
+    "- deep_review: 6-9 sentences — an expert end-to-end review: what it is, how it actually works, what using it "
+    "feels like, the standout moment, and where it frustrates. Have a point of view.\n"
+    "- who_should_use: the specific people/roles and the exact situations where this earns its place (and who "
+    "should ignore it).\n"
+    "- the_good: concrete strengths you'd actually praise.\n"
+    "- the_bad: the honest downsides and annoyances.\n"
+    "- what_it_lacks: missing features and where it trails competitors.\n"
+    "- ai_leverage: blunt take — could you rebuild or beat this with today's AI models (GPT/Claude/Gemini/open)? "
+    "Is it a thin wrapper or real engineering, and where does it still add value beyond raw models?\n"
+    "- experiments: 3-5 UNIQUE, concrete things YOU would try to test its limits — each a distinct scenario with "
+    "what you'd be watching for. No generic advice, no repetition.\n"
+    "Be specific, skeptical, and human. If you don't know a fact, say so plainly. Never fabricate features."
 )
 
-_PRODUCT_KEYS = ["deep_review", "who_should_use", "the_good", "the_bad", "what_it_lacks", "ai_leverage"]
+_PRODUCT_KEYS = ["hot_take", "verdict", "deep_review", "who_should_use",
+                 "the_good", "the_bad", "what_it_lacks", "ai_leverage"]
 
 
 def synthesize_product(product: dict) -> dict:
-    """Enrich a top-product entry with a full end-to-end review + unique experiments."""
+    """Enrich a top-product entry with a human-expert end-to-end review + unique experiments."""
     name = product.get("name", "This product")
     if config.has_llm():
         prompt = (f"PRODUCT\nName: {name}\nTagline: {product.get('tagline','')}\n"
                   f"Category: {product.get('category','')}\nURL: {product.get('url','')}")
-        raw = _llm_call(prompt, system=PRODUCT_SYSTEM)
-        if raw:
+        for _attempt in range(2):  # retry once if the model truncates/returns bad JSON
+            raw = _llm_call(prompt, system=PRODUCT_SYSTEM)
+            if not raw:
+                continue
             try:
                 data = json.loads(raw)
                 ex = data.get("experiments")
                 if data.get("deep_review") and isinstance(ex, list) and ex:
                     for k in _PRODUCT_KEYS:
                         product[k] = str(data.get(k, "") or "")
+                    try:
+                        product["rating"] = int(data.get("rating") or 0) or None
+                    except Exception:
+                        product["rating"] = None
                     product["experiments"] = [str(x) for x in ex][:5]
                     return product
             except Exception:
-                pass
-    # Template fallback (specific-ish; real uniqueness comes from the LLM in the cloud).
+                continue
+    # Template fallback (real uniqueness comes from the LLM once GROQ_API_KEY is set).
     cat = product.get("category", "tool")
     tag = product.get("tagline", "")
-    product["deep_review"] = f"{name} — {tag}. A new {cat} product. Deeper AI review generates in the cloud run."
+    product["hot_take"] = f"{name} looks promising, but it's day-one software — verify before you rely on it."
+    product["rating"] = None
+    product["verdict"] = "WATCH"
+    product["deep_review"] = (f"{name} — {tag}. A new {cat} product. The full human-expert review is written "
+                              "automatically by the AI on each cloud run (set GROQ_API_KEY to enable it).")
     product["who_should_use"] = f"People evaluating {cat.lower()} tools who need what its tagline promises: {tag}"
     product["the_good"] = "Fresh take on a real problem; worth a look before it gets crowded."
     product["the_bad"] = "Unproven, early, and likely thin on edge cases; don't bet a workflow on v1."
     product["what_it_lacks"] = "Track record, integrations, and independent reviews — all still to come."
-    product["ai_leverage"] = "Ask whether a plain GPT/Claude prompt or an open model already does 80% of this for free before paying."
+    product["ai_leverage"] = "Check whether a plain GPT/Claude prompt or an open model already does most of this for free before paying."
     product["experiments"] = [
         f"Rebuild your current {cat.lower()} workflow around {name} for a week and log where it wins or breaks.",
         f"Stress-test {name} on your single hardest real task and see if the output holds up.",
-        f"Wire {name} into an existing tool via its API/integrations and automate one repetitive job.",
+        f"Wire {name} into an existing tool via its API and automate one repetitive job.",
         f"Try to replicate {name}'s core feature with a plain GPT/Claude prompt and see how close you get.",
         f"Run {name} head-to-head against a free or open-source alternative on the exact same input.",
     ]
