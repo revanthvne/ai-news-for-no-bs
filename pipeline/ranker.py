@@ -47,12 +47,16 @@ def _buy_relevance(title: str, summary: str) -> float:
 
 
 def score_story(s: Dict) -> float:
+    import credibility
     base = float(s.get("score", 0.0))
     fresh = _freshness(s.get("published"))
     buy = _buy_relevance(s.get("title", ""), s.get("summary", ""))
     cat = CATEGORY_WEIGHT.get(s.get("category", "AI"), 1.0)
+    # Source authority: major/high-credibility outlets lead; low-trust sinks.
+    links = s.get("source_links") or ([s["url"]] if s.get("url") else [])
+    cred_mult = {"high": 1.35, "medium": 1.0, "low": 0.6}[credibility.rate_story(links)]
     # normalize base (HN/GitHub) into ~0..3 range then blend
-    return round((min(base, 3.0) * 1.4 + fresh * 2.2 + buy * 1.6) * cat, 3)
+    return round((min(base, 3.0) * 1.4 + fresh * 2.2 + buy * 1.6) * cat * cred_mult, 3)
 
 
 def rank(stories: List[Dict], hero_count: int = 5, max_per_category: int = 2) -> Dict:

@@ -88,8 +88,10 @@ def _build_live(date: str) -> dict:
             for o in other:
                 all_news.append({"sector": name, "kind": "other", **o})
 
-    lead = sectors_out[0]["heroes"][0] if sectors_out else {"headline": "Daily AI Short"}
     all_stories = [h for s in sectors_out for h in s["heroes"]]
+    # Lead with the single highest-scored story across all sectors (major news wins).
+    lead = max(all_stories, key=lambda h: h.get("rank_score", 0)) if all_stories \
+        else {"headline": "Daily AI Short", "category": ""}
     try:
         tp = sources.top_products()
     except Exception:
@@ -97,7 +99,7 @@ def _build_live(date: str) -> dict:
     return {
         "edition_date": date, "channel": config.CHANNEL_NAME, "generated_by": "live",
         "sectors": sectors_out, "all_news": all_news, "top_products": tp,
-        "lead": {"headline": lead["headline"], "sector": sectors_out[0]["sector"] if sectors_out else ""},
+        "lead": {"headline": lead["headline"], "sector": lead.get("category", "")},
         "counts": {"sectors": len(sectors_out),
                    "heroes": sum(len(s["heroes"]) for s in sectors_out),
                    "other_news": sum(len(s["other_news"]) for s in sectors_out),
@@ -119,6 +121,13 @@ def build_edition(date: str, mode: str) -> dict:
         edition = _build_live(date)
     edition["edition_id"] = date
     edition["subject"] = email_render.subject(edition)
+    # Give each top product a deep review + 3-5 hands-on experiments.
+    import synthesize
+    for p in (edition.get("top_products") or []):
+        try:
+            synthesize.synthesize_product(p)
+        except Exception:
+            pass
     # Auto-publish (default) makes scheduled editions go live immediately.
     edition["status"] = "approved" if config.AUTO_PUBLISH else "pending_approval"
     return edition

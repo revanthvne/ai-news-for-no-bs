@@ -187,7 +187,7 @@ def fetch_producthunt(max_items: int = 20) -> List[Dict]:
                 # PH is product-launch focused; default to AI unless clearly hardware.
                 "category": _guess_category(title + " " + summary),
                 "published": published.isoformat() if published else None,
-                "score": 1.2,  # curated launches — give them a nudge to surface
+                "score": 0.3,  # keep launches present but let major news lead
                 "summary": summary,
             })
     # de-dup within PH by url

@@ -126,6 +126,46 @@ export function SectorFeed({ sectors }) {
   );
 }
 
+function ProductCard({ p }) {
+  const [open, setOpen] = useState(false);
+  const hasDetail = p.deep_review || (p.experiments && p.experiments.length);
+  return (
+    <div className="tp-item">
+      <div className="tp-name">{p.name}</div>
+      {p.tagline ? <div className="tp-tagline">{p.tagline}</div> : null}
+      <div className="tp-cat">{p.category}</div>
+      {hasDetail ? (
+        <button className="tp-toggle" onClick={() => setOpen((o) => !o)}>
+          {open ? "▲ Hide" : "🔬 Review + experiments"}
+        </button>
+      ) : null}
+      {open && (
+        <div className="tp-detail">
+          {p.deep_review ? (
+            <>
+              <div className="tp-lbl">Deep review</div>
+              <div className="tp-text">{p.deep_review}</div>
+            </>
+          ) : null}
+          {p.experiments && p.experiments.length ? (
+            <>
+              <div className="tp-lbl">Experiments — what you can build</div>
+              <ul className="tp-exp">
+                {p.experiments.map((e, i) => (
+                  <li key={i}>{e}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          <a className="tp-link" href={p.url} target="_blank" rel="noreferrer">
+            Open {p.name} ↗
+          </a>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function TopProducts({ products }) {
   if (!products || !products.length) return null;
   return (
@@ -133,11 +173,7 @@ export function TopProducts({ products }) {
       <h3 style={{ marginTop: 0 }}>🚀 Top products launching today</h3>
       <div className="tp-grid">
         {products.map((p, i) => (
-          <a key={i} className="tp-item" href={p.url} target="_blank" rel="noreferrer">
-            <div className="tp-name">{p.name}</div>
-            {p.tagline ? <div className="tp-tagline">{p.tagline}</div> : null}
-            <div className="tp-cat">{p.category}</div>
-          </a>
+          <ProductCard key={i} p={p} />
         ))}
       </div>
     </div>

@@ -56,30 +56,30 @@ def _model_for(provider: str) -> str:
     return m
 
 
-def _llm_call(prompt: str) -> str | None:
+def _llm_call(prompt: str, system: str = SYSTEM_PROMPT) -> str | None:
     provider = config.LLM_PROVIDER
     model = _model_for(provider)
     try:
         if provider == "groq":
             return _openai_compatible(
                 "https://api.groq.com/openai/v1/chat/completions",
-                config.GROQ_API_KEY, model, prompt)
+                config.GROQ_API_KEY, model, prompt, system)
         if provider == "openai":
             return _openai_compatible(
                 "https://api.openai.com/v1/chat/completions",
-                config.OPENAI_API_KEY, model, prompt)
+                config.OPENAI_API_KEY, model, prompt, system)
         if provider == "anthropic":
-            return _anthropic(config.ANTHROPIC_API_KEY, model, prompt)
+            return _anthropic(config.ANTHROPIC_API_KEY, model, prompt, system)
     except Exception as e:
         print(f"  ! LLM call failed ({e}); falling back to template.")
     return None
 
 
-def _openai_compatible(url: str, key: str, model: str, prompt: str) -> str:
+def _openai_compatible(url: str, key: str, model: str, prompt: str, system: str = SYSTEM_PROMPT) -> str:
     r = requests.post(url, timeout=60, headers={"Authorization": f"Bearer {key}"}, json={
         "model": model,
         "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system},
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.4,
@@ -89,11 +89,11 @@ def _openai_compatible(url: str, key: str, model: str, prompt: str) -> str:
     return r.json()["choices"][0]["message"]["content"]
 
 
-def _anthropic(key: str, model: str, prompt: str) -> str:
+def _anthropic(key: str, model: str, prompt: str, system: str = SYSTEM_PROMPT) -> str:
     r = requests.post("https://api.anthropic.com/v1/messages", timeout=60, headers={
         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
     }, json={
-        "model": model, "max_tokens": 1200, "system": SYSTEM_PROMPT,
+        "model": model, "max_tokens": 1200, "system": system,
         "messages": [{"role": "user", "content": prompt + "\nReturn ONLY JSON."}],
     })
     r.raise_for_status()
@@ -153,3 +153,42 @@ def _template(story: Dict) -> Dict:
     )
     story["verdict"] = "WATCH — verify details before making a purchase call."
     return story
+
+
+PRODUCT_SYSTEM = (
+    "You review new tech/AI products for 'NO BS — Should You Buy This?'. For the given product, return STRICT "
+    "JSON (no HTML) with two keys: "
+    "'deep_review' — 4-6 honest sentences: what it actually does, standout strengths, real weaknesses/limits, "
+    "who it's genuinely for, and whether it's worth paying for. Be specific and skeptical; if unsure, say so. "
+    "'experiments' — an array of 3 to 5 concrete, specific things someone could build or try with this product "
+    "to see what it can do (each a short, actionable idea). Never fabricate features."
+)
+
+
+def synthesize_product(product: dict) -> dict:
+    """Enrich a top-product entry with a deep_review + 3-5 hands-on experiments."""
+    name = product.get("name", "This product")
+    if config.has_llm():
+        prompt = (f"PRODUCT\nName: {name}\nTagline: {product.get('tagline','')}\n"
+                  f"Category: {product.get('category','')}\nURL: {product.get('url','')}")
+        raw = _llm_call(prompt, system=PRODUCT_SYSTEM)
+        if raw:
+            try:
+                data = json.loads(raw)
+                dr, ex = data.get("deep_review"), data.get("experiments")
+                if dr and isinstance(ex, list) and ex:
+                    product["deep_review"] = dr
+                    product["experiments"] = [str(x) for x in ex][:5]
+                    return product
+            except Exception:
+                pass
+    cat = product.get("category", "tool")
+    product["deep_review"] = (
+        f"{name} — {product.get('tagline','')}. A new {cat} product; try its free tier before paying and "
+        "look for open-source equivalents first. Deeper review pending AI analysis.")
+    product["experiments"] = [
+        f"Run {name} on one real task from your workflow and compare it to your current tool.",
+        f"Push {name}'s free tier to its limits before you consider paying.",
+        "See whether an open-source or free alternative does the same job.",
+    ]
+    return product
