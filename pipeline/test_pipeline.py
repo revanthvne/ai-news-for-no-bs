@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import assemble
 import email_render
 import credibility
+import run
 
 SEED_DATE = "2026-07-01"
 GMAIL_CLIP_BYTES = 102 * 1024
@@ -105,6 +106,42 @@ def test_all_news_page_renders():
     assert "Deep Dive" in html and "All News" in html
     for name in SECTORS:
         assert name in html
+
+
+def test_quality_gate_passes_real_edition():
+    # The researched seed edition is genuine AI/expert content — it must pass.
+    e = _edition()
+    ok, reason = run.edition_quality_ok(e)
+    assert ok, f"real edition wrongly blocked: {reason}"
+
+
+def test_quality_gate_blocks_template_placeholders():
+    # An edition made entirely of fallback template text must be blocked so it
+    # can never overwrite a good edition on the live site.
+    templated = {
+        "sectors": [{"sector": "AI", "heroes": [
+            {"headline": f"H{i}", "founding_story": "To be verified on the next run."}
+            for i in range(5)]}],
+        "top_products": [
+            {"name": f"P{i}", "deep_review": "Written automatically by the AI on each cloud run."}
+            for i in range(3)],
+    }
+    ok, reason = run.edition_quality_ok(templated)
+    assert not ok, f"template edition wrongly published: {reason}"
+
+
+def test_quality_gate_blocks_empty_edition():
+    ok, reason = run.edition_quality_ok({"sectors": [], "top_products": []})
+    assert not ok and "empty" in reason
+
+
+def test_quality_gate_tolerates_a_few_fallbacks():
+    # Mostly-real edition with one templated product should still publish.
+    e = _edition()
+    e = dict(e)
+    e["top_products"] = [{"name": "X", "deep_review": "written automatically on each cloud run."}]
+    ok, reason = run.edition_quality_ok(e)
+    assert ok, f"mostly-real edition wrongly blocked: {reason}"
 
 
 # ---- standalone runner (no pytest needed) ----

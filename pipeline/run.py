@@ -20,12 +20,35 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import sys
 from pathlib import Path
 
 import config
 import email_render
 import emailer
 import store
+
+
+def edition_quality_ok(edition: dict):
+    """True only if the edition is genuinely AI-written (not template placeholders).
+    Prevents ever overwriting a good edition with identical fallback text."""
+    heroes = [h for s in edition.get("sectors", []) for h in s.get("heroes", [])]
+    prods = edition.get("top_products", [])
+
+    def h_tmpl(h):
+        fs = (h.get("founding_story") or "").lower()
+        return ("to be verified" in fs) or ("auto-mode" in fs) or (not fs)
+
+    def p_tmpl(p):
+        dr = (p.get("deep_review") or "").lower()
+        return ("written automatically" in dr) or ("cloud run" in dr) or (not dr)
+
+    total = len(heroes) + len(prods)
+    if total == 0:
+        return False, "empty edition"
+    bad = sum(1 for h in heroes if h_tmpl(h)) + sum(1 for p in prods if p_tmpl(p))
+    real_pct = round((1 - bad / total) * 100)
+    return (bad / total) <= 0.35, f"{total - bad}/{total} sections real ({real_pct}%)"
 
 
 def _load_seed(date: str) -> dict | None:
@@ -147,6 +170,18 @@ def main():
     import doctor
     doctor.print_report()
     edition = build_edition(date, mode)
+
+    # QUALITY GATE — never publish template placeholders over a good edition.
+    ok, reason = edition_quality_ok(edition)
+    if not ok:
+        print(f"\n✗ QUALITY GATE FAILED — {reason}.")
+        print("  The AI did not run (missing/invalid LLM key, or every LLM call failed), so this")
+        print("  edition is template placeholder text. NOT publishing — the live site keeps its last")
+        print("  good edition. Fix the LLM key (GROQ_API_KEY / OPENROUTER_API_KEY) and re-run.")
+        (config.OUTPUT_DIR / f"edition-{date}-BLOCKED.json").write_text(
+            json.dumps(edition, ensure_ascii=False, indent=2))
+        sys.exit(2)
+    print(f"• Quality gate OK — {reason}.")
 
     html_body = email_render.render_html(edition)                 # config EMAIL_MODE (compact default)
     full_html = email_render.render_html(edition, mode="full")     # full-depth reference copy
