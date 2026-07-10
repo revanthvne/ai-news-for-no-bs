@@ -137,7 +137,7 @@ function ProductCard({ p }) {
         {p.verdict ? <span className="tp-verdict">{p.verdict.split(/\s|—/)[0]}</span> : null}
       </div>
       {p.hot_take ? <div className="tp-hot">{p.hot_take}</div> : null}
-      <div className="tp-readmore">Read full review →</div>
+      <div className="tp-readmore">Read expert assessment →</div>
     </a>
   );
 }

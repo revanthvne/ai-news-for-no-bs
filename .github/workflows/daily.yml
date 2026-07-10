@@ -37,6 +37,7 @@ jobs:
           AUTO_PUBLISH:  "true"                        # scheduled editions go live automatically
           LLM_PROVIDER:  ${{ secrets.LLM_PROVIDER }}
           GROQ_API_KEY:  ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           LLM_MODEL:     ${{ secrets.LLM_MODEL }}
           EMAIL_PROVIDER: ${{ secrets.EMAIL_PROVIDER }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}

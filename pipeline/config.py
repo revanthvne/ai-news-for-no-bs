@@ -29,6 +29,9 @@ LLM_MODEL = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+# OpenRouter — used as an automatic fallback when the primary provider throttles.
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct")
 
 # --- Email ---
 EMAIL_PROVIDER = os.getenv("EMAIL_PROVIDER", "none").lower()
@@ -62,6 +65,8 @@ APPROVE_BASE_URL = os.getenv("APPROVE_BASE_URL", "http://localhost:3000")
 HERO_COUNT = 5
 
 def has_llm() -> bool:
+    if OPENROUTER_API_KEY:
+        return True
     return LLM_PROVIDER in {"groq", "openai", "anthropic"} and bool(
         {"groq": GROQ_API_KEY, "openai": OPENAI_API_KEY, "anthropic": ANTHROPIC_API_KEY}.get(LLM_PROVIDER)
     )

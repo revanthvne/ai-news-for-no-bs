@@ -46,9 +46,12 @@ export default async function ProductPage({ params }) {
           </a>
         </div>
         {p.hot_take ? <p className="prod-hot">“{p.hot_take}”</p> : null}
+        <p className="muted" style={{ fontSize: 12, marginTop: 12 }}>
+          Expert assessment — based on the product’s own materials and how comparable tools behave. Not a paid endorsement, not a hands-on lab test.
+        </p>
       </div>
 
-      <Sec label="End-to-end review">{p.deep_review}</Sec>
+      <Sec label="End-to-end assessment">{p.deep_review}</Sec>
       <Sec label="Who should use it">{p.who_should_use}</Sec>
       <Sec label="Why it's good">{p.the_good}</Sec>
       <Sec label="Why it's bad">{p.the_bad}</Sec>
@@ -66,7 +69,7 @@ export default async function ProductPage({ params }) {
         </div>
       ) : null}
 
-      <div className="footer">Reviewed by the NO BS pipeline · not financial advice.</div>
+      <div className="footer">Expert assessment by the NO BS pipeline · not a hands-on test · not financial advice.</div>
     </main>
   );
 }

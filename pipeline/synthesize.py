@@ -56,29 +56,56 @@ def _model_for(provider: str) -> str:
     return m
 
 
+def _extract_json(raw):
+    """Parse JSON even if the model wrapped it in markdown fences or prose."""
+    if not raw:
+        return None
+    try:
+        return json.loads(raw)
+    except Exception:
+        pass
+    import re
+    m = re.search(r"\{.*\}", raw, re.S)
+    if m:
+        try:
+            return json.loads(m.group(0))
+        except Exception:
+            return None
+    return None
+
+
+def _providers():
+    """Ordered providers to try: the configured one first, OpenRouter as fallback."""
+    p = config.LLM_PROVIDER
+    m = _model_for(p)
+    chain = []
+    if p == "groq" and config.GROQ_API_KEY:
+        chain.append(("oai", "https://api.groq.com/openai/v1/chat/completions", config.GROQ_API_KEY, m))
+    elif p == "openai" and config.OPENAI_API_KEY:
+        chain.append(("oai", "https://api.openai.com/v1/chat/completions", config.OPENAI_API_KEY, m))
+    elif p == "openrouter" and config.OPENROUTER_API_KEY:
+        chain.append(("oai", "https://openrouter.ai/api/v1/chat/completions", config.OPENROUTER_API_KEY, config.OPENROUTER_MODEL))
+    elif p == "anthropic" and config.ANTHROPIC_API_KEY:
+        chain.append(("anthropic", None, config.ANTHROPIC_API_KEY, m))
+    if config.OPENROUTER_API_KEY and p != "openrouter":  # automatic fallback
+        chain.append(("oai", "https://openrouter.ai/api/v1/chat/completions", config.OPENROUTER_API_KEY, config.OPENROUTER_MODEL))
+    return chain
+
+
 def _llm_call(prompt: str, system: str = SYSTEM_PROMPT) -> str | None:
     import time
-    provider = config.LLM_PROVIDER
-    model = _model_for(provider)
-    endpoints = {
-        "groq": ("https://api.groq.com/openai/v1/chat/completions", config.GROQ_API_KEY),
-        "openai": ("https://api.openai.com/v1/chat/completions", config.OPENAI_API_KEY),
-    }
-    for attempt in range(4):  # retry with backoff, mainly for 429 rate limits
-        try:
-            if provider in endpoints:
-                url, key = endpoints[provider]
+    for kind, url, key, model in _providers():
+        for attempt in range(3):
+            try:
+                if kind == "anthropic":
+                    return _anthropic(key, model, prompt, system)
                 return _openai_compatible(url, key, model, prompt, system)
-            if provider == "anthropic":
-                return _anthropic(config.ANTHROPIC_API_KEY, model, prompt, system)
-            return None
-        except Exception as e:
-            msg = str(e)
-            if ("429" in msg or "rate" in msg.lower() or "503" in msg) and attempt < 3:
-                time.sleep(4 + attempt * 4)  # 4s, 8s, 12s backoff
-                continue
-            print(f"  ! LLM call failed ({e}); falling back to template.")
-            return None
+            except Exception as e:
+                msg = str(e).lower()
+                if ("429" in msg or "rate" in msg or "503" in msg or "timed out" in msg) and attempt < 2:
+                    time.sleep(3 + attempt * 3)
+                    continue
+                break  # give up on this provider, try the next in the chain
     return None
 
 
@@ -119,7 +146,9 @@ def synthesize(story: Dict) -> Dict:
         raw = _llm_call(prompt)
         if raw:
             try:
-                data = json.loads(raw)
+                data = _extract_json(raw)
+                if not data:
+                    raise ValueError("no json")
                 story.update({k: data.get(k, "") for k in (
                     "one_liner", "story", "founding_story",
                     "who_should_use", "who_should_buy", "free_alternatives", "verdict")})
@@ -200,7 +229,7 @@ def synthesize_product(product: dict) -> dict:
             if not raw:
                 continue
             try:
-                data = json.loads(raw)
+                data = _extract_json(raw) or {}
                 ex = data.get("experiments")
                 if data.get("deep_review") and isinstance(ex, list) and ex:
                     for k in _PRODUCT_KEYS:
