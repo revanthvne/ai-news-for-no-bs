@@ -154,11 +154,36 @@ def test_trends_momentum_vs_previous():
     assert any(k["trend"] == "▲ rising" for k in ks), "expected rising vs low prev volumes"
 
 
-def test_trends_provider_seam_overrides_volume():
+def test_trends_provider_adds_search_volume_without_hijacking_ranking():
     import keywords
     e = _edition()
+    base = keywords.extract_keywords(e)
     ks = keywords.extract_keywords(e, volume_provider=lambda kw: 777)
-    assert ks and all(k["volume"] == 777 for k in ks)
+    # search_volume is populated from the provider ...
+    assert ks and all(k["search_volume"] == 777.0 for k in ks)
+    # ... but the default 'volume' ranking is unchanged (news-relevance stays).
+    assert [k["keyword"] for k in ks] == [k["keyword"] for k in base]
+    assert all(k["search_volume"] is None for k in base)
+
+
+def test_gtrends_anchor_normalization_is_comparable():
+    # Offline unit test of the cross-batch normalization math (no network).
+    import gtrends
+    batches = [
+        {"chatgpt": 50, "humanoid robot": 25, "chip": 100},   # anchor=50
+        {"chatgpt": 80, "evtol": 40, "drone swarm": 20},       # anchor=80
+    ]
+    out = gtrends._normalize(batches, "chatgpt")
+    assert out["humanoid robot"] == 50.0   # 25/50*100
+    assert out["chip"] == 200.0            # 100/50*100
+    assert out["evtol"] == 50.0            # 40/80*100
+    assert "chatgpt" not in out            # anchor itself excluded
+
+
+def test_gtrends_volume_map_safe_without_network():
+    # Must degrade to a dict (never raise) when Trends/pytrends is unavailable.
+    import gtrends
+    assert isinstance(gtrends.volume_map([]), dict)
 
 
 def test_quality_gate_blocks_empty_edition():

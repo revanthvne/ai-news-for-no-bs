@@ -154,7 +154,18 @@ def build_edition(date: str, mode: str) -> dict:
     # Creator trends: keyword volume & ranking across every platform we pull.
     try:
         import keywords
-        edition["trends"] = keywords.build_trends(edition, prev_volumes=_prev_keyword_volumes(date))
+        provider = None
+        if config.GOOGLE_TRENDS:
+            import gtrends
+            cand = [k["keyword"] for k in keywords.extract_keywords(edition)]
+            vmap = gtrends.volume_map(cand)
+            if vmap:
+                provider = vmap.get
+                print(f"  • Google Trends: real search volume for {len(vmap)} keywords")
+            else:
+                print("  • Google Trends unavailable — using derived volume")
+        edition["trends"] = keywords.build_trends(
+            edition, prev_volumes=_prev_keyword_volumes(date), volume_provider=provider)
     except Exception as e:
         print(f"  (trends skipped: {e})")
     # Auto-publish (default) makes scheduled editions go live immediately.

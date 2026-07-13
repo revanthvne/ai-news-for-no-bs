@@ -3,5 +3,9 @@ requests>=2.31.0
 feedparser>=6.0.11
 python-dotenv>=1.0.1
 
+# Optional: real Google Trends search volume for the Creator tab (set
+# GOOGLE_TRENDS=true to use it). Safe to omit — falls back to derived volume.
+pytrends>=4.9.2
+
 # Optional: only needed if you push editions to Supabase (free tier).
 # supabase>=2.4.0

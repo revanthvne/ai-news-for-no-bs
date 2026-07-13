@@ -38,7 +38,17 @@ STOP = set((
     "app apps tool tools platform api release releases version versions beta alpha demo "
     "free paid open source based build built launch launches feature features project "
     "list awesome guide template library framework code codebase readme docs doc "
-    "under shipped ship ships production available announced announcing introducing"
+    "under shipped ship ships production available announced announcing introducing "
+    # generic English fillers that have huge baseline search volume but zero trend value
+    "online offline live real really way ways post posts while people world worlds "
+    "power thing things stuff part parts lot lots bit high higher low lower long longer "
+    "good great full want wants need needs like look looks looking going goes went come "
+    "comes came take takes took give gives given work works working help helps used "
+    "week weeks month months hour hours set sets run runs show shows place places case "
+    "cases point points side sides fact facts kind sort type types time times still "
+    "much many well left right thing does done getting making being having "
+    "against concerns concern sparking spark sparks sparked raising raises raise toward "
+    "towards despite according amid amongst among within without unless whether"
 ).split())
 
 PLATFORM_BASE = {"Hacker News": 1.4, "Product Hunt": 1.25, "GitHub": 1.2, "RSS / Web": 1.0}
@@ -124,16 +134,21 @@ def extract_keywords(edition: dict, prev_volumes: dict | None = None,
 
     items = []
     for kw, e in agg.items():
+        # 'volume' = derived cross-platform news-relevance (keeps the default
+        # ranking niche-relevant). A provider (Google Trends) adds real
+        # 'search_volume' as a separate, sortable property — it never hijacks the
+        # default ranking with broad high-search words.
         vol = int(round(e["weight"] * 10))
-        if volume_provider:  # paid search-volume API seam
+        sv = None
+        if volume_provider:
             try:
                 pv = volume_provider(kw)
                 if pv is not None:
-                    vol = int(pv)
+                    sv = round(float(pv), 1)
             except Exception:
                 pass
         items.append({
-            "keyword": kw, "volume": vol, "mentions": e["mentions"],
+            "keyword": kw, "volume": vol, "search_volume": sv, "mentions": e["mentions"],
             "sectors": sorted(e["sectors"]), "platforms": sorted(e["platforms"]),
             "samples": e["samples"],
         })
@@ -181,12 +196,21 @@ def topic_ideas(keywords: list, n: int = 8):
 
 def build_trends(edition: dict, prev_volumes: dict | None = None, volume_provider=None):
     kws = extract_keywords(edition, prev_volumes=prev_volumes, volume_provider=volume_provider)
+    has_search = bool(volume_provider) and any(k.get("search_volume") is not None for k in kws)
+    if has_search:
+        source = "RSS (8 sectors) + Hacker News + Product Hunt + GitHub · Search volume from Google Trends"
+        note = ("Volume = cross-platform news relevance in the niche (the default ranking). "
+                "Search volume = Google Trends relative search interest (0-100+, anchor-normalized) "
+                "— sort by it to see raw search demand. Momentum compares to the previous edition.")
+    else:
+        source = "RSS (8 sectors) + Hacker News + Product Hunt + GitHub"
+        note = ("Volume = cross-platform interest score (mentions weighted by platform + source "
+                "credibility). Enable GOOGLE_TRENDS=true to add real Google search volume.")
     return {
-        "generated_by": "pipeline-derived" if not volume_provider else "api",
-        "source": "RSS (8 sectors) + Hacker News + Product Hunt + GitHub",
-        "note": ("Volume = cross-platform interest score (mentions weighted by platform + "
-                 "source credibility), not paid search volume. Swap in a search-volume API "
-                 "via the provider seam for true volume."),
+        "generated_by": "google-trends" if has_search else "pipeline-derived",
+        "has_search": has_search,
+        "source": source,
+        "note": note,
         "keywords": kws,
         "topics": topic_ideas(kws),
     }

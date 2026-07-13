@@ -171,12 +171,15 @@ export function CreatorTrends({ trends }) {
     return ["All", ...Array.from(s).sort()];
   }, [all]);
 
+  const hasSearch = (trends && trends.has_search) || all.some((k) => k.search_volume != null);
+
   const rows = useMemo(() => {
     let r = all.filter((k) => k.keyword.toLowerCase().includes(q.toLowerCase()));
     if (sector !== "All") r = r.filter((k) => (k.sectors || []).includes(sector));
     const key =
       sort === "mentions" ? (k) => k.mentions
       : sort === "momentum" ? (k) => (k.delta_pct ?? -999)
+      : sort === "search" ? (k) => (k.search_volume ?? -1)
       : (k) => k.volume;
     return [...r].sort((a, b) => key(b) - key(a));
   }, [all, q, sector, sort]);
@@ -232,7 +235,8 @@ export function CreatorTrends({ trends }) {
             {sectors.map((s) => <option key={s} value={s}>{s}</option>)}
           </select>
           <select className="kw-input" value={sort} onChange={(e) => setSort(e.target.value)}>
-            <option value="volume">Sort: Volume</option>
+            <option value="volume">Sort: Volume (news)</option>
+            {hasSearch ? <option value="search">Sort: Search volume</option> : null}
             <option value="mentions">Sort: Mentions</option>
             <option value="momentum">Sort: Momentum</option>
           </select>
@@ -241,8 +245,9 @@ export function CreatorTrends({ trends }) {
           <table className="kw-table">
             <thead>
               <tr>
-                <th>#</th><th>Keyword</th><th>Volume</th><th>Mentions</th>
-                <th>Trend</th><th>Sectors</th><th>Platforms</th>
+                <th>#</th><th>Keyword</th><th>Volume</th>
+                {hasSearch ? <th>🔍 Search vol</th> : null}
+                <th>Mentions</th><th>Trend</th><th>Sectors</th><th>Platforms</th>
               </tr>
             </thead>
             <tbody>
@@ -255,6 +260,9 @@ export function CreatorTrends({ trends }) {
                     ) : k.keyword}
                   </td>
                   <td><strong>{k.volume}</strong></td>
+                  {hasSearch ? (
+                    <td>{k.search_volume != null ? k.search_volume : <span className="muted">—</span>}</td>
+                  ) : null}
                   <td>{k.mentions}</td>
                   <td style={{ color: TREND_COLOR[k.trend] || "#64748b", fontWeight: 600 }}>
                     {k.trend}{k.delta_pct != null ? ` ${k.delta_pct > 0 ? "+" : ""}${k.delta_pct}%` : ""}

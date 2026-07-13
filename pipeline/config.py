@@ -55,6 +55,15 @@ SMTP_PASS = os.getenv("SMTP_PASS", "")
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 
+# --- Creator trends: real Google Trends search volume (opt-in) ---
+# Off by default: it adds ~20s and can be rate-limited. When true, the Creator
+# tab's "volume" becomes true relative search interest instead of the derived
+# cross-platform score. Falls back to derived automatically if Trends is blocked.
+GOOGLE_TRENDS = os.getenv("GOOGLE_TRENDS", "false").lower() == "true"
+GOOGLE_TRENDS_GEO = os.getenv("GOOGLE_TRENDS_GEO", "US")      # "" = worldwide
+GOOGLE_TRENDS_TIMEFRAME = os.getenv("GOOGLE_TRENDS_TIMEFRAME", "now 7-d")
+GOOGLE_TRENDS_MAX = int(os.getenv("GOOGLE_TRENDS_MAX", "25"))  # keywords to price via Trends
+
 # --- Supabase ---
 SUPABASE_URL = os.getenv("SUPABASE_URL", "")
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY", "")
