@@ -130,6 +130,37 @@ def test_quality_gate_blocks_template_placeholders():
     assert not ok, f"template edition wrongly published: {reason}"
 
 
+def test_trends_have_volume_and_ranking():
+    import keywords
+    e = _edition()
+    t = keywords.build_trends(e)
+    ks = t["keywords"]
+    assert len(ks) >= 15, f"only {len(ks)} keywords"
+    # every keyword carries the requested properties
+    for k in ks:
+        assert isinstance(k["volume"], int) and k["volume"] > 0
+        assert k["keyword"] and k["mentions"] >= 1 and k["platforms"]
+    # ranking is contiguous and volume-ordered
+    assert [k["rank"] for k in ks] == list(range(1, len(ks) + 1))
+    assert all(ks[i]["volume"] >= ks[i + 1]["volume"] for i in range(len(ks) - 1))
+    assert len(t["topics"]) >= 1
+
+
+def test_trends_momentum_vs_previous():
+    import keywords
+    e = _edition()
+    prev = {k["keyword"]: 1 for k in keywords.extract_keywords(e)}  # tiny prev volumes
+    ks = keywords.extract_keywords(e, prev_volumes=prev)
+    assert any(k["trend"] == "▲ rising" for k in ks), "expected rising vs low prev volumes"
+
+
+def test_trends_provider_seam_overrides_volume():
+    import keywords
+    e = _edition()
+    ks = keywords.extract_keywords(e, volume_provider=lambda kw: 777)
+    assert ks and all(k["volume"] == 777 for k in ks)
+
+
 def test_quality_gate_blocks_empty_edition():
     ok, reason = run.edition_quality_ok({"sectors": [], "top_products": []})
     assert not ok and "empty" in reason

@@ -18,6 +18,11 @@ export default function RootLayout({ children }) {
             <div className="tagline">
               The hype, the reality, and whether your money is worth it — daily.
             </div>
+            <nav className="nav">
+              <a href="/">Latest</a>
+              <a href="/creator">📈 Creator trends</a>
+              <a href="/editions">All editions</a>
+            </nav>
           </header>
           {children}
           <div className="footer">

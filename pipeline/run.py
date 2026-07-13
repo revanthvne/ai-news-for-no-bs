@@ -151,9 +151,28 @@ def build_edition(date: str, mode: str) -> dict:
             synthesize.synthesize_product(p)
         except Exception:
             pass
+    # Creator trends: keyword volume & ranking across every platform we pull.
+    try:
+        import keywords
+        edition["trends"] = keywords.build_trends(edition, prev_volumes=_prev_keyword_volumes(date))
+    except Exception as e:
+        print(f"  (trends skipped: {e})")
     # Auto-publish (default) makes scheduled editions go live immediately.
     edition["status"] = "approved" if config.AUTO_PUBLISH else "pending_approval"
     return edition
+
+
+def _prev_keyword_volumes(date: str) -> dict:
+    """Load the most recent prior edition's keyword volumes for momentum."""
+    try:
+        prior = sorted(p for p in config.OUTPUT_DIR.glob("edition-*.json")
+                       if p.stem.replace("edition-", "") < date and "BLOCKED" not in p.stem)
+        if not prior:
+            return {}
+        payload = json.loads(prior[-1].read_text())
+        return {k["keyword"]: k["volume"] for k in payload.get("trends", {}).get("keywords", [])}
+    except Exception:
+        return {}
 
 
 def main():

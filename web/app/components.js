@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const SECTOR_EMOJI = {
   AI: "🧠", Semiconductors: "🔩", Robotics: "🤖", eVTOL: "🚁",
@@ -153,5 +153,121 @@ export function TopProducts({ products }) {
         ))}
       </div>
     </div>
+  );
+}
+
+const TREND_COLOR = { "▲ rising": "#16a34a", "▼ cooling": "#dc2626", steady: "#64748b", new: "#7c3aed" };
+
+export function CreatorTrends({ trends }) {
+  const all = (trends && trends.keywords) || [];
+  const topics = (trends && trends.topics) || [];
+  const [q, setQ] = useState("");
+  const [sector, setSector] = useState("All");
+  const [sort, setSort] = useState("volume");
+
+  const sectors = useMemo(() => {
+    const s = new Set();
+    all.forEach((k) => (k.sectors || []).forEach((x) => s.add(x)));
+    return ["All", ...Array.from(s).sort()];
+  }, [all]);
+
+  const rows = useMemo(() => {
+    let r = all.filter((k) => k.keyword.toLowerCase().includes(q.toLowerCase()));
+    if (sector !== "All") r = r.filter((k) => (k.sectors || []).includes(sector));
+    const key =
+      sort === "mentions" ? (k) => k.mentions
+      : sort === "momentum" ? (k) => (k.delta_pct ?? -999)
+      : (k) => k.volume;
+    return [...r].sort((a, b) => key(b) - key(a));
+  }, [all, q, sector, sort]);
+
+  if (!all.length) {
+    return (
+      <div className="card">
+        <h3 style={{ marginTop: 0 }}>📈 Creator trends</h3>
+        <p className="muted">
+          Keyword volume & ranking generate on the next pipeline run. Trigger one, then refresh.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <div className="card">
+        <h3 style={{ marginTop: 0 }}>🎯 What to make next</h3>
+        <p className="muted" style={{ marginTop: 0, fontSize: 13 }}>
+          Hottest keywords across {trends.source}, turned into NO BS video angles.
+        </p>
+        <div className="tp-grid">
+          {topics.map((t, i) => (
+            <div key={i} className="tp-item" style={{ cursor: "default" }}>
+              <div className="tp-name">{t.title}</div>
+              <div className="tp-meta-row">
+                <span className="tp-cat">{t.sector}</span>
+                <span className="tp-rating">vol {t.volume}</span>
+                <span style={{ color: TREND_COLOR[t.trend] || "#64748b", fontSize: 12, fontWeight: 700 }}>
+                  {t.trend}
+                </span>
+              </div>
+              <div className="tp-tagline" style={{ marginTop: 6 }}>{t.angle}</div>
+              {t.hook_source && t.hook_source.url ? (
+                <a className="tp-readmore" href={t.hook_source.url} target="_blank" rel="noreferrer">
+                  source: {t.hook_source.source || "link"} →
+                </a>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="card">
+        <h3 style={{ marginTop: 0 }}>📊 Keyword volume & ranking</h3>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "8px 0 14px" }}>
+          <input
+            className="kw-input" placeholder="Filter keywords…" value={q}
+            onChange={(e) => setQ(e.target.value)}
+          />
+          <select className="kw-input" value={sector} onChange={(e) => setSector(e.target.value)}>
+            {sectors.map((s) => <option key={s} value={s}>{s}</option>)}
+          </select>
+          <select className="kw-input" value={sort} onChange={(e) => setSort(e.target.value)}>
+            <option value="volume">Sort: Volume</option>
+            <option value="mentions">Sort: Mentions</option>
+            <option value="momentum">Sort: Momentum</option>
+          </select>
+        </div>
+        <div className="kw-table-wrap">
+          <table className="kw-table">
+            <thead>
+              <tr>
+                <th>#</th><th>Keyword</th><th>Volume</th><th>Mentions</th>
+                <th>Trend</th><th>Sectors</th><th>Platforms</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((k) => (
+                <tr key={k.keyword}>
+                  <td className="muted">{k.rank}</td>
+                  <td>
+                    {k.samples && k.samples[0] && k.samples[0].url ? (
+                      <a href={k.samples[0].url} target="_blank" rel="noreferrer">{k.keyword}</a>
+                    ) : k.keyword}
+                  </td>
+                  <td><strong>{k.volume}</strong></td>
+                  <td>{k.mentions}</td>
+                  <td style={{ color: TREND_COLOR[k.trend] || "#64748b", fontWeight: 600 }}>
+                    {k.trend}{k.delta_pct != null ? ` ${k.delta_pct > 0 ? "+" : ""}${k.delta_pct}%` : ""}
+                  </td>
+                  <td className="muted">{(k.sectors || []).join(", ")}</td>
+                  <td className="muted">{(k.platforms || []).join(", ")}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="muted" style={{ fontSize: 11, marginTop: 12 }}>{trends.note}</p>
+      </div>
+    </>
   );
 }
