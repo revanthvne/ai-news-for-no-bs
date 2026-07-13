@@ -166,6 +166,14 @@ def build_edition(date: str, mode: str) -> dict:
                 print("  • Google Trends unavailable — using derived volume")
         edition["trends"] = keywords.build_trends(
             edition, prev_volumes=_prev_keyword_volumes(date), volume_provider=provider)
+        try:
+            import opensource
+            edition["trends"]["opensource"] = opensource.trending()
+            os_c = edition["trends"]["opensource"]
+            print(f"  • Open-source trending: {len(os_c.get('github',[]))} repos, "
+                  f"{len(os_c.get('hf_models',[]))} HF models, {len(os_c.get('hf_datasets',[]))} datasets")
+        except Exception as e:
+            print(f"  (open-source trending skipped: {e})")
     except Exception as e:
         print(f"  (trends skipped: {e})")
     # Auto-publish (default) makes scheduled editions go live immediately.

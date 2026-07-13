@@ -1,5 +1,5 @@
 import { getLatestEdition } from "../../lib/data";
-import { CreatorTrends } from "../components";
+import { CreatorTrends, OpenSourceTrending } from "../components";
 
 export const dynamic = "force-dynamic";
 
@@ -21,6 +21,7 @@ export default async function Creator() {
         </div>
       </div>
       <CreatorTrends trends={trends} />
+      <OpenSourceTrending os={trends?.opensource} />
     </main>
   );
 }

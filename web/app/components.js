@@ -158,6 +158,50 @@ export function TopProducts({ products }) {
 
 const TREND_COLOR = { "▲ rising": "#16a34a", "▼ cooling": "#dc2626", steady: "#64748b", new: "#7c3aed" };
 
+function OSList({ title, badge, items, render }) {
+  if (!items || !items.length) return null;
+  return (
+    <div style={{ flex: "1 1 280px", minWidth: 260 }}>
+      <div className="os-col-head">{badge} {title} <span className="muted">· {items.length}</span></div>
+      <ol className="os-list">
+        {items.map((it, i) => (
+          <li key={i}>
+            <a href={it.url} target="_blank" rel="noreferrer">{it.name}</a>
+            <div className="os-meta">{render(it)}</div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+export function OpenSourceTrending({ os }) {
+  if (!os || (!(os.github || []).length && !(os.hf_models || []).length && !(os.hf_datasets || []).length))
+    return null;
+  return (
+    <div className="card">
+      <h3 style={{ marginTop: 0 }}>🐙 Open-source trending</h3>
+      <p className="muted" style={{ marginTop: 0, fontSize: 13 }}>
+        Hottest new repos and models right now — raw material for a NO BS build/review video.
+      </p>
+      <div style={{ display: "flex", gap: 22, flexWrap: "wrap" }}>
+        <OSList
+          title="GitHub" badge="⭐" items={os.github}
+          render={(r) => `${r.stars.toLocaleString()} stars${r.language ? " · " + r.language : ""}${r.description ? " — " + r.description : ""}`}
+        />
+        <OSList
+          title="Hugging Face models" badge="🤗" items={os.hf_models}
+          render={(r) => `${(r.likes || 0).toLocaleString()} likes · ${(r.downloads || 0).toLocaleString()} dl${r.task ? " · " + r.task : ""}`}
+        />
+        <OSList
+          title="Hugging Face datasets" badge="📚" items={os.hf_datasets}
+          render={(r) => `${(r.likes || 0).toLocaleString()} likes · ${(r.downloads || 0).toLocaleString()} downloads`}
+        />
+      </div>
+    </div>
+  );
+}
+
 export function CreatorTrends({ trends }) {
   const all = (trends && trends.keywords) || [];
   const topics = (trends && trends.topics) || [];
